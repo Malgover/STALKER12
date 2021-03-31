@@ -221,3 +221,4 @@
 	durability = 400
 	//ÌÎÄÈÔÈÊÀÖÈÈ//
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
+	flags_cover = MASKCOVERSMOUTH
