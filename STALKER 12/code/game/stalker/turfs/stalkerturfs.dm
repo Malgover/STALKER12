@@ -16,14 +16,14 @@
 	dug = 1
 
 /obj/structure/grille/stalker
-	desc = "Хороший, крепкий железный забор."
+	desc = "A metal fence."
 	name = "fence"
 	icon = 'icons/stalker/structure.dmi'
 	icon_state = "fence1"
 	density = 1
 	anchored = 1
 	flags = CONDUCT
-	layer = 2.9
+	layer = 5
 	health = 10000000
 
 /obj/structure/grille/stalker/ex_act(severity, target)
@@ -56,21 +56,21 @@
 	return
 
 /obj/structure/grille/stalker/wood
-	desc = "Хороший, старый дерев&#255;нный забор."
+	desc = "A wooden fence."
 	icon_state = "zabor_horizontal1"
 	density = 1
 	opacity = 0
 
 /obj/structure/grille/stalker/beton
 	icon = 'icons/stalker/beton_zabor.dmi'
-	desc = "Слишком крепкий."
+	desc = "A fence."
 	icon_state = "1"
 	density = 1
 	opacity = 0
 
 /obj/structure/grille/stalker/beton/green
 	icon = 'icons/stalker/green_zabor.dmi'
-	desc = "Зелённый забор. Лучше, чем серый."
+	desc = "A fence."
 	icon_state = "1"
 	layer = 6.1
 
