@@ -461,6 +461,6 @@
 /mob/living/carbon/human/proc/handle_gas_mask_sound()
 	if(src.wear_mask && istype(src.wear_mask, /obj/item/clothing/mask/gas))
 		var/mask_sound = pick('sound/effects/gasmask1.ogg','sound/effects/gasmask2.ogg','sound/effects/gasmask3.ogg','sound/effects/gasmask4.ogg','sound/effects/gasmask5.ogg','sound/effects/gasmask6.ogg','sound/effects/gasmask7.ogg','sound/effects/gasmask8.ogg','sound/effects/gasmask9.ogg','sound/effects/gasmask10.ogg')
-		playsound(src, mask_sound, 50, 1)
+		playsound(src, mask_sound, 30, 1)
 
 #undef HUMAN_MAX_OXYLOSS
