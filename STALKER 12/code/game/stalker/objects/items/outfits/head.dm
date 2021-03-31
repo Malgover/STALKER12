@@ -196,7 +196,7 @@
 	item_state = "mercenary_gasmask"
 	gas_transfer_coefficient = 0.01
 	permeability_coefficient = 0.01
-	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
+	flags_cover = MASKCOVERSMOUTH
 	flags = BLOCKFACIALHAIR
 	armor = list(melee = 5, bullet = 0, laser = 30,burn = 30, bomb = 0, bio = 20, rad = 60, electro = 30, psy = 0)
 	burn_state = FIRE_PROOF
@@ -214,11 +214,11 @@
 	gas_transfer_coefficient = 0.01
 	permeability_coefficient = 0.01
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
-	flags = BLOCKHAIR|BLOCKFACIALHAIR
+	flags = BLOCKFACIALHAIR
+	flags_cover = MASKCOVERSMOUTH
 	armor = list(melee = 5, bullet = 0, laser = 10,burn = 10, bomb = 0, bio = 5, rad = 20, electro = 10, psy = 0)
 	burn_state = FIRE_PROOF
 	unacidable = 1
 	durability = 400
 	//ÃŒƒ»‘» ¿÷»»//
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
-	flags_cover = MASKCOVERSMOUTH
