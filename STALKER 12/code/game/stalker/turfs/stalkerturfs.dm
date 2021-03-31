@@ -264,10 +264,13 @@ var/global/list/GryazEdgeCache
 	density = 0
 	opacity = 0
 
-/turf/stalker/floor/concrete
-	name = "floor"
+/turf/stalker/floor/plasteel/concrete
+	name = "concrete"
+	icon_state = "concrete1"
 	icon = 'icons/stalker/floor.dmi'
-	icon_state = "concrete"
+
+/turf/stalker/floor/plasteel/concrete/New()
+	icon_state = "concrete[rand(1, 4)]"
 
 /turf/stalker/floor/plasteel
 	name = "floor"
