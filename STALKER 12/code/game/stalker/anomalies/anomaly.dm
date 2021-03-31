@@ -658,12 +658,12 @@
 	pass_flags = PASSTABLE | PASSGRILLE
 
 /obj/rad/rad_low
-	damage_amount = 10
+	damage_amount = 25
 	sound = 'sound/stalker/pda/geiger_1.ogg'
 	icon_state = "rad_low"
 
 /obj/rad/rad_medium
-	damage_amount = 25
+	damage_amount = 40
 	sound = 'sound/stalker/pda/geiger_4.ogg'
 	icon_state = "rad_medium"
 
