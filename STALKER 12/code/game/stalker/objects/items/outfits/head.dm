@@ -82,12 +82,12 @@
 
 /obj/item/clothing/head/assaultmerc
 	name = "Mercenary helmet"
-	desc = "Необычной формы шлем в тускло-серой маскировочной краске, суд&#255; по маркировке - швейцарского производства. Затемненное забрало матово отражает свет, и без того тусклый, ослабленный облаками Чернобыл&#255;. Чертова западна&#255; др&#255;нь."
+	desc = "A mercenary assault helmet made out of steel with a visor to protect the eyes from shrapnel and low-caliber ammo."
 	icon_state = "assaultmerc"
 	item_state = "assaultmerc"
 	flags = BLOCKHAIR|BLOCKFACIALHAIR
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE
-	armor = list(melee = 50, bullet = 75, laser = 25,energy = 50, bomb = 0, bio = 0, rad = 0, psy = 5)
+	armor = list(melee = 40, bullet = 65, laser = 25,energy = 50, bomb = 0, bio = 0, rad = 0, psy = 5)
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
 	unacidable = 1
 	durability = 250
@@ -128,8 +128,7 @@
 
 /obj/item/clothing/head/skathelmet
 	name = "SKAT-M9"
-	desc = "Отделанный тканью алюминиево-титановый шлем с карманами дл&#255; стальных бронеэлементов и бронемаской. Обычно поставл&#255;етс&#255; в комплекте с бронежилетами класса ПС3 дл&#255; спецназа. Достаточно попул&#255;рен в Зоне благодар&#255; респиратору и встроенному прибору ночного видени&#255;, а также хорошей защите головы."
-	eng_desc = "An aluminum/titanium helmet with a cloth exterior that comes with pockets for additional steel armor pieces and an armor face mask. Sphere M12 is normally used as part of a combination that includes PSZ series Spetsnaz body armor. Quite popular in the Zone thanks to its respirator and built-in first generation night vision device, as well as providing the maximum head protection possible. Comes with electronics slots."
+	desc = "An aluminum/titanium helmet with a cloth exterior that comes with pockets for additional steel armor pieces and an armor face mask. Sphere M12 is normally used as part of a combination that includes PSZ series Spetsnaz body armor. Quite popular in the Zone thanks to its respirator and built-in first generation night vision device, as well as providing the maximum head protection possible. Comes with electronics slots."
 	icon_state = "helmet_skat"
 	flags = BLOCKHAIR|BLOCKFACIALHAIR
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE
