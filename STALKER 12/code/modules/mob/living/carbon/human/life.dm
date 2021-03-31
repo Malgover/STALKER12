@@ -462,5 +462,8 @@
 	if(src.wear_mask && istype(src.wear_mask, /obj/item/clothing/mask/gas))
 		var/mask_sound = pick('sound/effects/gasmask1.ogg','sound/effects/gasmask2.ogg','sound/effects/gasmask3.ogg','sound/effects/gasmask4.ogg','sound/effects/gasmask5.ogg','sound/effects/gasmask6.ogg','sound/effects/gasmask7.ogg','sound/effects/gasmask8.ogg','sound/effects/gasmask9.ogg','sound/effects/gasmask10.ogg')
 		playsound(src, mask_sound, 30, 1)
-
+	if(src.head && istype(src.head, /obj/item/clothing/head/winterhood/stalker/sealed))
+		var/mask_sound = pick('sound/effects/gasmask1.ogg','sound/effects/gasmask2.ogg','sound/effects/gasmask3.ogg','sound/effects/gasmask4.ogg','sound/effects/gasmask5.ogg','sound/effects/gasmask6.ogg','sound/effects/gasmask7.ogg','sound/effects/gasmask8.ogg','sound/effects/gasmask9.ogg','sound/effects/gasmask10.ogg')
+		playsound(src, mask_sound, 30, 1)
+//could be improved but will do for now
 #undef HUMAN_MAX_OXYLOSS
