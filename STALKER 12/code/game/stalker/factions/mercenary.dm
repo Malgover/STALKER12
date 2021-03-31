@@ -47,9 +47,8 @@
 	id = /obj/item/device/stalker_pda
 	back = /obj/item/weapon/storage/backpack/stalker/civilian
 	shoes = /obj/item/clothing/shoes/jackboots/warm
-	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/sc45 = 2,
+	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/m9x19mp5 = 2,
 							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1,
-							/obj/item/weapon/gun/projectile/automatic/pistol/sip = 1,
 							/obj/item/device/flashlight/seclite = 1)
 	l_pocket = /obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa
 	faction_s = "Mercenaries"
@@ -61,7 +60,7 @@
 	suit_store = pick(/obj/item/weapon/gun/projectile/automatic/mp5, /obj/item/weapon/gun/projectile/shotgun/chaser)
 	l_pocket = pick(/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,/obj/item/weapon/reagent_containers/food/snacks/stalker/baton)
 
-/datum/job/mercenary_sql
+/datum/job/mercenary_veteran
 	title = "Mercenary Veteran"
 	faction_s = "Mercenaries"
 	faction = "Station"
@@ -70,18 +69,16 @@
 	spawn_positions = -1
 	supervisors = ""
 	selection_color = "#2e708b"
-	access = list()			//See /datum/job/assistant/get_access()
-	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 1
 	limit_per_player = 4
-	outfit = /datum/outfit/job/mercenary
+	outfit = /datum/outfit/job/mercenary_veteran
 	real_rank = "Lieutenant"
 
-/datum/outfit/job/mercenary_sql
+/datum/outfit/job/mercenary_veteran
 	name = "Mercenary Veteran"
 	faction_s = "Mercenaries"
 
-/datum/outfit/job/mercenary_sql/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/mercenary_veteran/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = /obj/item/clothing/head/assaultmerc
 	uniform = UNIFORMPICK
@@ -94,5 +91,5 @@
 	suit_store = /obj/item/weapon/gun/projectile/automatic/vintorez
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/device/flashlight/seclite = 1,
-							/obj/item/ammo_box/magazine/stalker/sp9x39vint = 1)
+							/obj/item/ammo_box/magazine/stalker/sp9x39vint = 2)
 	l_pocket = /obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa
