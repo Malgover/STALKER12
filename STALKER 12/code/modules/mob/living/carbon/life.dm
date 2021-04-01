@@ -291,7 +291,7 @@
 	if(staminaloss)
 		var/total_health = staminaloss
 		if(total_health >= 100 && !stat)
-			src << "<span class='notice'>Вы слишком устали...</span>"
+			src << "<span class='notice'>пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ...</span>"
 			Weaken(5)
 			setStaminaLoss(staminaloss - 2)
 			return
@@ -594,3 +594,5 @@
 	..()
 	for(var/obj/item/I in internal_organs)
 		give_action_button(I, 1)
+
+

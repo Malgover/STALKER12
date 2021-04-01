@@ -53,7 +53,7 @@ Assistant
 	back = /obj/item/weapon/storage/backpack/stalker
 	suit_store = /obj/item/weapon/gun/projectile/automatic/ak74
 	shoes = /obj/item/clothing/shoes/jackboots/warm
-	backpack_contents = list(/obj/item/ammo_box/stalker/b55645 = 1,
+	backpack_contents = list(/obj/item/ammo_box/stalker/b545 = 1,
 							/obj/item/ammo_box/magazine/stalker/m545 = 2,
 							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1)
 	r_pocket = /obj/item/device/radio

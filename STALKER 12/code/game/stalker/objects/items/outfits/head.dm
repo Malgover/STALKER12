@@ -187,6 +187,23 @@
 	//МОДИФИКАЦИИ//
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
+/obj/item/clothing/mask/gas/stalker/gp4
+	name = "gp-4 gas mask"
+	desc = "The Soviet GP-4 is another mask in the Soviet GP series. It was made to be issued to civilians due to the rising panic about the Cold War. This model is extremely common in the Zone and is favored by many stalkers due to its relative reliability and light weight."
+	eng_desc = "The Soviet GP-4 is another mask in the Soviet GP series. It was made to be issued to civilians due to the rising panic about the Cold War. This model is extremely common in the Zone and is favored by many stalkers due to its relative reliability and light weight."
+	icon_state = "gp4"
+	item_state = "gp4"
+	gas_transfer_coefficient = 0.01
+	permeability_coefficient = 0.01
+	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
+	flags = BLOCKFACIALHAIR
+	armor = list(melee = 5, bullet = 0, laser = 30,burn = 30, bomb = 0, bio = 20, rad = 30, electro = 25, psy = 0)
+	burn_state = FIRE_PROOF
+	unacidable = 1
+	durability = 400
+	//МОДИФИКАЦИИ//
+	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
+
 /obj/item/clothing/mask/gas/stalker/mercenary
 	name = "gas mask"
 	desc = "Стандартный противогаз, предназначенный дл&#255; фильтрации из воздуха радиоактивной пыли и отравл&#255;ющих веществ. Широко используетс&#255; членами группировки 'Наемники'. Не оснащён защитой от пуль, осколков и механических воздействий."

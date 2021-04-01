@@ -28,7 +28,7 @@
 	id = /obj/item/device/stalker_pda
 	suit_store = /obj/item/weapon/gun/projectile/automatic/pistol/usp_match
 	shoes = /obj/item/clothing/shoes/jackboots/warm
-	mask = pick(/obj/item/clothing/mask/balaclava, /obj/item/clothing/mask/gas/stalker/respirator)
+	mask = pick(/obj/item/clothing/mask/balaclava, /obj/item/clothing/mask/gas/stalker/gp4)
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/berettam38 = 2,
 							/obj/item/device/flashlight/seclite = 1)
 	l_pocket = pick(/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,/obj/item/weapon/reagent_containers/food/snacks/stalker/baton)
