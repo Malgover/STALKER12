@@ -204,6 +204,23 @@
 	//МОДИФИКАЦИИ//
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
+/obj/item/clothing/mask/gas/stalker/gp5
+	name = "gp-5 gas mask"
+	desc = "A gas mask."
+	eng_desc = "A gas mask."
+	icon_state = "gp5"
+	item_state = "gp5"
+	gas_transfer_coefficient = 0.01
+	permeability_coefficient = 0.01
+	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
+	flags = BLOCKHAIR|BLOCKFACIALHAIR
+	armor = list(melee = 5, bullet = 0, laser = 30,burn = 30, bomb = 0, bio = 20, rad = 65, electro = 30, psy = 0)
+	burn_state = FIRE_PROOF
+	unacidable = 1
+	durability = 400
+	//МОДИФИКАЦИИ//
+	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
+
 /obj/item/clothing/mask/gas/stalker/mercenary
 	name = "gas mask"
 	desc = "Стандартный противогаз, предназначенный дл&#255; фильтрации из воздуха радиоактивной пыли и отравл&#255;ющих веществ. Широко используетс&#255; членами группировки 'Наемники'. Не оснащён защитой от пуль, осколков и механических воздействий."
