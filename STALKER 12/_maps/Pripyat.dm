@@ -1,6 +1,7 @@
 #if !defined(MAP_FILE)
 	#include "map_files\Stalker\Pripyat\pripyat.dmm"
 	#include "map_files\Stalker\Pripyat\firstfloor.dmm"
+	#include "map_files\Stalker\Pripyat\radar.dmm"
 
 
 	#define MAP_FILE "pripyat.dmm"

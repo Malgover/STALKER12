@@ -36,6 +36,7 @@
 
 /obj/structure/stalker/car/moskvich/south/hyi
 	icon = 'icons/stalker/cars/moskvich2_south.dmi'
+	icon_state = "00"
 
 /obj/structure/stalker/car/uaz
 	name = "UAZ"

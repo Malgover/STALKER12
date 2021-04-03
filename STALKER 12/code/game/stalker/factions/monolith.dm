@@ -100,7 +100,7 @@
 	supervisors = "Monolith"
 	selection_color = "#601919"
 	whitelist_only = 1
-	limit_per_player = 2
+	limit_per_player = 1
 	activated = 1
 	outfit = /datum/outfit/job/monolith_preacher
 	real_rank = "Lieutenant"
