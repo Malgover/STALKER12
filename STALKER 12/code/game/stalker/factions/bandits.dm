@@ -46,7 +46,7 @@
 	selection_color = "#000000"
 	access = list()
 	minimal_access = list()
-	whitelist_only = 0
+	whitelist_only = 1
 	limit_per_player = 1
 	outfit = /datum/outfit/job/bandit_trader
 
