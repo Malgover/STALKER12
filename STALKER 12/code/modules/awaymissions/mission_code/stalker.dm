@@ -797,6 +797,55 @@
 	icon = 'icons/stalker/map/pripyat/areas_outdoor_blowout.dmi'
 	icon_state = "oldservicecenter"
 
+/////////// *Radar Map* ///////////////
+
+/area/stalker/blowout/outdoor/radar
+	icon = 'icons/stalker/map/cordon/areas_outdoor_blowout.dmi'
+	icon_state = "outdoor"
+	requires_power = 1
+	luminosity = 1
+	open_space = TRUE
+	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
+	ambient_environment = list(
+		'sound/stalker/ambience/rnd_outdoor/rnd_bird_1.ogg', 'sound/stalker/ambience/rnd_outdoor/rnd_bird_2.ogg',
+		'sound/stalker/ambience/rnd_outdoor/rnd_bird_3.ogg', 'sound/stalker/ambience/rnd_outdoor/rnd_bird_4.ogg',
+		'sound/stalker/ambience/rnd_outdoor/rnd_bird_5.ogg', 'sound/stalker/ambience/rnd_outdoor/rnd_bird_6.ogg',
+		'sound/stalker/ambience/rnd_outdoor/rnd_bird_7.ogg', 'sound/stalker/ambience/rnd_outdoor/rnd_bird_8.ogg',
+		'sound/stalker/ambience/rnd_outdoor/rnd_bird_9.ogg', 'sound/stalker/ambience/rnd_outdoor/rnd_bird_10.ogg',
+		'sound/stalker/ambience/rnd_outdoor/rnd_bird_11.ogg',
+		'sound/stalker/ambience/rnd_outdoor/rnd_dog1.ogg', 'sound/stalker/ambience/rnd_outdoor/rnd_dog2.ogg',
+		'sound/stalker/ambience/rnd_outdoor/rnd_dog3.ogg', 'sound/stalker/ambience/rnd_outdoor/rnd_dog4.ogg',
+		'sound/stalker/ambience/rnd_outdoor/rnd_dog5.ogg', 'sound/stalker/ambience/rnd_outdoor/rnd_dog6.ogg',
+		'sound/stalker/ambience/rnd_outdoor/rnd_dog7.ogg', 'sound/stalker/ambience/rnd_outdoor/rnd_dog8.ogg',
+		'sound/stalker/ambience/rnd_outdoor/rnd_dog9.ogg', 'sound/stalker/ambience/rnd_outdoor/rnd_dog10.ogg',
+		'sound/stalker/ambience/rnd_outdoor/rnd_crow_1.ogg', 'sound/stalker/ambience/rnd_outdoor/rnd_crow_2.ogg',
+		'sound/stalker/ambience/rnd_outdoor/rnd_crow_3.ogg', 'sound/stalker/ambience/rnd_outdoor/rnd_crow_4.ogg',
+		'sound/stalker/ambience/rnd_outdoor/rnd_crow_5.ogg', 'sound/stalker/ambience/rnd_outdoor/rnd_crow_6.ogg',
+		'sound/stalker/ambience/rnd_outdoor/rnd_crow_7.ogg', 'sound/stalker/ambience/rnd_outdoor/rnd_crow_8.ogg',
+		'sound/stalker/ambience/rnd_outdoor/rnd_crow_9.ogg', 'sound/stalker/ambience/rnd_outdoor/rnd_crow_10.ogg',
+		'sound/stalker/ambience/rnd_outdoor/rnd_crow_11.ogg','sound/stalker/ambience/rnd_outdoor/rnd_crow_12.ogg',
+		'sound/stalker/ambience/rnd_outdoor/ambient_wind_1.ogg', 'sound/stalker/ambience/rnd_outdoor/ambient_wind_2.ogg',
+		'sound/stalker/ambience/rnd_outdoor/ambient_wind_3.ogg', 'sound/stalker/ambience/rnd_outdoor/ambient_wind_4.ogg',
+		'sound/stalker/ambience/rnd_outdoor/rnd_insect_8.ogg'
+	)
+	ambient_environment_night = list(
+		'sound/stalker/ambience/rnd_outdoor_night/rnd_moan.ogg', 'sound/stalker/ambience/rnd_outdoor_night/rnd_moan2.ogg',
+		'sound/stalker/ambience/rnd_outdoor_night/rnd_moan3.ogg', 'sound/stalker/ambience/rnd_outdoor_night/rnd_moan4.ogg',
+		'sound/stalker/ambience/rnd_outdoor_night/rnd_moan5.ogg', 'sound/stalker/ambience/rnd_outdoor_night/rnd_moan6.ogg',
+		'sound/stalker/ambience/rnd_outdoor_night/ambient_night_1.ogg', 'sound/stalker/ambience/rnd_outdoor_night/ambient_night_2.ogg',
+		'sound/stalker/ambience/rnd_outdoor_night/ambient_night_3.ogg', 'sound/stalker/ambience/rnd_outdoor_night/ambient_night_4.ogg',
+		'sound/stalker/ambience/rnd_outdoor_night/ambient_night_5.ogg', 'sound/stalker/ambience/rnd_outdoor_night/ambient_night_6.ogg',
+		'sound/stalker/ambience/rnd_outdoor_night/ambient_night_7.ogg', 'sound/stalker/ambience/rnd_outdoor_night/ambient_night_8.ogg',
+		'sound/stalker/ambience/rnd_outdoor_night/ambient_night_9.ogg', 'sound/stalker/ambience/rnd_outdoor_night/ambient_night_10.ogg',
+		'sound/stalker/ambience/rnd_outdoor_night/wolf_howl_01.ogg', 'sound/stalker/ambience/rnd_outdoor_night/wolf_howl_02.ogg',
+		'sound/stalker/ambience/rnd_outdoor_night/wolf_howl_03.ogg', 'sound/stalker/ambience/rnd_outdoor_night/wolf_howl_04.ogg',
+	)
+	ambient_environment_cooldown = 420
+	ambient_background = list(null, null,'sound/stalker/ambience/rnd_outdoor_night/zat_bkg_tuman.ogg', 'sound/stalker/ambience/rnd_outdoor_night/ambient_night_11.ogg', null) // 'sound/stalker/ambience/rnd_outdoor/rnd_insect_5.ogg' - evening
+	ambient_background_cooldown = list(null, null, 220, 420, null) //280 - evening
+	environment = ENVIRONMENT_OUTDOORS_EXPOSED
+
+
 ////////////////////////////////////////////////////////////////
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
