@@ -10,6 +10,6 @@
 
 #elif !defined(MAP_OVERRIDE)
 
-	#warn A map has already been included. Ignoring Zona.dm.
+	#warn A map has already been included. Ignoring Pripyat.dm.
 
 #endif
