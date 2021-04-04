@@ -41,6 +41,7 @@ Assistant
 	gloves = /obj/item/clothing/gloves/fingerless
 	suit_store = /obj/item/weapon/gun/projectile/automatic/gp37
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/m556x45 = 2,
+							/obj/item/device/flashlight/seclite = 1,
 							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1)
 
 /datum/outfit/job/military
@@ -78,8 +79,8 @@ Assistant
 	backpack_contents = list(/obj/item/ammo_box/stalker/b545 = 1,
 							/obj/item/ammo_box/magazine/stalker/m545 = 2,
 							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1)
-	l_pocket = /obj/item/weapon/stalker/bolts
 	r_pocket = /obj/item/device/radio
+	l_pocket = /obj/item/device/flashlight/seclite
 	faction_s = "Military"
 
 /datum/outfit/military/pre_equip(mob/living/carbon/human/H)
@@ -87,7 +88,7 @@ Assistant
 	uniform = /obj/item/clothing/under/color/switer/lolg
 	suit = /obj/item/clothing/suit/army
 	l_pocket = pick(/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,/obj/item/weapon/reagent_containers/food/snacks/stalker/baton)
-	r_pocket =/obj/item/weapon/stalker/bolts
+	r_pocket = /obj/item/device/flashlight/seclite
 
 /datum/job/military_officer
 	title = "Military Captain"
