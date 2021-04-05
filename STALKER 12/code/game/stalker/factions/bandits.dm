@@ -72,7 +72,7 @@
 	l_pocket = /obj/item/weapon/stalker/bolts
 
 /datum/outfit/job/bandit_leader
-	name = "Veteran"
+	name = "Bandit Veteran"
 	faction_s = "Bandits"
 
 /datum/outfit/job/bandit_leader/pre_equip(mob/living/carbon/human/H)

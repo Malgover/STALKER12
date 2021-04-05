@@ -17,13 +17,13 @@ var/global/global_lentahtml = ""
 	var/ratinghtml =""
 	var/list/access = list()
 
-	//ПРОФИЛЬ
+	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	var/mob/living/carbon/human/owner = null
 	var/datum/data/record/profile = null
 	var/registered_name = null
 	var/sid = null
 	var/rotation = "front"
-	var/rus_faction_s = "Одиночки"
+	var/rus_faction_s = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 	var/rating = 0
 	var/reputation = 0
 	var/money = 0
@@ -34,14 +34,14 @@ var/global/global_lentahtml = ""
 	var/password = null
 	var/hacked = 0
 	var/rep_color_s = "#ffe100"
-	var/rep_name_s = "Нейтральна&#x44F;"
+	var/rep_name_s = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#x44F;"
 	var/eng_rep_name_s = "Neutral"
 	var/rus_rank_name_s = "Rookie"
 	var/eng_rank_name_s = "Rookie"
 	var/eng_faction_s = "Loners"
 	var/degree = 0
 
-	//ЛЕНТА
+	//пїЅпїЅпїЅпїЅпїЅ
 	var/lentahtml = ""
 	var/last_lenta = 0
 	var/lenta_id = 0
@@ -53,15 +53,15 @@ var/global/global_lentahtml = ""
 	var/max_length = 10
 	slot_flags = SLOT_ID
 
-	//ФРАКЦИЯ
+	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	var/last_invite = 0
 
-	//РЕЙТИНГ
+	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	var/sortBy = "rating"
 	var/order = 1
 	var/lastlogin = 0
 
-	//ЭНЦИКЛОПЕДИЯ
+	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	var/article_title = "Zone"
 	var/article_text = "The Zone of Alienation is the 60 km wide area of exclusion that was set up around the Chernobyl NPP following the 1986 disaster and extended by the second Chernobyl disaster in 2006."
 	var/article_img = "nodata.gif"
@@ -87,7 +87,7 @@ var/global/global_lentahtml = ""
 		"kpk_background.png"	= 'icons/stalker/images/kpk.png',
 		"nodata.png"			= 'icons/stalker/images/nodata.png',
 		"photo_0"				= 'icons/stalker/images/sidor.png'
-		//Курсоры
+		//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	)
 
 /datum/asset/simple/cursors
@@ -312,7 +312,7 @@ var/global/global_lentahtml = ""
 		if(user.client && (user.client.prefs.chat_toggles & CHAT_LANGUAGE))
 			mainhtml += "ENTER THE PASSWORD"
 		else
-			mainhtml += "ВВЕДИТЕ ПАРОЛЬ"
+			mainhtml += "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
 
 		mainhtml +="\
 		</div>\
@@ -345,10 +345,10 @@ var/global/global_lentahtml = ""
 				 <b>Reputation:</b> <font color=\"[rep_color_s]\">[eng_rep_name_s]</font>"
 			else
 				mainhtml +="\
-				 <b>Им&#x44F;:</b> [owner.real_name]<br><br>\
-				 <b>Группировка:</b> [rus_faction_s]<br><br>\
-				 <b>Ранг:</b> [rating]<br><br>\
-				 <b>Репутаци&#x44F;:</b> <font color=\"[rep_color_s]\">[rep_name_s]</font>"
+				 <b>пїЅпїЅ&#x44F;:</b> [owner.real_name]<br><br>\
+				 <b>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:</b> [rus_faction_s]<br><br>\
+				 <b>пїЅпїЅпїЅпїЅ:</b> [rating]<br><br>\
+				 <b>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#x44F;:</b> <font color=\"[rep_color_s]\">[rep_name_s]</font>"
 
 
 			 mainhtml +="\
@@ -358,20 +358,20 @@ var/global/global_lentahtml = ""
 			\
 			<tr>\
 			<td colspan=\"2\" align=\"center\" id=\"table-bottom1\" height=60>\
-				| <a style=\"color:#c10000;\" href='byond://?src=\ref[src];choice=password_check'>В ДОСТУПЕ ОТКАЗАНО - ВВЕДИТЕ ПАРОЛЬ</a> |<br>\
+				| <a style=\"color:#c10000;\" href='byond://?src=\ref[src];choice=password_check'>пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ</a> |<br>\
 			<div align=\"center\"></div>\
 			</td>\
 			</tr>"
 		else
 			switch(mode)
 
-		//ПРОФИЛЬ
+		//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 				if(1)
 					if(user.client.prefs.chat_toggles & CHAT_LANGUAGE)
 						navbarhtml ="| <a>Profile</a> | <a href='byond://?src=\ref[src];choice=2'>Encyclopedia</a> | <a href='byond://?src=\ref[src];choice=3'>Rating</a> | <a href='byond://?src=\ref[src];choice=4'>Feed</a> | <a href='byond://?src=\ref[src];choice=5'>Map</a> |<br>"
 					else
-						navbarhtml ="| <a>Профиль</a> | <a href='byond://?src=\ref[src];choice=2'>Энциклопеди&#x44F;</a> | <a href='byond://?src=\ref[src];choice=3'>Рейтинг</a> | <a href='byond://?src=\ref[src];choice=4'>Лента</a> | <a href='byond://?src=\ref[src];choice=5'>Карта</a> |<br>"
+						navbarhtml ="| <a>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a> | <a href='byond://?src=\ref[src];choice=2'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#x44F;</a> | <a href='byond://?src=\ref[src];choice=3'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a> | <a href='byond://?src=\ref[src];choice=4'>пїЅпїЅпїЅпїЅпїЅ</a> | <a href='byond://?src=\ref[src];choice=5'>пїЅпїЅпїЅпїЅпїЅ</a> |<br>"
 
 					mainhtml +="\
 					<body>\
@@ -385,8 +385,8 @@ var/global/global_lentahtml = ""
 						<div align = \"center\" > | <a href='byond://?src=\ref[src];choice=rotate'>Rotate photo</a> | <a href='byond://?src=\ref[src];choice=make_avatar'>Change profile photo</a> | </div>"
 					else
 						mainhtml +="\
-						<div align=\"right\"><a style=\"color:#c10000;\" align=\"center\" href='byond://?src=\ref[src];choice=exit'>\[ВЫХОД\]</a><a href='byond://?src=\ref[src];choice=title'>\[-\]</a> <a href='byond://?src=\ref[src];choice=close'>\[X\]</a></div>\
-						<div align = \"center\" > | <a href='byond://?src=\ref[src];choice=rotate'>Повернуть фото профил&#x44F;</a> | <a href='byond://?src=\ref[src];choice=make_avatar'>Сменить фото профил&#x44F;</a> | </div>"
+						<div align=\"right\"><a style=\"color:#c10000;\" align=\"center\" href='byond://?src=\ref[src];choice=exit'>\[пїЅпїЅпїЅпїЅпїЅ\]</a><a href='byond://?src=\ref[src];choice=title'>\[-\]</a> <a href='byond://?src=\ref[src];choice=close'>\[X\]</a></div>\
+						<div align = \"center\" > | <a href='byond://?src=\ref[src];choice=rotate'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ&#x44F;</a> | <a href='byond://?src=\ref[src];choice=make_avatar'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ&#x44F;</a> | </div>"
 
 					mainhtml +="\
 							</td>\
@@ -410,11 +410,11 @@ var/global/global_lentahtml = ""
 
 					else
 						mainhtml+="\
-					<b>Им&#x44F;:</b> [owner.real_name]<br>\
-					<b>Группировка:</b> [rus_faction_s]<br>\
-					<b>Ранг:</b> [rus_rank_name_s] ([rating])<br>\
-					<b>Репутаци&#x44F;:</b> <font color=\"[rep_color_s]\">[rep_name_s] ([reputation])</font><br>\
-					<b>Баланс:</b> [num2text(money, 8)] RU<br>"
+					<b>пїЅпїЅ&#x44F;:</b> [owner.real_name]<br>\
+					<b>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:</b> [rus_faction_s]<br>\
+					<b>пїЅпїЅпїЅпїЅ:</b> [rus_rank_name_s] ([rating])<br>\
+					<b>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#x44F;:</b> <font color=\"[rep_color_s]\">[rep_name_s] ([reputation])</font><br>\
+					<b>пїЅпїЅпїЅпїЅпїЅпїЅ:</b> [num2text(money, 8)] RU<br>"
 
 					mainhtml +="\
 					</td>\
@@ -423,13 +423,13 @@ var/global/global_lentahtml = ""
 			</td>\
 		</tr>"
 
-		//ЭНЦИКЛОПЕДИЯ
+		//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 				if(2)
 					if(user.client.prefs.chat_toggles & CHAT_LANGUAGE)
 						navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Profile</a> | <a>Encyclopedia</a> | <a href='byond://?src=\ref[src];choice=3'>Rating</a> | <a href='byond://?src=\ref[src];choice=4'>Feed</a> | <a href='byond://?src=\ref[src];choice=5'>Map</a> |<br>"
 					else
-						navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Профиль</a> | <a>Энциклопеди&#x44F;</a> | <a href='byond://?src=\ref[src];choice=3'>Рейтинг</a> | <a href='byond://?src=\ref[src];choice=4'>Лента</a> | <a href='byond://?src=\ref[src];choice=5'>Карта</a> |<br>"
+						navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a> | <a>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#x44F;</a> | <a href='byond://?src=\ref[src];choice=3'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a> | <a href='byond://?src=\ref[src];choice=4'>пїЅпїЅпїЅпїЅпїЅ</a> | <a href='byond://?src=\ref[src];choice=5'>пїЅпїЅпїЅпїЅпїЅ</a> |<br>"
 
 					mainhtml +="\
 					<body>\
@@ -476,13 +476,13 @@ var/global/global_lentahtml = ""
 								</td>\
 							</tr>"
 
-		//РЕЙТИНГ
+		//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 				if(3)
 					if(user.client.prefs.chat_toggles & CHAT_LANGUAGE)
 						navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Profile</a> | <a href='byond://?src=\ref[src];choice=2'>Encyclopedia</a> | <a>Rating</a> | <a href='byond://?src=\ref[src];choice=4'>Feed</a> | <a href='byond://?src=\ref[src];choice=5'>Map</a> |<br>"
 					else
-						navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Профиль</a> | <a href='byond://?src=\ref[src];choice=2'>Энциклопеди&#x44F;</a> | <a>Рейтинг</a> | <a href='byond://?src=\ref[src];choice=4'>Лента</a> | <a href='byond://?src=\ref[src];choice=5'>Карта</a> |<br>"
+						navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a> | <a href='byond://?src=\ref[src];choice=2'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#x44F;</a> | <a>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a> | <a href='byond://?src=\ref[src];choice=4'>пїЅпїЅпїЅпїЅпїЅ</a> | <a href='byond://?src=\ref[src];choice=5'>пїЅпїЅпїЅпїЅпїЅ</a> |<br>"
 
 					mainhtml +="\
 					<body>\
@@ -496,7 +496,7 @@ var/global/global_lentahtml = ""
 						<div align = \"center\" > | <a href='byond://?src=\ref[src];choice=refresh_rating'>Refresh stalker list</a> | </div>"
 					else
 						mainhtml +="\
-						<div align = \"center\" > | <a href='byond://?src=\ref[src];choice=refresh_rating'>Обновить список сталкеров</a> | </div>"
+						<div align = \"center\" > | <a href='byond://?src=\ref[src];choice=refresh_rating'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a> | </div>"
 					mainhtml +="\
 							</td>\
 						</tr>\
@@ -508,13 +508,13 @@ var/global/global_lentahtml = ""
 							</td>\
 						</tr>"
 
-		//ЛЕНТА
+		//пїЅпїЅпїЅпїЅпїЅ
 
 				if(4)
 					if(user.client.prefs.chat_toggles & CHAT_LANGUAGE)
 						navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Profile</a> | <a href='byond://?src=\ref[src];choice=2'>Encyclopedia</a> | <a href='byond://?src=\ref[src];choice=3'>Rating</a> | <a>Feed</a> | <a href='byond://?src=\ref[src];choice=5'>Map</a> |<br>"
 					else
-						navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Профиль</a> | <a href='byond://?src=\ref[src];choice=2'>Энциклопеди&#x44F;</a> | <a href='byond://?src=\ref[src];choice=3'>Рейтинг</a> | <a>Лента</a> | <a href='byond://?src=\ref[src];choice=5'>Карта</a> |<br>"
+						navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a> | <a href='byond://?src=\ref[src];choice=2'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#x44F;</a> | <a href='byond://?src=\ref[src];choice=3'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a> | <a>пїЅпїЅпїЅпїЅпїЅ</a> | <a href='byond://?src=\ref[src];choice=5'>пїЅпїЅпїЅпїЅпїЅ</a> |<br>"
 
 					mainhtml +="\
 					<body>\
@@ -528,7 +528,7 @@ var/global/global_lentahtml = ""
 						<div align = \"center\" > | <a href='byond://?src=\ref[src];choice=lenta_add'>Send feed message</a> | <a href='byond://?src=\ref[src];choice=lenta_faction_add'>Send faction message</a> | <a href='byond://?src=\ref[src];choice=lenta_sound'>Turn on/off sound</a> |</div>"
 					else
 						mainhtml +="\
-						<div align = \"center\" > | <a href='byond://?src=\ref[src];choice=lenta_add'>Написать в ленту</a> | <a href='byond://?src=\ref[src];choice=lenta_faction_add'>Написать группировке</a> | <a href='byond://?src=\ref[src];choice=lenta_sound'>Вкл/Выкл звук</a> |</div>"
+						<div align = \"center\" > | <a href='byond://?src=\ref[src];choice=lenta_add'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ</a> | <a href='byond://?src=\ref[src];choice=lenta_faction_add'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a> | <a href='byond://?src=\ref[src];choice=lenta_sound'>пїЅпїЅпїЅ/пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ</a> |</div>"
 					mainhtml +="\
 					</td>\
 					</tr>\
@@ -540,13 +540,13 @@ var/global/global_lentahtml = ""
 					</td>\
 					</tr>"
 
-		//КАРТА
+		//пїЅпїЅпїЅпїЅпїЅ
 
 				if(5)
 					if(user.client.prefs.chat_toggles & CHAT_LANGUAGE)
 						navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Profile</a> | <a href='byond://?src=\ref[src];choice=2'>Encyclopedia</a> | <a href='byond://?src=\ref[src];choice=3'>Rating</a> | <a href='byond://?src=\ref[src];choice=4'>Feed</a> | <a>Map</a> |<br>"
 					else
-						navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>Профиль</a> | <a href='byond://?src=\ref[src];choice=2'>Энциклопеди&#x44F;</a> | <a href='byond://?src=\ref[src];choice=3'>Рейтинг</a> | <a href='byond://?src=\ref[src];choice=4'>Лента</a> | <a>Карта</a> |<br>"
+						navbarhtml ="| <a href='byond://?src=\ref[src];choice=1'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a> | <a href='byond://?src=\ref[src];choice=2'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#x44F;</a> | <a href='byond://?src=\ref[src];choice=3'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a> | <a href='byond://?src=\ref[src];choice=4'>пїЅпїЅпїЅпїЅпїЅ</a> | <a>пїЅпїЅпїЅпїЅпїЅ</a> |<br>"
 
 					mainhtml +="\
 					<body>\
@@ -654,7 +654,7 @@ var/global/global_lentahtml = ""
 
 			var/datum/data/record/sk = find_record("sid", H.sid, data_core.stalkers)
 
-			if(!sk) //если человек не зарегистрирован в сети сталкеров
+			if(!sk) //пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 				password = t
 				var/pass = password
 
@@ -686,7 +686,7 @@ var/global/global_lentahtml = ""
 
 				profile = find_record("sid", H.sid, data_core.stalkers)
 				set_owner_info(profile)
-			else //Если человек зарегистрирован в сети сталкеров
+			else //пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 				if(sk && sk.fields["pass"] != t)
 					H << "<span class='warning'>Wrong password.</span>"
 					return
@@ -787,7 +787,7 @@ var/global/global_lentahtml = ""
 				if(H.client.prefs.chat_toggles & CHAT_LANGUAGE)
 					H << "<span class='warning'>Enter the message!</span>"
 				else
-					H << "<span class='warning'>Введите сообщение!</span>"
+					H << "<span class='warning'>Enter the message!</span>"
 			else
 				if ( !(last_lenta && world.time < last_lenta + LENTA_MESSAGE_COOLDOWN) )
 					last_lenta = world.time
@@ -798,7 +798,7 @@ var/global/global_lentahtml = ""
 					if(H.client.prefs.chat_toggles & CHAT_LANGUAGE)
 						H << "<span class='warning'>You can't send messages in next [round((LENTA_MESSAGE_COOLDOWN + last_lenta - world.time)/10)] sec.</span>"
 					else
-						H << "<span class='warning'>Вы сможете отправить следующее сообщение через: [round((LENTA_MESSAGE_COOLDOWN + last_lenta - world.time)/10)] сек.</span>"
+						H << "<span class='warning'>пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: [round((LENTA_MESSAGE_COOLDOWN + last_lenta - world.time)/10)] пїЅпїЅпїЅ.</span>"
 
 		if("lenta_faction_add")
 			var/t = message_input(H, "message", 500)
@@ -806,7 +806,7 @@ var/global/global_lentahtml = ""
 				if(H.client.prefs.chat_toggles & CHAT_LANGUAGE)
 					H << "<span class='warning'>Enter the message!</span>"
 				else
-					H << "<span class='warning'>Введите сообщение!</span>"
+					H << "<span class='warning'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!</span>"
 			else
 				if ( !(last_faction_lenta && world.time < last_faction_lenta + LENTA_FACTION_MESSAGE_COOLDOWN) )
 					last_faction_lenta = world.time
@@ -816,7 +816,7 @@ var/global/global_lentahtml = ""
 					if(H.client.prefs.chat_toggles & CHAT_LANGUAGE)
 						H << "<span class='warning'>You can't send messages in next [round((LENTA_FACTION_MESSAGE_COOLDOWN + last_faction_lenta - world.time)/10)] sec.</span>"
 					else
-						H << "<span class='warning'>Вы сможете отправить следующее сообщение через: [round((LENTA_FACTION_MESSAGE_COOLDOWN + last_faction_lenta - world.time)/10)] сек.</span>"
+						H << "<span class='warning'>пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: [round((LENTA_FACTION_MESSAGE_COOLDOWN + last_faction_lenta - world.time)/10)] пїЅпїЅпїЅ.</span>"
 
 		if("lenta_sound")
 			if(switches & FEED_SOUND)
@@ -824,13 +824,13 @@ var/global/global_lentahtml = ""
 				if(H.client.prefs.chat_toggles & CHAT_LANGUAGE)
 					H << "<span class='notice'>Feed sound turned off.</span>"
 				else
-					H << "<span class='notice'>Звук оповещени&#255; о сообщени&#255;х в ленте выключен.</span>"
+					H << "<span class='notice'>пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#255; пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#255;пїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</span>"
 			else
 				switches |= FEED_SOUND
 				if(H.client.prefs.chat_toggles & CHAT_LANGUAGE)
 					H << "<span class='notice'>Feed sound turned on.</span>"
 				else
-					H << "<span class='notice'>Звук оповещени&#255; о сообщени&#255;х в ленте активирован.</span>"
+					H << "<span class='notice'>пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#255; пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#255;пїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</span>"
 
 
 		if("lenta_images")
@@ -839,13 +839,13 @@ var/global/global_lentahtml = ""
 				if(H.client.prefs.chat_toggles & CHAT_LANGUAGE)
 					H << "<span class='notice'>Stalker avatars in the feed now will not be downloaded.</span>"
 				else
-					H << "<span class='notice'>Аватары сталкеров в ленте теперь не будут скачиватьс&#255;.</span>"
+					H << "<span class='notice'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#255;.</span>"
 			else
 				switches |= FEED_IMAGES
 				if(H.client.prefs.chat_toggles & CHAT_LANGUAGE)
 					H << "<span class='notice'>Stalker avatars in the feed now will be downloaded.</span>"
 				else
-					H << "<span class='notice'>Аватары сталкеров в ленте теперь будут скачиватьс&#255;.</span>"
+					H << "<span class='notice'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#255;.</span>"
 
 		if("rating_images")
 			if(switches & RATING_IMAGES)
@@ -853,13 +853,13 @@ var/global/global_lentahtml = ""
 				if(H.client.prefs.chat_toggles & CHAT_LANGUAGE)
 					H << "<span class='notice'>Stalker avatars in the rating now will not be downloaded.</span>"
 				else
-					H << "<span class='notice'>Аватары сталкеров в рейтинге теперь не будут скачиватьс&#255;.</span>"
+					H << "<span class='notice'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#255;.</span>"
 			else
 				switches |= RATING_IMAGES
 				if(H.client.prefs.chat_toggles & CHAT_LANGUAGE)
 					H << "<span class='notice'>Stalker avatars in the rating now will be downloaded.</span>"
 				else
-					H << "<span class='notice'>Аватары сталкеров в рейтинге теперь будут скачиватьс&#255;.</span>"
+					H << "<span class='notice'>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#255;.</span>"
 
 		if("refresh_rating")
 			ratinghtml = ""
@@ -869,12 +869,12 @@ var/global/global_lentahtml = ""
 		if("zoom")
 			return
 
-		if("1")			//ПРОФИЛЬ
+		if("1")			//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 			set_owner_info(profile)
 			set_owner_photo()
 			mode = 1
 
-		if("2")			//ЭНЦИКЛОПЕДИЯ
+		if("2")			//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 			mode = 2
 			get_asset_datum(/datum/asset/simple/encyclopedia).send(H)
 			if(href_list["page"])
@@ -892,7 +892,7 @@ var/global/global_lentahtml = ""
 							article_img = "backwater"
 							article_img_width = 200
 							article_img_height = 125
-							article_text = "Backwater, also called Zaton, is mainly set in a swampy area, with a few industrial factories scattered around it and derelict, grounded boats, some dating back before the incident. From the outlying structures and sizable number of grounded boats and tankers around, Backwater appears to have been drained of its water sometime after the Chernobyl incident, most likely to contain the radiation contamination in the water. A free bar for Stalkers is run by Beard, in the wreck of a tanker – the Skadovsk."
+							article_text = "Backwater, also called Zaton, is mainly set in a swampy area, with a few industrial factories scattered around it and derelict, grounded boats, some dating back before the incident. From the outlying structures and sizable number of grounded boats and tankers around, Backwater appears to have been drained of its water sometime after the Chernobyl incident, most likely to contain the radiation contamination in the water. A free bar for Stalkers is run by Beard, in the wreck of a tanker пїЅ the Skadovsk."
 
 						if("Pripyat")
 							article_title = "Pripyat"
@@ -969,7 +969,7 @@ var/global/global_lentahtml = ""
 							article_img = "nodata.gif"
 							article_img_width = 179
 							article_img_height = 128
-							article_text = "Several generations of the dog species have lived and died since the catastrophe. Each was more affected by the Zone than the previous one. Rapid mutation lead to a vast improvement in previously peripheral abilities, frequently at the expense of primary ones. The most notable biological change was the loss of sight, paired with an uncanny development of smell. As it turned out, blind pups survived in the Zone as well as normal ones, if not better. As a result, the common dog quickly became extinct in the Zone, giving way to a new breed – that of blind dogs. The animals instinctively identify and avoid anomalies, radiation, and other invisible dangers that plague the Zone. Like their wild ancestors – the wolves – blind dogs hunt in packs. An encounter with a large group of these animals can be dangerous even to an experienced and well-armed stalker."
+							article_text = "Several generations of the dog species have lived and died since the catastrophe. Each was more affected by the Zone than the previous one. Rapid mutation lead to a vast improvement in previously peripheral abilities, frequently at the expense of primary ones. The most notable biological change was the loss of sight, paired with an uncanny development of smell. As it turned out, blind pups survived in the Zone as well as normal ones, if not better. As a result, the common dog quickly became extinct in the Zone, giving way to a new breed пїЅ that of blind dogs. The animals instinctively identify and avoid anomalies, radiation, and other invisible dangers that plague the Zone. Like their wild ancestors пїЅ the wolves пїЅ blind dogs hunt in packs. An encounter with a large group of these animals can be dangerous even to an experienced and well-armed stalker."
 
 						if("Flesh")
 							article_title = "Flesh"
@@ -1039,12 +1039,12 @@ var/global/global_lentahtml = ""
 
 
 
-		if("3")			//РЕЙТИНГ
+		if("3")			//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 			if(data_core.stalkers.len)
 				refresh_rating(H)
 			mode = 3
 
-		if("4")			//ЛЕНТА
+		if("4")			//пїЅпїЅпїЅпїЅпїЅ
 			if(switches & FEED_IMAGES)
 				for(var/datum/data/record/R in data_core.stalkers)
 					if(R.fields["lastlogin"] + RATING_REMOVE_TIMER > world.time)
@@ -1054,7 +1054,7 @@ var/global/global_lentahtml = ""
 					H << browse_rsc(P1.img, "photo_[sid_p]")
 			mode = 4
 
-		if("5")			//КАРТА
+		if("5")			//пїЅпїЅпїЅпїЅпїЅ
 			SSminimap.sendMinimaps(H)
 			mode = 5
 
@@ -1338,14 +1338,14 @@ var/global/global_lentahtml = ""
 			//Faction menu
 			if(!R.fields["degree"])
 				if(eng_faction_s == eng_f)
-					ratinghtml += "<a style=\"color:#c10000;\" href='byond://?src=\ref[src];remove=[sid_p]'>\[исключить\]</a>"
+					ratinghtml += "<a style=\"color:#c10000;\" href='byond://?src=\ref[src];remove=[sid_p]'>\[пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\]</a>"
 				else
-					ratinghtml += "<a style=\"color:#7ac100;\" href='byond://?src=\ref[src];invite=[sid_p]'>\[пригласить\]</a>"
+					ratinghtml += "<a style=\"color:#7ac100;\" href='byond://?src=\ref[src];invite=[sid_p]'>\[пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\]</a>"
 			else
-				ratinghtml += "<b>\[ЛИДЕР\]</b>"
+				ratinghtml += "<b>\[пїЅпїЅпїЅпїЅпїЅ\]</b>"
 			//////////////
-			ratinghtml += "<br><b>Рейтинг:</b> [rank_name] ([r])<br>\
-					<b>Репутация:</b> <font color=\"[rep_color]\">[rep]</font><br>\
+			ratinghtml += "<br><b>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ:</b> [rank_name] ([r])<br>\
+					<b>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:</b> <font color=\"[rep_color]\">[rep]</font><br>\
 					\
 					</td>\
 					\
@@ -1383,7 +1383,7 @@ var/global/global_lentahtml = ""
 		avatar.l_hand		= H.l_hand.type
 
 	if(avatar.uniform == null || avatar.shoes == null)
-		H << "<span class='warning'>Вам нужно надеть свитер и ботинки перед тем, как делать фотографию!</span>"
+		H << "<span class='warning'>пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!</span>"
 	else
 		var/image = get_avatar(H, avatar)
 
@@ -1448,18 +1448,18 @@ var/global/global_lentahtml = ""
 	usr << browse_rsc(P4.img, "photo_back")
 
 /proc/get_rus_rank_name(var/rating)
-	var/rus_rank_name_s = "Новичок"
+	var/rus_rank_name_s = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 	switch(rating)
 		if(ZONE_LEGEND to INFINITY)
-			rus_rank_name_s = "Легенда Зоны"
+			rus_rank_name_s = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
 		if(EXPERT to ZONE_LEGEND)
-			rus_rank_name_s = "Мастер"
+			rus_rank_name_s = "пїЅпїЅпїЅпїЅпїЅпїЅ"
 		if(VETERAN to EXPERT)
-			rus_rank_name_s = "Ветеран"
+			rus_rank_name_s = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 		if(EXPERIENCED to VETERAN)
-			rus_rank_name_s = "Опытный"
+			rus_rank_name_s = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 		if(ROOKIE to EXPERT)
-			rus_rank_name_s = "Новичок"
+			rus_rank_name_s = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 	return rus_rank_name_s
 
 /proc/get_eng_rank_name(var/rating)
@@ -1478,20 +1478,20 @@ var/global/global_lentahtml = ""
 	return eng_rank_name_s
 
 /proc/get_rus_faction(var/eng_faction_s)
-	var/faction_s = "Одиночки"
+	var/faction_s = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 	switch(eng_faction_s)
 		if("Bandits")
-			faction_s = "Бандиты"
+			faction_s = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 		if("Mercenaries")
-			faction_s = "Наёмники"
+			faction_s = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 		if("Duty")
-			faction_s = "Долг"
+			faction_s = "пїЅпїЅпїЅпїЅ"
 		if("Traders")
-			faction_s = "Торговцы"
+			faction_s = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 		if("Freedom")
-			faction_s = "Свобода"
+			faction_s = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 		if("Monolith")
-			faction_s = "Монолит"
+			faction_s = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 	return faction_s
 
 /proc/get_faction_color(var/eng_faction_s)
@@ -1512,23 +1512,23 @@ var/global/global_lentahtml = ""
 	return factioncolor
 
 /proc/get_rep_name(var/rep)
-	var/rep_name_s = "Нейтральна&#x44F;"
+	var/rep_name_s = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#x44F;"
 
 	switch(rep)
 		if(AMAZING to INFINITY)
-			rep_name_s = "Блатной"
+			rep_name_s = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 		if(VERYGOOD to AMAZING)
-			rep_name_s = "Очень хороша&#x44F;"
+			rep_name_s = "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ&#x44F;"
 		if(GOOD to VERYGOOD)
-			rep_name_s = "Хороша&#x44F;"
+			rep_name_s = "пїЅпїЅпїЅпїЅпїЅпїЅ&#x44F;"
 		if(BAD to GOOD)
-			rep_name_s = "Нейтральна&#x44F;"
+			rep_name_s = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#x44F;"
 		if(VERYBAD to BAD)
-			rep_name_s = "Плоха&#x44F;"
+			rep_name_s = "пїЅпїЅпїЅпїЅпїЅ&#x44F;"
 		if(DISGUSTING to VERYBAD)
-			rep_name_s = "Очень плоха&#x44F;"
+			rep_name_s = "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ&#x44F;"
 		if(-INFINITY to DISGUSTING)
-			rep_name_s = "Чёрт"
+			rep_name_s = "ЧёпїЅпїЅ"
 
 	return rep_name_s
 

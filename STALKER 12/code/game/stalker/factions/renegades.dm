@@ -2,13 +2,13 @@
 	title = "Renegade"
 	faction = "Station"
 	faction_s = "Renegades"
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	supervisors = ""
 	selection_color = "#003D06"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
-	whitelist_only = 1
+	whitelist_only = 0
 	outfit = /datum/outfit/job/renegade
 
 /datum/outfit/job/Renegade

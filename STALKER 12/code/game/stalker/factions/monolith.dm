@@ -21,7 +21,7 @@
 	..()
 	head = null
 	uniform = UNIFORMPICK
-	suit = /obj/item/clothing/suit/hooded/kombez/monolith
+	suit = /obj/item/clothing/suit/hooded/kozhanka/white/monolith
 	ears = null
 	belt = /obj/item/weapon/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
@@ -94,9 +94,9 @@
 	title = "Monolith Preacher"
 	faction_s = "Monolith"
 	faction = "Station"
-	total_positions = 2
+	total_positions = 1
 	locked = 1
-	spawn_positions = 2
+	spawn_positions = 1
 	supervisors = "Monolith"
 	selection_color = "#601919"
 	whitelist_only = 1
@@ -116,7 +116,7 @@
 	belt = /obj/item/weapon/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/device/stalker_pda
-	suit_store = /obj/item/weapon/gun/projectile/automatic/fnf2000
+	suit_store = /obj/item/weapon/gun/projectile/automatic/gp37
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/m556x45 = 2,
 							/obj/item/device/flashlight/seclite = 1)
 	shoes = /obj/item/clothing/shoes/jackboots/warm

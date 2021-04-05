@@ -36,7 +36,6 @@
 
 /datum/outfit/mercenary  // For select_equipment
 	name = "Mercenary"
-
 	head = null
 	mask = /obj/item/clothing/mask/gas/stalker/mercenary
 	uniform = /obj/item/clothing/under/color/switer
@@ -57,7 +56,7 @@
 	..()
 	uniform = UNIFORMPICK
 	suit = /obj/item/clothing/suit/hooded/kombez/mercenary
-	suit_store = pick(/obj/item/weapon/gun/projectile/automatic/mp5, /obj/item/weapon/gun/projectile/shotgun/chaser)
+	suit_store = /obj/item/weapon/gun/projectile/shotgun/chaser
 	l_pocket = pick(/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,/obj/item/weapon/reagent_containers/food/snacks/stalker/baton)
 
 /datum/job/mercenary_veteran
@@ -70,7 +69,7 @@
 	supervisors = ""
 	selection_color = "#2e708b"
 	whitelist_only = 1
-	limit_per_player = 4
+	limit_per_player = 2
 	outfit = /datum/outfit/job/mercenary_veteran
 	real_rank = "Lieutenant"
 
@@ -88,8 +87,8 @@
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/device/stalker_pda
 	back = /obj/item/weapon/storage/backpack/stalker/civilian
-	suit_store = /obj/item/weapon/gun/projectile/automatic/vintorez
+	suit_store = /obj/item/weapon/gun/projectile/automatic/tpc301
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/device/flashlight/seclite = 1,
-							/obj/item/ammo_box/magazine/stalker/sp9x39vint = 2)
+							/obj/item/ammo_box/magazine/stalker/m556x45 = 2)
 	l_pocket = /obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa

@@ -21,8 +21,8 @@
 	head = /obj/item/clothing/head/spheram
 	suit = /obj/item/clothing/suit/berill
 	gloves = /obj/item/clothing/gloves/fingerless
-	suit_store = /obj/item/weapon/gun/projectile/automatic/gp37
-	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/m556x45 = 2,
+	suit_store = /obj/item/weapon/gun/projectile/automatic/val
+	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/sp9x39val = 2,
 							/obj/item/device/flashlight/seclite = 1,
 							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1)
 
