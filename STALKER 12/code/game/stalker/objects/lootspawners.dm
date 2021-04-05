@@ -124,6 +124,7 @@
 
 /obj/effect/spawner/lootdrop/stalker/weapon/pistols
 	name = "stalker pistols"
+	lootcount = 1
 	loot = list(/obj/item/weapon/gun/projectile/automatic/pistol/pm = 25,
 				/obj/item/weapon/gun/projectile/automatic/pistol/pb1s = 15,
 				/obj/item/weapon/gun/projectile/automatic/pistol/fort12 = 10,

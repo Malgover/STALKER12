@@ -78,7 +78,7 @@
 /** Sklad **/
 
 /datum/job/barman2
-	title = "Bandit Barman"
+	title = "Barman"
 	faction_s = "Loners"
 	locked = 0
 	faction = "Station"

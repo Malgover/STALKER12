@@ -280,11 +280,14 @@
 	name = "JoinLateEveryone"
 
 // Army
-/obj/effect/landmark/latejoin/army
-	name = "JoinLateArmy"
+/obj/effect/landmark/latejoin/military
+	name = "JoinLateMilitary Soldier"
 
-/obj/effect/landmark/latejoin/army_eliteagro
-	name = "JoinLateEliteAgro"
+/obj/effect/landmark/latejoin/military_spetsnaz
+	name = "JoinLateMilitary Spetsnaz"
+
+/obj/effect/landmark/latejoin/military_officer
+	name = "JoinLateMilitary Captain"
 
 // Bandits
 /obj/effect/landmark/latejoin/renegade
@@ -315,9 +318,6 @@
 
 // Unsorted
 
-/obj/effect/landmark/latejoin/petrovich
-	name = "JoinLatePetrovich"
-
 /obj/effect/landmark/latejoin/trader
 	name = "JoinLateTrader"
 
@@ -330,8 +330,8 @@
 /obj/effect/landmark/latejoin/barman2
 	name = "JoinLateBarman2"
 
-/obj/effect/landmark/latejoin/mercenary_sql
-	name = "JoinLateMercenary Sql"
+/obj/effect/landmark/latejoin/mercenary_veteran
+	name = "JoinLateMercenary Veteran"
 
 /obj/effect/landmark/latejoin/monolith
 	name = "JoinLateMonolith"

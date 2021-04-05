@@ -68,7 +68,7 @@
 		handle_suit_durability()
 
 		//gas mask sound
-		handle_gas_mask_sound()
+		//handle_gas_mask_sound()
 
 		//client colour
 		update_client_colour()
@@ -196,7 +196,7 @@
 	if(!dna.species.breathe(src))
 		..()
 
-/mob/living/carbon/human/proc/handle_gas_mask_sound()
+//mob/living/carbon/human/proc/handle_gas_mask_sound()
 	if(src.wear_mask && istype(src.wear_mask, /obj/item/clothing/mask/gas))
 		var/mask_sound = pick('sound/effects/gasmask1.ogg','sound/effects/gasmask2.ogg','sound/effects/gasmask3.ogg')
 		playsound(src, mask_sound, 40, 1)

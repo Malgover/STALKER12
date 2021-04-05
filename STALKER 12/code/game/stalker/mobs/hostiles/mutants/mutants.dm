@@ -143,7 +143,7 @@
 	name = "snork"
 	desc = "A bloodcurdling, mutated, feral human, with a brilliant sense of smell, still wearing ragged remains of his outfit and equipment."
 	eng_desc = "A bloodcurdling, mutated, feral human, with a brilliant sense of smell, still wearing ragged remains of his outfit and equipment."
-	turns_per_move = 2
+	turns_per_move = 1
 	a_intent = "harm"
 	search_objects = 1
 	icon_state = "snork"
