@@ -114,6 +114,7 @@ var/list/global_sidormat_list = list(
 	"Suits" = list(
 		new /datum/data/stalker_equipment("Leather Jacket",				"Кожаная куртка",			/obj/item/clothing/suit/hooded/kozhanka,					5000,		ROOKIE),
 		new /datum/data/stalker_equipment("White Leather Jacket",		"Белая кожаная куртка",		/obj/item/clothing/suit/hooded/kozhanka/white,				5000,		ROOKIE),
+		new /datum/data/stalker_equipment("Armored Tan Coat",			"Armored Tan Coat",			/obj/item/clothing/suit/hooded/kozhanka/tancoat,			15000,		ROOKIE),
 		new	/datum/data/stalker_equipment("Bandit Jacket",				"Кожаная бандитка",			/obj/item/clothing/suit/hooded/kozhanka/banditka,			6000,		ROOKIE,		faction = "Bandits"),
 		new	/datum/data/stalker_equipment("Army Outfit",				"Военный комбинезон",		/obj/item/clothing/suit/army,								15000,		ROOKIE,		faction = "Army"),
 		new /datum/data/stalker_equipment("Sunrise Outfit",				"Комбинезон \"Заря\"",		/obj/item/clothing/suit/hooded/kombez,						33000,		ROOKIE,		faction = "Loners"),
