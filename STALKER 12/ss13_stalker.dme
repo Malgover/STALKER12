@@ -14,7 +14,7 @@
 
 // BEGIN_INCLUDE
 #include "_maps\__MAP_DEFINES.dm"
-#include "_maps\Cordon.dm"
+#include "_maps\Pripyat.dm"
 #include "code\_compile_options.dm"
 #include "code\hub.dm"
 #include "code\setup.dm"
@@ -801,6 +801,7 @@
 #include "code\game\stalker\factions\freedom.dm"
 #include "code\game\stalker\factions\jobs.dm"
 #include "code\game\stalker\factions\mercenary.dm"
+#include "code\game\stalker\factions\monolith.dm"
 #include "code\game\stalker\factions\phantoms.dm"
 #include "code\game\stalker\factions\renegades.dm"
 #include "code\game\stalker\factions\survivor.dm"

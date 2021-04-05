@@ -19,7 +19,7 @@
 	suit = /obj/item/clothing/suit/hooded/kozhanka/renegadecoat
 	suit_store = /obj/item/weapon/gun/projectile/automatic/mini_uzi
 	ears = null
-	id = /obj/item/weapon/storage/wallet/stalker
+	id = /obj/item/device/stalker_pda
 	belt = /obj/item/weapon/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	shoes = /obj/item/clothing/shoes/jackboots/warm
@@ -34,7 +34,7 @@
 	suit = /obj/item/clothing/suit/hooded/kozhanka/renegadecoat
 	suit_store = /obj/item/weapon/gun/projectile/automatic/mini_uzi
 	ears = null
-	id = /obj/item/weapon/storage/wallet/stalker
+	id = /obj/item/device/stalker_pda
 	belt = /obj/item/weapon/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	shoes = /obj/item/clothing/shoes/jackboots/warm
