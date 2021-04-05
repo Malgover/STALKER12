@@ -1,8 +1,36 @@
+/datum/job/military_spetsnaz
+	title = "Military Spetsnaz"
+	faction_s = "Military"
+	total_positions = 2
+	locked = 1
+	spawn_positions = 2
+	supervisors = "Military Captain"
+	selection_color = "#601919"
+	whitelist_only = 1
+	limit_per_player = 1
+	activated = 1
+	outfit = /datum/outfit/job/military_spetsnaz
+	real_rank = "Lieutenant"
+
+/datum/job/military_spetsnaz
+	title = "Military Spetsnaz"
+	faction_s = "Military"
+
+/datum/outfit/job/military_spetsnaz/pre_equip(mob/living/carbon/human/H)
+	..()
+	head = /obj/item/clothing/head/spheram
+	suit = /obj/item/clothing/suit/berill
+	gloves = /obj/item/clothing/gloves/fingerless
+	suit_store = /obj/item/weapon/gun/projectile/automatic/gp37
+	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/m556x45 = 2,
+							/obj/item/device/flashlight/seclite = 1,
+							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1)
+
 /*
 Assistant
 */
 /datum/job/military
-	title = "Military"
+	title = "Military Soldier"
 	faction_s = "Military"
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
@@ -15,34 +43,6 @@ Assistant
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 1
 	outfit = /datum/outfit/job/military
-
-/datum/job/military_spetsnaz
-	title = "Military Spetsnaz"
-	faction_s = "Military"
-	total_positions = 2
-	locked = 1
-	spawn_positions = 2
-	supervisors = "Military Captain"
-	selection_color = "#601919"
-	whitelist_only = 1
-	limit_per_player = 1
-	activated = 1
-	outfit = /datum/outfit/job/military/military_spetsnaz
-	real_rank = "Lieutenant"
-
-/datum/job/military_spetsnaz
-	title = "Military Spetsnaz"
-	faction_s = "Military"
-
-/datum/outfit/job/military/military_spetsnaz/pre_equip(mob/living/carbon/human/H)
-	..()
-	head = /obj/item/clothing/head/spheram
-	suit = /obj/item/clothing/suit/berill
-	gloves = /obj/item/clothing/gloves/fingerless
-	suit_store = /obj/item/weapon/gun/projectile/automatic/gp37
-	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/m556x45 = 2,
-							/obj/item/device/flashlight/seclite = 1,
-							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1)
 
 /datum/outfit/job/military
 	name = "Military Soldier"
@@ -100,14 +100,14 @@ Assistant
 	whitelist_only = 1
 	limit_per_player = 1
 	activated = 1
-	outfit = /datum/outfit/job/military/militaryofficer
+	outfit = /datum/outfit/job/military_officer
 	real_rank = "Captain"
 
-/datum/job/militaryofficer
+/datum/job/military_officer
 	title = "Military Captain"
 	faction_s = "Military"
 
-/datum/outfit/job/military/militaryofficer/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/military_officer/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = /obj/item/clothing/head/beret_ua
 	uniform = /obj/item/clothing/under/color/switer/dark
@@ -122,6 +122,7 @@ Assistant
 	mask = pick(/obj/item/clothing/mask/balaclava, /obj/item/clothing/mask/cigarette)
 	backpack_contents = list(/obj/item/ammo_box/stalker/b545ap = 1,
 							/obj/item/ammo_box/magazine/stalker/m545 = 2,
+							/obj/item/device/flashlight/seclite = 1,
 							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1,
 							/obj/item/weapon/lighter = 1,
 							/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki = 1)
@@ -129,7 +130,7 @@ Assistant
 	l_pocket = /obj/item/ammo_box/magazine/stalker/m9x18fort
 	faction_s = "Military"
 
-/datum/outfit/job/military/militaryofficer // For select_equipment
+/datum/outfit/job/military_officer // For select_equipment
 	name = "Military Captain"
 	head = /obj/item/clothing/head/beret_ua
 	uniform = /obj/item/clothing/under/color/switer/dark
@@ -144,6 +145,7 @@ Assistant
 	mask = /obj/item/clothing/mask/balaclava
 	backpack_contents = list(/obj/item/ammo_box/stalker/b545ap = 1,
 							/obj/item/ammo_box/magazine/stalker/m545 = 2,
+							/obj/item/device/flashlight/seclite = 1,
 							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1,
 							/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki = 1)
 	r_pocket = /obj/item/device/radio
