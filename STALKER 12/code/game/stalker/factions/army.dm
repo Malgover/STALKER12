@@ -23,6 +23,9 @@
 	suit = /obj/item/clothing/suit/berill
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	gloves = /obj/item/clothing/gloves/fingerless
+	id = /obj/item/device/stalker_pda
+	back = /obj/item/weapon/storage/backpack/stalker
+	belt = /obj/item/weapon/kitchen/knife/tourist
 	suit_store = /obj/item/weapon/gun/projectile/automatic/val
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/sp9x39val = 2,
 							/obj/item/device/flashlight/seclite = 1,

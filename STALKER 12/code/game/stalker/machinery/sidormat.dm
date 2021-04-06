@@ -39,7 +39,7 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("FN F2000",			"FN F2000",			/obj/item/weapon/gun/projectile/automatic/fnf2000,				65000,	EXPERT),
 		new /datum/data/stalker_equipment("GP 37",				"GP 37",			/obj/item/weapon/gun/projectile/automatic/gp37,					75000,	EXPERT),
 		new /datum/data/stalker_equipment("FN F2000S",			"FN F2000S",		/obj/item/weapon/gun/projectile/automatic/fnf2000s,				100000,	EXPERT),
-		new /datum/data/stalker_equipment("PKM",				"ПКМ",				/obj/item/weapon/gun/projectile/automatic/l6_saw/pkm,			200000,	EXPERT)
+		new /datum/data/stalker_equipment("PKM",				"PKM",				/obj/item/weapon/gun/projectile/automatic/l6_saw/pkm,			200000,	EXPERT)
 	),
 
 	// Shotguns
@@ -116,7 +116,7 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("White Leather Jacket",		"Белая кожаная куртка",		/obj/item/clothing/suit/hooded/kozhanka/white,				5000,		ROOKIE),
 		new /datum/data/stalker_equipment("Armored Tan Coat",			"Armored Tan Coat",			/obj/item/clothing/suit/hooded/kozhanka/tancoat,			15000,		ROOKIE),
 		new	/datum/data/stalker_equipment("Bandit Jacket",				"Кожаная бандитка",			/obj/item/clothing/suit/hooded/kozhanka/banditka,			6000,		ROOKIE,		faction = "Bandits"),
-		new	/datum/data/stalker_equipment("Army Outfit",				"Военный комбинезон",		/obj/item/clothing/suit/army,								15000,		ROOKIE,		faction = "Army"),
+		new	/datum/data/stalker_equipment("Military Service Outfit",	"Военный комбинезон",		/obj/item/clothing/suit/army,								15000,		ROOKIE,		faction = "Military"),
 		new /datum/data/stalker_equipment("Sunrise Outfit",				"Комбинезон \"Заря\"",		/obj/item/clothing/suit/hooded/kombez,						33000,		ROOKIE,		faction = "Loners"),
 		new /datum/data/stalker_equipment("Mercenary Outfit",			"Комбинезон наёмника",		/obj/item/clothing/suit/hooded/kombez/mercenary,			25000,		ROOKIE,		faction = "Mercenaries"),
 		new /datum/data/stalker_equipment("Bandit Outfit",				"Бандитский комбинезон",	/obj/item/clothing/suit/hooded/kombez/kombez_bandit,		25000,		ROOKIE,		faction = "Bandits"),
@@ -134,21 +134,21 @@ var/list/global_sidormat_list = list(
 		new	/datum/data/stalker_equipment("SSP-99 Ecologist",			"ССП-99 \"Эколог\"",		/obj/item/clothing/suit/hooded/sealed/ecolog,				75000,		EXPERT),
 		new	/datum/data/stalker_equipment("SSP-99M Ecologist",			"ССП-99М \"Эколог\"",		/obj/item/clothing/suit/hooded/sealed/ecologm,				100000,		EXPERT),
 		new	/datum/data/stalker_equipment("SEVA",						"СЕВА",						/obj/item/clothing/suit/hooded/sealed/seva,					250000,		EXPERT),
-		new /datum/data/stalker_equipment("SKAT-9M",					"СКАТ-9М",					/obj/item/clothing/suit/skat,								500000,		EXPERT),
+		new /datum/data/stalker_equipment("SKAT-9M",					"SКАТ-9М",					/obj/item/clothing/suit/skat,								500000,		EXPERT,		faction = "Military"),
 		new	/datum/data/stalker_equipment("Exoskeleton",				"Экзоскелет",				/obj/item/clothing/suit/hooded/sealed/exoskelet,			1000000,	EXPERT,		assortment_level = 500)
 	),
 
 	// Headwear
 	"Masks and Helmets" = list(
-		new /datum/data/stalker_equipment("Respirator",					"Respirator",					/obj/item/clothing/mask/gas/stalker/respirator,							1500,	ROOKIE),
+		new /datum/data/stalker_equipment("Respirator",					"Respirator",					/obj/item/clothing/mask/gas/stalker/respirator,					1500,	ROOKIE),
 		new /datum/data/stalker_equipment("Gas Mask",					"Противогаз",					/obj/item/clothing/mask/gas/stalker,							7500,	ROOKIE),
 		new /datum/data/stalker_equipment("Mercenary Gas Mask",			"Противогаз наёмника",			/obj/item/clothing/mask/gas/stalker/mercenary,					7500,	ROOKIE),
 		new /datum/data/stalker_equipment("Steel Helmet",				"Стальной шлем",				/obj/item/clothing/head/steel,									7500,	ROOKIE),
 		new /datum/data/stalker_equipment("Light Tactical Helmet",		"Лёгкий тактический шлем",		/obj/item/clothing/head/hardhat/tactical/light,					12500,	EXPERIENCED),
 		new /datum/data/stalker_equipment("Tactical Helmet",			"Тактический шлем",				/obj/item/clothing/head/tacticalhelmet,							25000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("Assault Helmet",	    		"Тяжёлый шлем",					/obj/item/clothing/head/assaultmerc,							30000,	EXPERIENCED,	faction = "Mercenaries"),
-		new /datum/data/stalker_equipment("Sphera-M12",			 		"Сфера-М12",					/obj/item/clothing/head/spheram,								30000,	EXPERIENCED),
-		new /datum/data/stalker_equipment("SKAT-9M Helmet",				"СКАТ-9М (шлем)",				/obj/item/clothing/head/skathelmet,								250000,	VETERAN)
+		new /datum/data/stalker_equipment("Sphera-M12",			 		"Сфера-М12",					/obj/item/clothing/head/spheram,								30000,	EXPERIENCED,	faction = "Military"),
+		new /datum/data/stalker_equipment("SKAT-9M Helmet",				"СКАТ-9М (шлем)",				/obj/item/clothing/head/skathelmet,								250000,	VETERAN, 		faction = "Military")
 	),
 
 	"Medicine" = list(
@@ -214,7 +214,7 @@ var/list/global_sidormat_list = list(
 
 	"Attachments" = list(
 		/////////////////////////////////	Àòòà÷ìåíòû	///////////////////////////////////////////
-		new /datum/data/stalker_equipment("Universl suppressor",	"Óíèâåðñàëüíûé ãëóøèòåëü",					/obj/item/weapon/attachment/suppressor,				2000,	ROOKIE),
+		new /datum/data/stalker_equipment("Universal suppressor",	"Óíèâåðñàëüíûé ãëóøèòåëü",					/obj/item/weapon/attachment/suppressor,				2000,	ROOKIE),
 		new /datum/data/stalker_equipment("SUSAT",					"ÑÓÑÀÒ",									/obj/item/weapon/attachment/scope/SUSAT,			8000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("PSU-1",					"ÏÑÓ-1",									/obj/item/weapon/attachment/scope/PS/U1,			6000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("PSO-1",					"ÏÑÎ-1",									/obj/item/weapon/attachment/scope/PS/O1,			10000,	EXPERIENCED),

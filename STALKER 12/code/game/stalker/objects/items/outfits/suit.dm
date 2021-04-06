@@ -530,7 +530,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	icon_state = "exoskelet_helmet"
 
 /obj/item/clothing/suit/army
-	name = "army armor"
+	name = "military service armor"
 	desc = "����������� ��������� ����������, ���������� ���� ��������������, �����&#255;���� �������� ����. ����������&#255;�� �������� ������ �� ���� � ��������� �����&#255;, ��������� ���������� ��&#255; ������� ������ ����, ��� ��� �� ����� ����� ������� ������ �� ����������&#255; ���������� �����."
 	icon_state = "army_armor1"
 	item_state = "armor"

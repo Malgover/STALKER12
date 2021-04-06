@@ -25,7 +25,7 @@ em						{font-style: normal;	font-weight: bold;}
 .name					{					font-weight: bold;}
 
 .say					{}
-.deadsay				{color: #8E66FF;}
+.deadsay				{color: #CF68FF;}
 .radio					{color: #008000;}
 .sciradio				{color: #993399;}
 .comradio				{color: #aca82d;}
@@ -69,7 +69,7 @@ h1.alert, h2.alert		{color: #000000;}
 .cultitalic				{color: #960000;	font-style: italic;}
 .cultlarge				{color: #960000; font-weight: bold; font-size: 3;}
 .narsie					{color: #960000; font-weight: bold; font-size: 15;}
-.purple					{color: #8E66FF;}
+.purple					{color: #CF68FF;}
 
 .revennotice			{color: #1d2953;}
 .revenboldnotice		{color: #1d2953;	font-weight: bold;}

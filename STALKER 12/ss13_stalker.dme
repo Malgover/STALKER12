@@ -14,7 +14,7 @@
 
 // BEGIN_INCLUDE
 #include "_maps\__MAP_DEFINES.dm"
-#include "_maps\Pripyat.dm"
+#include "_maps\Cordon.dm"
 #include "code\_compile_options.dm"
 #include "code\hub.dm"
 #include "code\setup.dm"
@@ -796,14 +796,11 @@
 #include "code\game\stalker\donate\viproom.dm"
 #include "code\game\stalker\factions\army.dm"
 #include "code\game\stalker\factions\bandits.dm"
-#include "code\game\stalker\factions\clear_sky.dm"
 #include "code\game\stalker\factions\duty.dm"
 #include "code\game\stalker\factions\freedom.dm"
 #include "code\game\stalker\factions\jobs.dm"
 #include "code\game\stalker\factions\mercenary.dm"
-#include "code\game\stalker\factions\monolith.dm"
 #include "code\game\stalker\factions\phantoms.dm"
-#include "code\game\stalker\factions\renegades.dm"
 #include "code\game\stalker\factions\survivor.dm"
 #include "code\game\stalker\machinery\door.dm"
 #include "code\game\stalker\machinery\sidormat.dm"

@@ -279,7 +279,7 @@
 /obj/effect/landmark/latejoin/everyone
 	name = "JoinLateEveryone"
 
-// Army
+// Military
 /obj/effect/landmark/latejoin/military
 	name = "JoinLateMilitary Soldier"
 

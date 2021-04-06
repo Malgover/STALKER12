@@ -66,7 +66,7 @@
 	desc = "A fence."
 	icon_state = "1"
 	density = 1
-	opacity = 0
+	opacity = 1
 
 /obj/structure/grille/stalker/beton/green
 	icon = 'icons/stalker/green_zabor.dmi'
