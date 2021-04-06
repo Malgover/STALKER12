@@ -108,8 +108,8 @@
 						'sound/stalker/mobs/mutants/idle/bdog_idle_3.ogg',
 						'sound/stalker/mobs/mutants/idle/bdog_idle_4.ogg')
 	death_sound = 'sound/stalker/mobs/mutants/death/dog_death.ogg'
-	melee_damage_lower = 10
-	melee_damage_upper = 15
+	melee_damage_lower = 5
+	melee_damage_upper = 10
 	maxHealth = 25
 	fearborder = 10
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
