@@ -9,10 +9,10 @@
 ###############################################################################################
 
 Malgover = Host
-Merrgear = Game Admin
 Sodium_Hypochlorite = Game Master
 Szymon79 = Game Admin
-Thomas Eckhart = Game Admin
 TopBirb = Game Admin
-Stalkeros = Game Admin
-Unwounddragon55 = Trial Admin
+Stalkeros = Game Master
+Unwounddragon55 = Admin Candidate
+SilentMountain = Admin Candidate
+Bruhsyster371 = Game Admin
