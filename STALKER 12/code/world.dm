@@ -216,7 +216,7 @@ var/world_topic_spam_protect_time = world.timeofday
 	if (!enter_allowed)
 		hub_info += "<br>Closed"
 
-	var/resp_rate = round(config.respawn_timer/600)
+	var/resp_rate = round(config.respawn_timer/300)
 	var/time_measure = "minutes"
 	if(resp_rate == 1)
 		time_measure = "minute"
