@@ -330,7 +330,7 @@
 
 /obj/structure/stalker/cacheable/pen
 	name = "stump"
-	desc = "Обычный пень. Ни больше, ни меньше."
+	desc = "A small stump."
 	eng_desc = "A small stump."
 	icon_state = "pen"
 	density = 0
@@ -338,7 +338,7 @@
 
 /obj/structure/stalker/cacheable/radio
 	name = "radio"
-	desc = "Старое сломанное советское радио."
+	desc = "Broken soviet radio."
 	eng_desc = "Broken soviet radio."
 	icon_state = "radio"
 	density = 1
@@ -347,7 +347,7 @@
 
 /obj/structure/stalker/cacheable/apc
 	name = "switchboard"
-	desc = "Старый электрощиток."
+	desc = "Old switchboard."
 	eng_desc = "Old switchboard."
 	icon_state = "apc"
 	density = 0
@@ -363,8 +363,8 @@
 	name = "carpet"
 	icon = 'icons/stalker/cover.dmi'
 	icon_state = "cover"
-	desc = "Старый ковёр. Обычно висит на стене."
-	eng_desc = "Old carpet. You usually see this on the wall."
+	desc = "Old carpet."
+	eng_desc = "Old carpet."
 	density = 0
 	cache_size = 0
 
@@ -372,7 +372,7 @@
 	name = "step"
 	icon = 'icons/stalker/decor.dmi'
 	icon_state = "porog1"
-	desc = "Старый порог, о который можно легко зацепитьс&#255; ногой."
+	desc = "Old step."
 	eng_desc = "Old step."
 	layer = 2.9
 	density = 0
@@ -384,7 +384,7 @@
 
 /obj/structure/stalker/cacheable/televizor
 	name =  "TV-set"
-	desc = "Старый советский телевизор."
+	desc = "Old soviet TV-set."
 	eng_desc = "Old soviet TV-set."
 	icon_state = "TV"
 	density = 1
@@ -393,8 +393,8 @@
 
 /obj/structure/stalker/cacheable/clocks
 	name =  "clocks"
-	desc = "Остановились."
-	eng_desc = "Doesn't work anymore."
+	desc = "Time seems to have stopped in the Zone."
+	eng_desc = "A broken clock. Time seems to have stopped in the Zone."
 	icon = 'icons/stalker/prishtina/decorations_32x32.dmi'
 	icon_state = "clocks"
 	density = 0
@@ -407,29 +407,37 @@
 
 /obj/structure/stalker/cacheable/painting/gorbachev
 	name = "painting"
-	desc = "Портрет последнего секретар&#255; ЦК КПСС."
+	desc = "Portrait of the last general secretary of Central Committee of the Communist Party of the Soviet Union."
 	eng_desc = "Portrait of the last general secretary of Central Committee of the Communist Party of the Soviet Union."
 	icon_state = "gorbachev"
 
 /obj/structure/stalker/cacheable/painting/lenin
 	name = "painting"
-	desc = "Портрет первого секретар&#255; ЦК КПСС."
+	desc = "Portait of the first general secretary of Central Committee of the Communist Party of the Soviet Union."
 	eng_desc = "Portait of the first general secretary of Central Committee of the Communist Party of the Soviet Union."
 	icon_state = "lenin"
 
 /obj/structure/stalker/cacheable/intercom
 	name = "intercom"
-	desc = "Домофон."
+	desc = "Soviet intercom."
 	eng_desc = "Soviet intercom."
 	icon = 'icons/stalker/backwater.dmi'
 	icon_state = "intercom"
 	density = 0
 	cache_size = 0
 
+/obj/structure/stalker/cacheable/sovietsoda
+	name = "BODA"
+	desc = "An old soda vending machine."
+	icon = 'icons/obj/vending.dmi'
+	icon_state = "sovietsoda"
+	density = 1
+	cache_size = 3
+
 /obj/structure/stalker/cacheable/televizor/broken
 	icon_state = "TV_b"
 	name =  "TV-set"
-	desc = "Старый разбитый советский телевизор."
+	desc = "A broken TV set."
 	density = 1
 	cache_size = 2
 	pass_flags = LETPASSTHROW
