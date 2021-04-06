@@ -77,7 +77,7 @@
 		ooc_allowed = !ooc_allowed
 	world << "<B>The OOC channel has been globally [ooc_allowed ? "enabled" : "disabled"].</B>"
 
-var/global/normal_ooc_colour = "#002eb8"
+var/global/normal_ooc_colour = "#BC9919"
 
 /client/proc/set_ooc(newColor as color)
 	set name = "Set Player OOC Color"

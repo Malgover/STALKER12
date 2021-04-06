@@ -1498,7 +1498,7 @@ var/global/global_lentahtml = ""
 	var/factioncolor = "#ff7733"
 	switch(eng_faction_s)
 		if("Bandits")
-			factioncolor = "#8c8c8c"
+			factioncolor = "#CE00B3"
 		if("Loners")
 			factioncolor = "#ff7733"
 		if("Mercenaries")
