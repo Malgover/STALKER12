@@ -342,7 +342,7 @@
 				if(usr.client && (usr.client.prefs.chat_toggles & CHAT_LANGUAGE))
 					usr << "<span class='warning'>You can't unequip people in the safezone!</span>"
 				else
-					usr << "<span class='warning'>Вы не можете раздевать людей в этой зоне!</span>"
+					usr << "<span class='warning'>пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ!</span>"
 				return
 
 			var/pocket_side = href_list["pockets"]
@@ -588,11 +588,11 @@
 										var/n_src	= R.fields["name"]
 										var/n		= R_H.fields["name"]
 
-										src << russian_html2text("<p>\icon[KPK_src]<b><font color=\"#006699\">PDA</font>\[OS\]</b><br><font color=\"#006699\">[n] transfered [sum] RU to your account.</font></p>")
+										src << russian_html2text("<p>\icon[KPK_src]<b><font color=\"#00A5F2\">PDA</font>\[OS\]</b><br><font color=\"#00A5F2\">[n] transfered [sum] RU to your account.</font></p>")
 										if(KPK_src.switches & FEED_SOUND)
 											src << sound('sound/stalker/pda/sms.ogg', volume = 30)
 
-										H << russian_html2text("<p>\icon[KPK]<b><font color=\"#006699\">KPK</font>\[OS\]</b><br><font color=\"#006699\">You transfered [sum] RU to [n_src] account.</font></p>")
+										H << russian_html2text("<p>\icon[KPK]<b><font color=\"#00A5F2\">KPK</font>\[OS\]</b><br><font color=\"#00A5F2\">You transfered [sum] RU to [n_src] account.</font></p>")
 										if(KPK.switches & FEED_SOUND)
 											H << sound('sound/stalker/pda/sms.ogg', volume = 30)
 
@@ -618,20 +618,20 @@
 										ending = ""
 										switch (lefttime % 10)
 											if(1)
-												ending = "у"
+												ending = "пїЅ"
 											if(2)
-												ending = "ы"
+												ending = "пїЅ"
 											if(3)
-												ending = "ы"
+												ending = "пїЅ"
 											if(4)
-												ending = "ы"
-										H << "<span class='warning'>Вы сможете изменить репутацию через [round((3000 + last_vote - world.time)/10)] секунд[ending].</span>"
+												ending = "пїЅ"
+										H << "<span class='warning'>пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ [round((3000 + last_vote - world.time)/10)] пїЅпїЅпїЅпїЅпїЅпїЅ[ending].</span>"
 
 
 						if(href_list["addition_rep"])
 							if(R)
 								if(src.stat == "dead")
-									H << "<span class='warning'>[src] мёртв.</span>"
+									H << "<span class='warning'>[src] пїЅпїЅпїЅпїЅ.</span>"
 								else
 									if(!(last_vote && world.time < last_vote + 3000))
 										last_vote = world.time
@@ -642,17 +642,17 @@
 										ending = ""
 										switch (lefttime % 10)
 											if(1)
-												ending = "у"
+												ending = "пїЅ"
 											if(2)
-												ending = "ы"
+												ending = "пїЅ"
 											if(3)
-												ending = "ы"
+												ending = "пїЅ"
 											if(4)
-												ending = "ы"
-										H << "<span class='warning'>Вы сможете изменить репутацию через [round((3000 + last_vote - world.time)/10)] секунд[ending].</span>"
+												ending = "пїЅ"
+										H << "<span class='warning'>пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ [round((3000 + last_vote - world.time)/10)] пїЅпїЅпїЅпїЅпїЅпїЅ[ending].</span>"
 
 					else
-						H << "<span class='warning'>В ДОСТУПЕ К СИСТЕМЕ S.T.A.L.K.E.R. ОТКАЗАНО!</span>"
+						H << "<span class='warning'>пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ S.T.A.L.K.E.R. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!</span>"
 
 
 /mob/living/carbon/human/proc/canUseHUD()
