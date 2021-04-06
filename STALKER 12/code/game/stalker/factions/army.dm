@@ -19,7 +19,9 @@
 /datum/outfit/job/military_spetsnaz/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = /obj/item/clothing/head/spheram
+	uniform = /obj/item/clothing/under/color/switer/lolg
 	suit = /obj/item/clothing/suit/berill
+	shoes = /obj/item/clothing/shoes/jackboots/warm
 	gloves = /obj/item/clothing/gloves/fingerless
 	suit_store = /obj/item/weapon/gun/projectile/automatic/val
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/sp9x39val = 2,
@@ -35,13 +37,14 @@ Assistant
 //	flag = ASSISTANT
 //	department_flag = CIVILIAN
 	faction = "Station"
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 3
+	spawn_positions = 3
 	supervisors = "Military Officer"
 	selection_color = "#2E8B57"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 1
+	limit_per_player = 1
 	outfit = /datum/outfit/job/military
 
 /datum/outfit/job/military
@@ -110,7 +113,7 @@ Assistant
 /datum/outfit/job/military_officer/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = /obj/item/clothing/head/beret_ua
-	uniform = /obj/item/clothing/under/color/switer/dark
+	uniform = /obj/item/clothing/under/color/switer/lolg
 	suit = /obj/item/clothing/suit/army
 	ears = null
 	belt = /obj/item/weapon/gun/projectile/automatic/pistol/fort12
@@ -133,7 +136,7 @@ Assistant
 /datum/outfit/job/military_officer // For select_equipment
 	name = "Military Captain"
 	head = /obj/item/clothing/head/beret_ua
-	uniform = /obj/item/clothing/under/color/switer/dark
+	uniform = /obj/item/clothing/under/color/switer/lolg
 	suit = /obj/item/clothing/suit/army
 	ears = null
 	belt = /obj/item/weapon/gun/projectile/automatic/pistol/fort12

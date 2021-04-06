@@ -8,7 +8,7 @@
 	selection_color = "#003D06"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
-	whitelist_only = 0
+	whitelist_only = 1
 	outfit = /datum/outfit/job/renegade
 
 /datum/outfit/job/Renegade

@@ -14,7 +14,7 @@
 	title = "Duty Soldier"
 	faction_s = "Duty"
 	faction = "Station"
-	whitelist_only = 1
+	whitelist_only = 0
 	total_positions = 6
 	spawn_positions = 6
 	supervisors = "Major" // Bound to slip
@@ -29,8 +29,8 @@
 	faction_s = "Duty"
 	faction = "Station"
 	whitelist_only = 1
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	selection_color = "#CC0000"
 	outfit = /datum/outfit/job/duty_leader
 	real_rank = "Lieutenant"
@@ -78,7 +78,7 @@
 /** Sklad **/
 
 /datum/job/barman2
-	title = "Barman"
+	title = "Rostok Barman"
 	faction_s = "Loners"
 	locked = 0
 	faction = "Station"
@@ -92,7 +92,7 @@
 	outfit = /datum/outfit/job/barman2
 
 /datum/outfit/job/barman2
-	name = "Barman"
+	name = "Rostok Barman"
 	faction_s = "Traders"
 
 /datum/outfit/job/barman2/pre_equip(mob/living/carbon/human/H)

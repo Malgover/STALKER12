@@ -26,7 +26,6 @@
 	belt = /obj/item/weapon/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/device/stalker_pda
-	suit_store = /obj/item/weapon/gun/projectile/automatic/mp5
 	back = /obj/item/weapon/storage/backpack/stalker/civilian
 	suit_store = /obj/item/weapon/gun/projectile/automatic/mp5
 	shoes = /obj/item/clothing/shoes/jackboots/warm
@@ -56,7 +55,7 @@
 	..()
 	uniform = UNIFORMPICK
 	suit = /obj/item/clothing/suit/hooded/kombez/mercenary
-	suit_store = /obj/item/weapon/gun/projectile/shotgun/chaser
+	suit_store = /obj/item/weapon/gun/projectile/automatic/mp5
 	l_pocket = pick(/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,/obj/item/weapon/reagent_containers/food/snacks/stalker/baton)
 
 /datum/job/mercenary_veteran

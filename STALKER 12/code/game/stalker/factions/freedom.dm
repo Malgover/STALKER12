@@ -10,7 +10,7 @@
 /datum/job/freedom_soldier
 	title = "Freedom Soldier"
 	faction_s = "Freedom"
-	whitelist_only = 1
+	whitelist_only = 0
 	total_positions = 6
 	spawn_positions = 6
 	supervisors = "Chief Anarchist" // Кто здесь?
@@ -24,8 +24,8 @@
 	title = "Freedom Chief Anarchist" // This guy.
 	faction_s = "Freedom"
 	whitelist_only = 1
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	selection_color = "#3C8C3C"
 	outfit = /datum/outfit/job/freedom_leader
 	real_rank = "Lieutenant"

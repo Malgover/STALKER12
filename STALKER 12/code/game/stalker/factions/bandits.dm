@@ -26,9 +26,9 @@
 	title     = "Bandit Veteran"
 	faction_s = "Bandits"
 	faction = "Station"
-	whitelist_only = 0
-	total_positions = 1
-	spawn_positions = 1
+	whitelist_only = 1
+	total_positions = 4
+	spawn_positions = 4
 	supervisors = ""
 	selection_color = "#000000"
 	access = list()
@@ -69,7 +69,6 @@
 	mask = /obj/item/clothing/mask/balaclava
 	backpack_contents = list()
 	r_pocket = /obj/item/weapon/gun/projectile/automatic/pistol/pm
-	l_pocket = /obj/item/weapon/stalker/bolts
 
 /datum/outfit/job/bandit_leader
 	name = "Bandit Veteran"
@@ -81,12 +80,13 @@
 	suit = /obj/item/clothing/suit/hooded/kozhanka/banditka/coat
 	ears = null
 	id = /obj/item/device/stalker_pda
-	belt = /obj/item/weapon/gun/projectile/automatic/mp5
+	belt = /obj/item/weapon/kitchen/knife/tourist
+	suit_store = /obj/item/weapon/gun/projectile/automatic/mp5
 	gloves = /obj/item/clothing/gloves/fingerless
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	mask = /obj/item/clothing/mask/balaclava
 	back = /obj/item/weapon/storage/backpack/stalker/tourist
-	backpack_contents = list(/obj/item/stack/spacecash/c5000 = 1,
+	backpack_contents = list(/obj/item/stack/spacecash/c500 = 1,
 							/obj/item/ammo_box/stalker/b9x19 = 1,
 							/obj/item/ammo_box/magazine/stalker/m9x19mp5 = 1,
 							/obj/item/ammo_box/magazine/stalker/m9x18pm = 1,
@@ -106,7 +106,7 @@
 	belt = /obj/item/weapon/gun/projectile/revolver/bm16/sawnoff
 	gloves = /obj/item/clothing/gloves/fingerless
 	shoes = /obj/item/clothing/shoes/jackboots/warm
-	head = /obj/item/clothing/head/bowler
+	head = /obj/item/clothing/head/ushanka
 	back = /obj/item/weapon/storage/backpack/stalker/tourist
 	backpack_contents = list(/obj/item/stack/spacecash/c5000 = 3,
 						/obj/item/ammo_box/stalker/b12x70 = 1,
