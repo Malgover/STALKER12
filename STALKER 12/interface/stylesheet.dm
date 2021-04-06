@@ -20,12 +20,12 @@ em						{font-style: normal;	font-weight: bold;}
 .adminooc				{color: #ffffff;	font-weight: bold;}
 
 .adminobserver			{color: #996600;	font-weight: bold;}
-.admin					{color: #386aff;	font-weight: bold;}
+.admin					{color: #759AFF;	font-weight: bold;}
 
 .name					{					font-weight: bold;}
 
 .say					{}
-.deadsay				{color: #5E2DFF;}
+.deadsay				{color: #8E66FF;}
 .radio					{color: #008000;}
 .sciradio				{color: #993399;}
 .comradio				{color: #aca82d;}
@@ -69,7 +69,7 @@ h1.alert, h2.alert		{color: #000000;}
 .cultitalic				{color: #960000;	font-style: italic;}
 .cultlarge				{color: #960000; font-weight: bold; font-size: 3;}
 .narsie					{color: #960000; font-weight: bold; font-size: 15;}
-.purple					{color: #5E2DFF;}
+.purple					{color: #8E66FF;}
 
 .revennotice			{color: #1d2953;}
 .revenboldnotice		{color: #1d2953;	font-weight: bold;}

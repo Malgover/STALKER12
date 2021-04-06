@@ -81,7 +81,7 @@ FPS 60
 ALLOW_METADATA
 
 ## allow players to initiate a restart vote
-#DISALLOW_VOTE_RESTART
+DISALLOW_VOTE_RESTART
 
 ## allow players to initate a mode-change start
 #ALLOW_VOTE_MODE
@@ -131,7 +131,7 @@ GUEST_BAN
 # SERVER 107.150.32.114:13100
 
 ## forum address
-FORUMURL https://discord.gg/w985PKVXax
+FORUMURL https://discord.gg/NkXG9VQZZj
 
 ## Wiki address
 WIKIURL https://discord.gg/w985PKVXax
@@ -144,7 +144,7 @@ RULESURL https://discord.gg/w985PKVXax
 GITHUBURL 
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
-BANAPPEALS https://discord.gg/w985PKVXax
+BANAPPEALS https://discord.gg/NkXG9VQZZj
 
 ## In-game features
 ##Toggle for having jobs load up from the .txt
