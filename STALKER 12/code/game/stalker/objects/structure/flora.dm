@@ -2,6 +2,14 @@
 	name = "tree"
 	icon = 'icons/stalker/derevya.dmi'
 	icon_state = "derevo1"
+	density = 0
+	opacity = 0
+	layer = 9
+
+/obj/structure/stalker/tree/thicktree
+	name = "tree"
+	icon = 'icons/stalker/derevya.dmi'
+	icon_state = "derevo1"
 	density = 1
 	opacity = 1
 	layer = 9
@@ -38,6 +46,14 @@
 */
 
 /obj/structure/stalker/tree/leafless/
+	name = "dead tree"
+	icon = 'icons/stalker/derevya.dmi'
+	icon_state = "derevo1l"
+	density = 0
+	opacity = 0
+	layer = 9
+
+/obj/structure/stalker/tree/thickleafless/
 	name = "dead tree"
 	icon = 'icons/stalker/derevya.dmi'
 	icon_state = "derevo1l"
