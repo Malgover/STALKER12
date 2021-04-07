@@ -138,7 +138,6 @@
 	name = "stalker rifles_and_shotguns"
 	loot = list(/obj/item/weapon/gun/projectile/revolver/bm16 = 25,
 				/obj/item/weapon/gun/projectile/automatic/ak74 = 25,
-				/obj/item/weapon/gun/projectile/automatic/akm = 30,
 				/obj/item/weapon/gun/projectile/automatic/aksu74 = 35,
 				/obj/item/weapon/gun/projectile/automatic/tpc301 = 10,
 				/obj/nothing = 50)
