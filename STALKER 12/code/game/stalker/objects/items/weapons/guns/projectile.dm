@@ -298,32 +298,6 @@
 	weapon_weight = WEAPON_MEDIUM
 	drawsound = 'sound/stalker/weapons/draw/ak74_draw.ogg'
 
-//obj/item/weapon/gun/projectile/automatic/akm // AKM
-	name = "AKM"
-	eng_desc = "The AKM is an assault rifle chambered in 7.62�39mm Soviet intermediate cartridge. It is a selective fire, gas operated with a rotating bolt, firing in either semi-automatic or fully automatic, and has a cyclic rate of fire of around 600 rounds per minute (RPM). Despite being replaced in the late 1970s by the AK-74, the AKM is still in service in some Russian Army reserve and second-line units and several east European countries."
-	icon_state = "akm"
-	item_state = "akm"
-	colored = 0//"normal"
-	slot_flags = SLOT_BACK//|SLOT_BELT
-	force = 15
-	origin_tech = "combat=5;materials=1"
-	mag_type = /obj/item/ammo_box/magazine/stalker/a762x39
-	fire_sound = 'sound/stalker/weapons/akm_shot.ogg'
-	can_suppress = 0
-	can_unsuppress = 0
-	burst_size = 3
-	fire_delay = 1.7
-	pin = /obj/item/device/firing_pin
-	durability = 110
-	w_class = 4
-	spread = 6
-	recoil = 0.6
-	randomspread = 0
-	damagelose = 0.25
-	can_scope = 0
-	weapon_weight = WEAPON_MEDIUM
-	drawsound = 'sound/stalker/weapons/draw/ak74_draw.ogg'
-
 /obj/item/weapon/gun/projectile/automatic/aksu74  // ���74�
 	name = "AK 74S"
 	desc = "�� ����� ��������� � ����� ��-74� (�����������) ������ � ����������-��������, ������ �� &#255;��&#255;���&#255; �������������� ���������. �����������: ����� �������� � �������� ������&#255; ����������&#255; �����������. ������� ���������� - ����&#255; ���������&#255; ��������� � ���������� � �������� ��������� ��� �������� ������&#255;��."
