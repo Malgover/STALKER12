@@ -6,6 +6,7 @@ silentMmountain = Military Spetsnaz
 silentmountain = Military Captain
 silentmountain = Military Soldier
 lordinquisitor228 = Military Soldier
+theXDkidoflol = Bandit Veteran
 blankcat = Military Soldier
 blankcat = Military Spetsnaz
 shandan123 = Military Soldier

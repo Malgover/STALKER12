@@ -152,7 +152,7 @@
 
 /obj/structure/stalker/shina
 	name = "tire"
-	desc = "�&#255;����&#255; �����&#255; �������&#255; ����."
+	desc = "eavy old flat tire."
 	eng_desc = "Heavy old flat tire."
 	icon_state = "shina"
 	density = 1
@@ -160,16 +160,39 @@
 
 /obj/structure/stalker/shina2
 	name = "bunch of tires"
-	desc = "�&#255;����� ������ �������� ����."
+	desc = "A couple of heavy old flat tires."
 	eng_desc = "A couple of heavy old flat tires."
 	icon_state = "shina2"
 	density = 1
 
+/obj/structure/stalker/shina2a
+	name = "bunch of tires"
+	desc = "A couple of heavy old flat tires."
+	eng_desc = "A couple of heavy old flat tires."
+	icon_state = "shina2a"
+	density = 1
+
 /obj/structure/stalker/cacheable/shina3
 	name = "pile of tires"
-	desc = "�&#255;����� ������ �������� ����."
-	eng_desc = "A couple of heavy old flat tires."
+	desc = "Old flat tires."
+	eng_desc = "Old flat tires."
+	icon_state = "shina3"
+	density = 1
+	cache_size = 1
+
+/obj/structure/stalker/cacheable/shina3a
+	name = "pile of tires"
+	desc = "Old flat tires."
+	eng_desc = "Old flat tires."
 	icon_state = "shina3a"
+	density = 1
+	cache_size = 1
+
+/obj/structure/stalker/cacheable/shina3b
+	name = "pile of tires"
+	desc = "Old flat tires."
+	eng_desc = "Old flat tires."
+	icon_state = "shina3b"
 	density = 1
 	cache_size = 1
 
