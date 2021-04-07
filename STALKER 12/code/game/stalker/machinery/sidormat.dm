@@ -9,10 +9,10 @@ var/list/global_sidormat_list = list(
 
 	// Handguns
 	"Handguns" = list(
-		new /datum/data/stalker_equipment("PMM",				"PMM",				/obj/item/weapon/gun/projectile/automatic/pistol/pm,			3000,	ROOKIE),
+		new /datum/data/stalker_equipment("PMM",				"ПММ",				/obj/item/weapon/gun/projectile/automatic/pistol/pm,			3000,	ROOKIE),
 		new /datum/data/stalker_equipment("TT",					"ТТ",				/obj/item/weapon/gun/projectile/automatic/pistol/tt,			3000,	ROOKIE),
-		new /datum/data/stalker_equipment("Fort-12",			"Fort-12",			/obj/item/weapon/gun/projectile/automatic/pistol/fort12,		6500,	ROOKIE),
-		new /datum/data/stalker_equipment("PB-1s",				"PB-1s",			/obj/item/weapon/gun/projectile/automatic/pistol/pb1s,			4500,	ROOKIE),
+		new /datum/data/stalker_equipment("Fort-12",			"Форт-12",			/obj/item/weapon/gun/projectile/automatic/pistol/fort12,		6500,	ROOKIE),
+		new /datum/data/stalker_equipment("PB-1s",				"ПБ-1с",			/obj/item/weapon/gun/projectile/automatic/pistol/pb1s,			4500,	ROOKIE),
 		new /datum/data/stalker_equipment("SIG Sauer P220",		"SIG Sauer P220",	/obj/item/weapon/gun/projectile/automatic/pistol/sip,			12500,	EXPERIENCED),
 		new /datum/data/stalker_equipment("Colt M1911",			"Colt M1911",		/obj/item/weapon/gun/projectile/automatic/pistol/cora,			9000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("Beretta 92FS",		"Beretta 92FS",		/obj/item/weapon/gun/projectile/automatic/pistol/marta,			9000,	EXPERIENCED),
@@ -24,8 +24,8 @@ var/list/global_sidormat_list = list(
 	// Submachine Guns & Automatic Rifles
 	"Automatic Weapons" = list(
 		new /datum/data/stalker_equipment("Beretta M38",		"Beretta M38",		/obj/item/weapon/gun/projectile/automatic/berettam38,			10000,	ROOKIE),
-		new /datum/data/stalker_equipment("Kiparis",			"Kiparis",			/obj/item/weapon/gun/projectile/automatic/kiparis,				10000,	ROOKIE),
-		new /datum/data/stalker_equipment("PPSH",				"PPSH",				/obj/item/weapon/gun/projectile/automatic/ppsh,					15000,	ROOKIE),
+		new /datum/data/stalker_equipment("Kiparis",			"Кипарис",			/obj/item/weapon/gun/projectile/automatic/kiparis,				10000,	ROOKIE),
+		new /datum/data/stalker_equipment("PPSH",				"ППШ",				/obj/item/weapon/gun/projectile/automatic/ppsh,					15000,	ROOKIE),
 		new /datum/data/stalker_equipment("MP-5",				"MP-5",				/obj/item/weapon/gun/projectile/automatic/mp5,					18000,	ROOKIE),
 		new /datum/data/stalker_equipment("AK-74S",				"АК-74С",			/obj/item/weapon/gun/projectile/automatic/aksu74,				24000,	ROOKIE),
 		new /datum/data/stalker_equipment("AK-74",				"АК-74",			/obj/item/weapon/gun/projectile/automatic/ak74,					30000,	ROOKIE),
@@ -33,18 +33,18 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("AS-96",				"АС-96",			/obj/item/weapon/gun/projectile/automatic/abakan,				40000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("LR-300",				"LR-300",			/obj/item/weapon/gun/projectile/automatic/tpc301,				40000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("L85",				"L85",				/obj/item/weapon/gun/projectile/automatic/il86,					40000,	EXPERIENCED),
-		new /datum/data/stalker_equipment("OTS-14 \"Thunder\"", "ОЦ-14 \"Thunder\"",	/obj/item/weapon/gun/projectile/automatic/groza,				35000,	EXPERIENCED),
-		new /datum/data/stalker_equipment("AS \"Val\"",			"АС \"Val\"",		/obj/item/weapon/gun/projectile/automatic/val,					50000,	VETERAN),
+		new /datum/data/stalker_equipment("OTS-14 \"Thunder\"", "ОЦ-14 \"Гроза\"",	/obj/item/weapon/gun/projectile/automatic/groza,				35000,	EXPERIENCED),
+		new /datum/data/stalker_equipment("AS \"Val\"",			"АС \"Вал\"",		/obj/item/weapon/gun/projectile/automatic/val,					50000,	VETERAN),
 		new /datum/data/stalker_equipment("SIG SG 550",			"SIG SG 550",		/obj/item/weapon/gun/projectile/automatic/sigsg550,				50000,	VETERAN),
 		new /datum/data/stalker_equipment("FN F2000",			"FN F2000",			/obj/item/weapon/gun/projectile/automatic/fnf2000,				65000,	EXPERT),
 		new /datum/data/stalker_equipment("GP 37",				"GP 37",			/obj/item/weapon/gun/projectile/automatic/gp37,					75000,	EXPERT),
 		new /datum/data/stalker_equipment("FN F2000S",			"FN F2000S",		/obj/item/weapon/gun/projectile/automatic/fnf2000s,				100000,	EXPERT),
-		//new /datum/data/stalker_equipment("PKM",				"PKM",				/obj/item/weapon/gun/projectile/automatic/l6_saw/pkm,			200000,	EXPERT)
+		new /datum/data/stalker_equipment("PKM",				"PKM",				/obj/item/weapon/gun/projectile/automatic/l6_saw/pkm,			200000,	EXPERT)
 	),
 
 	// Shotguns
 	"Shotguns" = list(
-		new /datum/data/stalker_equipment("Sawn-off Shotgun",	"Sawn-off Shotgun",	/obj/item/weapon/gun/projectile/revolver/bm16/sawnoff,			6000,	ROOKIE),
+		new /datum/data/stalker_equipment("Sawn-off Shotgun",	"Обрез",			/obj/item/weapon/gun/projectile/revolver/bm16/sawnoff,			6000,	ROOKIE),
 		new /datum/data/stalker_equipment("BM-16",				"БМ-16",			/obj/item/weapon/gun/projectile/revolver/bm16,					10000,	ROOKIE),
 		new /datum/data/stalker_equipment("TOZ-34",				"ТОЗ-34", 			/obj/item/weapon/gun/projectile/revolver/bm16/toz34,			15000,	ROOKIE),
 		new /datum/data/stalker_equipment("Ithaca M37",			"Ithaca M37",		/obj/item/weapon/gun/projectile/shotgun/ithaca,					20000,	EXPERIENCED),
@@ -55,15 +55,15 @@ var/list/global_sidormat_list = list(
 	// Single-shot Rifles
 	"Rifles" = list(
 		new /datum/data/stalker_equipment("Lee Enfield",		"Lee Enfield",		/obj/item/weapon/gun/projectile/shotgun/boltaction/enfield,		15000,	ROOKIE),
-		new /datum/data/stalker_equipment("VSS Vintorez", 		"VSS Vintorez",	/obj/item/weapon/gun/projectile/automatic/vintorez,				60000,	EXPERT)
+		new /datum/data/stalker_equipment("VSS Vintorez", 		"ВСС \"Винторез\"",	/obj/item/weapon/gun/projectile/automatic/vintorez,				60000,	EXPERT)
 	),
 
 	// Melee Weapons
 	"Melee Weapons" = list(
-		new /datum/data/stalker_equipment("Kitchen Knife",		"Kitchen Knife",		/obj/item/weapon/kitchen/knife,									1500,	ROOKIE),
-		new /datum/data/stalker_equipment("Tourist Knife",		"Tourist Knife",		/obj/item/weapon/kitchen/knife/tourist,							4000,	ROOKIE),
-		new /datum/data/stalker_equipment("Bayonet",			"Bayonet",			/obj/item/weapon/kitchen/knife/bayonet,							7000,	ROOKIE),
-		new /datum/data/stalker_equipment("Butcher's Cleaver",	"Butcher's Cleaver",	/obj/item/weapon/kitchen/knife/butcher,							10000,	ROOKIE)
+		new /datum/data/stalker_equipment("Kitchen Knife",		"Кухонный нож",		/obj/item/weapon/kitchen/knife,									1500,	ROOKIE),
+		new /datum/data/stalker_equipment("Tourist Knife",		"Нож туриста",		/obj/item/weapon/kitchen/knife/tourist,							4000,	ROOKIE),
+		new /datum/data/stalker_equipment("Bayonet",			"Штык-нож",			/obj/item/weapon/kitchen/knife/bayonet,							7000,	ROOKIE),
+		new /datum/data/stalker_equipment("Butcher's Cleaver",	"Тесак мясника",	/obj/item/weapon/kitchen/knife/butcher,							10000,	ROOKIE)
 	),
 
 	// Ammo Boxes
@@ -238,12 +238,12 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("GP-5",							"GP-5",							/obj/item/clothing/mask/gas/stalker/gp5,											350,	ROOKIE),
 		/////////////////////////////////	Ëóò ñ ìóòàíòîâ	///////////////////////////////////////////
 		new /datum/data/stalker_equipment("Dog tail",						"Dog tail",				/obj/item/weapon/stalker/loot/dog_tail,			500,		ROOKIE, sale_price = 550),
-		new /datum/data/stalker_equipment("Flesh eye",						"Flesh eye",			/obj/item/weapon/stalker/loot/flesh_eye,		1800,		ROOKIE, sale_price = 900),
-		new /datum/data/stalker_equipment("Boar leg",						"Boar leg",				/obj/item/weapon/stalker/loot/boar_leg,			6000,		ROOKIE, sale_price = 3000),
-		new /datum/data/stalker_equipment("Snork leg",						"Snork leg",			/obj/item/weapon/stalker/loot/snork_leg,		7000,		ROOKIE, sale_price = 3500),
-		new /datum/data/stalker_equipment("Bloodsucker claw",				"Bloodsucker claw",		/obj/item/weapon/stalker/loot/bloodsucker,		12000,		ROOKIE, sale_price = 8000),
-		new /datum/data/stalker_equipment("Pseudo-dog tail",				"Pseudo-dog tail",		/obj/item/weapon/stalker/loot/pseudo_tail,		2000,		ROOKIE, sale_price = 4000),
-		new /datum/data/stalker_equipment("Controller brain",				"Controller brain",		/obj/item/weapon/stalker/loot/controller_brain,	40000,		ROOKIE, sale_price = 20000),
+		new /datum/data/stalker_equipment("Ïëîòèé ãëàç",					"Ïëîòèé ãëàç",			/obj/item/weapon/stalker/loot/flesh_eye,		1800,		ROOKIE, sale_price = 900),
+		new /datum/data/stalker_equipment("Êàáàíèé íîã",					"Êàáàíèé íîã",			/obj/item/weapon/stalker/loot/boar_leg,			6000,		ROOKIE, sale_price = 3000),
+		new /datum/data/stalker_equipment("Cíîðêèé ðóê",					"Ñíîðóêèé ðóê",			/obj/item/weapon/stalker/loot/snork_leg,		7000,		ROOKIE, sale_price = 3500),
+		new /datum/data/stalker_equipment("Êðîâîñîñèé ùóïàëåö",				"Êðîâîñîñèé ùóïàëåö",	/obj/item/weapon/stalker/loot/bloodsucker,		12000,		ROOKIE, sale_price = 8000),
+		new /datum/data/stalker_equipment("Ïñåâäîïåñèé õâîñò",				"Ïñåâäîïåñèé õâîñò",	/obj/item/weapon/stalker/loot/pseudo_tail,		2000,		ROOKIE, sale_price = 4000),
+		new /datum/data/stalker_equipment("Êîíòðîëëåðèé ìîçã",				"Êîíòðîëëåðèé ìîçã",	/obj/item/weapon/stalker/loot/controller_brain,	40000,		ROOKIE, sale_price = 20000),
 		/////////////////////////////////	Àðòåôàêòû	///////////////////////////////////////////
 		new /datum/data/stalker_equipment("Ìåäóçà",				"Ìåäóçà",							/obj/item/weapon/artifact/meduza,					5000,	ROOKIE,	sale_price = 2500),
 		new /datum/data/stalker_equipment("Êàìåííûé öâåòîê",	"Êàìåííûé öâåòîê",					/obj/item/weapon/artifact/stoneflower,				10000,	ROOKIE,	sale_price = 5000),
