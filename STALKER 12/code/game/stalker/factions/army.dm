@@ -63,7 +63,7 @@ Assistant
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/device/stalker_pda
 	back = /obj/item/weapon/storage/backpack/stalker
-	suit_store = /obj/item/weapon/gun/projectile/automatic/ak74
+	suit_store = /obj/item/weapon/gun/projectile/automatic/aksu74
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/ammo_box/stalker/b545 = 1,
 							/obj/item/ammo_box/magazine/stalker/m545 = 2,
@@ -123,7 +123,7 @@ Assistant
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/device/stalker_pda
 	back = /obj/item/weapon/storage/backpack/stalker/tourist
-	suit_store = /obj/item/weapon/gun/projectile/automatic/ak74
+	suit_store = /obj/item/weapon/gun/projectile/automatic/abakan
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	mask = pick(/obj/item/clothing/mask/balaclava, /obj/item/clothing/mask/cigarette)
 	backpack_contents = list(/obj/item/ammo_box/stalker/b545ap = 1,
@@ -146,7 +146,7 @@ Assistant
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/device/stalker_pda
 	back = /obj/item/weapon/storage/backpack/stalker/tourist
-	suit_store = /obj/item/weapon/gun/projectile/automatic/ak74
+	suit_store = /obj/item/weapon/gun/projectile/automatic/abakan
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	mask = /obj/item/clothing/mask/balaclava
 	backpack_contents = list(/obj/item/ammo_box/stalker/b545ap = 1,
