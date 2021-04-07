@@ -3,36 +3,36 @@
 	icon = 'icons/stalker/sidorovich.dmi'
 	icon_state = "sidor"
 
-	var/successText = list("Неплохо! Хороший товар!",
-					"Молодец, &#255; доволен!")
+	var/successText = list("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ! пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ!",
+					"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, &#255; пїЅпїЅпїЅпїЅпїЅпїЅпїЅ!")
 
-	var/failText = list("Ты бы ещё консервных банок насобирал.",
-					"Ты что пь&#255;ный?",
-					"Нахрена ты т&#255;гаешь эту хрень?")
+	var/failText = list("пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.",
+					"пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅ&#255;пїЅпїЅпїЅ?",
+					"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅ&#255;пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ?")
 
-	var/buyText = list("купи",
-					"покупай",
-					"возьми",
-					"забирай",
-					"приволок",
-					"притащил")
+	var/buyText = list("пїЅпїЅпїЅпїЅ",
+					"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
+					"пїЅпїЅпїЅпїЅпїЅпїЅ",
+					"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
+					"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
+					"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ")
 
-	var/badLanguage = list("хуй",
-							"хуи",
-							"соси",
-							"хуесос",
-							"говно",
-							"говна",
-							"пидорас",
-							"пидор",
-							"еблан",
-							"гандон",
-							"уёбок",
-							"хуйло")
+	var/badLanguage = list("пїЅпїЅпїЅ",
+							"пїЅпїЅпїЅ",
+							"пїЅпїЅпїЅпїЅ",
+							"пїЅпїЅпїЅпїЅпїЅпїЅ",
+							"пїЅпїЅпїЅпїЅпїЅ",
+							"пїЅпїЅпїЅпїЅпїЅ",
+							"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
+							"пїЅпїЅпїЅпїЅпїЅ",
+							"пїЅпїЅпїЅпїЅпїЅ",
+							"пїЅпїЅпїЅпїЅпїЅпїЅ",
+							"пїЅпїЅпїЅпїЅ",
+							"пїЅпїЅпїЅпїЅпїЅ")
 
-	var/howMany = list("почём",
-						"сколько",
-						"почем")
+	var/howMany = list("пїЅпїЅпїЅпїЅпїЅ",
+						"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
+						"пїЅпїЅпїЅпїЅпїЅ")
 
 	var/itemloc = null
 	var/itemloc2 = null
@@ -57,7 +57,7 @@
 
 /obj/sidor/proc/RecognizeSpeach(msg)
 	var/message = msg
-	if(!findtext(message, "Сидор"))
+	if(!findtext(message, "пїЅпїЅпїЅпїЅпїЅ"))
 		return
 
 	for(var/T in buyText)
@@ -67,7 +67,7 @@
 
 	for(var/T in badLanguage)
 		if(findtext(message, lowertext(T)))
-			say("Ты берега не попутал, сталкер? Сам ты [T]!")
+			say("пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ? пїЅпїЅпїЅ пїЅпїЅ [T]!")
 			return
 
 	var/list/weights = list()
@@ -89,7 +89,7 @@
 	if(bestWeight)
 		for(var/T in howMany)
 			if(findtext(message, lowertext(T)))
-				say("[GetCost(bestItem.itemtype)] рублей.")
+				say("[GetCost(bestItem.itemtype)] пїЅпїЅпїЅпїЅпїЅпїЅ.")
 				return
 		BuyItem(bestItem)
 
@@ -220,7 +220,7 @@
 
 
 /obj/sidor/proc/NotEnoghMoney(have, need)
-	say("[pick(failText)] Или давай хабара ещё на [need - have] рублей, или добавь деньгами, или проваливай!")
+	say("[pick(failText)] пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅ [need - have] пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!")
 
 
 
@@ -302,6 +302,7 @@ var/global/sidoritems = list(
         new /sidoritem/kozhanka/white,
         new /sidoritem/kozhanka/banditka,
         new /sidoritem/banditcoat,
+		new /sidoritem/tancoat,
         new /sidoritem/kombez,
         new /sidoritem/ecolog,
         new /sidoritem/ecologm,
@@ -310,7 +311,7 @@ var/global/sidoritems = list(
         //new /sidoritem/psz9d,
         new /sidoritem/mercenary,
         //new /sidoritem/strazh,
-        new /sidoritem/exoskelet,
+        //new /sidoritem/exoskelet,
         new /sidoritem/psz9md,
         new /sidoritem/firstaid/stalker,
         new /sidoritem/firstaid/army,
