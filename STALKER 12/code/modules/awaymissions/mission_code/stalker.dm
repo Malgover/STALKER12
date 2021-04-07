@@ -114,6 +114,7 @@
 	icon_state = "buildings"
 	requires_power = 1
 	environment = ENVIRONMENT_INDOORS_EXPOSED
+	safezone = 1
 
 /area/stalker/buildings
 	name = "Buildings"
