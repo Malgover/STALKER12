@@ -34,6 +34,7 @@ malgover = Trader
 malgover = Renegade
 malgover = Bandit Barman
 malgover = Bandit Veteran
+malgover = Bandit Barman
 merrgear = Monolith
 merrgear = Monolith Sniper
 merrgear = Old Stalker

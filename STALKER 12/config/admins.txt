@@ -16,3 +16,4 @@ Stalkeros = Game Admin
 Unwounddragon55 = Admin Candidate
 SilentMountain = Game Admin
 Bruhsyster371 = Game Admin
+CatandWet = Coder
