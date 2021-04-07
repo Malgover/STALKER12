@@ -37,7 +37,7 @@
 
 // Bandit trader
 /datum/job/bandit_trader
-	title     = "Bandit Barman"
+	title     = "Bandit Trader"
 	faction_s = "Bandits"
 	faction   = "Station"
 	total_positions = 1
@@ -95,20 +95,21 @@
 	r_pocket = /obj/item/weapon/gun/projectile/automatic/pistol/pm
 
 /datum/outfit/job/bandit_trader
-	name = "Bandit Barman"
+	name = "Bandit Trader"
 	faction_s = "Bandits"
 
 /datum/outfit/job/bandit_trader/pre_equip(mob/living/carbon/human/H)
-	uniform = UNIFORMPICK
-	suit = /obj/item/clothing/suit/hooded/kozhanka/banditka
+	uniform = /obj/item/clothing/under/color/switer/lolg
+	suit = /obj/item/clothing/suit/hooded/kozhanka/banditka/coat/brown
 	ears = null
 	id = /obj/item/device/stalker_pda
 	belt = /obj/item/weapon/gun/projectile/revolver/bm16/sawnoff
 	gloves = /obj/item/clothing/gloves/fingerless
 	shoes = /obj/item/clothing/shoes/jackboots/warm
+	mask = /obj/item/clothing/mask/balaclava
 	head = /obj/item/clothing/head/ushanka
 	back = /obj/item/weapon/storage/backpack/stalker/tourist
-	backpack_contents = list(/obj/item/stack/spacecash/c5000 = 3,
+	backpack_contents = list(/obj/item/stack/spacecash/c5000 = 1,
 						/obj/item/ammo_box/stalker/b12x70 = 1,
 						/obj/item/device/flashlight/seclite = 1)
 	l_pocket = /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/shproti
