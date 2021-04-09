@@ -302,6 +302,9 @@
 /obj/effect/landmark/latejoin/bandit_trader
 	name = "JoinLateBandit Trader"
 
+/obj/effect/landmark/latejoin/bandit_gopnik
+	name = "JoinLateGopnik"
+
 // Duty
 /obj/effect/landmark/latejoin/duty_soldier
 	name = "JoinLateDuty Soldier"
