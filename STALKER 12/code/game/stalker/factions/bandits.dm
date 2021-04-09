@@ -13,7 +13,7 @@
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = 5
-	supervisors = "Bandit Veteran"
+	supervisors = "Bandit Trader"
 	selection_color = "#000000"
 	access = list()
 	minimal_access = list()
@@ -28,7 +28,7 @@
 	faction = "Station"
 	total_positions = 5
 	spawn_positions = 5
-	supervisors = "Bandit Veteran"
+	supervisors = "Bandit Trader"
 	selection_color = "#000000"
 	access = list()
 	minimal_access = list()
@@ -44,7 +44,7 @@
 	whitelist_only = 1
 	total_positions = 4
 	spawn_positions = 4
-	supervisors = ""
+	supervisors = "Bandit Trader"
 	selection_color = "#000000"
 	access = list()
 	minimal_access = list()

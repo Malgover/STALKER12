@@ -19,3 +19,4 @@ Bruhsyster371 = Game Admin
 CatandWet = Game Admin
 Trexdude = Game Admin
 Lucifers Son = Game Admin
+TheDoctorFate = Admin Candidate
