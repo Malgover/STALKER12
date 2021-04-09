@@ -277,6 +277,30 @@
 	max_heat_protection_temperature = SPACE_SUIT_MIN_TEMP_PROTECT
 	icon_state = "winterhood_kombez"
 
+/obj/item/clothing/suit/jacket/olympic_blue
+	name = "blue olympic jacket"
+	desc = "A blue Adidas olympic jacket."
+	icon_state = "olympic_blue"
+	item_state = "olympic_blue"
+	armor = list(melee = 10, bullet = 10, laser = 10,burn = 5, bomb = 10, bio = 5, rad = 5, electro = 5, psy = 0)
+	durability = 75
+
+/obj/item/clothing/suit/jacket/olympic_orange
+	name = "orange olympic jacket"
+	desc = "A orange Adidas olympic jacket."
+	icon_state = "olympic_orange"
+	item_state = "olympic_orange"
+	armor = list(melee = 10, bullet = 10, laser = 10,burn = 5, bomb = 10, bio = 5, rad = 5, electro = 5, psy = 0)
+	durability = 75
+
+/obj/item/clothing/suit/jacket/olympic_violet
+	name = "violet olympic jacket"
+	desc = "A violet Adidas olympic jacket."
+	icon_state = "olympic_violet"
+	item_state = "olympic_violet"
+	armor = list(melee = 10, bullet = 10, laser = 10,burn = 5, bomb = 10, bio = 5, rad = 5, electro = 5, psy = 0)
+	durability = 75
+
 /obj/item/clothing/suit/jacket/sidor
 	name = "old vest"
 	desc = "�������&#255; �������, ��������&#255; �� ���� ������."
