@@ -21,6 +21,21 @@
 	limit_per_player = 2
 	outfit = /datum/outfit/job/bandit
 
+// Bandit Gopnik
+/datum/job/bandit_gopnik
+	title = "Gopnik"
+	faction_s = "Bandits"
+	faction = "Station"
+	total_positions = 5
+	spawn_positions = 5
+	supervisors = "Bandit Veteran"
+	selection_color = "#000000"
+	access = list()
+	minimal_access = list()
+	whitelist_only = 0
+	limit_per_player = 2
+	outfit = /datum/outfit/job/bandit_gopnik
+
 // Bandit leader
 /datum/job/bandit_leader
 	title     = "Bandit Veteran"
@@ -69,6 +84,26 @@
 	mask = /obj/item/clothing/mask/balaclava
 	backpack_contents = list()
 	r_pocket = /obj/item/weapon/gun/projectile/automatic/pistol/pm
+
+// Bandit gopnik
+/datum/outfit/job/bandit_gopnik
+	name = "Bandit Gopnik"
+	faction_s = "Bandits"
+
+/datum/outfit/job/bandit_gopnik/pre_equip(mob/living/carbon/human/H)
+	..()
+	uniform = /obj/item/clothing/under/color/switer/lolg
+	suit = pick(/obj/item/clothing/suit/jacket/olympic_blue, /obj/item/clothing/suit/jacket/olympic_orange, /obj/item/clothing/suit/jacket/olympic_violet)
+	ears = null
+	head = /obj/item/clothing/head/gopcap
+	id = /obj/item/device/stalker_pda
+	belt = /obj/item/weapon/kitchen/knife/tourist
+	gloves = /obj/item/clothing/gloves/fingerless
+	shoes = /obj/item/clothing/shoes/sneakers/black
+	back = /obj/item/weapon/storage/backpack/satchel/stalker/civilian
+	backpack_contents = list()
+	l_pocket = /obj/item/weapon/lighter
+	r_pocket = /obj/item/weapon/storage/fancy/cigarettes/cigpack/maxim
 
 /datum/outfit/job/bandit_leader
 	name = "Bandit Veteran"
