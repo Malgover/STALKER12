@@ -96,7 +96,7 @@
 	r_pocket = /obj/item/weapon/gun/projectile/automatic/pistol/pm
 
 /datum/outfit/job/bandit_trader
-	name = "Bandit Barman"
+	name = "Bandit Trader"
 	faction_s = "Bandits"
 
 /datum/outfit/job/bandit_trader/pre_equip(mob/living/carbon/human/H)

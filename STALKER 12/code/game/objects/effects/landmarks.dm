@@ -300,7 +300,7 @@
 	name = "JoinLateBandit Veteran"
 
 /obj/effect/landmark/latejoin/bandit_trader
-	name = "JoinLateBandit Barman"
+	name = "JoinLateBandit Trader"
 
 // Duty
 /obj/effect/landmark/latejoin/duty_soldier

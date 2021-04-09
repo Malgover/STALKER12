@@ -77,7 +77,7 @@
 /datum/outfit/job/bandit_leader/pre_equip(mob/living/carbon/human/H)
 	..()
 	uniform = UNIFORMPICK
-	suit = /obj/item/clothing/suit/hooded/kozhanka/banditka/coat
+	suit = pick(/obj/item/clothing/suit/hooded/kozhanka/banditka/coat, /obj/item/clothing/suit/hooded/kozhanka/banditka/coat/brown)
 	ears = null
 	id = /obj/item/device/stalker_pda
 	belt = /obj/item/weapon/kitchen/knife/tourist
@@ -100,7 +100,7 @@
 
 /datum/outfit/job/bandit_trader/pre_equip(mob/living/carbon/human/H)
 	uniform = /obj/item/clothing/under/color/switer/lolg
-	suit = /obj/item/clothing/suit/hooded/kozhanka/banditka/coat/brown
+	suit = /obj/item/clothing/suit/huntercoat
 	ears = null
 	id = /obj/item/device/stalker_pda
 	belt = /obj/item/weapon/gun/projectile/revolver/bm16/sawnoff
@@ -108,9 +108,10 @@
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	mask = /obj/item/clothing/mask/balaclava
 	head = /obj/item/clothing/head/ushanka
-	back = /obj/item/weapon/storage/backpack/stalker/tourist
+	back = /obj/item/weapon/storage/backpack/satchel/stalker/civilian
 	backpack_contents = list(/obj/item/stack/spacecash/c5000 = 1,
 						/obj/item/ammo_box/stalker/b12x70 = 1,
+						/obj/item/weapon/kitchen/knife/tourist = 1,
 						/obj/item/device/flashlight/seclite = 1)
 	l_pocket = /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/shproti
 	r_pocket = /obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki

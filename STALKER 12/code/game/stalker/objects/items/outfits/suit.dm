@@ -862,6 +862,18 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	max_heat_protection_temperature = SPACE_SUIT_MIN_TEMP_PROTECT
 	icon_state = "winterhood_renegade"
 
+/obj/item/clothing/suit/huntercoat
+	name = "hunter coat"
+	desc = "A tan coat with fur on the shoulders."
+	eng_desc = "A tan coat with fur on the shoulders."
+	icon_state = "huntercoat"
+	item_state = "huntercoat"
+	blood_overlay_type = "armor"
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	armor = list(melee = 20, bullet = 15, laser = 15,burn = 30, bomb = 0, bio = 10, rad = 10, electro = 30, psy = 0)
+	durability = 150
+
 /obj/item/clothing/suit/hooded/kozhanka/clear_sky
 	name = "clear sky jacket"
 	desc = "Common grab of a novice stalker. It won�t save you from bullets or anomalies, but it�s still better than nothing. This one belongs to the Clear Sky faction."
