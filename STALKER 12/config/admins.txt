@@ -8,12 +8,14 @@
 # NOTE: syntax was changed to allow hyphenation of ranknames, since spaces are stripped.      #
 ###############################################################################################
 
+slumlordanimal = Host
 Malgover = Host
 Sodium_Hypochlorite = Game Master
 Szymon79 = Game Admin
 TopBirb = Game Admin
 Stalkeros = Game Admin
 Unwounddragon55 = Admin Candidate
-SilentMountain = Game Admin
 Bruhsyster371 = Game Admin
-CatandWet = Coder
+CatandWet = Game Admin
+Trexdude = Game Admin
+Lucifers Son = Game Admin
