@@ -20,3 +20,4 @@ CatandWet = Game Admin
 Trexdude = Game Admin
 Lucifers Son = Game Admin
 TheDoctorFate = Admin Candidate
+DeenDoor24 = Admin Candidate
