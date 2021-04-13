@@ -56,3 +56,36 @@
 	projectilesound = 'sound/weapons/Gunshot_smg.ogg'
 	loot = list(/obj/item/weapon/gun/projectile/automatic/wt550,
 				/obj/effect/landmark/mobcorpse/nanotrasensoldier)
+
+
+
+/////////PLACEHOLDER FOR LATER////////
+
+/mob/living/simple_animal/hostile/gopnik
+	name = "Gopnik"
+	desc = "A shady-looking guy. His eyes seem lifeless."
+	icon_state = "gopnik"
+	icon_living = "gopnik"
+	icon_dead = "gopnik_dead"
+	icon_gib = "syndicate_gib"
+	speak_chance = 25
+	turns_per_move = 5
+	response_help = "pokes"
+	response_disarm = "shoves"
+	response_harm = "hits"
+	speed = 0
+	stat_attack = 1
+	robust_searching = 1
+	maxHealth = 100
+	health = 100
+	harm_intent_damage = 5
+	melee_damage_lower = 10
+	melee_damage_upper = 15
+	attacktext = "punches"
+	attack_sound = 'sound/weapons/punch1.ogg'
+	a_intent = "harm"
+	loot = list(/obj/effect/landmark/mobcorpse/gopnik)
+	faction = list("Zombies")
+	status_flags = CANPUSH
+	speak = list("ты...мертвое...мясо...", "ты...мертв... СТАЛКЕР...", "иди...сюда... мальчик...не бойся...", "дерьмо...")
+	search_objects = 1

@@ -177,3 +177,12 @@
 	corpseid = 1
 	corpseidjob = "Private Security Force"
 	corpseidaccess = "Security Officer"
+
+/obj/effect/landmark/mobcorpse/gopnik
+	name = "Gopnik"
+	corpseuniform = /obj/item/clothing/under/color/switer/lolg
+	corpsesuit = /obj/item/clothing/suit/jacket/olympic_blue
+	corpseshoes = /obj/item/clothing/shoes/sneakers/black
+	corpsegloves = /obj/item/clothing/gloves/fingerless
+	corpsemask = /obj/item/clothing/mask/balaclava
+	corpsehelmet = /obj/item/clothing/head/gopcap
