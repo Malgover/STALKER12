@@ -375,6 +375,10 @@
 	name = "paper- Smelting Operations Closed"
 	info = "<B>**NOTICE**</B><BR><BR>Smelting operations moved on-station.<BR><BR>Take your unrefined ore to the Redeption Machine in the Delivery Office to redeem points.<BR><BR>--SS13 Command"
 
+/obj/item/weapon/paper/banditcode
+	name = "paper- 'Door Code'"
+	info = "<B>The door code is 1670.</B><BR>\n<BR>\nMake sure you change it if you want to avoid<BR>\nsmartasses stealing your shit. I left cash in the locker to get you started. Good luck, STALKER.<BR>\n-Butcher<BR>"
+
 /obj/item/weapon/paper/crumpled
 	name = "paper scrap"
 	icon_state = "scrap"
