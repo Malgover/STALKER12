@@ -165,6 +165,14 @@
 	icon_state = "beret_ua"
 	armor = list(melee = 0, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, rad = 0)
 	strip_delay = 80
+
+/obj/item/clothing/head/bandmil
+	name = "military beret"
+	desc = "A dark-green bandana typically worn by the Ukrainian Military."
+	icon_state = "bandmil_up"
+	armor = list(melee = 0, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, rad = 0)
+	strip_delay = 80
+
 /*
 /obj/item/clothing/mask/gas/New()
 	..()
