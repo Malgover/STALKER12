@@ -1,5 +1,11 @@
 projectzreborn = Mercenary
 projectzreborn = Mercenary Veteran
+marcelloita = Mercenary
+darkwolfkai = Mercenary
+hochiminh = Duty Major
+hochiminh = Military Soldier
+hochiminh = Monolith
+thedoctorfate = Trader
 lordinquisitor228 = Military Soldier
 theXDkidoflol = Bandit Veteran
 blankcat = Military Soldier
