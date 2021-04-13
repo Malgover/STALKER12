@@ -229,7 +229,7 @@
 				L.gib()
 				trapped.Remove(L)
 			else
-				L.apply_damage(src.damage_amount, BRUTE, null, L.getarmor(null, "meele"))
+				L.apply_damage(src.damage_amount, BRUTE, null, L.getarmor(null, "melee"))
 		if(DMG_TYPE_IGNITION)
 			if(istype(L, /mob/living/simple_animal/hostile))
 				L.apply_damage(40, BURN, null, 0)
