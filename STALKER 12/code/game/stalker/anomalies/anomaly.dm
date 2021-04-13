@@ -11,9 +11,9 @@
 
 /obj/anomaly
 	name = "Anomaly"
-	var/damage_amount = 0 				//Сколько дамажит
-	var/damage_type = DMG_TYPE_ENERGY	//Тип дамага
-	var/activated_icon_state = null 	//Спрайт при активации
+	var/damage_amount = 0 				//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+	var/damage_type = DMG_TYPE_ENERGY	//пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+	var/activated_icon_state = null 	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	var/cooldown = 5
 	var/lasttime = 0
 	var/list/mob/living/trapped = new/list()
@@ -292,7 +292,7 @@
 	active_icon_state = "tramplin1"
 	damage_type = DMG_TYPE_GIB
 	active_invisibility = 0
-	inactive_invisibility = 101
+	inactive_invisibility = 0
 	loot = list(/obj/nothing = 80,
 				/obj/item/weapon/artifact/meduza = 12,
 				/obj/item/weapon/artifact/stoneflower = 5,
@@ -327,7 +327,7 @@
 	active_icon_state = "tramplin1"
 	damage_type = DMG_TYPE_GIB
 	active_invisibility = 0
-	inactive_invisibility = 101
+	inactive_invisibility = 0
 	loot = list(/obj/nothing = 80,
 				/obj/item/weapon/artifact/meduza = 12,
 				/obj/item/weapon/artifact/stoneflower = 6,
@@ -634,14 +634,14 @@
 	if(inactive_icon_state == "puh2")
 		active_icon_state = "puh2"
 
-/obj/rad 	//Не наносит урона
+/obj/rad 	//пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 	name = "Anomaly"
 	icon = 'icons/stalker/anomalies.dmi'
 	icon_state = "rad_low"
-	var/damage_amount = 0 				//Сколько дамажит
-	var/damage_type = DMG_TYPE_RADIATION	//Тип дамага
-	var/activated_icon_state = null 	//Спрайт при активации
-	var/cooldown = 2.5					//Кулдаун
+	var/damage_amount = 0 				//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+	var/damage_type = DMG_TYPE_RADIATION	//пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+	var/activated_icon_state = null 	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+	var/cooldown = 2.5					//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	var/lasttime = 0
 	var/list/mob/living/carbon/human/trapped = new/list()
 	var/idle_luminosity = 0
