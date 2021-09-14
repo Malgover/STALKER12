@@ -61,7 +61,7 @@
 	icon = 'icons/effects/lasers2.dmi'
 	icon_state = "radio1"
 	//var/timer_id = 0
-	var/transition = 1
+	var/transition = 0
 	var/play_song_cost = 100
 	var/skip_song_cost = 100
 	var/start_time = 0
@@ -80,11 +80,11 @@
 		new /datum/data/turntable_soundtrack ("Firelake",			"Dirge For The Planet",				'sound/turntable/dirge_for_the_planet.ogg',					2850),
 		new /datum/data/turntable_soundtrack ("Firelake",			"Live To Forget",					'sound/turntable/live_to_forget.ogg',						2960),
 		new /datum/data/turntable_soundtrack ("Freedom",			"Smoke Weed",						'sound/turntable/freedom_radio.ogg',						1140),
-		new /datum/data/turntable_soundtrack ("Pauk",				"Mumije",							'sound/turntable/mumije.ogg',								2850),
-		new /datum/data/turntable_soundtrack ("Claustrofobia",		"Sombras En La Alcoba",				'sound/turntable/claustrofobia.ogg',						2850),
-		new /datum/data/turntable_soundtrack ("Phantasmagoria",		"Poziv U Raj",						'sound/turntable/poziv_u_raj.ogg',							2850),
-		new /datum/data/turntable_soundtrack ("Tape Recorder",		"Dead Evening",						'sound/turntable/dead_evening.ogg',							2850),
-		new /datum/data/turntable_soundtrack ("Molchat Doma",		"Sudno",							'sound/turntable/sudno.ogg',								2850),
+		new /datum/data/turntable_soundtrack ("Pauk",				"Mumije",							'sound/turntable/mumije.ogg',								1110),
+		new /datum/data/turntable_soundtrack ("Claustrofobia",		"Sombras En La Alcoba",				'sound/turntable/claustrofobia.ogg',						1110),
+		new /datum/data/turntable_soundtrack ("Phantasmagoria",		"Poziv U Raj",						'sound/turntable/poziv_u_raj.ogg',							1110),
+		new /datum/data/turntable_soundtrack ("Tape Recorder",		"Dead Evening",						'sound/turntable/dead_evening.ogg',							1110),
+		new /datum/data/turntable_soundtrack ("Molchat Doma",		"Sudno",							'sound/turntable/sudno.ogg',								1110),
 	)
 	anchored = 1
 	density = 1
