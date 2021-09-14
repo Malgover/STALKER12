@@ -79,7 +79,7 @@
 
 /datum/job/barman2
 	title = "Barman2"
-	faction_s = "Loners"
+	faction_s = "Rostok Trader"
 	locked = 1
 	faction = "Station"
 	total_positions = 1
