@@ -2,7 +2,7 @@
 	stat_attack = 2
 	stat_exclusive = 0
 	fearless = 0
-	var/gib_targets = 1 //������
+	var/gib_targets = 0 //������
 	icon = 'icons/stalker/stalker.dmi'
 	var/deletable = 1 //Self-deletable dead bodies
 	speak_chance = 1.5
@@ -76,7 +76,7 @@
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	unsuitable_atmos_damage = 10
 	environment_smash = 1
-	robust_searching = 1
+	robust_searching = 0
 	search_objects = 1
 	gold_core_spawnable = 1
 	faction = list("skeleton")
@@ -114,7 +114,7 @@
 	fearborder = 10
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	healable = 1
-	robust_searching = 1
+	robust_searching = 0
 	see_invisible = SEE_INVISIBLE_MINIMUM
 	see_in_dark = 4
 	deathmessage = "The dog makes a sinister howl!"
@@ -169,7 +169,7 @@
 	faction = list("stalker_mutants1")
 	del_on_death = 0
 	//environment_smash = 1
-	robust_searching = 1
+	robust_searching = 0
 	deathmessage = "The snork seizes up and falls limp!"
 	layer = MOB_LAYER - 0.1
 	loot = list(/obj/item/weapon/stalker/loot/snork_leg, /obj/nothing, /obj/nothing)
@@ -232,7 +232,7 @@
 /mob/living/simple_animal/hostile/mutant/flesh
 	name = "flesh"
 	desc = "�����������&#255; �����&#255;."
-	eng_desc = "This abomination is a horribly mutated pig affected by radiation.His three eyes have lost all the vigor of life and his eyes are empty.Despite his large, heavy legs, he seems to be able to move at a decent speed, and is apparently able to catch up with a running human."
+	eng_desc = "This abomination is a horribly mutated pig affected by radiation. Its three eyes have lost all the vigor of life and its eyes are empty. Despite its large, heavy legs, it seems to be able to move at a decent speed, and is apparently able to catch up with a running human."
 	turns_per_move = 2
 	a_intent = "harm"
 	search_objects = 1
@@ -258,7 +258,7 @@
 	faction = list("stalker_mutants1")
 	del_on_death = 0
 	environment_smash = 1
-	robust_searching = 1
+	robust_searching = 0
 	deathmessage = "The flesh makes a death scream!"
 	layer = MOB_LAYER - 0.1
 	loot = list(/obj/item/weapon/stalker/loot/flesh_eye, /obj/nothing)
@@ -273,7 +273,7 @@
 /mob/living/simple_animal/hostile/mutant/kaban
 	name = "boar"
 	desc = "�������� ���������."
-	eng_desc = "While less touched by mutation physically, as compared to other mutants, the Boars of the Zone remains ugly and loathsome.The smell coming from his mouth smells of carrion and grass.His posture shows that he is able to go at full speed towards an enemy, so staying away would be the best option to kill him. His meat is sold at a good price to Skadovsk merchants."
+	eng_desc = "While less touched by mutation physically, as compared to other mutants, the Boars of the Zone remain ugly and loathsome. Its posture shows that it is able to go at full speed towards an enemy, so staying away would be the best option to kill it. Its meat is sold at a good price to Skadovsk merchants."
 	turns_per_move = 2
 	a_intent = "harm"
 	search_objects = 1
@@ -300,7 +300,7 @@
 	faction = list("stalker_mutants1")
 	del_on_death = 0
 	environment_smash = 1
-	robust_searching = 1
+	robust_searching = 0
 	deathmessage = "The boar makes a death scream!"
 	layer = MOB_LAYER - 0.1
 	loot = list(/obj/item/weapon/stalker/loot/boar_leg, /obj/nothing, /obj/nothing)
@@ -347,7 +347,7 @@
 	maxbodytemp = 1500
 	faction = list("stalker_mutants1")
 	del_on_death = 0
-	robust_searching = 1
+	robust_searching = 0
 	deathmessage = "The bloodsucker makes a death scream!"
 	layer = MOB_LAYER - 0.1
 	loot = list(/obj/item/weapon/stalker/loot/bloodsucker, /obj/item/weapon/stalker/loot/bloodsucker, /obj/nothing)
@@ -427,7 +427,7 @@
 	maxbodytemp = 1500
 	faction = list("stalker_mutants1")
 	del_on_death = 0
-	robust_searching = 1
+	robust_searching = 0
 	deathmessage = "The pseudog makes a sinister howl!"
 	layer = MOB_LAYER - 0.1
 	loot = list(/obj/item/weapon/stalker/loot/pseudo_tail, /obj/nothing, /obj/nothing)
