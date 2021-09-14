@@ -61,94 +61,30 @@
 	icon = 'icons/effects/lasers2.dmi'
 	icon_state = "radio1"
 	//var/timer_id = 0
-	var/transition = 0
-	var/play_song_cost = 250
-	var/skip_song_cost = 500
+	var/transition = 1
+	var/play_song_cost = 100
+	var/skip_song_cost = 100
 	var/start_time = 0
 	var/collected_money = 0
 	var/obj/item/weapon/disk/music/disk
 	var/playing = 1
 	var/datum/data/turntable_soundtrack/track = null
 	var/datum/data/turntable_soundtrack/next_track = null
-	var/volume = 40
+	var/volume = 30
 	var/list/mob/melomans = list()
 	var/list/turntable_soundtracks = list(
 
-		new /datum/data/turntable_soundtrack ("4 pozicii bruno",	"Ya Ehala Domoy",					'sound/turntable/chetire_pozigii_bruno_ya_ehala_domoy.ogg',	2740),
 		new /datum/data/turntable_soundtrack ("5nizza",				"Ya Soldat",						'sound/turntable/5nizza_ya_soldat.ogg',						2110),
-		new /datum/data/turntable_soundtrack ("7B",					"Molodie Vetra",					'sound/turntable/semb_molodie_vetra.ogg',					2610),
-		new /datum/data/turntable_soundtrack ("Addaraya",			"Gurza Dreaming",					'sound/turntable/gurza_dreaming.ogg',						2420),
-		new /datum/data/turntable_soundtrack ("Agata Kristi",		"Kak Na Voine",						'sound/turntable/agata_kristi_na_voine.ogg',				2470),
-		new /datum/data/turntable_soundtrack ("Aksenov V",			"Murka",							'sound/turntable/murka.ogg',								3220),
-		new /datum/data/turntable_soundtrack ("Alai Oli",			"Krilya",							'sound/turntable/alai_oli_krilya.ogg',						2150),
-		new /datum/data/turntable_soundtrack ("Ariya",				"Bespechniy Angel",					'sound/turntable/ariya_bespechniy_angel.ogg',				2380),
-		new /datum/data/turntable_soundtrack ("Ariya",				"Potyeraniy Ray",					'sound/turntable/ariya_poteryaniy_ray.ogg',					3530),
-		new /datum/data/turntable_soundtrack ("Ariya",				"Ya Svoboden",						'sound/turntable/ariya_ya_svoboden.ogg',					3540),
 		new /datum/data/turntable_soundtrack ("Bandits",			"Cheeki Breeki",					'sound/turntable/bandit_radio.ogg',							1110),
-		new /datum/data/turntable_soundtrack ("Basta",				"Mama",								'sound/turntable/basta_mama.ogg',							2360),
-		new /datum/data/turntable_soundtrack ("Bi2",				"Polkovnik",						'sound/turntable/bi2_polkovnik.ogg',						2900),
-		new /datum/data/turntable_soundtrack ("Bi2",				"Serebro",							'sound/turntable/bi2_serebro.ogg',							2770),
-		new /datum/data/turntable_soundtrack ("Bi2",				"Varvara",							'sound/turntable/bi2_varvara.ogg',							2990),
-		new /datum/data/turntable_soundtrack ("Butirka",			"Butirskaya Turma",					'sound/turntable/butirka.ogg',								1920),
-		new /datum/data/turntable_soundtrack ("Dispetchera",		"2000 Baksov",						'sound/turntable/2000_baksov.ogg',							2430),
-		new /datum/data/turntable_soundtrack ("DDT",				"Osen",								'sound/turntable/ddt_osen.ogg',								2350),
-		new /datum/data/turntable_soundtrack ("Delfin",				"Nadezhda",							'sound/turntable/delfin_nadezhda.ogg',						2690),
-		new /datum/data/turntable_soundtrack ("Delfin",				"Sneg",								'sound/turntable/delfin_sneg.ogg',							1820),
-		new /datum/data/turntable_soundtrack ("Delfin",				"Vesna",							'sound/turntable/delfin_vesna.ogg',							2910),
-		new /datum/data/turntable_soundtrack ("Delfin",				"Ya Lublu Ludey",					'sound/turntable/delfin_ya_lublu_ludey.ogg',				2120),
-		new /datum/data/turntable_soundtrack ("Electroforez",		"Eshafot",							'sound/turntable/elektroforez_eshafot.ogg',					2090),
-		new /datum/data/turntable_soundtrack ("Elizium",			"Stoit Zhit",						'sound/turntable/elizium_stoit_zhit.ogg',					1800),
-		new /datum/data/turntable_soundtrack ("Fleetwood Mac",		"Little Lies",						'sound/turntable/fleetwood_mac_little_lies.ogg',			2210),
 		new /datum/data/turntable_soundtrack ("Firelake",			"Fighting Unknown",					'sound/turntable/agroprom.ogg',								710),
 		new /datum/data/turntable_soundtrack ("Firelake",			"Dirge For The Planet",				'sound/turntable/dirge_for_the_planet.ogg',					2850),
 		new /datum/data/turntable_soundtrack ("Firelake",			"Live To Forget",					'sound/turntable/live_to_forget.ogg',						2960),
 		new /datum/data/turntable_soundtrack ("Freedom",			"Smoke Weed",						'sound/turntable/freedom_radio.ogg',						1140),
-		new /datum/data/turntable_soundtrack ("Gazmanov M",			"Putana",							'sound/turntable/putana.ogg',								2460),
-		new /datum/data/turntable_soundtrack ("Krug M",				"Kolschik",							'sound/turntable/kolshik.ogg',								2850),
-		new /datum/data/turntable_soundtrack ("Kino",				"Gruppa Krovy",						'sound/turntable/kino_gruppa_krovi.ogg',					2030),
-		new /datum/data/turntable_soundtrack ("Kino",				"Zvezda Po Imeni Soltnse",			'sound/turntable/kino_zvezda_po_imeni_solntse.ogg',			2245),
-		new /datum/data/turntable_soundtrack ("Korol I Shut",		"Kukla kolduna",					'sound/turntable/korol_i_shut_kukila_kolduna.ogg',			2040),
-		new /datum/data/turntable_soundtrack ("Korol I Shut",		"Lesnik",							'sound/turntable/korol_i_shut_lesnik.ogg',					1910),
-		new /datum/data/turntable_soundtrack ("Kraski",				"Mama ya polubila bandita",			'sound/turntable/kraski_ya_polubila_bandita.ogg',			2020),
-		new /datum/data/turntable_soundtrack ("Krovostok",			"Kurtec",							'sound/turntable/krovostok_kurtec.ogg',						2400),
-		new /datum/data/turntable_soundtrack ("Leps G",				"Rumka Vodki Na Stole",				'sound/turntable/rumka.ogg',								2360),
-		new /datum/data/turntable_soundtrack ("Leprikonsy",			"Hali-Gali, Paratruper",			'sound/turntable/leprikonsy_paratruper.ogg',				2060),
-		new /datum/data/turntable_soundtrack ("Lumen",				"Sid i Nensi",						'sound/turntable/lumen_sid_i_nensi.ogg',					2340),
-		new /datum/data/turntable_soundtrack ("Malchishnik",		"V poslendiy raz",					'sound/turntable/malchishnik_posledniy_raz.ogg',			3350),
-		new /datum/data/turntable_soundtrack ("Monokini",			"Adrenalin",						'sound/turntable/monokini_adrenalin.ogg',					1970),
-		new /datum/data/turntable_soundtrack ("Monokini",			"Dotyanusya Do Solntsa",			'sound/turntable/monokini_dotyanutsya_do_solntsa.ogg',		1600),
-		new /datum/data/turntable_soundtrack ("Mucuraev",			"O Allah",							'sound/turntable/mucuraev_o_allah.ogg',						3970),
-		new /datum/data/turntable_soundtrack ("Mumiy Troll",		"Delfiny",							'sound/turntable/mumiy_troll_delfiny.ogg',					2780),
-		new /datum/data/turntable_soundtrack ("Mumiy Troll",		"Utekay",							'sound/turntable/mumiy_troll_utekay.ogg',					1410),
-		new /datum/data/turntable_soundtrack ("Mumiy Troll",		"Vladivostok 2000",					'sound/turntable/mumiy_troll_vladivostok2000.ogg',			1610),
-		new /datum/data/turntable_soundtrack ("Nautilus Pompilius",	"Apostol Andrey",					'sound/turntable/nautilus_pompilius_apostol_andrey.ogg',	2170),
-		new /datum/data/turntable_soundtrack ("Nautilus Pompilius",	"Krylya",							'sound/turntable/nautilus_pompilius_krylya.ogg',			2080),
-		new /datum/data/turntable_soundtrack ("Nautilus Pompilius",	"Skovanie",							'sound/turntable/nautilus_pompilius_skovanye.ogg',			2530),
-		new /datum/data/turntable_soundtrack ("Nautilus Pompilius",	"Ya hochu byt s toboy",				'sound/turntable/nautilus_pompilius_ya_hochu_byt_s_toboy.ogg',2710),
-		new /datum/data/turntable_soundtrack ("Narodnaya Russkaya",	"Kaztosky Kick",					'sound/turntable/tf2_kazotsky_kic.ogg',						670),
-		new /datum/data/turntable_soundtrack ("Noggano",			"Armiya",							'sound/turntable/noggano_armiya.ogg',						3890),
-		new /datum/data/turntable_soundtrack ("Okean Elzi",			"Obime",							'sound/turntable/okean_elzi_obime.ogg',						2260),
-		new /datum/data/turntable_soundtrack ("Okean Elzi",			"Vidpusti",							'sound/turntable/okean_elzi_vidpusti.ogg',					2300),
-		new /datum/data/turntable_soundtrack ("Phil Collins",		"In The Air Tonight",				'sound/turntable/phil_collins_in_the_air_tonight.ogg',		3300),
-		new /datum/data/turntable_soundtrack ("Propaganda",			"Belim Melom",						'sound/turntable/propaganda_belim_melom.ogg',				1740),
-		new /datum/data/turntable_soundtrack ("Ranetki",			"O tebe",							'sound/turntable/ranetki_o_tebe.ogg',						1650),
-		new /datum/data/turntable_soundtrack ("Ranetki",			"Ona odna",							'sound/turntable/ranetki_ona_odna.ogg',						1640),
-		new /datum/data/turntable_soundtrack ("Rick Astley",		"Never Gonna Give You Up",			'sound/turntable/rick_astley_nggyu.ogg',					2120),
-		new /datum/data/turntable_soundtrack ("Rozenbaum A",		"Dagomis",							'sound/turntable/gopstop.ogg',								2450),
-		new /datum/data/turntable_soundtrack ("Shnurov",			"Mobilnik",							'sound/turntable/shnurov_mobilnik.ogg',						1680),
-		new /datum/data/turntable_soundtrack ("Shnurov",			"Privet Morrikone",					'sound/turntable/shnurov_morikone.ogg',						2230),
-		new /datum/data/turntable_soundtrack ("Splin",				"Mi sideli i kurili",				'sound/turntable/splin_mi_sideli_i_kurili.ogg',				1980),
-		new /datum/data/turntable_soundtrack ("Splin",				"Moe Serdce",						'sound/turntable/splin_moe_serdce.ogg',						2440),
-		new /datum/data/turntable_soundtrack ("Splin",				"Romans",							'sound/turntable/splin_romans.ogg',							2070),
-		new /datum/data/turntable_soundtrack ("Splin",				"Vihoda net",						'sound/turntable/splin_vihoda_net.ogg',						2230),
-		new /datum/data/turntable_soundtrack ("Steklovata",			"Noviy God",						'sound/turntable/steklovata_noviy_god.ogg',					2380),
-		new /datum/data/turntable_soundtrack ("Total",				"Byet Po Glazam Adrenalin",			'sound/turntable/total_byet_po_glazam_adrenalin.ogg',		2530),
-		new /datum/data/turntable_soundtrack ("Trubetskoy",			"Kapital",							'sound/turntable/trubetskoy_kapital.ogg',					2000),
-		new /datum/data/turntable_soundtrack ("XS-project",			"Kolotushki",						'sound/turntable/xsproject_kolotushki.ogg',					1610),
-		new /datum/data/turntable_soundtrack ("Zemfira",			"Hochesh?",							'sound/turntable/zemfira_hochesh.ogg',						1920),
-		new /datum/data/turntable_soundtrack ("Zhuki",				"Batareyka",						'sound/turntable/zhuki_batareyka.ogg',						2240),
-		new /datum/data/turntable_soundtrack ("Zemlyane",			"Zemlya V Illuminatore",			'sound/turntable/zemlyane_zemlya_v_illuminatore.ogg',		2330),
-		new /datum/data/turntable_soundtrack ("Mnogotochie",		"Shemit v dushe toska",				'sound/turntable/mnogotochie_shemit.ogg',					2310)
+		new /datum/data/turntable_soundtrack ("Pauk",				"Mumije",							'sound/turntable/mumije.ogg',								2850),
+		new /datum/data/turntable_soundtrack ("Claustrofobia",		"Sombras En La Alcoba",				'sound/turntable/claustrofobia.ogg',						2850),
+		new /datum/data/turntable_soundtrack ("Phantasmagoria",		"Poziv U Raj",						'sound/turntable/poziv_u_raj.ogg',							2850),
+		new /datum/data/turntable_soundtrack ("Tape Recorder",		"Dead Evening",						'sound/turntable/dead_evening.ogg',							2850),
+		new /datum/data/turntable_soundtrack ("Molchat Doma",		"Sudno",							'sound/turntable/sudno.ogg',								2850),
 	)
 	anchored = 1
 	density = 1
@@ -209,7 +145,7 @@
 	var/dat
 	dat +="<div class='statusDisplay'>"
 	dat += "Now playing: <b>[track.f_name] - [track.name]</b>"
-	//dat += "Balance: [balance] ğ.<br>"
+	//dat += "Balance: [balance] ï¿½.<br>"
 	dat += "<br>"
 	if(KPK.profile.fields["faction_s"] == "Traders")
 		dat += "<br><A href='?src=\ref[src];collect_money=\ref[src]'>Collect Money</A>"
