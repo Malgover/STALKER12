@@ -230,4 +230,4 @@ var/global/normal_ooc_colour = "#BC9919"
 		if(M && M.client)
 			if(M.client.prefs.chat_toggles & CHAT_OOC)
 				if(!(usr.key in M.client.prefs.ignoring))
-					M.client << "<font color='#5b809b'><span class='ooc'><span class='prefix'>LOOC:</span> <EM>[keyname]:</EM> <span class='message'>[msg]</span></span></font>"
+					M.client << "<font color='#FFEF47'><span class='ooc'><span class='prefix'>LOOC:</span> <EM>[keyname]:</EM> <span class='message'>[msg]</span></span></font>"
