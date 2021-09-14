@@ -37,7 +37,7 @@
 /obj/structure/stalker/brokenbed
 	name = "broken bed"
 	desc = "Сломанна&#255; металлическа&#255; кровать. На ней уже не поспишь."
-	eng_desc = "Metal broken bed."
+	eng_desc = "A broken bed."
 	icon_state = "krovat_s"
 
 /obj/structure/bed/chair/stalker
@@ -45,8 +45,8 @@
 
 /obj/structure/bed/chair/stalker/divan
 	name = "sofa"
-	desc = "Старый изношенный диван. Местами запачканный, местами дыр&#255;вый - но сидеть на нём все же можно."
-	eng_desc = "Old sofa."
+	desc = "An old rugged sofa."
+	eng_desc = "An old rugged sofa."
 	icon_state = "divan"
 
 /obj/structure/bed/chair/stalker/divan/divan2
