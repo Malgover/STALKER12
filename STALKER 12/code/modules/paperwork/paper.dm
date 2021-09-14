@@ -379,6 +379,10 @@
 	name = "paper- 'Door Code'"
 	info = "<B>The door code is 1670.</B><BR>\n<BR>\nMake sure you change it if you want to avoid<BR>\nsmartasses stealing your shit. I left cash in the locker to get you started. Good luck, STALKER.<BR>\n-Butcher<BR>"
 
+/obj/item/weapon/paper/rostokcode
+	name = "paper- 'Door Code'"
+	info = "<B>The door code is 3914.</B><BR>\n<BR>\nChange it as soon as you're able to.<BR>\nPeople have a tendency to steal everything that's not theirs. Make sure to check the lockers, I left weapons and food in 'em to get you started. Good luck, STALKER.<BR>\n-Boris<BR>"
+
 /obj/item/weapon/paper/crumpled
 	name = "paper scrap"
 	icon_state = "scrap"
