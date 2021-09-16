@@ -147,7 +147,8 @@
 	backpack_contents = list(/obj/item/stack/spacecash/c5000 = 1,
 						/obj/item/ammo_box/stalker/b12x70 = 1,
 						/obj/item/weapon/kitchen/knife/tourist = 1,
-						/obj/item/device/flashlight/seclite = 1)
+						/obj/item/device/flashlight/seclite = 1,
+						/obj/item/weapon/paper/banditcode = 1)
 	l_pocket = /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/shproti
 	r_pocket = /obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki
 
