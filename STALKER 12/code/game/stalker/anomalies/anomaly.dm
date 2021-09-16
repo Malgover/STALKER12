@@ -701,11 +701,11 @@
 	if (istype(A,/mob/living/carbon/human))
 		var/mob/living/carbon/human/H = A
 		src.trapped -= H
-		//SSobj.processing.Remove(src)
+		SSobj.processing.Remove(src)
 
 /obj/rad/process()
 	if(src.trapped.len < 1)
-		//SSobj.processing.Remove(src)
+		SSobj.processing.Remove(src)
 		return
 
 	if(lasttime + cooldown > world.time)
