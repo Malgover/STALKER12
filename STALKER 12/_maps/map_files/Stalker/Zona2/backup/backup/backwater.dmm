@@ -39,13 +39,12 @@
 "aM" = (/obj/structure/grille/stalker{icon_state = "fence3"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor/backwater)
 "aN" = (/obj/structure/table/stalker/wood,/obj/structure/stalker/cacheable/radio,/turf/stalker/floor/wood/oldgor,/area/stalker/blowout/buildings/backwater)
 "aO" = (/obj/structure/stalker/cacheable/painting/lenin{pixel_y = 32},/obj/structure/barricade/stalker/box,/turf/stalker/floor/wood/oldgor,/area/stalker/blowout/buildings/backwater)
-"aP" = (/obj/structure/stalker/cacheable/painting/stalin{pixel_x = 0; pixel_y = 32},/turf/stalker/floor/wood/oldgor,/area/stalker/blowout/buildings/backwater)
 "aQ" = (/turf/simulated/mineral,/area/stalker/blowout/outdoor/backwater/sawmill)
 "aR" = (/obj/structure/flora/stalker/bush,/turf/stalker/floor/gryaz/gryaz2,/area/stalker/blowout/outdoor/backwater/sawmill)
 "aS" = (/obj/structure/stalker/okno/window1,/turf/simulated/wall/stalker/bricks_yellow,/area/stalker/blowout/outdoor/backwater)
 "aT" = (/obj/anomaly/jarka,/turf/stalker/floor/gryaz/gryaz3,/area/stalker/blowout/outdoor/backwater)
 "aU" = (/turf/simulated/wall/stalker/bricks_yellow,/area/stalker/blowout/outdoor/backwater/sawmill)
-"aV" = (/obj/structure/stalker/cacheable/krest{desc = "Äåğåâ&#255;ííûé êğåñò. Çäåñü çàêîïàí Ñî÷íûé"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor/backwater)
+"aV" = (/obj/structure/stalker/cacheable/krest{desc = "Ã„Ã¥Ã°Ã¥Ã¢&#255;Ã­Ã­Ã»Ã© ÃªÃ°Ã¥Ã±Ã². Ã‡Ã¤Ã¥Ã±Ã¼ Ã§Ã ÃªÃ®Ã¯Ã Ã­ Ã‘Ã®Ã·Ã­Ã»Ã©"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor/backwater)
 "aW" = (/obj/structure/stalker/cacheable/krest,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor/backwater)
 "aX" = (/obj/structure/stalker/tree,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor/backwater/sawmill)
 "aY" = (/turf/stalker/floor/tropa,/area/stalker/blowout/outdoor/backwater)
@@ -87,7 +86,7 @@
 "bI" = (/obj/structure/stalker/doski/doski2,/turf/stalker/floor/tropa,/area/stalker/blowout/buildings/backwater/sawmill)
 "bJ" = (/obj/machinery/light/small/broken{icon_state = "bulb-broken"; dir = 8},/turf/stalker/floor/wood/oldgor,/area/stalker/blowout/buildings/backwater/sawmill)
 "bK" = (/obj/structure/stalker/cacheable/plita,/turf/stalker/floor/wood/oldgor,/area/stalker/blowout/buildings/backwater/sawmill)
-"bL" = (/obj/structure/table/stalker/wood,/obj/machinery/stalker/sidorpoint{path_ending = "sawmill"; pixel_y = 8},/turf/stalker/floor/wood/oldgor,/area/stalker/blowout/buildings/backwater/sawmill)
+"bL" = (/obj/structure/table/stalker/wood,/obj/machinery/stalker/sidorpoint{!INVALID_VAR! = "sawmill"; pixel_y = 8},/turf/stalker/floor/wood/oldgor,/area/stalker/blowout/buildings/backwater/sawmill)
 "bM" = (/turf/stalker/floor/agroprom/beton,/area/stalker/blowout/buildings/backwater/sawmill)
 "bN" = (/turf/stalker/floor/road,/area/stalker/blowout/outdoor/backwater/sawmill)
 "bO" = (/obj/structure/stalker/doski/doski3,/turf/stalker/floor/wood/oldgor,/area/stalker/blowout/buildings/backwater/sawmill)
@@ -398,7 +397,7 @@
 "hH" = (/turf/simulated/wall/stalker/bricks_white,/area/stalker/blowout/outdoor/backwater/substation)
 "hI" = (/turf/stalker/floor/road,/area/stalker/blowout/outdoor/backwater/substation)
 "hJ" = (/turf/stalker/floor/gryaz/gryaz3,/area/stalker/blowout/outdoor/backwater/substation)
-"hK" = (/obj/structure/table/stalker,/obj/machinery/stalker/sidorpoint{path_ending = "shevchenko"; pixel_y = 16},/turf/stalker/floor/lattice,/area/stalker/buildings/backwater/shevchenko)
+"hK" = (/obj/structure/table/stalker,/obj/machinery/stalker/sidorpoint{!INVALID_VAR! = "shevchenko"; pixel_y = 16},/turf/stalker/floor/lattice,/area/stalker/buildings/backwater/shevchenko)
 "hL" = (/obj/structure/stalker/cacheable/yashik/yaskik_a,/turf/stalker/floor/lattice,/area/stalker/buildings/backwater/shevchenko)
 "hM" = (/obj/structure/stalker/blocks/vanish/sandbags{icon_state = "corners"; dir = 9},/turf/stalker/floor/road,/area/stalker/blowout/outdoor/backwater/substation)
 "hN" = (/obj/structure/stalker/blocks/vanish/sandbags{icon_state = "centers"},/turf/stalker/floor/road,/area/stalker/blowout/outdoor/backwater/substation)
@@ -478,7 +477,7 @@
 "jj" = (/obj/structure/bed/chair/stalker/divan,/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor/backwater/substation)
 "jk" = (/obj/structure/bed/chair/stalker/divan/divan2,/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor/backwater/substation)
 "jl" = (/obj/structure/table/stalker/wood,/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor/backwater/substation)
-"jm" = (/obj/structure/table/stalker/wood,/obj/machinery/stalker/sidorpoint{path_ending = "substation"; pixel_y = 16},/turf/stalker/floor/agroprom/beton,/area/stalker/blowout/buildings/backwater/substation)
+"jm" = (/obj/structure/table/stalker/wood,/obj/machinery/stalker/sidorpoint{!INVALID_VAR! = "substation"; pixel_y = 16},/turf/stalker/floor/agroprom/beton,/area/stalker/blowout/buildings/backwater/substation)
 "jn" = (/obj/structure/table/stalker/wood,/obj/structure/stalker/cacheable/televizor/broken,/turf/stalker/floor/agroprom/beton,/area/stalker/blowout/buildings/backwater/substation)
 "jo" = (/obj/structure/stalker/cacheable/yashik/yaskik_a/big,/turf/stalker/floor/agroprom/beton,/area/stalker/blowout/buildings/backwater/substation)
 "jp" = (/obj/structure/stalker/cacheable/shina3,/turf/stalker/floor/agroprom/beton,/area/stalker/blowout/buildings/backwater/substation)
@@ -705,7 +704,7 @@
 "nC" = (/obj/anomaly/karusel,/obj/rad/rad_medium,/turf/stalker/floor/water,/area/stalker/blowout/outdoor/backwater)
 "nD" = (/obj/structure/stalker/cacheable/shitok/shitok2{pixel_y = 24},/turf/stalker/floor/plasteel/plitka,/area/stalker/blowout/buildings/backwater/waste)
 "nE" = (/obj/structure/table/stalker/wood,/turf/stalker/floor/gryaz/gryaz3,/area/stalker/blowout/buildings/backwater/waste)
-"nF" = (/obj/structure/table/stalker/wood,/obj/machinery/stalker/sidorpoint{path_ending = "waste"},/obj/structure/stalker/cacheable/clocks{pixel_y = 32},/turf/stalker/floor/gryaz/gryaz3,/area/stalker/blowout/buildings/backwater/waste)
+"nF" = (/obj/structure/table/stalker/wood,/obj/machinery/stalker/sidorpoint{!INVALID_VAR! = "waste"},/obj/structure/stalker/cacheable/clocks{pixel_y = 32},/turf/stalker/floor/gryaz/gryaz3,/area/stalker/blowout/buildings/backwater/waste)
 "nG" = (/obj/structure/stalker/cacheable/shitok/shitok2{pixel_y = 24},/turf/stalker/floor/gryaz/gryaz3,/area/stalker/blowout/buildings/backwater/waste)
 "nH" = (/obj/structure/stalker/radiation,/turf/stalker/floor/gryaz/gryaz3,/area/stalker/blowout/outdoor/backwater)
 "nI" = (/obj/structure/stalker/blocks/vanish/block1/l,/turf/stalker/floor/plasteel/plitka,/area/stalker/blowout/buildings/backwater/waste)
@@ -872,7 +871,7 @@
 "qN" = (/obj/structure/stalker/cacheable/shkaf64,/turf/stalker/floor/agroprom/beton,/area/stalker/blowout/buildings/backwater/ranger)
 "qO" = (/obj/structure/closet/stalker/shkaf,/obj/item/clothing/under/color/switer/lolg,/turf/stalker/floor/agroprom/beton,/area/stalker/blowout/buildings/backwater/ranger)
 "qP" = (/obj/structure/closet/stalker/shkaf,/obj/item/weapon/storage/box/matches,/obj/item/device/instrument/guitar,/turf/stalker/floor/agroprom/beton,/area/stalker/blowout/buildings/backwater/ranger)
-"qQ" = (/obj/structure/closet/stalker/shkaf,/obj/item/weapon/stalker/knife,/turf/stalker/floor/agroprom/beton,/area/stalker/blowout/buildings/backwater/ranger)
+"qQ" = (/obj/structure/closet/stalker/shkaf,/turf/stalker/floor/agroprom/beton,/area/stalker/blowout/buildings/backwater/ranger)
 "qR" = (/obj/structure/bed/stalker/matras,/turf/stalker/floor/agroprom/beton,/area/stalker/blowout/buildings/backwater/ranger)
 "qS" = (/obj/structure/table/stalker/wood,/turf/stalker/floor/agroprom/beton,/area/stalker/blowout/buildings/backwater/ranger)
 "qT" = (/obj/machinery/campfire/barrel,/turf/stalker/floor/agroprom/beton,/area/stalker/blowout/buildings/backwater/ranger)
@@ -1416,11 +1415,11 @@
 "Bl" = (/obj/structure/closet/stalker/shkaf{pixel_x = 9},/turf/stalker/floor/lattice,/area/stalker/buildings/backwater/skadovsk_respawn)
 "Bm" = (/obj/structure/stalker/doski/doski2,/turf/stalker/floor/lattice,/area/stalker/buildings/backwater/skadovsk_respawn)
 "Bn" = (/obj/structure/stalker/cacheable/komod{cache_quality = 0; pixel_x = -4},/turf/stalker/floor/lattice,/area/stalker/buildings/backwater/skadovsk_respawn)
-"Bo" = (/obj/structure/stalker/cacheable/polka{desc = "Äåğåâíûé ñòåëëàæ. Ñ áîêîâîé ñòîğîíû êòî-òî âûğåçàë ñëîâà: ''Ïåòğîâè÷ ïèäîğ!''"; dir = 4; icon_state = "polka"; pixel_x = 24; tag = "icon-polka (EAST)"},/turf/stalker/floor/lattice,/area/stalker/buildings/backwater/skadovsk_respawn)
+"Bo" = (/obj/structure/stalker/cacheable/polka{desc = "Ã„Ã¥Ã°Ã¥Ã¢Ã­Ã»Ã© Ã±Ã²Ã¥Ã«Ã«Ã Ã¦. Ã‘ Ã¡Ã®ÃªÃ®Ã¢Ã®Ã© Ã±Ã²Ã®Ã°Ã®Ã­Ã» ÃªÃ²Ã®-Ã²Ã® Ã¢Ã»Ã°Ã¥Ã§Ã Ã« Ã±Ã«Ã®Ã¢Ã : ''ÃÃ¥Ã²Ã°Ã®Ã¢Ã¨Ã· Ã¯Ã¨Ã¤Ã®Ã°!''"; dir = 4; icon_state = "polka"; pixel_x = 24; tag = "icon-polka (EAST)"},/turf/stalker/floor/lattice,/area/stalker/buildings/backwater/skadovsk_respawn)
 "Bp" = (/obj/structure/stalker/cacheable/yashik/yaskik_a{cache_quality = 0},/turf/stalker/floor/lattice,/area/stalker/buildings/backwater/skadovsk_respawn)
 "Bq" = (/obj/structure/stalker/cacheable/yashik{cache_quality = 0},/turf/stalker/floor/lattice,/area/stalker/buildings/backwater/skadovsk_respawn)
 "Br" = (/obj/effect/landmark/latejoin,/obj/structure/bed/stalker/metal/matras,/turf/stalker/floor/lattice,/area/stalker/buildings/backwater/skadovsk_respawn)
-"Bs" = (/obj/structure/safe{desc = "Ñòàğûé ñåéô. Êòî-òî âûöàğàïàë íà íåì ñëîâî:''Ëîïàòà''"; tumbler_1_open = 25; tumbler_1_pos = 30; tumbler_2_open = 25; tumbler_2_pos = 20},/obj/item/weapon/gun/projectile/revolver/bm16/toz34,/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army,/turf/stalker/floor/lattice,/area/stalker/buildings/backwater/skadovsk_respawn)
+"Bs" = (/obj/structure/safe{desc = "Ã‘Ã²Ã Ã°Ã»Ã© Ã±Ã¥Ã©Ã´. ÃŠÃ²Ã®-Ã²Ã® Ã¢Ã»Ã¶Ã Ã°Ã Ã¯Ã Ã« Ã­Ã  Ã­Ã¥Ã¬ Ã±Ã«Ã®Ã¢Ã®:''Ã‹Ã®Ã¯Ã Ã²Ã ''"; tumbler_1_open = 25; tumbler_1_pos = 30; tumbler_2_open = 25; tumbler_2_pos = 20},/obj/item/weapon/gun/projectile/revolver/bm16/toz34,/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army,/turf/stalker/floor/lattice,/area/stalker/buildings/backwater/skadovsk_respawn)
 "Bt" = (/obj/structure/closet/crate/stalker/blue,/turf/stalker/floor/lattice,/area/stalker/buildings/backwater/skadovsk_respawn)
 "Bu" = (/obj/effect/step_trigger/teleporter{teleport_x = 192; teleport_y = 247; teleport_z = 2},/turf/simulated/floor/plasteel/stairs/stalker{tag = "icon-ladder (EAST)"; icon_state = "ladder_right"; dir = 4},/area/stalker/buildings/backwater/skadovsk)
 "Bv" = (/obj/effect/step_trigger/teleporter{teleport_x = 192; teleport_y = 246; teleport_z = 2},/turf/simulated/floor/plasteel/stairs/stalker{tag = "icon-ladder (EAST)"; icon_state = "ladder_left"; dir = 4},/area/stalker/buildings/backwater/skadovsk)
@@ -1516,7 +1515,7 @@ aaaaaaaaaaabadafadagagagagagagagdEagagagagadadafadafatatababatatataeaeaeaeaeatas
 aaaaaaaaaaabadafafadadagagagagagagagagagadadafadadafatatabatatatataeaeaeaeatatasaoagagagagafaoagagagagasasaoaoaoatatauatatatatatatatataoaoasasaoasasasaoasasaoatatatatatatataoasatatatataeaeaeaeatatasasatatatasagagagagagaoasasaoaoaoaoasagagasataoasagagagagagagagasaoaoaoagagasaoaoatatatataoasasaoatatatatatasaoaoatatatatatatataoaoatatataoaoatatatatataoatataoaoatatatatatatatatatatatatatatataoasaoatataoasagagagagagagagagagagdWdWdWagagagagagdWdWdWdWagagagagagagagdWdWfAfAfAdWdWagagagaoaoatatatasadabaaaaaaaaaaaaaa
 aaaaaaaaababadadafafafadagagagagagadadadadafafadafafafatatatatataeaeaeaeaeatataoaoagagagagagagagagagagaoasasaoatatatatatatatauatatatatatatatatasasdzaoasatatatatatatatatatataoaoatatataeaeaeaeatatataoasaoatasaoagagagagagaoatasaoaoaoasagagagasatasagagagagagagagagagaoaoaoaoasaoaoatatatatataoasatatatatatatatatatatatatatatatataoaoaoaoaoaoaoaoaoatatatatatatatatasaoatatatauatatatatatatatatatataoasatatataoagagagagagagagagagagdWdWdWdWdWagagagagagagdWdWdWagagagagagdWdWdWdWdWdWdWagagagaoasaoauatatafadababaaaaaaaaaaaa
 aaaaaaaaabadadadadafdCafafafafafafafafafafafafafafadadatatatatataeaeaeaeatatatasaoagagadafagagagagagagagasasaoatatatatatatataCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCatatauatatatatataoatatatataeaeaeaeatauatatasasasasagagagagagaoaoatatataoasagagagaoatatasagagagagagagagagasaoaoatataoatatatatataoasasasasasasaoaoasaoasasasasasaoasaoasasasasaoaoaoasaoasasaoatatatatatatataoaoatatatatatatatatatatatatataoasatataoasagagagagagagagagdWdWdWfAfAfAdWdWagagagagdWdWdWdWdWagagagdWdWfAfAfAdWdWagagagagasaoatatatatatadafabaaaaaaaaaaaa
-aaaaaaaaabafdyafafafafafadadadafafafafafadadafatatadafafatatataeaeaeaeaeatatatatasagagadafagagagagagagagaoasaoatatatatatataYfLcCdPmRdMdLaOdPaPdndodPdPdPcCfPaYatatatatatatataoasatataeaeaeaeatatatatatataoasagagagagagagaoasasasatasaoagagagasatasagagagagagagagagasaoatatatatataoaoasasasasriririrjririririririrjririrjririrjririrjririoWoWoWririririasasaoatatatasatasaoatatatatatatatauatatatatataoasatataoasagagagagagagagdWdWdWdWfAnCfAdWdWagagagdWdWfAfAfAdWdWagagdWdWfAnCfAdWdWagagagagaoaoatatatasasafadabaaaaaaaaaaaa
+aaaaaaaaabafdyafafafafafadadadafafafafafadadafatatadafafatatataeaeaeaeaeatatatatasagagadafagagagagagagagaoasaoatatatatatataYfLcCdPmRdMdLaOdPdPdndodPdPdPcCfPaYatatatatatatataoasatataeaeaeaeatatatatatataoasagagagagagagaoasasasatasaoagagagasatasagagagagagagagagasaoatatatatataoaoasasasasriririrjririririririrjririrjririrjririrjririoWoWoWririririasasaoatatatasatasaoatatatatatatatauatatatatataoasatataoasagagagagagagagdWdWdWdWfAnCfAdWdWagagagdWdWfAfAfAdWdWagagdWdWfAnCfAdWdWagagagagaoaoatatatasasafadabaaaaaaaaaaaa
 aaaaaaaaabadafafafafafadafafafadadafatauafafafauatatatatatabataeaeaeaeatatatatatasagagadafagagagagagagagaoaoatatatatatatataYAscCdPdPdqdPdPdtdudPdPdPdPdPcCAtaYaYatatatatatatatasatataeaeaeaeatatatatatatataoagagagagagaoasasaoaoaoasaoagagaoatatasagagagagagagagasaoatataoasaoasasririrjriririfSfWgcgJhEhEhFjQpepfphphpihKhGhFhLhPhSpdvLpppppprdhTnmriririaoatatataoatatasatatatatatatatatatatatatataoasauataoasagagagagagagdWdWfAfAfAfAfAfAdWdWagagagdWdWfAnCfAdWdWagagdWdWfAfAfAdWagagagagaoaoatatataoasaoadadabaaaaaaaaaaaa
 aaaaaaaaabafafafafafabdVafafafdVabadatatatatafatatatatabababataeaeaeaeatatatataoasagagafafagagafafagagagasaoatatauatatataYaYAscCdPdPdPdPdPaJaJdPdPdPdPdPcCAtaYaYatatatatatatatatataeaeaeaeatatatatatatatataoagagagagagaoasasaoaoaoasaoaoaoasasataoagagagagagagasasatatasasasasriririnnuDnnnqrdhFhFhFhFhFhFhFjQtephphphphvMhFoThFhFtfpdpnvLppvKrdpnoXoYoYrkasatatatasaoataoatatatatatatatatatatatatatatatatataoaoagagagagagagdWdWfAnCfAdWdWdWdWagagagagdWdWfAfAfAdWdWagagagdWdWdWdWdWagagagasasatatatatasaoatadafabaaaaaaaaaaaa
 aaaaaaaaabadafdyafadabdVfTfUgbdVabafadatatatatatatatabababatataeaeaeaeatatatatasasagagafafaoagadafagagagasatatatatatatataYaYAucCdPdPdPdPdPdPdPdPdvdPdPdPcCAvaYatatatatatatatatatataeaeaeaeatatatatatauatatasagagagagaoaoaoasagagasaoaoaoaoasagaoaoagagagagagaoaoatataoaoaoasririoZpdhThThThTpahFpbpchGhGhFhFpCphpDpOphvNpjpkhFhFhFplpIhThThThTpmhTpopqprrkasatatataoaoatatatatatatatatatatatatatatatatatatataoaoagagagagagagdWdWfAfAfAdWdWdWagagagagagagdWdWdWdWdWagagagagagdWdWdWagagagasasatauatatasasaoatafadabaaaaaaaaaaaa

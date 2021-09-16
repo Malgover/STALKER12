@@ -1,7 +1,7 @@
 #if !defined(MAP_FILE)
 
-		#include "map_files\Stalker\Zona2\backup\underground1.dmm"
-		#include "map_files\Stalker\Zona2\backup\backwater.dmm"
+		#include "map_files\Stalker\Zona2\underground1.dmm"
+		#include "map_files\Stalker\Zona2\backwater.dmm"
 
 		#define MAP_FILE "underground1.dmm"
 		#define MAP_NAME "Backwater"
