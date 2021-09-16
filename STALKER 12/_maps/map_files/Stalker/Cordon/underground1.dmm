@@ -19,7 +19,7 @@
 "as" = (/obj/structure/bed/stalker/metal,/turf/stalker/floor/wood/oldvert,/area/stalker/rostok/bar)
 "at" = (/obj/structure/closet/crate/stalker/blue,/obj/machinery/light{tag = "icon-tube1 (NORTH)"; icon_state = "tube1"; dir = 1},/turf/stalker/floor/wood/oldvert,/area/stalker/rostok/bar)
 "au" = (/obj/structure/stalker/cacheable/shkaf64,/turf/stalker/floor/wood/oldvert,/area/stalker/rostok/bar)
-"av" = (/obj/structure/stalker/cacheable/painting/gorbachev{pixel_y = 32},/turf/stalker/floor/wood/oldvert,/area/stalker/rostok/bar)
+"av" = (/obj/structure/stalker/cacheable/painting/lenin,/turf/simulated/wall/stalker/bricks_white,/area/stalker/rostok/bar)
 "aw" = (/obj/structure/bed/chair/stalker/divan{pixel_y = 11},/obj/structure/stalker/cacheable/cover{pixel_y = 32},/turf/stalker/floor/wood/oldvert,/area/stalker/rostok/bar)
 "ax" = (/obj/structure/bed/chair/stalker/divan/divan2{pixel_y = 11},/turf/stalker/floor/wood/oldvert,/area/stalker/rostok/bar)
 "ay" = (/turf/stalker/floor/wood/oldvert,/area/stalker/rostok/bar)
@@ -69,7 +69,7 @@
 "bq" = (/turf/stalker/floor/sidor{name = "floor"},/area/stalker/sidor)
 "br" = (/obj/machinery/door/airlock/stalker/sidor{locked = 1},/turf/simulated/wall/stalker/beton,/area/stalker/sidor)
 "bs" = (/obj/structure/stalker/cacheable/porog/porog2,/turf/stalker/floor/plasteel/plitka,/area/stalker/rostok/bar)
-"bt" = (/obj/structure/stalker/modification_table,/obj/item/weapon/shovel,/obj/item/weapon/shovel,/turf/stalker/floor/lattice,/area/stalker/cordon/buildings)
+"bt" = (/obj/structure/stalker/modification_table,/turf/stalker/floor/lattice,/area/stalker/cordon/buildings)
 "bu" = (/turf/stalker/floor/plasteel/concrete,/area/stalker/rostok/bar)
 "bv" = (/obj/machinery/light/small{tag = "icon-bulb1 (NORTH)"; icon_state = "bulb1"; dir = 1},/turf/stalker/floor/plasteel/concrete,/area/stalker/rostok/bar)
 "bw" = (/obj/effect/decal/warning_stripes{tag = "icon-border2"; icon_state = "border2"},/obj/effect/decal/warning_stripes{tag = "icon-border2"; icon_state = "border2"},/obj/effect/decal/warning_stripes{tag = "icon-border1"; icon_state = "border1"},/obj/effect/decal/warning_stripes{tag = "icon-border1"; icon_state = "border1"},/obj/effect/decal/warning_stripes{icon_state = "border8"; pixel_x = 0; tag = "icon-border8"},/obj/effect/decal/warning_stripes{icon_state = "border8"; pixel_x = 0; tag = "icon-border8"},/turf/simulated/floor/plasteel/stairs{tag = "icon-stairs (WEST)"; icon_state = "stairs"; dir = 8},/area/stalker/rostok/bar)
@@ -101,7 +101,7 @@
 "bW" = (/obj/machinery/light{tag = "icon-tube1 (EAST)"; icon_state = "tube1"; dir = 4},/turf/simulated/floor/plasteel,/area/stalker/sidor)
 "bX" = (/obj/machinery/light{tag = "icon-tube1 (WEST)"; icon_state = "tube1"; dir = 8},/turf/stalker/floor/wood/oldvert,/area/stalker/rostok/bar)
 "bY" = (/obj/structure/table/stalker/wood/bar100rentgen,/turf/simulated/floor/plasteel/floorgrime,/area/stalker/rostok/bar)
-"bZ" = (/obj/machinery/door/poddoor/sidor{id = 5005},/turf/simulated/floor/plasteel/floorgrime,/area/stalker/rostok/bar)
+"bZ" = (/obj/machinery/door/poddoor/sidor{id = 3981},/turf/simulated/floor/plasteel/floorgrime,/area/stalker/rostok/bar)
 "ca" = (/turf/stalker/floor/plasteel/plitochka,/area/stalker/rostok/bar)
 "cb" = (/obj/machinery/door/poddoor/sidor{id = 665},/turf/stalker/floor/sidor{name = "floor"},/area/stalker/sidor)
 "cc" = (/obj/structure/table,/obj/item/weapon/gun/projectile/automatic/pistol/fort12/unique,/obj/structure/table/stalker/steeltable,/turf/stalker/floor/plasteel/plitka,/area/stalker/sidor)
@@ -636,7 +636,7 @@
 "ml" = (/obj/effect/decal/warning_stripes/bordur/side/east,/turf/stalker/floor/sidor{name = "floor"},/area/stalker/sidor)
 "mm" = (/obj/effect/decal/warning_stripes{icon_state = "border4"; pixel_x = 0; tag = "icon-border4"},/obj/effect/decal/warning_stripes{icon_state = "border8"; pixel_x = 0; tag = "icon-border8"},/obj/effect/decal/warning_stripes{tag = "icon-border1"; icon_state = "border1"},/obj/effect/decal/warning_stripes/bordur/side/north,/turf/simulated/floor/plasteel/stairs,/area/stalker/rostok/bar)
 "mn" = (/obj/structure/table/stalker/wood,/obj/item/weapon/paper/rostokcode,/turf/simulated/floor/plasteel/floorgrime,/area/stalker/rostok/bar)
-"mo" = (/obj/machinery/button/door/keypad{pixel_x = 1; pixel_y = 31; correctcode = "3914"; keycode = "0000"},/turf/stalker/floor/wood/oldvert,/area/stalker/rostok/bar)
+"mo" = (/obj/machinery/button/door/keypad{correctcode = "3914"; id = 3981; keycode = "0000"; pixel_x = 1; pixel_y = 31},/turf/stalker/floor/wood/oldvert,/area/stalker/rostok/bar)
 "mx" = (/obj/structure/grille/stalker{pixel_y = -3},/turf/stalker/floor/agroprom/beton,/area/stalker/agroprom/caves)
 "my" = (/obj/structure/stalker/cacheable/bochka/red{pixel_x = -7; pixel_y = 16},/turf/stalker/floor/agroprom/gryaz,/area/stalker/agroprom/caves)
 "mz" = (/obj/structure/stalker/cacheable/bochka/red{pixel_x = -7; pixel_y = 16},/turf/stalker/floor/agroprom/beton,/area/stalker/agroprom/caves)
@@ -743,8 +743,8 @@
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaaaaaaaaaaabababababababababababacacacacacacacadadadadadadadadacacacacacacacacacacacacacababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
-aaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaabaaagahaiaaabababababababababababacacacacacajajajajakakakakaladacacacamamamamamamamamamacababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
-aaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaabaaaeapaeaaabababababababababababacacacacacacaqaqbhamamamamamamamamamamasatauavawaxayamacababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+aaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaaeafaeaaabaaagahaiaaabababababababababababacacacacacajajajajakakakakaladacacacamamamamavamamamamacababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+aaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaanaaaoaaabaaaeapaeaaabababababababababababacacacacacacaqaqbhamamamamamamamamamamasatauayawaxayamacababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
 aaazaAazaaazaAazaaazaAazaaazaAazaaazaAazaaazaAazaaazaAazaaazaAazaaazaAazaaazaAazaaazaAazaaazaAazaaazaAazaaazaAazaaazaAazaaazaAazaaazaAazaaazaAazaaazaAazaaazaAazaaabaaanaaaoaaaaaaaaaaaaababababababacacacamamamamamamamaBaCamaDaEaFaEaEaGayayayayaHaHaIamacabababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaJaJaJaJaJaJaJaJaJaJaJaJaJaJaJababab
 aaaKaKbWaaaKaKbWaaaKaKbWaaaKaKbWaaaKaKbWaaaKaKbWaaaKaKbWaaaKaKbWaaaKaKbWaaaKaKbWaaaKaKbWaaaKaKbWaaaKaKbWaaaKaKbWaaaKaKbWaaaKaKbWaaaKaKbWaaaKaKbWaaaKaKbWaaaKaKbWaaabaaaMaNaMaabcaLbdbdaaaaaamjaaaaaaacacacamaOamaPaQaRamaSaTamaEaEaUaVmnamayayayaWayayayamacabababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaJaJaJaJaJaJaJaJaJaJaJaJaJaJaJababab
 aaaKaKaXaaaKaKaXaaaKaKaXaaaKaKaXaaaKaKaXaaaKaKaXaaaKaKaXaaaKaKaXaaaKaKaXaaaKaKaXaaaKaKaXaaaKaKaXaaaKaKaXaaaKaKaXaaaKaKaXaaaKaKaXaaaKaKaXaaaKaKaXaaaKaKaXaaaKaKaXaaabaaaZbaaZaabqbqbqbqaabbbebfccaMaaacacacambjambkaTblamaTaTbmaEaEamamamamamamamayayayayamacabababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaJaJaJaJaJaJaJaJaJaJaJaJaJaJaJababab
