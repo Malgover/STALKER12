@@ -107,7 +107,7 @@
 	name = "radiation hood"
 	icon_state = "rad"
 	desc = "A hood with radiation protective properties. The label reads, 'Made with lead. Please do not consume insulation.'"
-	flags = BLOCKHAIR|THICKMATERIAL
+	flags = THICKMATERIAL
 	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 60, rad = 100)
 	strip_delay = 60
 	put_on_delay = 60
