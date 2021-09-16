@@ -10,8 +10,7 @@
 */
 /obj/item/clothing/head/steel
 	name = "Steel helmet"
-	desc = "����� �� ������, ������� ������ �����, ����� ���� ���� ��������� �� ��� ��������. �� ��� ������ ����������� �� ����������� ����, �� �� ������������ �������� ����� ��� ������� �� ������."
-	eng_desc = "Steel helmet made of old rusty steel. You look nazi wearing it. Protects your head but won't hold lots of bullets"
+	eng_desc = "An old and rusty steel helmet."
 	icon_state = "steelhelmet"
 	item_state = "steelhelmet"
 	armor = list(melee = 25, bullet = 40, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0, psy = 5)
@@ -167,7 +166,7 @@
 	strip_delay = 80
 
 /obj/item/clothing/head/bandmil
-	name = "military beret"
+	name = "military bandana"
 	desc = "A dark-green bandana typically worn by the Ukrainian Military."
 	icon_state = "bandmil_up"
 	armor = list(melee = 0, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, rad = 0)
