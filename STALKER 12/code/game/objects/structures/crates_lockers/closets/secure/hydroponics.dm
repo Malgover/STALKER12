@@ -9,4 +9,4 @@
 	new /obj/item/device/analyzer/plant_analyzer(src)
 	new /obj/item/device/radio/headset/headset_srv(src)
 	new /obj/item/weapon/cultivator(src)
-	new /obj/item/weapon/hatchet(src)
+	new /obj/item/weapon/kitchen/knife/hatchet(src)

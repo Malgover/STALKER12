@@ -104,4 +104,6 @@
 	belt = /obj/item/weapon/gun/projectile/automatic/pistol/cora
 	id = /obj/item/device/stalker_pda
 	shoes = /obj/item/clothing/shoes/sneakers/black
-	back = null
+	back = /obj/item/weapon/storage/backpack/satchel/stalker/civilian
+	backpack_contents = list(/obj/item/weapon/kitchen/knife/tourist,
+							/obj/item/weapon/paper/rostokcode)

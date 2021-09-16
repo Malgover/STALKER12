@@ -23,8 +23,8 @@
 	can_adjust = 0
 
 /obj/item/clothing/under/sl_suit
-	desc = "It's a very amish looking suit."
-	name = "amish suit"
+	desc = "Simple formal suit without a tie."
+	name = "formal suit"
 	icon_state = "sl_suit"
 	item_color = "sl_suit"
 	can_adjust = 0
