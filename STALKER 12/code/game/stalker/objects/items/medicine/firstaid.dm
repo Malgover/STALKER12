@@ -49,7 +49,7 @@
 */
 /obj/item/stack/medical/gauze/bint
 	desc = "Перев&#255;зочный материал. Помогает остановить кровотечение."
-	eng_desc = "Bandage. Can stop your bleeding."
+	eng_desc = "A common gauze bandage. It'll work extremely well for stopping any bleeding!"
 	icon = 'icons/stalker/items.dmi'
 	icon_state = "bint"
 	amount = 2

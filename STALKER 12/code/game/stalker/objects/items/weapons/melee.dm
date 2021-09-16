@@ -1,7 +1,7 @@
 /obj/item/weapon/kitchen/knife/tourist
 	name = "tourist knife"
 	desc = "Дешевый, но достаточно хороший дл&#255; туриста."
-	eng_desc = "Cheap knife but good enough for a tourist."
+	eng_desc = "Cheap shitty knife commonly seen in the hands of Tourists. It's good enough for them, but what about you?"
 	icon = 'icons/stalker/weapons.dmi'
 	icon_state = "knife"
 	flags = CONDUCT
@@ -17,7 +17,7 @@
 /obj/item/weapon/kitchen/knife/bayonet
 	name = "bayonet"
 	desc = "Опасный, но плохой в разделке туш мутантов штык-нож."
-	eng_desc = "Dangerous, but bad at butchering mutants bayonet."
+	eng_desc = "Dangerous in a combat scenario, but less suited for butchering a Mutant."
 	icon = 'icons/stalker/weapons.dmi'
 	icon_state = "bayonet"
 	flags = CONDUCT

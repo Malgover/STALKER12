@@ -2,9 +2,9 @@
 	icon = 'icons/stalker/food.dmi'
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva
-	name = "tourist delight"
+	name = "Tourist delight"
 	desc = "Консервы \"Радость туриста\" с растащенного сталкерами армейского продовольстенного склада. Срок годности вроде бы не истёк."
-	eng_desc = "These cans are supposed to be from the Army Warehouses ransacked by stalkers It is hard to say for sure what's in it because of no sticker present. But most likely its shelf life hasn't ended yet."
+	eng_desc = "Tourist's delight, also known as tourist breakfast: is a staple food of The Zone. Legend says these cans of conserva are from a raid against an army warehouse!"
 	icon_state = "konserva"
 	w_class = 2
 	wrapped = 1
@@ -39,9 +39,9 @@
 	//weight = 0.1
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/shproti
-	name = "shproti"
+	name = "Shproti"
 	desc = "Рижские шпроты."
-	eng_desc = "Rigan sprats."
+	eng_desc = "European sprats originating from the Latvian portcity of Riga. They've been preserved in a thick sunflower oil."
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "shproti0"
 	icon_state_opened = "shproti1"
@@ -54,12 +54,12 @@
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "shproti2"
 	desc = "Пуста&#255; банка из под шпрот."
-	eng_desc = "Empty can."
+	eng_desc = "Empty can of Sprats."
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/soup
-	name = "soup"
+	name = "Soup"
 	desc = "Готовый законсервированный суп по-домашнему."
-	eng_desc = "Just-add-water homemade-like soup."
+	eng_desc = "Condensed soup that usually would be thinned with water. A staple of tourists within the zone."
 	//weight = 0.7
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "soup0"
@@ -76,7 +76,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/bobi
 	name = "bobi"
 	desc = "Консервы \"Бобовый Сюрприз\", сносно."
-	eng_desc = "Food can \"Bean Surprise\"."
+	eng_desc = "A can of 'Bean Surprise'. A melody of cheap flavourless nibbles of meat and watery beans."
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "bobi0"
 	icon_state_opened = "bobi1"
@@ -92,7 +92,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/govyadina2
 	name = "tushenka"
 	desc = "Банка законсервированной гов&#255;дины."
-	eng_desc = "Can of stew."
+	eng_desc = "A can of beef-stew! An avidly loved staple of those who scour around old ruins in search for loot!"
 	//weight = 0.7
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "govyadina0"
@@ -109,7 +109,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/fish
 	name = "fish"
 	desc = "Рыбные консервы 'Прип&#255;ть', видимо из местной реки"
-	eng_desc = "Canned fish."
+	eng_desc = "Canned Fish. Simple, easy to digest and generally well-liked by most in the Zone."
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "fish0"
 	icon_state_opened = "fish1"
@@ -125,7 +125,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/snack/sirok
 	name = "cheese"
 	desc = "Пачка свежего плавленого сыра."
-	eng_desc = "A can of cream cheese."
+	eng_desc = "A can of creamed cheese commonly seen in UAF mountaineer rations."
 	//weight = 0.1
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "sirok"
@@ -143,7 +143,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/snack/snikers
 	name = "snikers"
 	desc = "Попул&#255;рный шоколадный батончик."
-	eng_desc = "Chocolate bar with nuts."
+	eng_desc = "Snickers. A reminder of home for western-tourists, a oddly sweet snack for locals."
 	//weight = 0.1
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "snikers"
@@ -161,7 +161,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/snack/chocolate
 	name = "Chocolate"
 	desc = "Небольша&#255; плитка горького шоколада."
-	eng_desc = "A bar of chocolate."
+	eng_desc = "A bar of chocolate. A reminder of home in this harsh place."
 	//weight = 0.1
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "Choco1"
@@ -179,7 +179,7 @@
 /obj/item/weapon/storage/box/MRE
 	name = "MRE"
 	desc = "Армейский ИРП рассчитанный на сутки."
-	eng_desc = "Ukrainian army MRE."
+	eng_desc = "Ukrainian standard issue twenty-four hour ration pack. Filled with everything a Stalker will need in a day!"
 	var/desc_opened = "Открытый Армейский ИРП рассчитанный на сутки."
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "box1"
@@ -217,7 +217,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/galets
 	name = "Galets"
 	desc = "Галеты армейские, вкусные и питательные."
-	eng_desc = "Tasty army biscuits."
+	eng_desc = "Dry crackers that'd chip the tooth of anyone thinking this was a buttery biscut!"
 	desc_opened = "Выгл&#255;дит очень аппетитно."
 	icon_state = "GAL1"
 	icon_state_opened = "GAL2"
@@ -231,7 +231,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/kasha
 	name = "Kasha"
 	desc = "Готова&#255; овс&#255;на&#255; каша в вакуумной упаковке."
-	eng_desc = "Oatmeal in vacuum package."
+	eng_desc = "Vacuum-sealed can of boiled buckwheat porridge. Isn't this traditionally baked?"
 	desc_opened = "Выгл&#255;дит так себе, но на запах вроде ничего."
 	icon_state = "Kasha1"
 	icon_state_opened = "Kasha2"
@@ -245,7 +245,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/MREkonserva1
 	name = "Konserva"
 	desc = "Суд&#255; по этикетке, банка законсервированного м&#255;са, но какого - не написано."
-	eng_desc = "Canned spam."
+	eng_desc = "Canned pork, salt n' spices. Doesn't get much simpler or wholesome in the zone!"
 	desc_opened = "Выгл&#255;дит не очень, но по запаху очень похоже на тушенку."
 	icon_state = "TushenkaRed1"
 	icon_state_opened = "TushenkaRed2"
@@ -259,7 +259,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/MREkonserva2
 	name = "Konserva"
 	desc = "Суд&#255; по этикетке, банка законсервированного м&#255;са c овощами, но какое м&#255;со и какие овощи - не написано."
-	eng_desc = "Canned chicken with vegetables."
+	eng_desc = "Canned chicken with an assortment of vegetables. A hearty meal in The Zone."
 	desc_opened = "Выгл&#255;дит не очень, но по запаху очень похоже на тушенку с чем-то еще."
 	icon_state = "TushenkaGreen1"
 	icon_state_opened = "TushenkaGreen2"
@@ -273,7 +273,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/MREkonserva3
 	name = "Konserva"
 	desc = "Суд&#255; по этикетке, банка законсервированного м&#255;са c зеленью, но какое м&#255;со и кака&#255; зелень - не написано."
-	eng_desc = "Canned meat with vegetables."
+	eng_desc = "Canned meat with an assortment of vegetables. A healthy and substantial meal within The Zone!"
 	desc_opened = "Выгл&#255;дит не очень, но по запаху сильно отдает тушенкой, приправленной луком и чесноком"
 	icon_state = "TushenkaBlue1"
 	icon_state_opened = "TushenkaBlue2"
@@ -296,7 +296,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/stalker/baton
 	name = "baton"
 	desc = "Неизвестно, кто умудр&#255;етс&#255; печь батоны на территории Зоны, однако этот хлеб не заражен и вполне съедобен. Во вс&#255;ком случае, никто из сталкеров пока не жаловалс&#255;."
-	eng_desc = "It is still a question who contrives to bake bread in the Zone or how they manage to carry it through the border but this bread is not radioactive and quite edible."
+	eng_desc = "A loaf of bread of completely questionable origin. Nobody has complained of off-flavours or issues with it in all the years it has been apart of a Stalkers diet!"
 	//weight = 0.2
 	icon_state = "baton_stalker"
 	w_class = 2
