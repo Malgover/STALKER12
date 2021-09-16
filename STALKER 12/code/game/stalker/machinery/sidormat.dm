@@ -32,7 +32,7 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("AS-96",				"АС-96",			/obj/item/weapon/gun/projectile/automatic/abakan,				40000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("LR-300",				"LR-300",			/obj/item/weapon/gun/projectile/automatic/tpc301,				40000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("L85",				"L85",				/obj/item/weapon/gun/projectile/automatic/il86,					40000,	EXPERIENCED),
-		new /datum/data/stalker_equipment("OTS-14 \"Thunder\"", "ОЦ-14 \"Thunder\"",	/obj/item/weapon/gun/projectile/automatic/groza,				35000,	EXPERIENCED),
+		new /datum/data/stalker_equipment("OTS-14 \"Thunder\"", "ОЦ-14 \"Thunder\"",/obj/item/weapon/gun/projectile/automatic/groza,				35000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("AS \"Val\"",			"АС \"Val\"",		/obj/item/weapon/gun/projectile/automatic/val,					50000,	VETERAN),
 		new /datum/data/stalker_equipment("SIG SG 550",			"SIG SG 550",		/obj/item/weapon/gun/projectile/automatic/sigsg550,				50000,	VETERAN),
 		new /datum/data/stalker_equipment("FN F2000",			"FN F2000",			/obj/item/weapon/gun/projectile/automatic/fnf2000,				65000,	EXPERT),
@@ -54,14 +54,14 @@ var/list/global_sidormat_list = list(
 	// Single-shot Rifles
 	"Rifles" = list(
 		new /datum/data/stalker_equipment("Lee Enfield",		"Lee Enfield",		/obj/item/weapon/gun/projectile/shotgun/boltaction/enfield,		15000,	ROOKIE),
-		new /datum/data/stalker_equipment("VSS Vintorez", 		"VSS Vintorez",	/obj/item/weapon/gun/projectile/automatic/vintorez,				60000,	EXPERT)
+		new /datum/data/stalker_equipment("VSS Vintorez", 		"VSS Vintorez",		/obj/item/weapon/gun/projectile/automatic/vintorez,				60000,	EXPERT)
 	),
 
 	// Melee Weapons
 	"Melee Weapons" = list(
 		new /datum/data/stalker_equipment("Kitchen Knife",		"Kitchen Knife",		/obj/item/weapon/kitchen/knife,									1500,	ROOKIE),
 		new /datum/data/stalker_equipment("Tourist Knife",		"Tourist Knife",		/obj/item/weapon/kitchen/knife/tourist,							4000,	ROOKIE),
-		new /datum/data/stalker_equipment("Bayonet",			"Bayonet",			/obj/item/weapon/kitchen/knife/bayonet,							7000,	ROOKIE),
+		new /datum/data/stalker_equipment("Bayonet",			"Bayonet",			/obj/item/weapon/kitchen/knife/bayonet,								7000,	ROOKIE),
 		new /datum/data/stalker_equipment("Butcher's Cleaver",	"Butcher's Cleaver",	/obj/item/weapon/kitchen/knife/butcher,							10000,	ROOKIE)
 	),
 
@@ -234,7 +234,6 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Canned meat",					"Òóøåíêà",						/obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/MREkonserva2,		700,	ROOKIE),
 		new /datum/data/stalker_equipment("Canned meat with vegetables",	"Òóøåíêà ñ îâîùàìè",			/obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/MREkonserva3,		850,	ROOKIE),
 		new /datum/data/stalker_equipment("Biscuits",						"Ãàëåòû",						/obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/galets,			400,	ROOKIE),
-		new /datum/data/stalker_equipment("GP-5",							"GP-5",							/obj/item/clothing/mask/gas/stalker/gp5,											350,	ROOKIE),
 		/////////////////////////////////	Ëóò ñ ìóòàíòîâ	///////////////////////////////////////////
 		new /datum/data/stalker_equipment("Dog tail",						"Dog tail",				/obj/item/weapon/stalker/loot/dog_tail,			500,		ROOKIE, sale_price = 550),
 		new /datum/data/stalker_equipment("Flesh eye",						"Flesh eye",			/obj/item/weapon/stalker/loot/flesh_eye,		1800,		ROOKIE, sale_price = 900),
@@ -279,8 +278,11 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("500 RU",				"500 RU",							/obj/item/stack/spacecash/c500,						500,	ROOKIE,	sale_price = 500),
 		new /datum/data/stalker_equipment("1000 RU",			"1000 RU",							/obj/item/stack/spacecash/c1000,					1000,	ROOKIE,	sale_price = 1000),
 		new /datum/data/stalker_equipment("5000 RU",			"5000 RU",							/obj/item/stack/spacecash/c5000,					5000,	ROOKIE,	sale_price = 5000),
-		///////////////////////////////////		Clothing	///////////////////////////////////////////////
-		new /datum/data/stalker_equipment("Hunter Coat",			"Hunter Coat",					/obj/item/clothing/suit/huntercoat,					5000,	ROOKIE, sale_price = 5000)
+		///////////////////////////////////		Clothing/Equipment	///////////////////////////////////////////////
+		new /datum/data/stalker_equipment("Hunter Coat",			"Hunter Coat",					/obj/item/clothing/suit/huntercoat,					5000,	ROOKIE, sale_price = 5000),
+		new /datum/data/stalker_equipment("GP-5",					"GP-5",							/obj/item/clothing/mask/gas/stalker/gp5,			450,	ROOKIE, sale_price = 450),
+		/////////////////////////////////	Weapons	///////////////////////////////////////////
+		new /datum/data/stalker_equipment("Wooden Hatchet",			"Wooden Hatchet",				/obj/item/weapon/kitchen/knife/hatchet,				500,	ROOKIE, sale_price = 500),
 		)
 	)
 
