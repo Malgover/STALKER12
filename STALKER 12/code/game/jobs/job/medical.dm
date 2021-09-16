@@ -107,7 +107,7 @@ Chemist
 	ears = /obj/item/device/radio/headset/headset_med
 	uniform = /obj/item/clothing/under/rank/chemist
 	shoes = /obj/item/clothing/shoes/sneakers/white
-	suit =  /obj/item/clothing/suit/toggle/labcoat/chemist
+	suit =  /obj/item/clothing/suit/toggle/labcoat/ecologist_orange
 
 /*
 Geneticist
@@ -135,7 +135,7 @@ Geneticist
 	ears = /obj/item/device/radio/headset/headset_medsci
 	uniform = /obj/item/clothing/under/rank/geneticist
 	shoes = /obj/item/clothing/shoes/sneakers/white
-	suit =  /obj/item/clothing/suit/toggle/labcoat/genetics
+	suit =  /obj/item/clothing/suit/toggle/labcoat/ecologist_blue
 	suit_store =  /obj/item/device/flashlight/pen
 
 /*
@@ -165,7 +165,7 @@ Virologist
 	uniform = /obj/item/clothing/under/rank/virologist
 	mask = /obj/item/clothing/mask/surgical
 	shoes = /obj/item/clothing/shoes/sneakers/white
-	suit =  /obj/item/clothing/suit/toggle/labcoat/virologist
+	suit =  /obj/item/clothing/suit/toggle/labcoat/ecologist_green
 	suit_store =  /obj/item/device/flashlight/pen
 
 	backpack = /obj/item/weapon/storage/backpack/medic
