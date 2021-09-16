@@ -245,7 +245,7 @@
 	name = "Scientist"
 	corpseradio = /obj/item/device/radio/headset/headset_sci
 	corpseuniform = /obj/item/clothing/under/rank/scientist
-	corpsesuit = /obj/item/clothing/suit/toggle/labcoat/science
+	corpsesuit = /obj/item/clothing/suit/toggle/labcoat/ecologist_purple
 	corpseback = /obj/item/weapon/storage/backpack
 	corpseshoes = /obj/item/clothing/shoes/sneakers/white
 	corpseid = 1
