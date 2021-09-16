@@ -29,6 +29,7 @@
 	suit_store = /obj/item/weapon/gun/projectile/automatic/val
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/sp9x39val = 2,
 							/obj/item/device/flashlight/seclite = 1,
+							/obj/item/weapon/kitchen/knife/tourist,
 							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1)
 
 /*
@@ -55,7 +56,7 @@ Assistant
 
 /datum/outfit/job/military/pre_equip(mob/living/carbon/human/H)
 	..()
-	head = null
+	head = pick(/obj/item/clothing/head/bandmil,/obj/item/clothing/head/steel)
 	uniform = /obj/item/clothing/under/color/switer/lolg
 	suit = /obj/item/clothing/suit/army
 	ears = null
