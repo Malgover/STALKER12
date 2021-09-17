@@ -10,7 +10,7 @@
 	togglename = "buttons"
 
 /obj/item/clothing/suit/toggle/labcoat/cmo
-	name = "chief medical officer's labcoat"
+	name = "chief ecologist's labcoat"
 	desc = "Bluer than the standard model."
 	icon_state = "labcoat_cmo"
 	item_state = "labcoat_cmo"
