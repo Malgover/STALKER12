@@ -1,13 +1,13 @@
 /obj/machinery/campfire
 	name = "Campfire"
-	desc = "Бочка с парой сухих дровишек внутри. Можно зажечь спичками или зажигалкой."
+	desc = "пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
 	eng_desc = "Warms the body and the soul."
 	icon = 'icons/stalker/stalker.dmi'
 	icon_state = "campfire0"
 	anchored = 1
-	var/firecolor = "#FFAA33"
+	var/firecolor = "#FF6A00"
 	var/sound_playing = 0
-	var/cooldown = 5 					//Кулдаун в секундах
+	var/cooldown = 5 					//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	var/incooldown = 0
 	var/on = 0
 	var/list/mob/living/carbon/campers = list()
@@ -16,9 +16,9 @@
 
 /obj/machinery/campfire/New()
 	..()
-	//set_light(4, 1, firecolor)
-	//spawn(10)
-	//	set_light(0, 1, firecolor)
+	set_light(4, 1, firecolor)
+	spawn(10)
+		set_light(0, 1, firecolor)
 	spawn(10)
 		SSmachine.processing.Remove(src)
 
@@ -137,7 +137,7 @@ obj/machinery/campfire/process()
 				on = !on
 				usr.visible_message("[usr] lit a fire.", "<span class='notice'>You lit a fire.</span>")
 				update_icon()
-				desc = "От костра исходит тёпло и м&#255;гкий свет."
+				desc = "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅ&#255;пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ."
 				eng_desc = "Campfire brings warmth and calmness. You can heal by sitting in its range."
 				set_light(4, 1, firecolor)
 				spawn(10)
@@ -155,7 +155,7 @@ obj/machinery/campfire/process()
 				on = !on
 				usr.visible_message("[usr] lit a fire.", "<span class='notice'>You lit a fire.</span>")
 				update_icon()
-				desc = "От костра исходит тёпло и м&#255;гкий свет."
+				desc = "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅ&#255;пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ."
 				eng_desc = "Campfire brings warmth and calmness. You can heal by sitting in its range."
 				set_light(4, 1, firecolor)
 				spawn(10)
