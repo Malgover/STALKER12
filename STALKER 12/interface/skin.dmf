@@ -724,12 +724,12 @@ window "mainwindow"
 		type = MAIN
 		pos = 281,0
 		size = 640x440
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = #000000
 		is-default = true
 		saved-params = "pos;size;is-minimized;is-maximized"
-		title = "Space Station 13"
+		title = "S.T.A.L.K.E.R. 12 - The Zone"
 		is-maximized = true
 		icon = 'icons\\ss13_64.png'
 		macro = "macro"
@@ -740,8 +740,8 @@ window "mainwindow"
 		type = BROWSER
 		pos = 424,208
 		size = 1x1
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = none
 		is-visible = false
 		saved-params = ""
@@ -751,7 +751,7 @@ window "mainwindow"
 		pos = 560,420
 		size = 80x20
 		anchor1 = 100,100
-		anchor2 = none
+		anchor2 = -1,-1
 		background-color = none
 		saved-params = ""
 		text = "Hotkey Toggle"
@@ -782,7 +782,7 @@ window "mainwindow"
 		pos = 520,420
 		size = 40x20
 		anchor1 = 100,100
-		anchor2 = none
+		anchor2 = -1,-1
 		background-color = none
 		saved-params = "is-checked"
 		text = "Chat"
@@ -792,8 +792,8 @@ window "mainwindow"
 		type = BROWSER
 		pos = -7,-8
 		size = 999x999
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		text-color = #ffffff
 		background-color = #404040
 		is-visible = false
@@ -804,8 +804,8 @@ window "mapwindow"
 		type = MAIN
 		pos = 281,0
 		size = 640x480
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = #606060
 		saved-params = "pos;size;is-minimized;is-maximized"
 		titlebar = false
@@ -833,8 +833,8 @@ window "outputwindow"
 		type = MAIN
 		pos = 281,0
 		size = 640x480
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = #404040
 		saved-params = "pos;size;is-minimized;is-maximized"
 		titlebar = false
@@ -862,8 +862,8 @@ window "rpane"
 		type = MAIN
 		pos = 281,0
 		size = 640x480
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = #404040
 		saved-params = "pos;size;is-minimized;is-maximized"
 		is-pane = true
@@ -883,8 +883,8 @@ window "rpane"
 		type = BUTTON
 		pos = 480,0
 		size = 67x16
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = none
 		saved-params = "is-checked"
 		text = "Report Issue"
@@ -894,8 +894,8 @@ window "rpane"
 		type = BUTTON
 		pos = 336,0
 		size = 67x16
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = none
 		saved-params = "is-checked"
 		text = "Changelog"
@@ -905,8 +905,8 @@ window "rpane"
 		type = BUTTON
 		pos = 272,0
 		size = 60x16
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = none
 		saved-params = "is-checked"
 		text = "Rules"
@@ -916,8 +916,8 @@ window "rpane"
 		type = BUTTON
 		pos = 408,0
 		size = 67x16
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = none
 		saved-params = "is-checked"
 		text = "Github"
@@ -927,8 +927,8 @@ window "rpane"
 		type = BUTTON
 		pos = 208,0
 		size = 60x16
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = none
 		saved-params = "is-checked"
 		text = "Forum"
@@ -938,8 +938,8 @@ window "rpane"
 		type = BUTTON
 		pos = 144,0
 		size = 60x16
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = none
 		saved-params = "is-checked"
 		text = "Wiki"
@@ -949,8 +949,8 @@ window "rpane"
 		type = BUTTON
 		pos = 0,0
 		size = 60x16
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = none
 		is-visible = false
 		saved-params = "is-checked"
@@ -963,8 +963,8 @@ window "rpane"
 		type = BUTTON
 		pos = 552,0
 		size = 60x16
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = none
 		is-visible = false
 		saved-params = "is-checked"
@@ -976,8 +976,8 @@ window "rpane"
 		type = BUTTON
 		pos = 64,0
 		size = 60x16
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = none
 		is-visible = false
 		saved-params = "is-checked"
@@ -991,8 +991,8 @@ window "browserwindow"
 		type = MAIN
 		pos = 281,0
 		size = 640x480
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "Browser"
@@ -1017,8 +1017,8 @@ window "infowindow"
 		type = MAIN
 		pos = 281,0
 		size = 640x480
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = #606060
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "Info"
@@ -1039,7 +1039,8 @@ window "infowindow"
 		is-default = true
 		saved-params = ""
 		highlight-color = #00aa00
-		tab-background-color = none
+		tab-text-color = #f8f8f8
+		tab-background-color = #404040
 		allow-html = false
 		on-show = ".winset\"rpane.infob.is-visible=true;rpane.browseb.is-visible=true?rpane.infob.pos=130,0:rpane.infob.pos=65,0 rpane.textb.is-visible=true rpane.infob.is-checked=true rpane.rpanewindow.pos=0,30 rpane.rpanewindow.size=0x0 rpane.rpanewindow.left=infowindow\""
 		on-hide = ".winset\"rpane.infob.is-visible=false;rpane.browseb.is-visible=true?rpane.browseb.is-checked=true rpane.rpanewindow.left=browserwindow:rpane.textb.is-visible=true rpane.rpanewindow.pos=0,30 rpane.rpanewindow.size=0x0 rpane.rpanewindow.left=\""
