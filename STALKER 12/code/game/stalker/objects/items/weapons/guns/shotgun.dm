@@ -4,7 +4,7 @@
 /obj/item/weapon/gun/projectile/revolver/bm16  // Горизонталка
 	name = "BM-16"
 	desc = "Охотничье ружьё - горизонталка. Довольно мощное, в самый раз дл&#255; охоты."
-	eng_desc = "The original Bm16 rifle. Heavy and dangerous two barrel rifle, and its effective in high range too."
+	eng_desc = "The original Bm16 rifle. Heavy as a Flesh and kicking like a Boar. This double-barrel is the be-all-end-all of Tourist loot-rights!"
 	icon_state = "bm16"
 	item_state = "bm16"
 	w_class = 4
@@ -163,7 +163,7 @@
 /obj/item/weapon/gun/projectile/shotgun/boltaction/enfield
 	name = "Lee Enfield"
 	desc = ""
-	eng_desc = ""
+	eng_desc = "You're almost certain you'll not be considered friendly firing this absolute dinner-bell!"
 	icon_state = "enfield"
 	item_state = "enfield"
 	durability = 200

@@ -1,7 +1,7 @@
 /obj/item/weapon/stalker/bolts
 	name = "bolts"
 	desc = "Куча болтов."
-	eng_desc = "A pile of bolts."
+	eng_desc = "A pile of bolts used as an improvised method of detecting anomalies."
 	icon = 'icons/stalker/bolt.dmi'
 	icon_state = "kucha"
 	w_class = 2

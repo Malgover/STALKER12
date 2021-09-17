@@ -10,7 +10,7 @@
 */
 /obj/item/clothing/head/steel
 	name = "Steel helmet"
-	eng_desc = "An old and rusty steel helmet."
+	eng_desc = "An old and rusty steel helmet. Might save your noggin'!"
 	icon_state = "steelhelmet"
 	item_state = "steelhelmet"
 	armor = list(melee = 25, bullet = 40, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0, psy = 5)
@@ -40,7 +40,7 @@
 /obj/item/clothing/head/tacticalhelmet
 	name = "Tactical helmet"
 	desc = "������������� ������� ������������ �����, �������� �����-���� ����������. ������������ ��&#255; ����������&#255; ��������� ������������&#255; ������� ����������� ����������� ���������� ��� ��������� ��������������� ����������� �������. ���������&#255; ������� ������������, ����� ������� ������������ ���������� �������, ������������ � �������� ������� ������&#255; ������� ��������&#255;."
-	eng_desc = "A Western model of a tactical helmet that lacks ca	mouflage. It is not known how it made its way into the Zone. The helmet is designed to provide a squad leader with strategic superiority over the enemy via its many scanners and satellite communications devices, which have not been installed in this particular helmet. Comes with multi-layered Kevlar protection and armored elements to protect electronic components. Includes a respirator and a nightvision device."
+	eng_desc = "A Western-designed kevlar reinforced helmet complimenting the legendary exosuits of The Zone. It's entirely unknown how such an advanced piece of equipment made it's way into The Zone; All that one needs to know is that there is simply no better alternative for protection!"
 	icon_state = "hardhat0_tactical"
 	item_state = "hardhat0_tactical"
 	item_color = "tactical"
@@ -60,7 +60,7 @@
 /obj/item/clothing/head/hardhat/tactical/light
 	name = "Light tactical helmet"
 	desc = "������������� ������� ������������ �����, �������� �����-���� ����������. ������������ ��&#255; ����������&#255; ������ �������� �������� ������� ������. ���������&#255; ������� ������������, ����� ������� ������������ ���������� �������, �� ���������� � ��� �����������."
-	eng_desc = "A Western model of a tactical helmet that lacks camouflage. It is not known how it made its way into the Zone. The helmet is designed to provide a squad leader with strategic superiority over the enemy via its many scanners and satellite communications devices, which have not been installed in this particular helmet. Comes with multi-layered Kevlar protection and armored elements to protect electronic components."
+	eng_desc = "A Western-designed kevlar helmet that has somehow found it's way into the zone. It provides incredible protection with a light-frame alongside a complimentry suite originally designed to give better situational-awarness to the soldier!"
 	icon_state = "hardhat0_lighttactical"
 	item_state = "hardhat0_lighttactical"
 	item_color = "lighttactical"

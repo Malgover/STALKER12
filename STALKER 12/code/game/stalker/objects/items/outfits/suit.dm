@@ -182,7 +182,7 @@
 /obj/item/clothing/suit/hooded/kozhanka
 	name = "leather jacket"
 	desc = "������&#255; ������&#255; ������&#255; ������, ����� �����. ������ ��������� �������������� � ���������� ������. ������������ ������ ���������� � ������ �����������."
-	eng_desc = "Common grab of a novice stalker. It won�t save you from bullets or anomalies, but it�s still better than nothing."
+	eng_desc = "Common attire of the novice stalker. It wont save you from bullets or anomalies, but its still better than nothing."
 	icon_state = "kozhanka"
 	item_state = "det_suit"
 	blood_overlay_type = "armor"
