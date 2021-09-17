@@ -66,7 +66,7 @@
 
 /obj/item/ammo_box/magazine/internal/boltaction/enfield
 	name = "lee enfield internal magazine"
-	desc = "Oh god, this shouldn't be here"
+	desc = "GOOD FUCKING GOD WHAT HAVE YOU DONE IVAN?!"
 	ammo_type = /obj/item/ammo_casing/c762x51
 	caliber = "7.62x51mm"
 	max_ammo = 10

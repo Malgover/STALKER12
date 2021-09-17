@@ -179,6 +179,6 @@
 /obj/structure/stalker/blocks/vanish/sandbags
 	name = "sandbags"
 	desc = "Обычна&#255; насыпь из мешков с песком"
-	eng_desc = "Sangbags."
+	eng_desc = "Sangbags. Good for stopping bullets from making your trip a short one!"
 	icon = 'icons/stalker/structure/sandbags.dmi'
 	icon_state = "solo"
