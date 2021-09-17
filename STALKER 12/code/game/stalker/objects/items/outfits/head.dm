@@ -160,7 +160,7 @@
 
 /obj/item/clothing/head/beret_ua
 	name = "military beret"
-	desc = "����������� ����� � ����������� ������� ����������� �����."
+	desc = "A beret typically worn by the Ukrainian Military."
 	icon_state = "beret_ua"
 	armor = list(melee = 0, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, rad = 0)
 	strip_delay = 80
