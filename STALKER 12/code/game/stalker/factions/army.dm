@@ -126,12 +126,11 @@ Assistant
 	back = /obj/item/weapon/storage/backpack/stalker/tourist
 	suit_store = /obj/item/weapon/gun/projectile/automatic/abakan
 	shoes = /obj/item/clothing/shoes/jackboots/warm
-	mask = pick(/obj/item/clothing/mask/balaclava, /obj/item/clothing/mask/cigarette)
+	mask = /obj/item/clothing/mask/balaclava
 	backpack_contents = list(/obj/item/ammo_box/stalker/b545ap = 1,
 							/obj/item/ammo_box/magazine/stalker/m545 = 2,
 							/obj/item/device/flashlight/seclite = 1,
 							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1,
-							/obj/item/weapon/lighter = 1,
 							/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki = 1)
 	r_pocket = /obj/item/device/radio
 	l_pocket = /obj/item/ammo_box/magazine/stalker/m9x18fort
