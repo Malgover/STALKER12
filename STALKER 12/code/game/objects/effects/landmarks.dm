@@ -280,6 +280,7 @@
 	name = "JoinLateEveryone"
 
 // Military
+
 /obj/effect/landmark/latejoin/military
 	name = "JoinLateMilitary Soldier"
 
@@ -289,7 +290,16 @@
 /obj/effect/landmark/latejoin/military_officer
 	name = "JoinLateMilitary Captain"
 
+// Ecologists
+
+/obj/effect/landmark/latejoin/ecologist
+	name = "JoinLateEcologist"
+
+/obj/effect/landmark/latejoin/chief_ecologist
+	name = "JoinLateChief Ecologist"
+
 // Bandits
+
 /obj/effect/landmark/latejoin/renegade
 	name = "JoinLateRenegade"
 
@@ -306,6 +316,7 @@
 	name = "JoinLateGopnik"
 
 // Duty
+
 /obj/effect/landmark/latejoin/duty_soldier
 	name = "JoinLateDuty Soldier"
 
@@ -313,6 +324,7 @@
 	name = "JoinLateDuty Major"
 
 // Freedom
+
 /obj/effect/landmark/latejoin/freedom_soldier
 	name = "JoinLateFreedom Soldier"
 
@@ -327,17 +339,21 @@
 /obj/effect/landmark/latejoin/oldstalker
 	name = "JoinLateOld Stalker"
 
-/obj/effect/landmark/latejoin/mercenary
-	name = "JoinLateMercenary"
-
 /obj/effect/landmark/latejoin/barman2
 	name = "JoinLateRostok Barman"
+
+// Mercenaries
+
+/obj/effect/landmark/latejoin/mercenary
+	name = "JoinLateMercenary"
 
 /obj/effect/landmark/latejoin/mercenary_veteran
 	name = "JoinLateMercenary Veteran"
 
-/obj/effect/landmark/latejoin/monolith
-	name = "JoinLateMonolith"
+// Monolith
+
+/obj/effect/landmark/latejoin/monolith_soldier
+	name = "JoinLateMonolith Soldier"
 
 /obj/effect/landmark/latejoin/monolith_sniper
 	name = "JoinLateMonolith Sniper"
