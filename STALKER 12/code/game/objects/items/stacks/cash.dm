@@ -1,6 +1,5 @@
 /obj/item/stack/spacecash
 	name = "roubles"
-	desc = "���� �����."
 	singular_name = "bill"
 	icon = 'icons/obj/economy.dmi'
 	icon_state = "spacecash"
