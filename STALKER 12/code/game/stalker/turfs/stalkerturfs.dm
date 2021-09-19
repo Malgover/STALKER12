@@ -5,7 +5,7 @@
 
 /turf/simulated/floor/plating/asteroid/snow/lite
 	name = "snow"
-	desc = "Выгл&#255;дит холодным."
+	desc = "пїЅпїЅпїЅпїЅ&#255;пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
 	icon = 'icons/turf/snow.dmi'
 	baseturf = /turf/simulated/floor/plating/asteroid/snow
 	icon_state = "snow"
@@ -98,11 +98,23 @@ obj/structure/grille/stalker/beton/CanPass(atom/movable/mover, turf/target, heig
 
 /turf/stalker/floor/digable
 
-
 /turf/stalker/floor/digable/grass
 	icon = 'icons/stalker/zemlya.dmi'
 	icon_state = "grass1"
 	footstepsound = "grassfootsteps"
+
+/turf/stalker/floor/digable/grass/New()
+	..()
+	if (prob(25))
+		new /obj/structure/flora/ausbushes/fullgrass(get_turf(src))
+	if (prob(10))
+		new /obj/structure/flora/ausbushes(get_turf(src))
+	if (prob(10))
+		new /obj/structure/flora/ausbushes/grassybush(get_turf(src))
+	if (prob(10))
+		new /obj/structure/flora/ausbushes/stalkybush(get_turf(src))
+	if (prob(25))
+		new /obj/structure/flora/ausbushes/sparsegrass(get_turf(src))
 
 /turf/stalker/floor/digable/grass/dump
 	icon = 'icons/stalker/zemlya.dmi'
