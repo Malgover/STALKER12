@@ -205,7 +205,7 @@ var/world_topic_spam_protect_time = world.timeofday
 
 	if (config && config.server_name)
 		hub_info += "<b>[config.server_name]</b>"
-		hub_info += "<br><br><b>Discord</b>: <a href=\"[config.forumurl]\">S.T.A.L.K.E.R. 12</a>"
+		hub_info += "<br><br><b>Discord</b>: <a href=\"[config.forumurl]\">S.T.A.L.K.E.R. 12 - Ashes on Sunday (OFFICIAL)</a>"
 
 	if(ticker)
 		if(master_mode)
