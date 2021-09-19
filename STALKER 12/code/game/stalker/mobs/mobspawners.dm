@@ -60,28 +60,28 @@
 	name = "flesh mutant"
 	lootcount = 1
 	radius = 10 //Радиус разброса лута
-	cooldown = 6000 //Кол-во минут * 1000 - кд шитспавна
+	cooldown = 10000 //Кол-во минут * 1000 - кд шитспавна
 	loot = list(/mob/living/simple_animal/hostile/mutant/flesh = 100)
 
 /obj/effect/spawner/lootdrop/stalker/mobspawner/dog_spawner
 	name = "dog mutant"
 	lootcount = 1
 	radius = 10 //Радиус разброса лута
-	cooldown = 6000 //Кол-во минут * 1000 - кд шитспавна
+	cooldown = 10000 //Кол-во минут * 1000 - кд шитспавна
 	loot = list(/mob/living/simple_animal/hostile/mutant/dog = 100)
 
 /obj/effect/spawner/lootdrop/stalker/mobspawner/kaban_spawner
 	name = "kaban mutant"
 	lootcount = 1
 	radius = 10 //Радиус разброса лута
-	cooldown = 6000 //Кол-во минут * 1000 - кд шитспавна
+	cooldown = 10000 //Кол-во минут * 1000 - кд шитспавна
 	loot = list(/mob/living/simple_animal/hostile/mutant/kaban = 100)
 
 /obj/effect/spawner/lootdrop/stalker/mobspawner/snork_spawner
 	name = "snork mutant"
 	lootcount = 1
 	radius = 1
-	cooldown = 9000
+	cooldown = 11000
 	loot = list(/mob/living/simple_animal/hostile/mutant/snork = 100)
 
 /obj/effect/spawner/lootdrop/stalker/mobspawner/bloodsucker_spawner
