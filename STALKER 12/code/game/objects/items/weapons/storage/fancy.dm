@@ -155,7 +155,7 @@
 
 /obj/item/weapon/storage/fancy/cigarettes/cigpack/maxim
 	name = "\improper Maxim packet"
-	desc = "Сигареты марки Maxim."
+	desc = "A pack of Maxim cigarettes."
 	icon_state = "robust"
 
 /obj/item/weapon/storage/fancy/cigarettes/cigpack/robustgold

@@ -1,6 +1,6 @@
 /obj/item/clothing/mask/balaclava
 	name = "balaclava"
-	desc = "LOADSAMONEY"
+	desc = "A regular black fabric balaclava. It'll help keep your face warm in Eastern Europe's frigid winters, if nothing else."
 	icon_state = "balaclava"
 	item_state = "balaclava"
 	flags = BLOCKHAIR
@@ -24,9 +24,9 @@
 
 /obj/item/clothing/mask/luchador/speechModification(message)
 	if(copytext(message, 1, 2) != "*")
-		message = replacetext(message, "captain", "CAPITÁN")
-		message = replacetext(message, "station", "ESTACIÓN")
-		message = replacetext(message, "sir", "SEÑOR")
+		message = replacetext(message, "captain", "CAPITï¿½N")
+		message = replacetext(message, "station", "ESTACIï¿½N")
+		message = replacetext(message, "sir", "SEï¿½OR")
 		message = replacetext(message, "the ", "el ")
 		message = replacetext(message, "my ", "mi ")
 		message = replacetext(message, "is ", "es ")
