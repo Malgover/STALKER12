@@ -678,7 +678,6 @@
 
 /obj/structure/stalker/cacheable/plita
 	name = "stove"
-	desc = "�����&#255; � ����� �����&#255; ������&#255; �����. ���-�� ��� ����� ��������� ���� ��������� ���� ���������� � ��&#255;��� � �����."
 	eng_desc = "Rusty old gas stove. Covered with grease and dirt."
 	icon = 'icons/stalker/decor.dmi'
 	icon_state = "gazovaya_plita"
@@ -688,7 +687,6 @@
 
 /obj/structure/stalker/cacheable/pech
 	name = "oven"
-	desc = "�����&#255; ����."
 	eng_desc = "Well-made russian oven made out of bricks."
 	icon = 'icons/stalker/decor.dmi'
 	icon_state = "pech"
@@ -697,13 +695,21 @@
 
 /obj/structure/stalker/cacheable/shkaf64
 	name = "Shkaf"
-	desc = "������� �����&#255;���� ����. ��������, �� � ��������� ������ �����&#255; � �����, �� ������ ����� �������. �������&#255; �� ���, ������&#255;, ����� ����� ���� ����� ����� ������ ���&#255;� ����������� �������� ������."
 	eng_desc = "Tall wooden shelf in poor state."
 	icon = 'icons/stalker/decorations_32x64.dmi'
 	icon_state = "shkaf64"
 	density = 1
 	anchored = 1
 	cache_size = 3
+
+/obj/structure/stalker/cacheable/oldcomputer
+	name = "Computer"
+	eng_desc = "An old and outdated computer."
+	icon = 'icons/stalker/decor.dmi'
+	icon_state = "oldcomp"
+	density = 1
+	anchored = 1
+	cache_size = 2
 
 //////////////////////////////����� �������////////////////////////////////
 
