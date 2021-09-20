@@ -1,6 +1,5 @@
 /obj/machinery/campfire
 	name = "Campfire"
-	desc = "����� � ����� ����� �������� ������. ����� ������ �������� ��� ����������."
 	eng_desc = "Warms the body and the soul."
 	icon = 'icons/stalker/stalker.dmi'
 	icon_state = "campfire0"
