@@ -13,6 +13,7 @@
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
+#include "rust_g.dm"
 #include "_maps\__MAP_DEFINES.dm"
 #include "_maps\Cordon.dm"
 #include "code\_compile_options.dm"
