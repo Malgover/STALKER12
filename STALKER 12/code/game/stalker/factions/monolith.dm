@@ -11,7 +11,7 @@
 	whitelist_only = 1
 	activated = 1
 	limit_per_player = 1
-	outfit = /datum/outfit/job/monolith// /datum/outfit/job/duty
+	outfit = /datum/outfit/job/monolith_soldier// /datum/outfit/job/duty
 
 /datum/outfit/job/monolith_soldier
 	name = "Monolith Soldier"
