@@ -1,7 +1,7 @@
 /obj/machinery/campfire
 	name = "Campfire"
 	eng_desc = "Warms the body and the soul."
-	icon = 'icons/stalker/stalker.dmi'
+	icon = 'icons/stalker/bochka.dmi'
 	icon_state = "campfire0"
 	anchored = 1
 	var/firecolor = "#FF6A00"
@@ -33,7 +33,7 @@
 obj/machinery/campfire/barrel
 	name = "barrel"
 	icon = 'icons/stalker/bochka.dmi'
-	icon_state = "barrel0"
+	icon_state = "barrel2"
 	density = 1
 
 /obj/machinery/campfire/attack_hand(mob/user)

@@ -5,6 +5,10 @@
 	w_class = 1
 	burn_state = FLAMMABLE
 
+/obj/item/trash/cigs_trash
+	name = "cigarettes"
+	icon_state = "cigs_trash"
+
 /obj/item/trash/raisins
 	name = "\improper 4no raisins"
 	icon_state= "4no_raisins"

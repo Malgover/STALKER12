@@ -4,6 +4,48 @@
 	anchored = 1
 	layer = 3.1
 
+/obj/structure/stalker/cacheable/metalthing
+	name = "metal tube"
+	icon = 'icons/stalker/decor.dmi'
+	icon_state = "metal_thing"
+	density = 1
+	anchored = 1
+
+///obj/structure/stalker/
+//	name =
+//	icon = 'icons/stalker/decor.dmi'
+//	icon_state =
+//	density = 1
+//	anchored = 1
+
+/obj/structure/stalker/rustymachine
+	name = "machine"
+	icon = 'icons/stalker/decor.dmi'
+	icon_state = "machine1"
+	density = 1
+	anchored = 1
+
+/obj/structure/stalker/rustymachine/right
+	name = "machine"
+	icon = 'icons/stalker/decor.dmi'
+	icon_state = "machine2"
+	density = 1
+	anchored = 1
+
+/obj/structure/stalker/cacheable/tv_old
+	name = "old tv"
+	icon = 'icons/stalker/decor.dmi'
+	icon_state = "old_tv"
+	density = 1
+	anchored = 1
+
+/obj/structure/stalker/cacheable/tv_old/broken
+	name = "broken old tv"
+	icon = 'icons/stalker/decor.dmi'
+	icon_state = "old_tv_b"
+	density = 1
+	anchored = 1
+
 /obj/structure/sign/vendor
 	name = "vendor sign"
 	desc = "There is a vendor this way!"
@@ -34,7 +76,6 @@
 
 /obj/structure/stalker/cacheable/polka
 	name = "shelf"
-	desc = "�����&#255;���� �������."
 	eng_desc = "Wooden shelf."
 	icon = 'icons/stalker/polka.dmi'
 	icon_state = "polka"
@@ -42,6 +83,20 @@
 	anchored = 1
 	cache_size = 0
 	pass_flags = LETPASSTHROW
+
+/obj/structure/stalker/woodlogs
+	name = "logs"
+	icon = 'icons/stalker/decor.dmi'
+	icon_state = "logs1"
+	density = 1
+	anchored = 1
+
+/obj/structure/stalker/woodlogs/big
+	name = "logs"
+	icon = 'icons/stalker/decor.dmi'
+	icon_state = "logs2"
+	density = 1
+	anchored = 1
 
 /obj/structure/stalker/radiation
 	name = "radiation sign"
@@ -685,6 +740,15 @@
 	anchored= 1
 	cache_size = 2
 
+/obj/structure/stalker/cacheable/plita/burnt
+	name = "stove"
+	eng_desc = "Rusty old gas stove. Covered with grease and dirt."
+	icon = 'icons/stalker/decor.dmi'
+	icon_state = "gazovaya_plita_burn"
+	density = 1
+	anchored= 1
+	cache_size = 2
+
 /obj/structure/stalker/cacheable/pech
 	name = "oven"
 	eng_desc = "Well-made russian oven made out of bricks."
@@ -709,7 +773,16 @@
 	icon_state = "oldcomp"
 	density = 1
 	anchored = 1
-	cache_size = 2
+	cache_size = 1
+
+/obj/structure/stalker/cacheable/oldcomputer/dirty
+	name = "Computer"
+	eng_desc = "An old and outdated computer. This one is particularly dirty."
+	icon = 'icons/stalker/decor.dmi'
+	icon_state = "oldcomp_dirty"
+	density = 1
+	anchored = 1
+	cache_size = 1
 
 //////////////////////////////����� �������////////////////////////////////
 

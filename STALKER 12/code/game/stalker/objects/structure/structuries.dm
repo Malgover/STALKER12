@@ -30,6 +30,20 @@
 	smooth = SMOOTH_TRUE
 	canSmoothWith = list(/obj/structure/table/stalker/steeltable)
 
+/obj/structure/table/stalker/steeltable/rusty
+	name = "rusty table"
+	icon = 'icons/obj/smooth_structures/stalker_steeltable.dmi'
+	icon_state = "table1"
+	smooth = SMOOTH_FALSE
+	deconstructable = 0
+
+/obj/structure/table/stalker/steeltable/rusty/right
+	name = "rusty table"
+	icon = 'icons/obj/smooth_structures/stalker_steeltable.dmi'
+	icon_state = "table2"
+	smooth = SMOOTH_FALSE
+	deconstructable = 0
+
 /obj/structure/table/stalker/wood/bar
 	desc = "Самодельна&#255; барна&#255; стойка"
 	icon = 'icons/obj/smooth_structures/stol_stalker_bar.dmi'
