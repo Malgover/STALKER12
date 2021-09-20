@@ -17,7 +17,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 ///////////
 /obj/item/weapon/match
 	name = "match"
-	desc = "Обычна&#255; спичка."
+	desc = "пїЅпїЅпїЅпїЅпїЅпїЅ&#255; пїЅпїЅпїЅпїЅпїЅпїЅ."
 	icon = 'icons/obj/cigarettes.dmi'
 	icon_state = "match_unlit"
 	var/lit = 0
@@ -53,7 +53,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 		hitsound = 'sound/items/welder.ogg'
 		item_state = "cigon"
 		name = "lit match"
-		desc = "Гор&#255;ща&#255; спичка."
+		desc = "пїЅпїЅпїЅ&#255;пїЅпїЅ&#255; пїЅпїЅпїЅпїЅпїЅпїЅ."
 		attack_verb = list("burnt","singed")
 		SSobj.processing |= src
 		update_icon()
@@ -69,7 +69,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 		icon_state = "match_burnt"
 		item_state = "cigoff"
 		name = "burnt match"
-		desc = "Сгоревша&#255; спичка."
+		desc = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#255; пїЅпїЅпїЅпїЅпїЅпїЅ."
 		attack_verb = null
 		SSobj.processing.Remove(src)
 
@@ -83,7 +83,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 		icon_state = "match_burnt"
 		item_state = "cigoff"
 		name = "burnt match"
-		desc = "Сгоревша&#255; спичка."
+		desc = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#255; пїЅпїЅпїЅпїЅпїЅпїЅ."
 		attack_verb = null
 		SSobj.processing.Remove(src)
 	return ..()
@@ -472,7 +472,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 /////////
 /obj/item/weapon/lighter
 	name = "\improper Zippo lighter"
-	desc = "The zippo."
+	eng_desc = "A cylindrical petrol lighter which can be flicked open to be lit. There's a small engraving around the bottom that reads, 'As long as I am in the world, I am the light of the world.'"
 	icon = 'icons/obj/cigarettes.dmi'
 	icon_state = "zippo"
 	item_state = "zippo"

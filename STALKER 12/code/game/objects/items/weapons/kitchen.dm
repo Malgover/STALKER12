@@ -52,7 +52,7 @@
 /obj/item/weapon/kitchen/knife
 	name = "kitchen knife"
 	icon_state = "knife"
-	desc = "A general purpose Chef's Knife made by SpaceCook Incorporated. Guaranteed to stay sharp for years to come."
+	desc = "A general purpose kitchen knife used by Chefs all over the world. Great for butchering, better than nothing in combat."
 	flags = CONDUCT
 	force = 15
 	w_class = 2
@@ -82,7 +82,7 @@
 /obj/item/weapon/kitchen/knife/butcher
 	name = "butcher's cleaver"
 	icon_state = "butch"
-	desc = "Лучший нож дл&#255; разделки мутантов. Также хорош дл&#255; поножовщины."
+	desc = "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅ&#255; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ&#255; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
 	eng_desc = "Best knife at butchering mutants. Also good at cutting stalkers."
 	flags = CONDUCT
 	force = 32

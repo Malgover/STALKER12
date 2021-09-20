@@ -212,6 +212,7 @@
 	armor = list(melee = 10, bullet = 0, laser = 10,burn = 10, bomb = 0, bio = 10, rad = 10, electro = 10, psy = 0)
 
 /obj/item/clothing/suit/hooded/kozhanka/white
+	eng_desc = "Common attire of the novice stalker. It wont save you from bullets or anomalies, but its still better than nothing. This one is white."
 	icon_state = "kozhanka_wh"
 	item_state = "labcoat"
 	hoodtype = /obj/item/clothing/head/winterhood/stalker/kozhanka_wh
@@ -303,7 +304,6 @@
 
 /obj/item/clothing/suit/jacket/sidor
 	name = "old vest"
-	desc = "�������&#255; �������, ��������&#255; �� ���� ������."
 	icon_state = "sidor_vest"
 	item_state = "det_suit"
 	burn_state = FIRE_PROOF
