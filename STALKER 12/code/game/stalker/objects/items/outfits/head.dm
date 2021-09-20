@@ -10,7 +10,7 @@
 */
 /obj/item/clothing/head/steel
 	name = "Steel helmet"
-	eng_desc = "An old and rusty steel helmet. Might save your noggin'!"
+	eng_desc = "A simple steel helmet which is designed to protect the user from blunt force trauma, sharpnel, and small calibre bullets. It is heavy and has been worn by many generations, but its better than nothing!"
 	icon_state = "steelhelmet"
 	item_state = "steelhelmet"
 	armor = list(melee = 25, bullet = 40, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0, psy = 5)
@@ -106,8 +106,7 @@
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
 /obj/item/clothing/head/soft/jacknoircap
-	name = "�ap"
-	desc = "����������&#255; ����� ���������. ���-���!"
+	name = "machinist cap"
 	icon_state = "jacknoirsoft"
 	item_color = "jacknoir"
 	item_state = "greysoft"

@@ -1,6 +1,5 @@
 /obj/item/clothing/under/color/switer
 	name = "sweater"
-	desc = "Гр&#255;зный и поношенный старый бабушкин свитер из натуральной собачьей шерсти, обладающий естественными лечебными свойствами. Этот свитер очень тёплый и удобный."
 	body_parts_covered = CHEST|ARMS|LEGS
 	cold_protection = CHEST|ARMS|LEGS
 	icon_state = "switer"
@@ -32,14 +31,14 @@
 	has_sensor = 0
 
 /obj/item/clothing/under/color/switer/lolg
-	name = "telnashka"
-	desc = "Тепла&#255; майка-тельн&#255;ха и черные поношенные штаны - стандартна&#255; одежда всех долговцев и военных."
+	name = "telnyashka"
+	eng_desc = "Iconic uniform garment worn by the Military."
 	icon_state = "lolg"
 	item_state = "lolg"
 
 /obj/item/clothing/under/color/switer/tracksuit
 	name = "tracksuit"
-	desc = "Такой спортивный костюм обычно можно увидеть на пацанах с района."
+	desc = "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ."
 	eng_desc = "Usually you see this tracksuit being worn by gopniks."
 	icon_state = "tracksuit"
 	item_state = "tracksuit"

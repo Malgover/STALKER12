@@ -557,7 +557,7 @@
 
 /obj/item/weapon/storage/box/matches
 	name = "matchbox"
-	desc = "Маленька&#255; коробка со спичками. Если верить надписи, вмещает в себ&#255; 40 спичек."
+	eng_desc = "An old box of Soviet safety matches. They appear to be windproof and rainproof, but you'll have to see for yourself if they stand the test of time."
 	icon = 'icons/obj/cigarettes.dmi'
 	icon_state = "matchbox"
 	item_state = "zippo"

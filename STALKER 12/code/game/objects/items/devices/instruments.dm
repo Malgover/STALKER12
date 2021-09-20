@@ -55,7 +55,7 @@
 
 /obj/item/device/instrument/guitar
 	name = "guitar"
-	desc = "Обычна&#255; дерев&#255;нна&#255; гитара."
+	eng_desc = "A classic acoustic guitar with worn fretboards and rusted brass strings. An instrument for which one can express the innerworkings of the soul without a single word spoken."
 	icon = 'icons/obj/musician.dmi'
 	icon_state = "guitar"
 	item_state = "guitar"
@@ -65,11 +65,11 @@
 	instrumentId = "guitar"
 
 /obj/item/device/instrument/guitar/coi
-	desc = "На вид обычна&#255; дерев&#255;нна&#255; гитара, но на ее краю можно заметить автограф легендарного певца - Виктора Цо&#255;."
+	desc = "пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ&#255; пїЅпїЅпїЅпїЅпїЅ&#255;пїЅпїЅпїЅ&#255; пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ - пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ&#255;."
 	icon_state = "guitar2"
 
 /obj/item/device/instrument/player
 	name = "digital player"
-	desc = "Обычный цифровой плеер"
+	desc = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
 	icon_state = "plaer"
 	item_state = "plaer"

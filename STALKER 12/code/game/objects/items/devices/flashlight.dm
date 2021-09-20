@@ -156,7 +156,7 @@
 
 /obj/item/device/flashlight/seclite
 	name = "seclite"
-	desc = "A robust flashlight used by security."
+	eng_desc = "A cylindrical flashlight which can be used as a melee weapon in a pinch. It feels quite heavy and sturdy even after all it has been through."
 	icon_state = "seclite"
 	item_state = "seclite"
 	force = 9 // Not as good as a stun baton.
