@@ -45,7 +45,7 @@
 		else
 			user.audible_message("<B>[user.GetVoice()]</B> broadcasts, <FONT size=3>\"[message]\"</FONT>")
 
-		playsound(loc, 'sound/items/megaphone.ogg', 100, 0, 1)
+		playsound(loc, pick('sound/items/megaphone1.ogg', 'sound/items/megaphone2.ogg'), 100, 0, 1)
 		spamcheck = world.time + 50
 		return
 
