@@ -6,10 +6,6 @@
 	apply_type = PATCH
 	apply_method = "apply"
 
-/obj/item/weapon/reagent_containers/pill/stalker/aptechka
-	name = "kit"
-	desc = "Стара&#255; советска&#255; аптечка."
-
 obj/item/weapon/reagent_containers/pill/stalker/afterattack(obj/target, mob/user , proximity)
 	return // thanks inheritance again
 
@@ -18,26 +14,62 @@ obj/item/weapon/reagent_containers/pill/stalker/canconsume(mob/eater, mob/user)
 		return 0
 	return 1 // Masks were stopping people from "eating" patches. Thanks, inheritance.
 
-/obj/item/weapon/reagent_containers/pill/stalker/aptechka/civilian
-	name = "medkit"
-	icon_state = "aptechkar"
-	desc = "Универсальный медицинский набор. Позвол&#255;ет справл&#255;тьс&#255; с травмами различного вида и степени сложности: ранени&#255;ми, ожогами, отравлени&#255;ми и прочим. Не останавливает кровотечение!"
-	eng_desc = "All-purpose single-use medkit. Allows to handle injuries of different types and degrees of complexity. It does not however come with any bandaging, it'll not help you with bleeding!"
-	item_state = "aptechkar"
-	list_reagents = list("cryoxadone" = 16)
+/obj/item/weapon/reagent_containers/pill/stalker/aptechka
+	name = "kit"
+	desc = "Стара&#255; советска&#255; аптечка."
 
-/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army
-	name = "army medkit"
-	desc = "Специализированный медицинский набор дл&#255; борьбы с физическими повреждени&#255;ми и кровотечением. В него вход&#255;т компоненты дл&#255; ускорени&#255; свертывани&#255; крови, обезболивающие, антибиотики и иммунные стимул&#255;торы. Останавливает кровотечение!"
-	eng_desc = "Specialized medical kit to provide first-aid in case of in-battle injuries. The kit includes Menadion-based medicine for faster blood coagulation, painkillers, antibiotics, immunity stimulators, so as a kit to remove shrapnel and bullets from your body."
-	icon_state = "aptechkab"
-	item_state = "aptechkab"
-	list_reagents = list("cryoxadoneb" = 8)
+/obj/item/weapon/reagent_containers/pill/stalker/injector
+	name = "Injector"
+	icon_state = "sj1"
+	desc = "Small-effective combat stimulant. 15 units in one injector."
+	eng_desc = "Small-effective combat stimulant. 15 units in one injector."
+	item_state = "sj1"
+	var/wrapped = 1
+	list_reagents = list("cryoxadone" = 14)
+	var/icon_state_opened = "sj1_open"
+	var/desc_opened = "Opened injector."
 
-/obj/item/weapon/reagent_containers/pill/stalker/aptechka/scientific
-	name = "scientific medkit"
-	desc = "Медицинский набор, разработанный специально дл&#255; работы в услови&#255;х Зоны. Состав набора подобран как дл&#255; борьбы с ранени&#255;ми, так и дл&#255; вывода радионуклидов из организма. Преп&#255;тствует развитию лучевой болезни, а также снижает дозу накопленной радиации."
-	eng_desc = "Medical set, designed especially for work in the Zone. The set includes means of healing wounds as well as means of eliminating radionuclides from the body. Prevents the development of radiowave sickness and lowers the dose of accumulated radiation."
-	icon_state = "aptechkay"
-	item_state = "aptechkay"
+/obj/item/weapon/reagent_containers/pill/stalker/injector/attack_self(mob/user)
+	if(wrapped)
+		Unwrap(user)
+	else
+		..()
+
+/obj/item/weapon/reagent_containers/pill/stalker/injector/proc/Unwrap(mob/user)
+	icon_state = icon_state_opened
+	desc = desc_opened
+	if(user.client && (user.client.prefs.chat_toggles & CHAT_LANGUAGE))
+		user << "<span class='notice'>You open the package.</span>"
+	else
+		user << "<span class='notice'>Вы снимаете крышку.</span>"
+	wrapped = 0
+
+/obj/item/weapon/reagent_containers/pill/stalker/injector/sj1
+	name = "SJ1"
+	icon_state = "sj1"
+	desc = "Small-effective combat stimulant. 15 units in one injector."
+	eng_desc = "Small-effective combat stimulant. 15 units in one injector."
+	item_state = "sj1"
+	list_reagents = list("cryoxadone" = 14)
+	icon_state_opened = "sj1_open"
+	desc_opened = "Opened injector."
+
+/obj/item/weapon/reagent_containers/pill/stalker/injector/etg_c
+	name = "eTG-c"
+	icon_state = "etgc"
+	desc = "Really-effective combat stimulant."
+	eng_desc = "Really-effective combat stimulant."
+	item_state = "etgc"
+	list_reagents = list("cryoxadoneb" = 6)
+	icon_state_opened = "etgc_open"
+	desc_opened = "Opened injector."
+
+/obj/item/weapon/reagent_containers/pill/stalker/injector/sj6
+	name = "SJ6"
+	icon_state = "sj6"
+	desc = "Really-really-effective combat stimulant."
+	eng_desc = "Really-really-effective combat stimulant."
+	item_state = "sj6"
 	list_reagents = list("cryoxadoney" = 6)
+	icon_state_opened = "sj6_open"
+	desc_opened = "Opened injector."

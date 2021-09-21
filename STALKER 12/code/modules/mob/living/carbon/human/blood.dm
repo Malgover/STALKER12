@@ -69,6 +69,9 @@ var/const/BLOOD_VOLUME_SURVIVE = 122
 				if (reagents.has_reagent("iron"))	//Hematogen candy anyone?
 					B.volume += 0.4
 					reagents.remove_reagent("iron", 0.1)
+				if (reagents.has_reagent("coagulant"))
+					B.volume += 1.5
+					reagents.remove_reagent("coagulant",0.3)
 
 		//Effects of bloodloss
 		switch(blood_volume)

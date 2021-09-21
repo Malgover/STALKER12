@@ -177,6 +177,22 @@
 	..()
 	return
 
+/datum/reagent/medicine/coagulant //Based. I'm not a doctor, so this won't be realistic.
+	name = "blood-refilling coagulant"
+	id = "coagulant"
+	description = "A powerful coagulant. Victims will stop bleeding uncontrollably and regain their blood levels."
+	reagent_state = LIQUID
+	color = "#C8C8C8" //RGB: 200, 200, 200
+	metabolization_rate = 0.2 * REAGENTS_METABOLISM
+
+/datum/reagent/medicine/coagulant/on_mob_life(mob/living/M)
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		H.blood_max -= 4
+		if(!H.bleedsuppress) //so you can't stack bleed suppression
+			H.suppress_bloodloss(1)
+	..()
+
 /datum/reagent/medicine/rezadone
 	name = "Rezadone"
 	id = "rezadone"
