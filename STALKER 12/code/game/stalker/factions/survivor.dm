@@ -26,7 +26,7 @@ Assistant
 	selection_color = "#dddddd"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
-	whitelist_only = 1
+	whitelist_only = 0
 	outfit = /datum/outfit/job/tourist
 
 /datum/job/oldstalker
