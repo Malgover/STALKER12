@@ -230,19 +230,19 @@
 
 /sidoritem/firstaid/stalker
 	name = "Firstaid"
-	itemtype = /obj/item/weapon/reagent_containers/pill/stalker/aptechka/civilian
+	itemtype = /obj/item/weapon/storage/firstaid/stalker/civillian
 	cost = 500
 	words = list("�������" = 5, "�������" = 5, "�������" = 5, "�������" = 5)
 
 /sidoritem/firstaid/army
 	name = "Army firstaid"
-	itemtype = /obj/item/weapon/reagent_containers/pill/stalker/aptechka/army
+	itemtype = /obj/item/weapon/storage/firstaid/stalker/military
 	cost = 1000
 	words = list("�������" = 5, "�������" = 5, "���������" = 5, "���������" = 5, "�������" = 5, "�������" = 5, "������&#255;" = 5, "������&#255;" = 5, "�������" = 5, "�������" = 5)
 
 /sidoritem/firstaid/science
 	name = "Science firstaid"
-	itemtype = /obj/item/weapon/reagent_containers/pill/stalker/aptechka/scientific
+	itemtype = /obj/item/weapon/storage/firstaid/stalker/scientific
 	cost = 2000
 	words = list("�������" = 5, "�������" = 5, "�������" = 5, "�������" = 5, "������&#255;" = 5, "������&#255;" = 5, "�������" = 5, "�������" = 5)
 

@@ -14,16 +14,12 @@ obj/item/weapon/reagent_containers/pill/stalker/canconsume(mob/eater, mob/user)
 		return 0
 	return 1 // Masks were stopping people from "eating" patches. Thanks, inheritance.
 
-/obj/item/weapon/reagent_containers/pill/stalker/aptechka
-	name = "kit"
-	desc = "Стара&#255; советска&#255; аптечка."
-
 /obj/item/weapon/reagent_containers/pill/stalker/injector
 	name = "Injector"
-	icon_state = "sj1"
+	icon_state = "brute"
 	desc = "Small-effective combat stimulant. 15 units in one injector."
 	eng_desc = "Small-effective combat stimulant. 15 units in one injector."
-	item_state = "sj1"
+	item_state = "brute"
 	var/wrapped = 1
 	list_reagents = list("cryoxadone" = 14)
 	var/icon_state_opened = "sj1_open"
@@ -44,32 +40,57 @@ obj/item/weapon/reagent_containers/pill/stalker/canconsume(mob/eater, mob/user)
 		user << "<span class='notice'>Вы снимаете крышку.</span>"
 	wrapped = 0
 
-/obj/item/weapon/reagent_containers/pill/stalker/injector/sj1
-	name = "SJ1"
-	icon_state = "sj1"
-	desc = "Small-effective combat stimulant. 15 units in one injector."
-	eng_desc = "Small-effective combat stimulant. 15 units in one injector."
-	item_state = "sj1"
-	list_reagents = list("cryoxadone" = 14)
+obj/item/weapon/reagent_containers/pill/stalker/injector/canconsume(mob/eater, mob/user)
+	if(wrapped == 1)
+		return 0
+	return 1 // Masks were stopping people from "eating" patches. Thanks, inheritance.
+
+/obj/item/weapon/reagent_containers/pill/stalker/injector/brute
+	name = "brute trauma treatment injector"
+	icon_state = "brute"
+	desc = "Small yet effective bruise-healing stimulant. 25 units in one injector. Taking two of those in a quick succession isn't recommended."
+	eng_desc = "Small yet effective bruise-healing stimulant. 25 units in one injector. Taking two of those in a quick succession isn't recommended."
+	item_state = "brute"
+	list_reagents = list("bicaridine" = 25)
 	icon_state_opened = "sj1_open"
 	desc_opened = "Opened injector."
 
-/obj/item/weapon/reagent_containers/pill/stalker/injector/etg_c
-	name = "eTG-c"
-	icon_state = "etgc"
-	desc = "Really-effective combat stimulant."
-	eng_desc = "Really-effective combat stimulant."
-	item_state = "etgc"
-	list_reagents = list("cryoxadoneb" = 6)
+/obj/item/weapon/reagent_containers/pill/stalker/injector/burn
+	name = "burn trauma treatment injector"
+	icon_state = "burn"
+	desc = "Small yet effective burn-treating solution. 25 units in one injector. Taking two of those in a quick succession isn't recommended."
+	eng_desc = "Small yet effective burn-treating solution. 25 units in one injector. Taking two of those in a quick succession isn't recommended."
+	item_state = "burn"
+	list_reagents = list("kelotane" = 25)
 	icon_state_opened = "etgc_open"
 	desc_opened = "Opened injector."
 
-/obj/item/weapon/reagent_containers/pill/stalker/injector/sj6
-	name = "SJ6"
-	icon_state = "sj6"
-	desc = "Really-really-effective combat stimulant."
-	eng_desc = "Really-really-effective combat stimulant."
-	item_state = "sj6"
-	list_reagents = list("cryoxadoney" = 6)
+/obj/item/weapon/reagent_containers/pill/stalker/injector/toxin
+	name = "antitoxin injector"
+	icon_state = "toxin"
+	desc = "Small yet effective antitoxin injector. 25 units in one injector."
+	eng_desc = "Small yet effective antitoxin injector. 25 units in one injector."
+	item_state = "toxin"
+	list_reagents = list("charcoal" = 25)
 	icon_state_opened = "sj6_open"
+	desc_opened = "Opened injector."
+
+/obj/item/weapon/reagent_containers/pill/stalker/injector/blood
+	name = "blood-refilling coagulant injector"
+	icon_state = "blood"
+	desc = "Effective coagulant that also doubles as hematogen. 25 units in one injector."
+	eng_desc = "Effective coagulant that also doubles as hematogen. 25 units in one injector."
+	item_state = "blood"
+	list_reagents = list("coagulant" = 25)
+	icon_state_opened = "sj1_open"
+	desc_opened = "Opened injector."
+
+/obj/item/weapon/reagent_containers/pill/stalker/injector/painkiller
+	name = "combat stimulants injector"
+	icon_state = "painkiller"
+	desc = "Military-grade mix of combat stimulants and painkillers. 40 units in one injector."
+	eng_desc = "Military-grade mix of combat stimulants and painkillers. 40 units in one injector."
+	item_state = "painkiller"
+	list_reagents = list("mine_salve" = 40)
+	icon_state_opened = "sj1_open"
 	desc_opened = "Opened injector."

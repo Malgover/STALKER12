@@ -47,7 +47,7 @@
 	back = /obj/item/weapon/storage/backpack/stalker/civilian
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/sc45 = 2,
-							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1,
+							/obj/item/weapon/storage/firstaid/stalker/military = 1,
 							/obj/item/weapon/gun/projectile/automatic/pistol/sip = 1,
 							/obj/item/device/flashlight/seclite = 1)
 	l_pocket = /obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa

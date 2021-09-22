@@ -331,13 +331,14 @@
 	if(iscarbon(M))
 		var/mob/living/carbon/N = M
 		N.hal_screwyhud = 5
-	M.adjustBruteLoss(-0.25*REM)
-	M.adjustFireLoss(-0.25*REM)
+	M.status_flags |= IGNORESLOWDOWN
+//	M.adjustBruteLoss(-0.25*REM)
+//	M.adjustFireLoss(-0.25*REM)
 	..()
 
 /datum/reagent/medicine/mine_salve/reaction_mob(mob/living/M, method=TOUCH, reac_volume, show_message = 1)
 	if(iscarbon(M) && M.stat != DEAD)
-		if(method in list(INGEST, VAPOR, INJECT))
+		if(method in list(INGEST, VAPOR))
 			M.Stun(4)
 			M.Weaken(4)
 			if(show_message)
@@ -918,7 +919,7 @@ datum/reagent/medicine/bicaridine
 	overdose_threshold = 30
 
 datum/reagent/medicine/bicaridine/on_mob_life(mob/living/M)
-	M.adjustBruteLoss(-2*REM)
+	M.adjustBruteLoss(-3*REM)
 	..()
 	return
 
@@ -936,7 +937,7 @@ datum/reagent/medicine/dexalin
 	overdose_threshold = 30
 
 datum/reagent/medicine/dexalin/on_mob_life(mob/living/M)
-	M.adjustOxyLoss(-2*REM)
+	M.adjustOxyLoss(-3*REM)
 	..()
 	return
 
@@ -954,7 +955,7 @@ datum/reagent/medicine/kelotane
 	overdose_threshold = 30
 
 datum/reagent/medicine/kelotane/on_mob_life(mob/living/M)
-	M.adjustFireLoss(-2*REM)
+	M.adjustFireLoss(-3*REM)
 	..()
 	return
 
@@ -973,7 +974,7 @@ datum/reagent/medicine/antitoxin
 	overdose_threshold = 30
 
 datum/reagent/medicine/antitoxin/on_mob_life(mob/living/M)
-	M.adjustToxLoss(-2*REM)
+	M.adjustToxLoss(-3*REM)
 	for(var/datum/reagent/toxin/R in M.reagents.reagent_list)
 		if(R != src)
 			M.reagents.remove_reagent(R.id,1)
