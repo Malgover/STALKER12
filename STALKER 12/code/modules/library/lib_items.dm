@@ -129,7 +129,7 @@
 
 /obj/structure/bookcase/manuals/medical/New()
 	..()
-	new /obj/item/weapon/book/manual/medical_cloning(src)
+	new /obj/item/weapon/book/manual/crimeandpunishment(src)
 	update_icon()
 
 
@@ -139,11 +139,11 @@
 /obj/structure/bookcase/manuals/engineering/New()
 	..()
 	new /obj/item/weapon/book/manual/wiki/engineering_construction(src)
-	new /obj/item/weapon/book/manual/engineering_particle_accelerator(src)
+	new /obj/item/weapon/book/manual/allquietonthewesternfront(src)
 	new /obj/item/weapon/book/manual/wiki/engineering_hacking(src)
 	new /obj/item/weapon/book/manual/wiki/engineering_guide(src)
-	new /obj/item/weapon/book/manual/engineering_singularity_safety(src)
-	new /obj/item/weapon/book/manual/robotics_cyborgs(src)
+	new /obj/item/weapon/book/manual/solaris(src)
+	new /obj/item/weapon/book/manual/theprophetdeath(src)
 	update_icon()
 
 
@@ -152,7 +152,7 @@
 
 /obj/structure/bookcase/manuals/research_and_development/New()
 	..()
-	new /obj/item/weapon/book/manual/research_and_development(src)
+	new /obj/item/weapon/book/manual/theprophetfriendship(src)
 	update_icon()
 
 
