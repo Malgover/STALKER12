@@ -33,7 +33,7 @@
 									'sound/stalker/ambience/amb22.ogg','sound/stalker/ambience/amb23.ogg',
 									'sound/stalker/ambience/amb24.ogg','sound/stalker/ambience/amb25.ogg',
 									'sound/stalker/ambience/amb26.ogg','sound/stalker/ambience/amb27.ogg',
-									/*'sound/stalker/ambience/amb28.ogg',*/'sound/stalker/ambience/amb29.ogg',
+									'sound/stalker/ambience/amb28.ogg','sound/stalker/ambience/amb29.ogg',
 									'sound/stalker/ambience/amb30.ogg','sound/stalker/ambience/amb31.ogg',
 									'sound/stalker/ambience/amb32.ogg','sound/stalker/ambience/amb33.ogg',
 									'sound/stalker/ambience/amb34.ogg','sound/stalker/ambience/amb35.ogg',
