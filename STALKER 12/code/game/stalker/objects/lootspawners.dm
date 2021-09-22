@@ -163,6 +163,35 @@
 				/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa = 30,
 				/obj/item/weapon/reagent_containers/food/snacks/stalker/konserva = 20)
 
+/obj/effect/spawner/lootdrop/stalker/pornmag
+	name = "porn mags"
+	lootcount = 1
+	loot = list(/obj/item/trash/pornmagazine = 30,
+				/obj/item/trash/pornmagazine/two = 30,
+				/obj/item/trash/pornmagazine/three = 30,
+				/obj/item/trash/pornmagazine/four = 30,
+				/obj/item/trash/pornmagazine/five = 30,
+				/obj/nothing = 70)
+
+/obj/effect/spawner/lootdrop/stalker/junk
+	name = "junk items"
+	lootcount = 1
+	loot = list(/obj/item/trash/paintcan = 20,
+				/obj/item/trash/teapot = 20,
+				/obj/item/trash/pincers = 10,
+				/obj/item/trash/carkey = 20,
+				/obj/item/trash/crossnecklace = 15,
+				/obj/item/trash/oldvials = 5,
+				/obj/item/trash/steelwire = 10,
+				/obj/item/trash/steelwire1 = 10,
+				/obj/item/trash/wire = 10,
+				/obj/item/trash/duct_tape = 10,
+				/obj/item/trash/oldcircuitboard = 15,
+				/obj/item/trash/oldcircuitboard0 = 15,
+				/obj/item/weapon/c_tube = 25,
+				/obj/item/weapon/newspaper = 20,
+				/obj/item/trash/oldchembottle = 5,
+				/obj/nothing = 80)
 
 /obj/effect/spawner/lootdrop/stalker/gravy
 	name = "stalker gravity"

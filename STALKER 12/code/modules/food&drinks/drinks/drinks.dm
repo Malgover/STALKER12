@@ -203,11 +203,11 @@
 	volume = 100
 
 /obj/item/weapon/reagent_containers/food/drinks/flask
-	name = "captain's flask"
-	desc = "A silver flask belonging to the captain."
+	name = "metal hip flask"
+	desc = "A metal hip flask has a dull, rustic look to it."
 	icon_state = "flask"
 	materials = list(MAT_SILVER=500)
-	volume = 60
+	volume = 45
 
 /obj/item/weapon/reagent_containers/food/drinks/flask/det
 	name = "detective's flask"
@@ -215,6 +215,20 @@
 	icon_state = "detflask"
 	materials = list(MAT_METAL=250)
 	list_reagents = list("whiskey" = 30)
+
+/obj/item/weapon/reagent_containers/food/drinks/flask/commie
+	name = "commie flask"
+	desc = "A golden flask wrapped with black leather, embroidened with a red star. A holdover from the old world."
+	icon_state = "commie_flask"
+	materials = list(MAT_SILVER=500)
+	volume = 60
+
+/obj/item/weapon/reagent_containers/food/drinks/flask/commie
+	name = "russian flask"
+	desc = "A cheap plastic canteen-like flask meant for stowing away alcohol for long journeys in the motherland."
+	icon_state = "russian_flask"
+	materials = list(MAT_SILVER=500)
+	volume = 60
 
 /obj/item/weapon/reagent_containers/food/drinks/britcup
 	name = "cup"
