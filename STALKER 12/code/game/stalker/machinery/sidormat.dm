@@ -152,9 +152,9 @@ var/list/global_sidormat_list = list(
 
 	"Medicine" = list(
 		///////////////////////////////	Ìåäèêàìåíòû	/////////////////////////////////////////
-		new /datum/data/stalker_equipment("Medkit",						"Àïòå÷êà",							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/civilian,			1000,	ROOKIE),
-		new /datum/data/stalker_equipment("Army medkit",				"Àðìåéñêà&#x44F; àïòå÷êà",			/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army,				2500,	EXPERIENCED),
-		new /datum/data/stalker_equipment("Scientific medkit",			"Íàó÷íà&#x44F; àïòå÷êà",			/obj/item/weapon/reagent_containers/pill/stalker/aptechka/scientific,		5000,	VETERAN),
+		new /datum/data/stalker_equipment("Medkit",						"Àïòå÷êà",							/obj/item/weapon/storage/firstaid/stalker/civillian,			1000,	ROOKIE,	 		sale_price = 50),
+		new /datum/data/stalker_equipment("Army medkit",				"Àðìåéñêà&#x44F; àïòå÷êà",			/obj/item/weapon/storage/firstaid/stalker/military,				2500,	EXPERIENCED,	sale_price = 125),
+		new /datum/data/stalker_equipment("Scientific medkit",			"Íàó÷íà&#x44F; àïòå÷êà",			/obj/item/weapon/storage/firstaid/stalker/scientific,		5000,	VETERAN,			sale_price = 250),
 		new /datum/data/stalker_equipment("Bandage",					"Áèíò",								/obj/item/stack/medical/gauze/bint,											750,	ROOKIE),
 		new /datum/data/stalker_equipment("Anti-rad",					"Àíòè-ðàä ïðåïàðàòû",				/obj/item/weapon/reagent_containers/hypospray/medipen/stalker/antirad,		3500,	ROOKIE)
 		),
@@ -292,7 +292,20 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Tourist gorka jacket",			"Tourist gorka jacket",		/obj/item/clothing/suit/kozhanka/tourist/gorka,				5500,	ROOKIE, sale_price = 2750),
 		new /datum/data/stalker_equipment("Cheap tourist satchel",			"Cheap tourist satchel",	/obj/item/weapon/storage/backpack/satchel,					2500,	ROOKIE),
 		/////////////////////////////////	Weapons	///////////////////////////////////////////
-		new /datum/data/stalker_equipment("Wooden Hatchet",			"Wooden Hatchet",				/obj/item/weapon/kitchen/knife/hatchet,				500,	ROOKIE, sale_price = 500),
+		new /datum/data/stalker_equipment("Wooden Hatchet",			"Wooden Hatchet",				/obj/item/weapon/kitchen/knife/hatchet,				500,	ROOKIE,	sale_price = 500),
+		/////////////////////////////////	Medkit components	//////////////////////////////////////////////////
+		new /datum/data/stalker_equipment("Ointment",					"Ointment",						/obj/item/stack/medical/ointment,											50,	ROOKIE,	sale_price = 50),
+		new /datum/data/stalker_equipment("Bruise Pack",				"Bruise Pack",					/obj/item/stack/medical/bruise_pack,										50,	ROOKIE,	sale_price = 50),
+		new /datum/data/stalker_equipment("Pill of Charcoal",			"Pill of Charcoal",				/obj/item/weapon/reagent_containers/pill/charcoal,							250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Epipen",						"Epipen",						/obj/item/weapon/reagent_containers/hypospray/medipen,						250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Brute Patch",				"Brute Patch",					/obj/item/weapon/reagent_containers/pill/patch/styptic,						250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Burn Patch",					"Burn Patch",					/obj/item/weapon/reagent_containers/pill/patch/silver_sulf,					250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Combat Patch",				"Combat Patch",					/obj/item/weapon/reagent_containers/pill/patch/synthflesh,					250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Brute Injector",				"Brute Injector",				/obj/item/weapon/reagent_containers/pill/stalker/injector/brute,			250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Burn Injector",				"Burn Injector",				/obj/item/weapon/reagent_containers/pill/stalker/injector/burn,				250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Blood Injector",				"Blood Injector",				/obj/item/weapon/reagent_containers/pill/stalker/injector/blood,			250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Painkillers Injector",		"Painkillers Injector",			/obj/item/weapon/reagent_containers/pill/stalker/injector/painkiller,		250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Antitoxin Injector",			"Antitoxin Injector",			/obj/item/weapon/reagent_containers/pill/stalker/injector/toxin,			250,	ROOKIE,	sale_price = 250),
 		)
 	)
 

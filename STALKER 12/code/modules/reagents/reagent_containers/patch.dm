@@ -30,3 +30,8 @@
 	name = "burn patch"
 	desc = "Helps with burn injuries."
 	list_reagents = list("silver_sulfadiazine" = 50)
+
+/obj/item/weapon/reagent_containers/pill/patch/synthflesh
+	name = "combat treatment patch"
+	desc = "Helps with both brute and burn injuries by treating them nearly instantly."
+	list_reagents = list("synthflesh" = 50)

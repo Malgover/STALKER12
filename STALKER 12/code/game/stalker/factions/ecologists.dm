@@ -31,7 +31,7 @@
 	suit_store = null
 	backpack_contents = list(/obj/item/device/detector/blink = 1,
 							/obj/item/device/geiger_counter = 1,
-							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/scientific = 1,
+							/obj/item/weapon/storage/firstaid/stalker/scientific = 1,
 							/obj/item/weapon/kitchen/knife/hatchet = 1,
 							/obj/item/weapon/gun/projectile/automatic/pistol/fort12 = 1,
 							/obj/item/ammo_box/magazine/stalker/m9x18fort = 1)
@@ -52,7 +52,7 @@
 	suit_store = null
 	backpack_contents = list(/obj/item/device/detector/blink = 1,
 							/obj/item/device/geiger_counter = 1,
-							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/scientific = 1,
+							/obj/item/weapon/storage/firstaid/stalker/scientific = 1,
 							/obj/item/weapon/kitchen/knife/hatchet = 1,
 							/obj/item/weapon/gun/projectile/automatic/pistol/fort12 = 1,
 							/obj/item/ammo_box/magazine/stalker/m9x18fort = 1)
@@ -91,7 +91,7 @@
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/m9x18fort = 1,
 							/obj/item/device/detector/blink = 1,
 							/obj/item/weapon/kitchen/knife/hatchet = 1,
-							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/scientific = 3,
+							/obj/item/weapon/storage/firstaid/stalker/scientific = 3,
 							/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki = 1)
 	l_pocket = /obj/item/device/flashlight/seclite
 	r_pocket = /obj/item/device/radio
@@ -113,7 +113,7 @@
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/m9x18fort = 1,
 							/obj/item/device/detector/blink = 1,
 							/obj/item/weapon/kitchen/knife/hatchet = 1,
-							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/scientific = 3,
+							/obj/item/weapon/storage/firstaid/stalker/scientific = 3,
 							/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki = 1)
 	l_pocket = /obj/item/device/flashlight/seclite
 	r_pocket = /obj/item/device/radio

@@ -30,7 +30,7 @@
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/sp9x39val = 2,
 							/obj/item/device/flashlight/seclite = 1,
 							/obj/item/weapon/kitchen/knife/tourist,
-							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1)
+							/obj/item/weapon/storage/firstaid/stalker/military = 1)
 
 /*
 Assistant
@@ -68,7 +68,7 @@ Assistant
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/ammo_box/stalker/b545 = 1,
 							/obj/item/ammo_box/magazine/stalker/m545 = 2,
-							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1)
+							/obj/item/weapon/storage/firstaid/stalker/military = 1)
 	r_pocket = /obj/item/device/radio
 	l_pocket = pick(/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,/obj/item/weapon/reagent_containers/food/snacks/stalker/baton)
 	faction_s = "Military"
@@ -85,7 +85,7 @@ Assistant
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/ammo_box/stalker/b545 = 1,
 							/obj/item/ammo_box/magazine/stalker/m545 = 2,
-							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1)
+							/obj/item/weapon/storage/firstaid/stalker/military = 1)
 	r_pocket = /obj/item/device/radio
 	l_pocket = /obj/item/device/flashlight/seclite
 	faction_s = "Military"
@@ -130,7 +130,7 @@ Assistant
 	backpack_contents = list(/obj/item/ammo_box/stalker/b545ap = 1,
 							/obj/item/ammo_box/magazine/stalker/m545 = 2,
 							/obj/item/device/flashlight/seclite = 1,
-							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1,
+							/obj/item/weapon/storage/firstaid/stalker/military = 1,
 							/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki = 1)
 	r_pocket = /obj/item/device/radio
 	l_pocket = /obj/item/ammo_box/magazine/stalker/m9x18fort
@@ -152,7 +152,7 @@ Assistant
 	backpack_contents = list(/obj/item/ammo_box/stalker/b545ap = 1,
 							/obj/item/ammo_box/magazine/stalker/m545 = 2,
 							/obj/item/device/flashlight/seclite = 1,
-							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1,
+							/obj/item/weapon/storage/firstaid/stalker/military = 1,
 							/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki = 1)
 	r_pocket = /obj/item/device/radio
 	l_pocket = /obj/item/ammo_box/magazine/stalker/m9x18fort
