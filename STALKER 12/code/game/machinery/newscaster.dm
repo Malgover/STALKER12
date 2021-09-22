@@ -859,7 +859,7 @@ var/list/obj/machinery/newscaster/allCasters = list()
 
 /obj/item/weapon/newspaper
 	name = "newspaper"
-	desc = "An issue of an old Ukrainian newspaper. The date reads April 29, 1986."
+	desc = "An issue of a very old Ukrainian newspaper. The date reads April 29, 1986."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "newspaper"
 	w_class = 2
