@@ -52,7 +52,7 @@ obj/item/weapon/reagent_containers/pill/stalker/injector/canconsume(mob/eater, m
 	eng_desc = "Small yet effective bruise-healing stimulant. 25 units in one injector. Taking two of those in a quick succession isn't recommended."
 	item_state = "brute"
 	list_reagents = list("bicaridine" = 25)
-	icon_state_opened = "sj1_open"
+	icon_state_opened = "brute_open"
 	desc_opened = "Opened injector."
 
 /obj/item/weapon/reagent_containers/pill/stalker/injector/burn
@@ -62,7 +62,7 @@ obj/item/weapon/reagent_containers/pill/stalker/injector/canconsume(mob/eater, m
 	eng_desc = "Small yet effective burn-treating solution. 25 units in one injector. Taking two of those in a quick succession isn't recommended."
 	item_state = "burn"
 	list_reagents = list("kelotane" = 25)
-	icon_state_opened = "etgc_open"
+	icon_state_opened = "burn_open"
 	desc_opened = "Opened injector."
 
 /obj/item/weapon/reagent_containers/pill/stalker/injector/toxin
@@ -72,7 +72,7 @@ obj/item/weapon/reagent_containers/pill/stalker/injector/canconsume(mob/eater, m
 	eng_desc = "Small yet effective antitoxin injector. 25 units in one injector."
 	item_state = "toxin"
 	list_reagents = list("charcoal" = 25)
-	icon_state_opened = "sj6_open"
+	icon_state_opened = "toxin_open"
 	desc_opened = "Opened injector."
 
 /obj/item/weapon/reagent_containers/pill/stalker/injector/blood
@@ -82,7 +82,7 @@ obj/item/weapon/reagent_containers/pill/stalker/injector/canconsume(mob/eater, m
 	eng_desc = "Effective coagulant that also doubles as hematogen. 25 units in one injector."
 	item_state = "blood"
 	list_reagents = list("coagulant" = 25)
-	icon_state_opened = "sj1_open"
+	icon_state_opened = "blood_open"
 	desc_opened = "Opened injector."
 
 /obj/item/weapon/reagent_containers/pill/stalker/injector/painkiller
@@ -92,5 +92,5 @@ obj/item/weapon/reagent_containers/pill/stalker/injector/canconsume(mob/eater, m
 	eng_desc = "Military-grade mix of combat stimulants and painkillers. 40 units in one injector."
 	item_state = "painkiller"
 	list_reagents = list("mine_salve" = 40)
-	icon_state_opened = "sj1_open"
+	icon_state_opened = "painkiller_open"
 	desc_opened = "Opened injector."
