@@ -408,7 +408,7 @@
 "hR" = (/obj/structure/grille/stalker/wood{tag = "icon-zabor_horizontal4"; icon_state = "zabor_horizontal4"},/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "hS" = (/obj/structure/grille/stalker/wood{tag = "icon-zabor_horizontal3"; icon_state = "zabor_horizontal3"},/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "hT" = (/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor/safezone)
-"hU" = (/obj/structure/table/stalker/wood,/obj/rad/rad_low,/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army,/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"hU" = (/obj/structure/table/stalker/wood,/obj/rad/rad_low,/obj/item/weapon/storage/firstaid/stalker/military,/turf/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "hV" = (/obj/structure/grille/stalker/wood{tag = "icon-zabor_horizontal"; icon_state = "zabor_horizontal"},/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "hW" = (/obj/machinery/campfire,/turf/stalker/floor/gryaz,/area/stalker/blowout/cordon/buildings)
 "hX" = (/obj/structure/stalker/blocks/block2,/turf/stalker/floor/digable/grass,/area/stalker/blowout/outdoor/safezone)
