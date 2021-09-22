@@ -892,7 +892,7 @@ var/global/global_lentahtml = ""
 							article_img = "backwater"
 							article_img_width = 200
 							article_img_height = 125
-							article_text = "Backwater, also called Zaton, is mainly set in a swampy area, with a few industrial factories scattered around it and derelict, grounded boats, some dating back before the incident. From the outlying structures and sizable number of grounded boats and tankers around, Backwater appears to have been drained of its water sometime after the Chernobyl incident, most likely to contain the radiation contamination in the water. A free bar for Stalkers is run by Beard, in the wreck of a tanker � the Skadovsk."
+							article_text = "Backwater, also called Zaton, is mainly set in a swampy area, with a few industrial factories scattered around it and derelict, grounded boats, some dating back before the incident. From the outlying structures and sizable number of grounded boats and tankers around, Backwater appears to have been drained of its water sometime after the Chernobyl incident, most likely to contain the radiation contamination in the water. A free bar for Stalkers is run by Beard, in the wreck of a tanker : the Skadovsk."
 
 						if("Pripyat")
 							article_title = "Pripyat"
