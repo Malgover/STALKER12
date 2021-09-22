@@ -21,6 +21,17 @@
 /obj/item/clothing/head/helmet/emp_act(severity)
 	..()
 
+/obj/item/clothing/head/bucket_helmet
+	name = "bucket helmet"
+	desc = "A bucket with two holes to see through. Protects the head from impacts at the cost of looking like an idiot. Come to think of it, maybe this is not the best choice for protection."
+	icon_state = "bucket_with_holes"
+	flags = BLOCKHAIR
+	item_state = "helmet_bucket"
+	armor = list(melee = 10, bullet = 1, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+	flags_inv = HIDEEARS|HIDEMASK
+	burn_state = FIRE_PROOF
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+
 /obj/item/clothing/head/helmet/sec
 	can_flashlight = 1
 
