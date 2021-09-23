@@ -184,6 +184,7 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Repair-kit for guns",				"Ðåì. êîìïëåêò äë&#x44F; îãíåñòðåëüíîãî îðóæè&#x44F;",	/obj/item/device/repair_kit/gun,							4000,	ROOKIE),
 		new /datum/data/stalker_equipment("Guitar",								"Ãèòàðà",												/obj/item/device/instrument/guitar,							3000,	ROOKIE),
 		new /datum/data/stalker_equipment("Geiger counter",						"Äîçèìåòð",												/obj/item/device/geiger_counter,							3000,	ROOKIE),
+		new /datum/data/stalker_equipment("Walkie-talkie",						"Walkie-talkie",										/obj/item/device/radio,										2500,	ROOKIE),
 		new /datum/data/stalker_equipment("Flashlight",							"Ôîíàðèê",												/obj/item/device/flashlight/seclite,						1000,	ROOKIE),
 		new /datum/data/stalker_equipment("Big Artifact belt",					"Áîëüøîé ïî&#x44F;ñ äë&#x44F; àðòåôàêòîâ",				/obj/item/weapon/storage/belt/stalker/artifact_belt,		60000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("Small Artifact belt",				"Ìàëåíüêèé ïî&#x44F;ñ äë&#x44F; àðòåôàêòîâ",			/obj/item/weapon/storage/belt/stalker/artifact_belt/small,	25000,	ROOKIE),
