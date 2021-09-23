@@ -294,8 +294,8 @@ var/list/global_sidormat_list = list(
 		/////////////////////////////////	Weapons	///////////////////////////////////////////
 		new /datum/data/stalker_equipment("Wooden Hatchet",			"Wooden Hatchet",				/obj/item/weapon/kitchen/knife/hatchet,				500,	ROOKIE,	sale_price = 500),
 		/////////////////////////////////	Medkit components	//////////////////////////////////////////////////
-		new /datum/data/stalker_equipment("Ointment",					"Ointment",						/obj/item/stack/medical/ointment,											50,	ROOKIE,	sale_price = 50),
-		new /datum/data/stalker_equipment("Bruise Pack",				"Bruise Pack",					/obj/item/stack/medical/bruise_pack,										50,	ROOKIE,	sale_price = 50),
+		new /datum/data/stalker_equipment("Ointment",					"Ointment",						/obj/item/stack/medical/ointment,											25,	ROOKIE,	sale_price = 25),
+		new /datum/data/stalker_equipment("Bruise Pack",				"Bruise Pack",					/obj/item/stack/medical/bruise_pack,										25,	ROOKIE,	sale_price = 25),
 		new /datum/data/stalker_equipment("Pill of Charcoal",			"Pill of Charcoal",				/obj/item/weapon/reagent_containers/pill/charcoal,							125,	ROOKIE,	sale_price = 250),
 		new /datum/data/stalker_equipment("Epipen",						"Epipen",						/obj/item/weapon/reagent_containers/hypospray/medipen,						125,	ROOKIE,	sale_price = 250),
 		new /datum/data/stalker_equipment("Brute Patch",				"Brute Patch",					/obj/item/weapon/reagent_containers/pill/patch/styptic,						250,	ROOKIE,	sale_price = 250),
