@@ -14,7 +14,6 @@
 	icon_state = "steelhelmet"
 	item_state = "steelhelmet"
 	armor = list(melee = 25, bullet = 40, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0, psy = 5)
-	flags = BLOCKHAIR
 	flags_cover = 0
 	unacidable = 1
 	durability = 40
