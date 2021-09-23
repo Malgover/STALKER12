@@ -3,6 +3,7 @@
 	desc = "It's an emergency medical kit for those serious boo-boos, but slav and NEVER FUCKING ACQUIRABLE. Report in dev channel if you get one."
 	icon = 'icons/stalker/items.dmi'
 	icon_state = "aptechkar"
+	w_class = 2
 	throw_speed = 3
 	throw_range = 7
 	max_w_class = 2 //Max size of objects that this object can store (in effect only if can_hold isn't set)
