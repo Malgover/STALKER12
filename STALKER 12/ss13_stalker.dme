@@ -1646,6 +1646,7 @@
 #include "interface\interface.dm"
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
+#include "tools\Redirector\Configurations.dm"
 #include "tools\Redirector\textprocs.dm"
 // END_INCLUDE
 
