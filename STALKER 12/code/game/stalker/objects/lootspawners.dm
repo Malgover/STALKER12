@@ -151,6 +151,7 @@
 /obj/effect/spawner/lootdrop/stalker/medicine
 	name = "stalker medicine"
 	lootcount = 1
+	max_spawned = 1
 	loot = list(/obj/item/weapon/storage/firstaid/stalker/civillian = 30,
 				/obj/item/weapon/storage/firstaid/stalker/military = 15,
 				/obj/item/weapon/storage/firstaid/stalker/scientific = 5,
@@ -159,6 +160,7 @@
 /obj/effect/spawner/lootdrop/stalker/food
 	name = "stalker food"
 	lootcount = 1
+	max_spawned = 1
 	loot = list(/obj/item/weapon/reagent_containers/food/snacks/stalker/baton = 50,
 				/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa = 30,
 				/obj/item/weapon/reagent_containers/food/snacks/stalker/konserva = 20)
@@ -166,6 +168,7 @@
 /obj/effect/spawner/lootdrop/stalker/pornmag
 	name = "porn mags"
 	lootcount = 1
+	max_spawned = 1
 	loot = list(/obj/item/trash/pornmagazine = 30,
 				/obj/item/trash/pornmagazine/two = 30,
 				/obj/item/trash/pornmagazine/three = 30,
@@ -176,6 +179,7 @@
 /obj/effect/spawner/lootdrop/stalker/junk
 	name = "junk items"
 	lootcount = 1
+	max_spawned = 1
 	loot = list(/obj/item/trash/paintcan = 20,
 				/obj/item/trash/teapot = 20,
 				/obj/item/trash/pincers = 10,
