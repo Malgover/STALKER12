@@ -5,8 +5,8 @@
 	icon_state = "aptechkar"
 	throw_speed = 3
 	throw_range = 7
-	max_w_class = 1 //Max size of objects that this object can store (in effect only if can_hold isn't set)
-	max_combined_w_class = 7 //The sum of the w_classes of all the items in this storage item.
+	max_w_class = 2 //Max size of objects that this object can store (in effect only if can_hold isn't set)
+	max_combined_w_class = 21 //The sum of the w_classes of all the items in this storage item.
 	storage_slots = 7 //The number of storage slots in this container.
 	can_hold = list(
 		/obj/item/weapon/reagent_containers/pill,
