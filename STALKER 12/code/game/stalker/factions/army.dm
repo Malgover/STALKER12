@@ -19,6 +19,7 @@
 /datum/outfit/job/military_spetsnaz/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = /obj/item/clothing/head/spheram
+	mask = /obj/item/clothing/mask/balaclava
 	uniform = /obj/item/clothing/under/color/switer/lolg
 	suit = /obj/item/clothing/suit/berill
 	shoes = /obj/item/clothing/shoes/jackboots/warm
@@ -57,6 +58,7 @@ Assistant
 /datum/outfit/job/military/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = pick(/obj/item/clothing/head/bandmil,/obj/item/clothing/head/steel)
+	mask = /obj/item/clothing/mask/balaclava
 	uniform = /obj/item/clothing/under/color/switer/lolg
 	suit = /obj/item/clothing/suit/army
 	ears = null
@@ -76,6 +78,7 @@ Assistant
 /datum/outfit/military  // For select_equipment
 	name = "Military Soldier"
 	head = null
+	mask = /obj/item/clothing/mask/balaclava
 	ears = null
 	belt = /obj/item/weapon/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
@@ -93,6 +96,7 @@ Assistant
 /datum/outfit/military/pre_equip(mob/living/carbon/human/H)
 	..()
 	uniform = /obj/item/clothing/under/color/switer/lolg
+	mask = /obj/item/clothing/mask/balaclava
 	suit = /obj/item/clothing/suit/army
 	l_pocket = pick(/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,/obj/item/weapon/reagent_containers/food/snacks/stalker/baton)
 	r_pocket = /obj/item/device/flashlight/seclite
