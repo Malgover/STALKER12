@@ -358,7 +358,7 @@
 	icon_state = "lampa_small"
 	density = 0
 
-/obj/structure/stalker/lampa_small
+/obj/structure/stalker/deskclutter
 	name =  "desk clutter"
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "deskclutter"
