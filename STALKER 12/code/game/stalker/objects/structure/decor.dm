@@ -358,6 +358,12 @@
 	icon_state = "lampa_small"
 	density = 0
 
+/obj/structure/stalker/lampa_small
+	name =  "desk clutter"
+	icon = 'icons/obj/stationobjs.dmi'
+	icon_state = "deskclutter"
+	density = 0
+
 /obj/structure/stalker/sign1
 	name =  "Old sign"
 	icon = 'icons/stalker/d2k5/structure/signs.dmi'
