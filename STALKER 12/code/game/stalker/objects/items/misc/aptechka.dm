@@ -48,30 +48,30 @@ obj/item/weapon/reagent_containers/pill/stalker/injector/canconsume(mob/eater, m
 /obj/item/weapon/reagent_containers/pill/stalker/injector/brute
 	name = "brute trauma treatment injector"
 	icon_state = "brute"
-	desc = "Small yet effective bruise-healing stimulant. 25 units in one injector. Taking two of those in a quick succession isn't recommended."
-	eng_desc = "Small yet effective bruise-healing stimulant. 25 units in one injector. Taking two of those in a quick succession isn't recommended."
+	desc = "Small yet effective bruise-healing stimulant. 25 units in one injector. Taking three of those in a quick succession isn't recommended."
+	eng_desc = "Small yet effective bruise-healing stimulant. 25 units in one injector. Taking three of those in a quick succession isn't recommended."
 	item_state = "brute"
-	list_reagents = list("bicaridine" = 25)
+	list_reagents = list("bicaridine" = 15)
 	icon_state_opened = "brute_open"
 	desc_opened = "Opened injector."
 
 /obj/item/weapon/reagent_containers/pill/stalker/injector/burn
 	name = "burn trauma treatment injector"
 	icon_state = "burn"
-	desc = "Small yet effective burn-treating solution. 25 units in one injector. Taking two of those in a quick succession isn't recommended."
-	eng_desc = "Small yet effective burn-treating solution. 25 units in one injector. Taking two of those in a quick succession isn't recommended."
+	desc = "Small yet effective burn-treating solution. 15 units in one injector. Taking three of those in a quick succession isn't recommended."
+	eng_desc = "Small yet effective burn-treating solution. 15 units in one injector. Taking three of those in a quick succession isn't recommended."
 	item_state = "burn"
-	list_reagents = list("kelotane" = 25)
+	list_reagents = list("kelotane" = 15)
 	icon_state_opened = "burn_open"
 	desc_opened = "Opened injector."
 
 /obj/item/weapon/reagent_containers/pill/stalker/injector/toxin
 	name = "antitoxin injector"
 	icon_state = "toxin"
-	desc = "Small yet effective antitoxin injector. 25 units in one injector."
-	eng_desc = "Small yet effective antitoxin injector. 25 units in one injector."
+	desc = "Small yet effective antitoxin injector. 15 units in one injector."
+	eng_desc = "Small yet effective antitoxin injector. 15 units in one injector."
 	item_state = "toxin"
-	list_reagents = list("charcoal" = 25)
+	list_reagents = list("charcoal" = 15)
 	icon_state_opened = "toxin_open"
 	desc_opened = "Opened injector."
 
@@ -91,6 +91,6 @@ obj/item/weapon/reagent_containers/pill/stalker/injector/canconsume(mob/eater, m
 	desc = "Military-grade mix of combat stimulants and painkillers. 40 units in one injector."
 	eng_desc = "Military-grade mix of combat stimulants and painkillers. 40 units in one injector."
 	item_state = "painkiller"
-	list_reagents = list("mine_salve" = 40)
+	list_reagents = list("mine_salve" = 20)
 	icon_state_opened = "painkiller_open"
 	desc_opened = "Opened injector."
