@@ -18,7 +18,7 @@
 		<a href='byond://?src=\ref[src];choice=pulse'>\[ Use \]</a></p>"
 		playsound(loc, 'sound/machines/defib_success.ogg', 30, 1)
 
-	playsound(loc, 'sound/items/megaphone.ogg', 30, 1)
+	playsound(loc, 'sound/items/megaphone1.ogg', 30, 1)
 	return
 
 /obj/machinery/button/door/keypad/proc/ShowKeypad(var/mob/living/U)
