@@ -1481,34 +1481,42 @@ var/global/global_lentahtml = ""
 	var/faction_s = "��������"
 	switch(eng_faction_s)
 		if("Bandits")
-			faction_s = "�������"
+			faction_s = "Bandits"
 		if("Mercenaries")
-			faction_s = "�������"
+			faction_s = "Mercenaries"
 		if("Duty")
-			faction_s = "����"
+			faction_s = "Duty"
 		if("Traders")
-			faction_s = "��������"
+			faction_s = "Traders"
 		if("Freedom")
-			faction_s = "�������"
+			faction_s = "Freedom"
 		if("Monolith")
-			faction_s = "�������"
+			faction_s = "Monolith"
+		if("Military")
+			faction_s = "Military"
+		if("Ecologist")
+			faction_s = "Ecologist"
 	return faction_s
 
 /proc/get_faction_color(var/eng_faction_s)
 	var/factioncolor = "#ff7733"
 	switch(eng_faction_s)
 		if("Bandits")
-			factioncolor = "#FFFFFF"
+			factioncolor = "#723F1D"
 		if("Loners")
 			factioncolor = "#ff7733"
 		if("Mercenaries")
 			factioncolor = "#3399ff"
 		if("Duty")
-			factioncolor = "#ff4d4d"
+			factioncolor = "#B50505"
 		if("Freedom")
 			factioncolor = "#6cba3f"
 		if("Monolith")
-			factioncolor = "#7c26d3"
+			factioncolor = "#803387"
+		if("Military")
+			factioncolor = "#0B6014"
+		if("Ecologist")
+			factioncolor = "#31bd9e"
 	return factioncolor
 
 /proc/get_rep_name(var/rep)
@@ -1537,7 +1545,7 @@ var/global/global_lentahtml = ""
 
 	switch(rep)
 		if(AMAZING to INFINITY)
-			eng_rep_name_s = "Jesus"
+			eng_rep_name_s = "Amazing"
 		if(VERYGOOD to AMAZING)
 			eng_rep_name_s = "Very Good"
 		if(GOOD to VERYGOOD)
@@ -1549,7 +1557,7 @@ var/global/global_lentahtml = ""
 		if(DISGUSTING to VERYBAD)
 			eng_rep_name_s = "Very Bad"
 		if(-INFINITY to DISGUSTING)
-			eng_rep_name_s = "Satan"
+			eng_rep_name_s = "Terrible"
 
 	return eng_rep_name_s
 
@@ -1588,6 +1596,8 @@ var/global/global_lentahtml = ""
 			return "Monolith"
 		if("Military")
 			return "Military"
+		if("Ecologist")
+			return "Ecologist"
 		if("Loner")
 			return "Loner"
 		else
