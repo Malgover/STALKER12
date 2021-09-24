@@ -356,8 +356,8 @@ datum/reagent/medicine/mine_salve/overdose_process(mob/living/M, show_message = 
 	if(iscarbon(M))
 		var/mob/living/carbon/N = M
 		N.hal_screwyhud = 0
-		M.Stun(4)
-		M.Weaken(4)
+		M.Stun(7)
+		M.Weaken(7)
 		if(show_message)
 			M << "<span class='warning'>Your body hurts like hell!</span>"
 	..()
