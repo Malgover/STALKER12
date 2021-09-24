@@ -195,19 +195,6 @@
 				/obj/item/weapon/c_tube = 25,
 				/obj/item/weapon/newspaper = 20,
 				/obj/item/trash/oldchembottle = 5,
-				/obj/item/weapon/reagent_containers/food/drinks/flask/cylinder = 10,
-				/obj/item/weapon/reagent_containers/food/drinks/flask/face = 10,
-				/obj/item/weapon/reagent_containers/food/drinks/flask/russian = 10,
-				/obj/item/weapon/reagent_containers/food/drinks/flask = 10,
-				/obj/item/weapon/reagent_containers/food/drinks/flask/commie = 5,
-				/obj/item/weapon/book/manual/allquietonthewesternfront = 10,
-				/obj/item/weapon/book/manual/roadsidepicnic = 10,
-				/obj/item/weapon/book/manual/solaris = 10,
-				/obj/item/weapon/book/manual/metro2033 = 10,
-				/obj/item/weapon/book/manual/crimeandpunishment = 10,
-				/obj/item/weapon/book/manual/theprophetpain = 10,
-				/obj/item/weapon/book/manual/theprophetdeath = 10,
-				/obj/item/weapon/book/manual/theprophetfriendship = 10,
 				/obj/nothing = 80)
 
 /obj/effect/spawner/lootdrop/stalker/gravy
