@@ -333,6 +333,9 @@
 		var/mob/living/carbon/N = M
 		N.hal_screwyhud = 5
 	M.status_flags |= IGNORESLOWDOWN
+	M.adjustStaminaLoss(-5)
+	M.AdjustStunned(-0.5)
+	M.AdjustWeakened(-0.5)
 //	M.adjustBruteLoss(-0.25*REM)
 //	M.adjustFireLoss(-0.25*REM)
 	..()
