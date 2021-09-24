@@ -88,9 +88,9 @@ obj/item/weapon/reagent_containers/pill/stalker/injector/canconsume(mob/eater, m
 /obj/item/weapon/reagent_containers/pill/stalker/injector/painkiller
 	name = "combat stimulants injector"
 	icon_state = "painkiller"
-	desc = "Military-grade mix of combat stimulants and painkillers. 40 units in one injector."
-	eng_desc = "Military-grade mix of combat stimulants and painkillers. 40 units in one injector."
+	desc = "Military-grade mix of combat stimulants and painkillers. 30 units in one injector. Taking more than one of those in a quick succession isn't recommended."
+	eng_desc = "Military-grade mix of combat stimulants and painkillers. 30 units in one injector. Taking more than one of those in a quick succession isn't recommended."
 	item_state = "painkiller"
-	list_reagents = list("mine_salve" = 20)
+	list_reagents = list("mine_salve" = 30)
 	icon_state_opened = "painkiller_open"
 	desc_opened = "Opened injector."
