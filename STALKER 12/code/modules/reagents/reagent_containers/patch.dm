@@ -33,5 +33,5 @@
 
 /obj/item/weapon/reagent_containers/pill/patch/synthflesh
 	name = "combat treatment patch"
-	desc = "Helps with both brute and burn injuries by treating them nearly instantly."
+	desc = "Helps with both brute and burn injuries by treating them nearly instantly. Do not take more than one in a quick succession."
 	list_reagents = list("synthflesh" = 50)

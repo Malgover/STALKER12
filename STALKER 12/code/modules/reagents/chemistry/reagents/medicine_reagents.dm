@@ -325,7 +325,8 @@
 	description = "A powerful painkiller. Restores bruising and burns in addition to making the patient believe they are fully healed."
 	reagent_state = LIQUID
 	color = "#6D6374"
-	metabolization_rate = 0.4 * REAGENTS_METABOLISM
+	overdose_threshold = 30
+//	metabolization_rate = 0.4 * REAGENTS_METABOLISM
 
 /datum/reagent/medicine/mine_salve/on_mob_life(mob/living/M)
 	if(iscarbon(M))
@@ -348,6 +349,20 @@
 				M << "<span class='danger'>You feel your wounds fade away to nothing!</span>" //It's a painkiller, after all
 	..()
 
+datum/reagent/medicine/mine_salve/overdose_process(mob/living/M, show_message = 1)
+	if(iscarbon(M))
+		var/mob/living/carbon/N = M
+		N.hal_screwyhud = 0
+		M.Stun(4)
+		M.Weaken(4)
+		if(show_message)
+			M << "<span class='warning'>Your body hurts like hell!</span>"
+	..()
+	for(var/datum/reagent/R in M.reagents.reagent_list)
+		if(R == src)
+			M.reagents.remove_reagent(R.id,10)
+	..()
+
 /datum/reagent/medicine/mine_salve/on_mob_delete(mob/living/M)
 	if(iscarbon(M))
 		var/mob/living/carbon/N = M
@@ -360,6 +375,7 @@
 	description = "Has a 100% chance of instantly healing brute and burn damage. One unit of the chemical will heal one point of damage. Touch application only."
 	reagent_state = LIQUID
 	color = "#C8A5DC"
+	overdose_threshold = 50
 
 /datum/reagent/medicine/synthflesh/reaction_mob(mob/living/M, method=TOUCH, reac_volume,show_message = 1)
 	if(iscarbon(M) && M.stat != DEAD)
@@ -369,6 +385,12 @@
 			if(show_message)
 				M << "<span class='danger'>You feel your burns and bruises healing! It stings like hell!</span>"
 	..()
+
+datum/reagent/medicine/synthflesh/overdose_process(mob/living/M)
+	M.adjustBruteLoss(4*REM)
+	M.adjustFireLoss(4*REM)
+	..()
+	return
 
 /datum/reagent/medicine/charcoal
 	name = "Charcoal"
@@ -382,7 +404,7 @@
 	M.adjustToxLoss(-2*REM)
 	for(var/datum/reagent/R in M.reagents.reagent_list)
 		if(R != src)
-			M.reagents.remove_reagent(R.id,1)
+			M.reagents.remove_reagent(R.id,5)
 	..()
 	return
 
