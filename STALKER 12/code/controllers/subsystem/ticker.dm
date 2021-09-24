@@ -52,7 +52,7 @@ var/datum/subsystem/ticker/ticker
 /datum/subsystem/ticker/New()
 	NEW_SS_GLOBAL(ticker)
 
-	login_music = pick('sound/ambience/title1.ogg', 'sound/ambience/title3.ogg') // choose title music!
+	login_music = pickweight(list('sound/ambience/title6.ogg' =50, 'sound/ambience/title7.ogg' =50)) // choose title music!
 //	if(SSevent.holidays && SSevent.holidays[APRIL_FOOLS])
 //		login_music = 'sound/ambience/clown.ogg'
 
@@ -68,8 +68,8 @@ var/datum/subsystem/ticker/ticker
 	switch(current_state)
 		if(GAME_STATE_STARTUP)
 			timeLeft = config.lobby_countdown * 10
-			world << "<b><font color='blue'>Welcome to the pre-game lobby!</font></b>"
-			world << "Please, setup your character and select ready. Game will start in [config.lobby_countdown] seconds"
+			world << "<b><font color='blue'>Welcome to Chernobyl.</font></b>"
+			world << "Setup your character before the Zone opens its borders in [config.lobby_countdown] seconds."
 			current_state = GAME_STATE_PREGAME
 
 		if(GAME_STATE_PREGAME)
