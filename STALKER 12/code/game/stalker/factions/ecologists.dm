@@ -1,6 +1,6 @@
 /datum/job/ecologist
 	title = "Ecologist"
-	faction_s = "Ecologists"
+	faction_s = "Ecologist"
 	total_positions = 3
 	locked = 1
 	spawn_positions = 3
@@ -14,7 +14,7 @@
 
 /datum/outfit/job/ecologist
 	name = "Ecologist"
-	faction_s = "Ecologists"
+	faction_s = "Ecologist"
 
 /datum/outfit/job/ecologist/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -35,7 +35,7 @@
 							/obj/item/weapon/kitchen/knife/hatchet = 1,
 							/obj/item/weapon/gun/projectile/automatic/pistol/fort12 = 1,
 							/obj/item/ammo_box/magazine/stalker/m9x18fort = 1)
-	faction_s = "Ecologists"
+	faction_s = "Ecologist"
 
 /datum/outfit/ecologist  // For select_equipment
 	name = "Ecologist"
@@ -56,11 +56,11 @@
 							/obj/item/weapon/kitchen/knife/hatchet = 1,
 							/obj/item/weapon/gun/projectile/automatic/pistol/fort12 = 1,
 							/obj/item/ammo_box/magazine/stalker/m9x18fort = 1)
-	faction_s = "Ecologists"
+	faction_s = "Ecologist"
 
 /datum/job/chief_ecologist
 	title = "Chief Ecologist"
-	faction_s = "Ecologists"
+	faction_s = "Ecologist"
 	total_positions = 2
 	locked = 1
 	spawn_positions = 1
@@ -73,7 +73,7 @@
 
 /datum/job/chief_ecologist
 	title = "Chief Ecologist"
-	faction_s = "Ecologists"
+	faction_s = "Ecologist"
 
 /datum/outfit/job/chief_ecologist/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -95,7 +95,7 @@
 							/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki = 1)
 	l_pocket = /obj/item/device/flashlight/seclite
 	r_pocket = /obj/item/device/radio
-	faction_s = "Ecologists"
+	faction_s = "Ecologist"
 
 /datum/outfit/job/chief_ecologist // For select_equipment
 	name = "Chief Ecologist"
@@ -117,4 +117,4 @@
 							/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki = 1)
 	l_pocket = /obj/item/device/flashlight/seclite
 	r_pocket = /obj/item/device/radio
-	faction_s = "Ecologists"
+	faction_s = "Ecologist"
