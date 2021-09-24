@@ -170,7 +170,7 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Bread",						"Áàòîí",					/obj/item/weapon/reagent_containers/food/snacks/stalker/baton,					400,	ROOKIE)
 		),
 
-	"Bacpacks" = list(
+	"Backpacks" = list(
 		new /datum/data/stalker_equipment("Cheap satchel",					"Äåøåâà&#x44F; ñóìêà",		/obj/item/weapon/storage/backpack/satchel/stalker/civilian,					2500,	ROOKIE),
 		new /datum/data/stalker_equipment("Cheap backpack",					"Äåøåâûé ðþêçàê",			/obj/item/weapon/storage/backpack/stalker/civilian,							2500,	ROOKIE),
 		new /datum/data/stalker_equipment("Tourist backpack",				"Ðþêçàê òóðèñòà",			/obj/item/weapon/storage/backpack/stalker/tourist,							6000,	ROOKIE),
@@ -179,22 +179,23 @@ var/list/global_sidormat_list = list(
 
 	"Misc" = list(
 		/////////////////////////////////	Äðóãîå	/////////////////////////////////////////////
-		new /datum/data/stalker_equipment/stalker_pda("PDA",					"ÊÏÊ",													/obj/item/device/stalker_pda,								4000,	ROOKIE),
-		new /datum/data/stalker_equipment("Repair-kit for suits and helmets",	"Ðåì. êîìïëåêò äë&#x44F; áðîíåêîñòþìîâ è øëåìîâ",		/obj/item/device/repair_kit/clothing,						10000,	ROOKIE),
-		new /datum/data/stalker_equipment("Repair-kit for guns",				"Ðåì. êîìïëåêò äë&#x44F; îãíåñòðåëüíîãî îðóæè&#x44F;",	/obj/item/device/repair_kit/gun,							4000,	ROOKIE),
-		new /datum/data/stalker_equipment("Guitar",								"Ãèòàðà",												/obj/item/device/instrument/guitar,							3000,	ROOKIE),
-		new /datum/data/stalker_equipment("Geiger counter",						"Äîçèìåòð",												/obj/item/device/geiger_counter,							3000,	ROOKIE),
-		new /datum/data/stalker_equipment("Walkie-talkie",						"Walkie-talkie",										/obj/item/device/radio,										2500,	ROOKIE),
-		new /datum/data/stalker_equipment("Flashlight",							"Ôîíàðèê",												/obj/item/device/flashlight/seclite,						1000,	ROOKIE),
-		new /datum/data/stalker_equipment("Big Artifact belt",					"Áîëüøîé ïî&#x44F;ñ äë&#x44F; àðòåôàêòîâ",				/obj/item/weapon/storage/belt/stalker/artifact_belt,		60000,	EXPERIENCED),
-		new /datum/data/stalker_equipment("Small Artifact belt",				"Ìàëåíüêèé ïî&#x44F;ñ äë&#x44F; àðòåôàêòîâ",			/obj/item/weapon/storage/belt/stalker/artifact_belt/small,	25000,	ROOKIE),
-		new /datum/data/stalker_equipment("Matches",							"Ñïè÷êè",												/obj/item/weapon/storage/box/matches,						1000,	ROOKIE),
-		new /datum/data/stalker_equipment("Simple lighter",						"Ïëàñòèêîâà&#x44F; çàæèãàëêà",							/obj/item/weapon/lighter/greyscale,							3000,	ROOKIE),
-		new /datum/data/stalker_equipment("Zippo lighter",						"Çàæèãàëêà \"Çèïïî\"",									/obj/item/weapon/lighter,									5000,	ROOKIE),
-		new /datum/data/stalker_equipment("Cigarettes \"Maxim\"",				"Ñèãàðåòû \"Maxim\"",									/obj/item/weapon/storage/fancy/cigarettes/cigpack/maxim,	2500,	ROOKIE),
-		new /datum/data/stalker_equipment("Cigars",								"Ñèãàðû",												/obj/item/weapon/storage/fancy/cigarettes/cigars,			10000,	ROOKIE)
-		),
+		new /datum/data/stalker_equipment/stalker_pda("PDA",					"ÊÏÊ",													/obj/item/device/stalker_pda,									4000,	ROOKIE),
+		new /datum/data/stalker_equipment("Repair-kit for suits and helmets",	"Ðåì. êîìïëåêò äë&#x44F; áðîíåêîñòþìîâ è øëåìîâ",		/obj/item/device/repair_kit/clothing,							10000,	ROOKIE),
+		new /datum/data/stalker_equipment("Repair-kit for guns",				"Ðåì. êîìïëåêò äë&#x44F; îãíåñòðåëüíîãî îðóæè&#x44F;",	/obj/item/device/repair_kit/gun,								4000,	ROOKIE),
+		new /datum/data/stalker_equipment("Guitar",								"Ãèòàðà",												/obj/item/device/instrument/guitar,								3000,	ROOKIE),
+		new /datum/data/stalker_equipment("Geiger counter",						"Äîçèìåòð",												/obj/item/device/geiger_counter,								3000,	ROOKIE),
+		new /datum/data/stalker_equipment("Walkie-talkie",						"Walkie-talkie",										/obj/item/device/radio,											2500,	ROOKIE),
+		new /datum/data/stalker_equipment("Flashlight",							"Ôîíàðèê",												/obj/item/device/flashlight/seclite,							1000,	ROOKIE),
+		new /datum/data/stalker_equipment("Big Artifact belt",					"Áîëüøîé ïî&#x44F;ñ äë&#x44F; àðòåôàêòîâ",				/obj/item/weapon/storage/belt/stalker/artifact_belt,			60000,	EXPERIENCED),
+		new /datum/data/stalker_equipment("Small Artifact belt",				"Ìàëåíüêèé ïî&#x44F;ñ äë&#x44F; àðòåôàêòîâ",			/obj/item/weapon/storage/belt/stalker/artifact_belt/small,		25000,	ROOKIE),
+		new /datum/data/stalker_equipment("Matches",							"Ñïè÷êè",												/obj/item/weapon/storage/box/matches,							1000,	ROOKIE),
+		new /datum/data/stalker_equipment("Simple lighter",						"Ïëàñòèêîâà&#x44F; çàæèãàëêà",							/obj/item/weapon/lighter/greyscale,								3000,	ROOKIE),
+		new /datum/data/stalker_equipment("Zippo lighter",						"Çàæèãàëêà \"Çèïïî\"",									/obj/item/weapon/lighter,										5000,	ROOKIE),
+		new /datum/data/stalker_equipment("Cigarettes \"Maxim\"",				"Ñèãàðåòû \"Maxim\"",									/obj/item/weapon/storage/fancy/cigarettes/cigpack/maxim,		2500,	ROOKIE),
+		new /datum/data/stalker_equipment("Cigars",								"Ñèãàðû",												/obj/item/weapon/storage/fancy/cigarettes/cigars,				10000,	ROOKIE),
+		new /datum/data/stalker_equipment("Circle Flask",						"Circle Flask",											/obj/item/weapon/reagent_containers/food/drinks/flask/circle,	1000,	ROOKIE)
 
+		),
 	"Clothing" = list(
 		new /datum/data/stalker_equipment("Under",								"Áàáóøêèí ñâèòåð",										/obj/item/clothing/under/color/switer,						1000,	ROOKIE),
 		new /datum/data/stalker_equipment("Dark under",							"Ò¸ìíûé áàáóøêèí ñâèòåð",								/obj/item/clothing/under/color/switer/dark,					1500,	ROOKIE),
@@ -207,9 +208,9 @@ var/list/global_sidormat_list = list(
 
 	// Artifact detectors
 	"Detectors" = list(
-		new /datum/data/stalker_equipment("Blink", 		"Отклик",					/obj/item/device/detector/blink,				4000,	ROOKIE),
-		new /datum/data/stalker_equipment("Bear",		"Медведь",					/obj/item/device/detector/bear,					12000,	EXPERIENCED),
-		new /datum/data/stalker_equipment("Veles",		"Велес",					/obj/item/device/detector/veles,				36000,	VETERAN),
+		new /datum/data/stalker_equipment("Blink", 		"Blink",					/obj/item/device/detector/blink,				4000,	ROOKIE),
+		new /datum/data/stalker_equipment("Bear",		"Bear",					/obj/item/device/detector/bear,						12000,	EXPERIENCED),
+		new /datum/data/stalker_equipment("Veles",		"Veles",					/obj/item/device/detector/veles,				36000,	VETERAN),
 		),
 
 	"Attachments" = list(
@@ -307,6 +308,40 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Blood Injector",				"Blood Injector",				/obj/item/weapon/reagent_containers/pill/stalker/injector/blood,			250,	ROOKIE,	sale_price = 250),
 		new /datum/data/stalker_equipment("Painkillers Injector",		"Painkillers Injector",			/obj/item/weapon/reagent_containers/pill/stalker/injector/painkiller,		250,	ROOKIE,	sale_price = 250),
 		new /datum/data/stalker_equipment("Antitoxin Injector",			"Antitoxin Injector",			/obj/item/weapon/reagent_containers/pill/stalker/injector/toxin,			250,	ROOKIE,	sale_price = 250),
+		/////////////////////////////////	Junk	//////////////////////////////////////////////////
+		new /datum/data/stalker_equipment("Metal Hip Flask",			"Metal Hip Flask",				/obj/item/weapon/reagent_containers/food/drinks/flask,						250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Russian Flask",				"Russian Flask",				/obj/item/weapon/reagent_containers/food/drinks/flask/russian,				250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Commie Flask",				"Commie Flask",					/obj/item/weapon/reagent_containers/food/drinks/flask/commie,				800,	ROOKIE,	sale_price = 800),
+		new /datum/data/stalker_equipment("Cylinder Flask",				"Cylinder Flask",				/obj/item/weapon/reagent_containers/food/drinks/flask/cylinder,				300,	ROOKIE,	sale_price = 300),
+		new /datum/data/stalker_equipment("Face Flask",					"Face Flask",					/obj/item/weapon/reagent_containers/food/drinks/flask/face,					250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Steel Wire",					"Steel Wire",					/obj/item/trash/steelwire1,													175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Old Circuit Board",			"Old Circuit Board",			/obj/item/trash/oldcircuitboard,											175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Old Circuit Board",			"Old Circuit Board",			/obj/item/trash/oldcircuitboard0,											175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Duct Tape",					"Duct Tape",					/obj/item/trash/duct_tape,													175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Old Chemical Bottle",		"Old Chemical Bottle",			/obj/item/trash/oldchembottle,												175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Pincers",					"Pincers",						/obj/item/trash/pincers,													175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Wire",						"Wire",							/obj/item/trash/wire,														175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Steel Wire",					"Steel Wire",					/obj/item/trash/steelwire,													175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Tea Pot",					"Tea Pot",						/obj/item/trash/teapot,														175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Cross Necklace",				"Cross Necklace",				/obj/item/trash/crossnecklace,												175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Old Photo",					"Old Photo",					/obj/item/trash/oldphoto,													175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Paint Can",					"Paint Can",					/obj/item/trash/paintcan,													175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Old Vials",					"Old Vials",					/obj/item/trash/oldvials,													175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Car Keys",					"Car Keys",						/obj/item/trash/carkey,														175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Porn Magazine",				"Porn Magazine",				/obj/item/trash/pornmagazine/five,											200,	ROOKIE,	sale_price = 150),
+		new /datum/data/stalker_equipment("Porn Magazine",				"Porn Magazine",				/obj/item/trash/pornmagazine/four,											200,	ROOKIE,	sale_price = 150),
+		new /datum/data/stalker_equipment("Porn Magazine",				"Porn Magazine",				/obj/item/trash/pornmagazine/three,											350,	ROOKIE,	sale_price = 350),
+		new /datum/data/stalker_equipment("Porn Magazine",				"Porn Magazine",				/obj/item/trash/pornmagazine/two,											200,	ROOKIE,	sale_price = 150),
+		new /datum/data/stalker_equipment("Porn Magazine",				"Porn Magazine",				/obj/item/trash/pornmagazine,												200,	ROOKIE,	sale_price = 150),
+		new /datum/data/stalker_equipment("Book",						"Book",							/obj/item/weapon/book/manual/allquietonthewesternfront,						175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Book",						"Book",							/obj/item/weapon/book/manual/solaris,										175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Book",						"Book",							/obj/item/weapon/book/manual/roadsidepicnic,								175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Book",						"Book",							/obj/item/weapon/book/manual/metro2033,										175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Book",						"Book",							/obj/item/weapon/book/manual/crimeandpunishment,							175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Book",						"Book",							/obj/item/weapon/book/manual/theprophetdeath,								175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Book",						"Book",							/obj/item/weapon/book/manual/theprophetfriendship,							175,	ROOKIE,	sale_price = 100),
+		new /datum/data/stalker_equipment("Book",						"Book",							/obj/item/weapon/book/manual/theprophetpain,								175,	ROOKIE,	sale_price = 100)
+
 		)
 	)
 
