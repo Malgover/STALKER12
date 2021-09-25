@@ -1,4 +1,4 @@
-/* Kitchen tools
+k/* Kitchen tools
  * Contains:
  *		Fork
  *		Kitchen knives
@@ -102,6 +102,27 @@
 	attack_verb = list("slashed", "stabbed", "sliced", "torn", "ripped", "cut")
 	butcher_speed = 0.9
 
+/obj/item/weapon/kitchen/knife/hunting
+	name = "hunting knife"
+	icon_state = "huntingknife"
+	item_state = "knife"
+	desc = "A hunting knife that is typically used by stalkers and military personnel alike. It has a serrated edge which is fit for survival usage, and a bayonet lug on its hilt."
+	force = 30
+	throwforce = 15
+	origin_tech = "materials=2;combat=4"
+	attack_verb = list("slashed", "stabbed", "sliced", "torn", "ripped", "cut")
+	butcher_speed = 0.9
+
+/obj/item/weapon/kitchen/knife/m9
+	name = "m9 knife"
+	icon_state = "m9knife"
+	item_state = "knife"
+	desc = "An M9 Phrobis III multipurpose knife and bayonet. Sports a 7-inch blade and is purpose-built to stab things, in your hands or on a gun. Really pointy."
+	force = 30
+	throwforce = 20
+	origin_tech = "materials=2;combat=4"
+	attack_verb = list("slashed", "stabbed", "sliced", "torn", "ripped", "cut")
+	butcher_speed = 0.9
 
 /obj/item/weapon/kitchen/rollingpin
 	name = "rolling pin"
