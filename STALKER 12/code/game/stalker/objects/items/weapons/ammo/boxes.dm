@@ -192,7 +192,7 @@
 	ammo_type = /obj/item/ammo_casing/c762x54
 	icon_state = "762x54cl"
 	max_ammo = 10
-	multiple_sprites = 11
+	multiple_sprites = 1
 
 /obj/item/ammo_box/stalker/cl762x51
 	name = "stripper clip(7.62x51mm)"
