@@ -8,6 +8,16 @@
 		else if(nvg.colour_matrix == NIGHTVISION_MATRIX_II)
 			modifications += "visor"
 */
+/obj/item/clothing/head/bucket_helmet
+    name = "bucket helmet"
+    desc = "A bucket with two holes to see through. Protects the head from impacts at the cost of looking like an idiot. Come to think of it, maybe this is not the best choice for protection."
+    icon_state = "bucket_with_holes"
+    item_state = "bucket_with_holes"
+    flags = BLOCKHAIR|BLOCKFACIALHAIR
+    armor = list(melee = 10, bullet = 1, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+    flags_inv = HIDEEARS|HIDEMASK|HIDEFACE
+    burn_state = FIRE_PROOF
+
 /obj/item/clothing/head/steel
 	name = "Steel helmet"
 	eng_desc = "A simple steel helmet which is designed to protect the user from blunt force trauma, sharpnel, and small calibre bullets. It is heavy and has been worn by many generations, but its better than nothing!"
