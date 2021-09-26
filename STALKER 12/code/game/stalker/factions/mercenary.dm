@@ -2,15 +2,15 @@
 	title = "Mercenary"
 	faction_s = "Mercenaries"
 	faction = "Station"
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 2
+	spawn_positions = 2
 	locked = 1
 	supervisors = ""
 	selection_color = "#2e708b"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 1
-	limit_per_player = 3
+	limit_per_player = 1
 	outfit = /datum/outfit/job/mercenary
 
 /datum/outfit/job/mercenary
@@ -69,7 +69,7 @@
 	supervisors = ""
 	selection_color = "#2e708b"
 	whitelist_only = 1
-	limit_per_player = 2
+	limit_per_player = 1
 	outfit = /datum/outfit/job/mercenary_veteran
 	real_rank = "Lieutenant"
 
