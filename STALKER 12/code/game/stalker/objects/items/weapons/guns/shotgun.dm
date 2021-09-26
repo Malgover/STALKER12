@@ -202,7 +202,7 @@
 	randomspread = 0
 	spread = 2
 	damagelose = 0.1
-	can_scope = 0
+	can_scope = 1
 	weapon_weight = WEAPON_MEDIUM
 	loadsound = 'sound/stalker/weapons/load/bolt_load.ogg'
 	drawsound = 'sound/stalker/weapons/draw/shotgun_draw.ogg'
