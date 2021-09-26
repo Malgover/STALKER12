@@ -110,14 +110,14 @@ k/* Kitchen tools
 	icon_state = "huntingknife"
 	item_state = "knife"
 	desc = "A hunting knife that is typically used by stalkers and military personnel alike. It has a serrated edge which is fit for survival usage, and a bayonet lug on its hilt."
-	force = 30
-	throwforce = 15
+	force = 35
+	throwforce = 20
 	sharpness = IS_SHARP_ACCURATE
 	slot_flags = SLOT_BELT
 	hitsound = "sound/weapons/knifeswing.ogg"
 	origin_tech = "materials=2;combat=4"
 	attack_verb = list("slashed", "stabbed", "sliced", "torn", "ripped", "cut")
-	butcher_speed = 0.3
+	butcher_speed = 0.7
 
 /obj/item/weapon/kitchen/knife/m9
 	name = "m9 knife"
@@ -131,7 +131,7 @@ k/* Kitchen tools
 	slot_flags = SLOT_BELT
 	hitsound = "sound/weapons/knifeswing.ogg"
 	origin_tech = "materials=2;combat=4"
-	attack_verb = list("slashed", "stabbed", "sliced", "torn", "ripped", "cut")
+	attack_verb = list("penetrated", "stabbed", "jabbed", "impaled", "ripped", "pierced")
 	butcher_speed = 0.9
 
 /obj/item/weapon/kitchen/rollingpin
