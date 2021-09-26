@@ -80,7 +80,7 @@
 	belt = /obj/item/weapon/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/device/stalker_pda
-	suit_store = /obj/item/weapon/gun/projectile/shotgun/boltaction/enfield
+	suit_store = /obj/item/weapon/gun/projectile/shotgun/boltaction/mosin/enfield
 	backpack_contents = list(/obj/item/ammo_box/stalker/cl762x51 = 2,
 							/obj/item/device/flashlight/seclite = 1,
 							/obj/item/weapon/attachment/scope/rifle = 1)

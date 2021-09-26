@@ -14,7 +14,7 @@
 	force = 10
 	can_suppress = 1
 	can_unsuppress = 1
-	durability = 60
+	durability = 30
 	spread = 10
 	recoil = 0.2
 	damagelose = 0.2
@@ -34,7 +34,7 @@
 	can_suppress = 0
 	can_unsuppress = 0
 	fire_delay = 0.5
-	durability = 50
+	durability = 25
 	spread = 8
 	recoil = 0.15
 	damagelose = 0.1
@@ -53,7 +53,7 @@
 	force = 10
 	can_suppress = 1
 	can_unsuppress = 1
-	durability = 85
+	durability = 45
 	spread = 6
 	recoil = 0.4
 	damagelose = 0.2
@@ -74,7 +74,7 @@
 	can_unsuppress = 1
 	spread = 8
 	recoil = 0.5
-	durability = 100
+	durability = 50
 	damagelose = 0.15
 	drawsound = 'sound/stalker/weapons/draw/pm_draw.ogg'
 	loadsound = 'sound/stalker/weapons/load/pm_load.ogg'
@@ -95,7 +95,7 @@
 	spread = 7
 	recoil = 0.25
 	damagelose = 0.2
-	durability = 75
+	durability = 35
 	drawsound = 'sound/stalker/weapons/draw/pm_draw.ogg'
 	loadsound = 'sound/stalker/weapons/load/pm_load.ogg'
 	opensound = 'sound/stalker/weapons/unload/pm_open.ogg'
@@ -113,7 +113,7 @@
 	can_unsuppress = 0
 	spread = 8
 	recoil = 0.25
-	durability = 50
+	durability = 25
 	damagelose = 0.2
 	drawsound = 'sound/stalker/weapons/draw/fort_draw.ogg'
 	loadsound = 'sound/stalker/weapons/load/pm_load.ogg'
@@ -138,7 +138,7 @@
 	can_unsuppress = 0
 	spread = 10
 	recoil = 0.25
-	durability = 50
+	durability = 25
 	damagelose = 0.2
 	drawsound = 'sound/stalker/weapons/draw/pm_draw.ogg'
 	loadsound = 'sound/stalker/weapons/load/pm_load.ogg'
@@ -156,7 +156,7 @@
 	can_unsuppress = 1
 	spread = 8
 	recoil = 0.35
-	durability = 60
+	durability = 30
 	damagelose = 0.25
 	drawsound = 'sound/stalker/weapons/draw/usp_draw.ogg'
 	loadsound = 'sound/stalker/weapons/load/pm_load.ogg'
@@ -175,7 +175,7 @@
 	can_unsuppress = 0
 	spread = 8
 	recoil = 0.65
-	durability = 50
+	durability = 25
 	damagelose = 0.15
 	weapon_weight = WEAPON_MEDIUM
 	drawsound = 'sound/stalker/weapons/draw/usp_draw.ogg'
@@ -196,7 +196,7 @@
 	can_unsuppress = 0
 	spread = 6
 	recoil = 1
-	durability = 500
+	durability = 100
 	damagelose = 0.1
 	weapon_weight = WEAPON_MEDIUM
 	drawsound = 'sound/stalker/weapons/draw/usp_draw.ogg'
@@ -341,7 +341,7 @@
 	burst_size = 3
 	fire_delay = 1.25
 	slot_flags = SLOT_BELT
-	durability = 100
+	durability = 70
 	w_class = 3
 	spread = 7
 	recoil = 0.2
@@ -363,7 +363,7 @@
 	burst_size = 2
 	fire_delay = 1
 	slot_flags = SLOT_BELT
-	durability = 80
+	durability = 60
 	w_class = 3
 	spread = 8
 	recoil = 0.15
@@ -385,7 +385,7 @@
 	burst_size = 5
 	fire_delay = 1.2
 	slot_flags = SLOT_BELT
-	durability = 50
+	durability = 40
 	w_class = 4
 	spread = 9
 	recoil = 0.25
@@ -408,7 +408,7 @@
 	burst_size = 3
 	fire_delay = 1.7
 	slot_flags = SLOT_BELT
-	durability = 75
+	durability = 60
 	w_class = 4
 	spread = 6
 	recoil = 0.3
@@ -437,9 +437,35 @@
 	durability = 80
 	w_class = 4
 	spread = 4
-	recoil = 0.4
+	recoil = 0.6
 	damagelose = 0.2
 	can_scope = 1
+	weapon_weight = WEAPON_MEDIUM
+	drawsound = 'sound/stalker/weapons/draw/tpc301_draw.ogg'
+	loadsound = 'sound/stalker/weapons/load/tpc301_load.ogg'
+	opensound = 'sound/stalker/weapons/unload/tpc301_open.ogg'
+
+/obj/item/weapon/gun/projectile/automatic/m16a1  //M16A1
+	name = "M16A1"
+	desc = "By the end of the 1960s, the M16 rifle was a full-fledged combat weapon with a number of significant advantages. Compared to the main opponent of the M16 on the world stage - the Kalashnikov assault rifle (AKM), the M16 had greater accuracy and accuracy of firing single shots, was more comfortable and easy to handle. On the other hand, the M16 required much more careful maintenance and better ammunition."
+	eng_desc = "By the end of the 1960s, the M16 rifle was a full-fledged combat weapon with a number of significant advantages. Compared to the main opponent of the M16 on the world stage - the Kalashnikov assault rifle (AKM), the M16 had greater accuracy and accuracy of firing single shots, was more comfortable and easy to handle. On the other hand, the M16 required much more careful maintenance and better ammunition."
+	icon_state = "m16a1"
+	item_state = "m16a1"
+	slot_flags = SLOT_BACK
+	force = 15
+	origin_tech = "combat=6"
+	mag_type = /obj/item/ammo_box/magazine/stalker/m556x45
+	fire_sound = 'sound/stalker/weapons/tpc301_shoot.ogg'
+	can_suppress = 0
+	burst_size = 2
+	fire_delay = 1.7
+	pin = /obj/item/device/firing_pin
+	durability = 70
+	w_class = 4
+	spread = 5
+	recoil = 0.6
+	damagelose = 0.2
+	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
 	drawsound = 'sound/stalker/weapons/draw/tpc301_draw.ogg'
 	loadsound = 'sound/stalker/weapons/load/tpc301_load.ogg'
@@ -460,7 +486,7 @@
 	burst_size = 2
 	fire_delay = 1.5
 	pin = /obj/item/device/firing_pin
-	durability = 200
+	durability = 100
 	w_class = 4
 	spread = 4
 	recoil = 0.4
@@ -565,7 +591,7 @@
 	burst_size = 3
 	fire_delay = 1.4
 	pin = /obj/item/device/firing_pin
-	durability = 250
+	durability = 150
 	w_class = 4
 	spread = 3
 	recoil = 0.35
@@ -593,7 +619,7 @@
 	zoomable = 1
 	zoom_amt = 12
 	pin = /obj/item/device/firing_pin
-	durability = 250
+	durability = 150
 	w_class = 4
 	spread = 1
 	recoil = 0.35
@@ -625,7 +651,7 @@
 	recoil = 1
 	damagelose = 0.20
 	pin = /obj/item/device/firing_pin
-	durability = 500
+	durability = 300
 
 /obj/item/weapon/gun/projectile/automatic/l6_saw/pkm/update_icon()
 	icon_state = "PKM[cover_open ? "open" : "closed"][magazine ? Ceiling(get_ammo(0)/200)*200 : "-empty"]"
