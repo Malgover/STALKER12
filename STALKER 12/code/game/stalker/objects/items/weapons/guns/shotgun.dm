@@ -225,6 +225,10 @@
 	damagelose = 0.15
 	can_suppress = 0
 	can_scope = 0
+	fire_sound = 'sound/stalker/weapons/enfield_shot.ogg'
+	loadsound = 'sound/stalker/weapons/load/bolt_load.ogg'
+	drawsound = 'sound/stalker/weapons/draw/shotgun_draw.ogg'
+
 
 /obj/item/weapon/gun/projectile/automatic/saiga  // Saiga-12
 	name = "Saiga-12"

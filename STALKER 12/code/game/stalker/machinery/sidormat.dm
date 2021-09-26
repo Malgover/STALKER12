@@ -89,6 +89,7 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("5.56x45mm Ammo Box",				"Коробка патронов 5.56x45мм",						/obj/item/ammo_box/stalker/b55645,			10000,	ROOKIE),
 		new /datum/data/stalker_equipment("5.56x45mm Ammo AP Box",			"Коробка патронов 5.56x45мм Áðîíåáîéíûå",			/obj/item/ammo_box/stalker/b55645ap,		15000,	VETERAN),
 		new /datum/data/stalker_equipment("7.62x51 Ammo Box",				"Коробка патронов 7.62x51",							/obj/item/ammo_box/stalker/b762x51,			8000,	ROOKIE),
+		new /datum/data/stalker_equipment("7.62x54 Ammo Bag",				"Пачка патронов 7.62x54мм",							/obj/item/ammo_box/stalker/b762x54,			8000,	ROOKIE),
 		new /datum/data/stalker_equipment("9x39mm PAB-9 Ammo Box",			"Коробка патронов 9x39ìì ÏÀÁ-9",					/obj/item/ammo_box/stalker/b939,			10000,	EXPERIENCED)
 	),
 
@@ -112,6 +113,7 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Desert Eagle Magazine",					".50 магазин для Desert Eagle",			/obj/item/ammo_box/magazine/stalker/desert,				2000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("PKM ammo belt box",						"7.62мм лента для ПКМ",					/obj/item/ammo_box/magazine/stalker/pkm,				20000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("7.62x51 Clip",							"Обойма 7.62x51мм",						/obj/item/ammo_box/stalker/cl762x51,					800,	ROOKIE),
+		new /datum/data/stalker_equipment("7.62x54 Clip",							"Обойма 7.62x54мм",						/obj/item/ammo_box/stalker/cl762x54,					1600,	ROOKIE),
 		new /datum/data/stalker_equipment("Saiga-12 Magazine",						"Saiga-12 Magazine",					/obj/item/ammo_box/magazine/stalker/saiga,				4000,	ROOKIE)
 		),
 

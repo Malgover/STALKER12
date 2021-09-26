@@ -176,6 +176,24 @@
 	max_ammo = 40
 	multiple_sprites = 2
 
+/obj/item/ammo_box/stalker/b762x54
+	name = "ammo bag(7.62x54mm)"
+	desc = "A box of seven-six-two by fifty-four rounds."
+	eng_desc = "A box of seven-six-two by fifty-four rounds."
+	ammo_type = /obj/item/ammo_casing/c762x54
+	icon_state = "762x54"
+	max_ammo = 40
+	multiple_sprites = 2
+
+/obj/item/ammo_box/stalker/cl762x54
+	name = "stripper clip(7.62x54mm)"
+	desc = "A stripper clip used for seven-six-two by fifty-four rounds!"
+	eng_desc = "A stripper clip used for seven-six-two by fifty-four rounds!"
+	ammo_type = /obj/item/ammo_casing/c762x54
+	icon_state = "762x54cl"
+	max_ammo = 10
+	multiple_sprites = 11
+
 /obj/item/ammo_box/stalker/cl762x51
 	name = "stripper clip(7.62x51mm)"
 	desc = "A stripper clip used for seven-six-two by fifty-one rounds!"
