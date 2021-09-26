@@ -130,9 +130,9 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Heavy Mercenary Armour",		"Тяжёлая броня наёмника",	/obj/item/clothing/suit/assaultmerc,						50000,		EXPERIENCED,faction = "Mercenaries"),
 		new /datum/data/stalker_equipment("PSZ-9D",						"ПСЗ-9Д",					/obj/item/clothing/suit/psz9d,								60000,		VETERAN,	faction = "Duty"),
 		new	/datum/data/stalker_equipment("PSZ-9M",						"ПСЗ-9М",					/obj/item/clothing/suit/hooded/sealed/psz9md,				75000,		VETERAN,	faction = "Duty"),
-		new	/datum/data/stalker_equipment("SSP-99 Ecologist",			"ССП-99 \"Эколог\"",		/obj/item/clothing/suit/hooded/sealed/ecolog,				75000,		EXPERT,	faction = "Ecologists"),
-		new	/datum/data/stalker_equipment("SSP-99M Ecologist",			"ССП-99М \"Эколог\"",		/obj/item/clothing/suit/hooded/sealed/ecologm,				100000,		EXPERT,	faction = "Ecologists"),
-		new	/datum/data/stalker_equipment("SEVA",						"СЕВА",						/obj/item/clothing/suit/hooded/sealed/seva,					250000,		EXPERT,	faction = "Ecologists"),
+		new	/datum/data/stalker_equipment("SSP-99 Ecologist",			"ССП-99 \"Эколог\"",		/obj/item/clothing/suit/hooded/sealed/ecolog,				75000,		EXPERT,		faction = "Ecologist"),
+		new	/datum/data/stalker_equipment("SSP-99M Ecologist",			"ССП-99М \"Эколог\"",		/obj/item/clothing/suit/hooded/sealed/ecologm,				100000,		EXPERT,		faction = "Ecologist"),
+		new	/datum/data/stalker_equipment("SEVA",						"СЕВА",						/obj/item/clothing/suit/hooded/sealed/seva,					250000,		EXPERT,		faction = "Ecologist"),
 		new /datum/data/stalker_equipment("SKAT-9M",					"SКАТ-9М",					/obj/item/clothing/suit/skat,								500000,		EXPERT,		faction = "Military"),
 		new	/datum/data/stalker_equipment("Exoskeleton",				"Экзоскелет",				/obj/item/clothing/suit/hooded/sealed/exoskelet,			1000000,	EXPERT,		assortment_level = 500)
 	),
@@ -147,6 +147,7 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Tactical Helmet",			"Тактический шлем",				/obj/item/clothing/head/tacticalhelmet,							25000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("Assault Helmet",	    		"Тяжёлый шлем",					/obj/item/clothing/head/assaultmerc,							30000,	EXPERIENCED,	faction = "Mercenaries"),
 		new /datum/data/stalker_equipment("Sphera-M12",			 		"Сфера-М12",					/obj/item/clothing/head/spheram,								30000,	EXPERIENCED,	faction = "Military"),
+		new /datum/data/stalker_equipment("Soviet Helmet",			 	"Soviet Helmet",				/obj/item/clothing/head/soviethelmet,							7500,	ROOKIE,			faction = "Military"),
 		new /datum/data/stalker_equipment("SKAT-9M Helmet",				"СКАТ-9М (шлем)",				/obj/item/clothing/head/skathelmet,								250000,	VETERAN, 		faction = "Military")
 	),
 
