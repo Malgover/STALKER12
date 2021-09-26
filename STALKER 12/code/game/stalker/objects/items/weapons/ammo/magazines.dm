@@ -137,6 +137,7 @@
 
 /obj/item/ammo_box/magazine/stalker/a762x39
 	name = "rifle magazine (7.62x39mm)"
+	icon = 'icons/stalker/ammo.dmi'
 	icon_state = "m739"
 	ammo_type = /obj/item/ammo_casing/c762x39
 	caliber = "7.62x39mm"
