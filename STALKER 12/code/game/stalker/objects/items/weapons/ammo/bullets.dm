@@ -32,7 +32,7 @@
 
 /obj/item/projectile/bullet/bullet12x70p
 	name = "slug"
-	damage = 70
+	damage = 60
 	range = 56
 	spread = 4
 
@@ -112,12 +112,13 @@
 	spread = 3
 
 /obj/item/projectile/bullet/bullet762x54
-	damage = 54
+	damage = 70
+	armour_penetration = 25
 	range = 80
 	spread = 2
 
 /obj/item/projectile/bullet/bullet762x51
-	damage = 52
-	armour_penetration = 0
+	damage = 60
+	armour_penetration = 35
 	range = 80
 	spread = 2

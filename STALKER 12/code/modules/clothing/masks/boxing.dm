@@ -10,6 +10,21 @@
 	action_button_name = "Adjust Balaclava"
 	ignore_maskadjust = 0
 
+/obj/item/clothing/mask/skimask
+	name = "ski mask"
+	desc = "A regular black fabric ski mask. It'll help keep your face warm in Eastern Europe's frigid winters, if nothing else."
+	icon_state = "skimask"
+	item_state = "skimask"
+	flags = BLOCKHAIR
+	flags_inv = HIDEFACE
+	visor_flags_inv = HIDEFACE
+	w_class = 2
+	action_button_name = "Adjust Balaclava"
+	ignore_maskadjust = 0
+
+/obj/item/clothing/mask/skimask/attack_self(mob/user)
+	adjustmask(user)
+
 /obj/item/clothing/mask/balaclava/attack_self(mob/user)
 	adjustmask(user)
 
