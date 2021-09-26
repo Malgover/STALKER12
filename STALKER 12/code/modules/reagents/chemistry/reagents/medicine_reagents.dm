@@ -325,7 +325,7 @@
 	description = "A powerful painkiller. Restores bruising and burns in addition to making the patient believe they are fully healed."
 	reagent_state = LIQUID
 	color = "#6D6374"
-	overdose_threshold = 31
+	overdose_threshold = 30
 //	metabolization_rate = 0.4 * REAGENTS_METABOLISM
 
 /datum/reagent/medicine/mine_salve/on_mob_life(mob/living/M)
@@ -378,7 +378,7 @@ datum/reagent/medicine/mine_salve/overdose_process(mob/living/M, show_message = 
 	description = "Has a 100% chance of instantly healing brute and burn damage. One unit of the chemical will heal one point of damage. Touch application only."
 	reagent_state = LIQUID
 	color = "#C8A5DC"
-	overdose_threshold = 51
+	overdose_threshold = 50
 
 /datum/reagent/medicine/synthflesh/reaction_mob(mob/living/M, method=TOUCH, reac_volume,show_message = 1)
 	if(iscarbon(M) && M.stat != DEAD)

@@ -76,10 +76,9 @@
 	name = "rifle scope"
 	desc = "WWII rifle scope"
 	icon_state = "rifle"
-	types = list(/obj/item/weapon/gun/projectile/shotgun/boltaction/mosin/enfield,
+	types = list(/obj/item/weapon/gun/projectile/shotgun/boltaction/enfield,
 				/obj/item/weapon/gun/projectile/revolver/bm16,
-				/obj/item/weapon/gun/projectile/revolver/bm16/toz34,
-				/obj/item/weapon/gun/projectile/shotgun/automatic/sks)
+				/obj/item/weapon/gun/projectile/revolver/bm16/toz34)
 	zoom_add = 6
 
 /obj/item/weapon/attachment/scope/fnf2000

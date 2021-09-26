@@ -19,17 +19,6 @@
 	durability = 40
 	modifications = list("material_head" = 0)
 
-/obj/item/clothing/head/soviethelmet
-	name = "Soviet steel helmet"
-	eng_desc = "A simple steel helmet which is designed to protect the user from blunt force trauma, sharpnel, and small calibre bullets."
-	icon_state = "soviethelmet"
-	item_state = "soviethelmet"
-	armor = list(melee = 25, bullet = 40, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0, psy = 5)
-	flags_cover = 0
-	unacidable = 1
-	durability = 40
-	modifications = list("material_head" = 0)
-
 /obj/item/clothing/head/mob_can_equip(mob/M, slot, disable_warning = 0)
 	if(!iscarbon(M))
 		return ..()

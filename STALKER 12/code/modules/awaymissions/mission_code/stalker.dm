@@ -39,7 +39,7 @@
 	ambient_background = list('sound/stalker/ambience/sidor_music2.ogg')
 	ambient_background_cooldown = list(700, 700, 700, 700)
 	environment = ENVIRONMENT_SIDOROVICH_BASEMENT
-	safezone = 0
+	safezone = 1
 
 /area/stalker/blowout/outdoor
 	name = "Outdoor"
@@ -99,7 +99,8 @@
 	icon = 'icons/stalker/areas_buildings_blowout.dmi'
 	icon_state = "buildings" // TODO: Change this to unique icon.
 	environment = ENVIRONMENT_100_ROENTGEN
-	safezone = 0
+	safezone = 1
+
 /area/stalker/blowout/buildings
 	name = "Buildings"
 	icon = 'icons/stalker/areas_buildings_blowout.dmi'
@@ -113,7 +114,7 @@
 	icon_state = "buildings"
 	requires_power = 1
 	environment = ENVIRONMENT_INDOORS_EXPOSED
-	safezone = 0
+	safezone = 1
 
 /area/stalker/buildings
 	name = "Buildings"
@@ -133,7 +134,8 @@
 	name = "Buildings Safezone"
 	icon = 'icons/stalker/areas_buildings.dmi'
 	icon_state = "buildings_safe"
-	safezone = 0
+	safezone = 1
+
 /area/stalker/adminspace
 	name = "Admin Space"
 	icon = 'icons/stalker/areas_buildings.dmi'
@@ -308,7 +310,7 @@
 /area/stalker/rostok/bar
 	name = "Bar"
 	icon_state = "bar"
-	safezone = 0
+	safezone = 1
 
 /area/stalker/rostok/buildings
 	name = "Buildings"
