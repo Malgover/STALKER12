@@ -1514,7 +1514,7 @@ var/global/global_lentahtml = ""
 		if("Monolith")
 			factioncolor = "#803387"
 		if("Military")
-			factioncolor = "#0B6014"
+			factioncolor = "#35A540"
 		if("Ecologist")
 			factioncolor = "#31bd9e"
 	return factioncolor
