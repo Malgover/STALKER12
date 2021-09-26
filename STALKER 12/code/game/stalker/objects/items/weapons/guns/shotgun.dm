@@ -220,7 +220,7 @@
 	w_class = 3
 	durability = 100
 	force = 15
-	spread = 15
+	spread = 25
 	recoil = 4.5
 	damagelose = 0.15
 	can_suppress = 0
