@@ -60,3 +60,15 @@
 /obj/structure/stalker/car/gryzovik_army/north
 	icon = 'icons/stalker/cars/gruzovik_army_north.dmi'
 	icon_state = "1"
+
+/obj/structure/stalker/car/btr_old
+	icon = 'icons/stalker/BTR.dmi'
+	icon_state = "BTR"
+
+/obj/structure/stalker/car/btr
+	icon = 'icons/stalker/BTRupdated.dmi'
+	icon_state = "BTR_grimy"
+
+/obj/structure/stalker/car/bigtank
+	icon = 'icons/Unsorted/WM1A1.dmi'
+	icon_state = "fat_ass"
