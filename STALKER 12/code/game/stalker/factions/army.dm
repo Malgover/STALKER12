@@ -28,10 +28,10 @@
 	back = /obj/item/weapon/storage/backpack/stalker
 	belt = /obj/item/weapon/kitchen/knife/tourist
 	suit_store = /obj/item/weapon/gun/projectile/automatic/val
-	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/sp9x39val = 2,
+	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/sp9x39val = 3,
 							/obj/item/device/flashlight/seclite = 1,
 							/obj/item/weapon/kitchen/knife/tourist,
-							/obj/item/weapon/storage/firstaid/stalker/military = 1)
+							/obj/item/weapon/storage/firstaid/stalker/military = 2)
 
 /*
 Assistant
@@ -40,8 +40,8 @@ Assistant
 	title = "Military Soldier"
 	faction_s = "Military"
 	faction = "Station"
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 3
+	spawn_positions = 3
 	supervisors = "Military Officer"
 	selection_color = "#2E8B57"
 	access = list()			//See /datum/job/assistant/get_access()

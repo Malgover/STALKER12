@@ -2,8 +2,8 @@
 	title = "Mercenary"
 	faction_s = "Mercenaries"
 	faction = "Station"
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 3
+	spawn_positions = 3
 	locked = 1
 	supervisors = ""
 	selection_color = "#2e708b"
@@ -63,7 +63,7 @@
 	title = "Mercenary Veteran"
 	faction_s = "Mercenaries"
 	faction = "Station"
-	total_positions = 2
+	total_positions = 0
 	locked = 1
 	spawn_positions = -1
 	supervisors = ""
