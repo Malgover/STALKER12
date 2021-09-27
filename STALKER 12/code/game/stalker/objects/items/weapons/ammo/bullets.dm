@@ -122,3 +122,9 @@
 	armour_penetration = 35
 	range = 80
 	spread = 2
+
+/obj/item/projectile/bullet/tungsten_slug
+	damage = 75
+	armour_penetration = 30
+	range = 100
+	spread = 0

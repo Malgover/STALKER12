@@ -102,3 +102,10 @@
     caliber = "7.62x51mm"
     icon_state = "303-casing"
     projectile_type = /obj/item/projectile/bullet/bullet762x51
+
+/obj/item/ammo_casing/tungsten_slug
+    desc = "A 2mm ferromagnetic tungsten slug casing."
+    caliber = "2mm"
+    icon_state = "pshell"
+    projectile_type = /obj/item/projectile/bullet/tungsten_slug
+

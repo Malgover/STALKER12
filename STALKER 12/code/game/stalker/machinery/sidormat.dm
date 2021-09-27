@@ -53,8 +53,8 @@ var/list/global_sidormat_list = list(
 
 	// Single-shot Rifles
 	"Rifles" = list(
-		new /datum/data/stalker_equipment("Lee Enfield",		"Lee Enfield",		/obj/item/weapon/gun/projectile/shotgun/boltaction/enfield,		15000,	ROOKIE),
-		new /datum/data/stalker_equipment("VSS Vintorez", 		"VSS Vintorez",		/obj/item/weapon/gun/projectile/automatic/vintorez,				60000,	EXPERT)
+		new /datum/data/stalker_equipment("Lee Enfield",		"Lee Enfield",		/obj/item/weapon/gun/projectile/shotgun/boltaction/mosin/enfield,		15000,	ROOKIE),
+		new /datum/data/stalker_equipment("VSS Vintorez", 		"VSS Vintorez",		/obj/item/weapon/gun/projectile/automatic/vintorez,						60000,	EXPERT)
 	),
 
 	// Melee Weapons

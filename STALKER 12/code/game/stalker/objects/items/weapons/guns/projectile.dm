@@ -745,3 +745,33 @@
 	drawsound = 'sound/stalker/weapons/draw/groza_draw.ogg'
 	loadsound = 'sound/stalker/weapons/load/groza_load.ogg'
 	opensound = 'sound/stalker/weapons/unload/groza_open.ogg'
+
+/obj/item/weapon/gun/projectile/automatic/gaussrifle  // Gauss Rifle
+	name = "gauss rifle"
+	desc = "Item no. 62, better known as the Gauss Rifle, is an experimental, highly powerful hybrid energy weapon initially designed by members of the infamous Group that operated in the Zone prior to it's creation. Now manufactured solely by the Combined Conciousness within the laboratories near the Zone's center, the weapon is made operational by pieces of a Flash artefact, and is by far the most deadly weapon at the disposal of the Monolith's servants."
+	eng_desc = "Item no. 62, better known as the Gauss Rifle, is an experimental, highly powerful hybrid energy weapon initially designed by members of the infamous Group that operated in the Zone prior to it's creation. Now manufactured solely by the Combined Conciousness within the laboratories near the Zone's center, the weapon is made operational by pieces of a Flash artefact, and is by far the most deadly weapon at the disposal of the Monolith's servants."
+	icon_state = "gaussrifle"
+	item_state = "gaussrifle"
+	colored = 0//"normal"
+	slot_flags = SLOT_BACK//|SLOT_BELT
+	force = 15
+	origin_tech = "combat=5;materials=1"
+	mag_type = /obj/item/ammo_box/magazine/stalker/gaussbattery
+	fire_sound = 'sound/stalker/weapons/gauss_shoot.ogg'
+	can_suppress = 0
+	can_unsuppress = 0
+	fire_delay = 25
+	pin = /obj/item/device/firing_pin
+	durability = 120
+	w_class = 4
+	spread = 0
+	recoil = 0
+	randomspread = 0
+	damagelose = 0
+	distro = 15
+	zoomable = 1
+	zoom_amt = 8
+	burst_size = 1
+	weapon_weight = WEAPON_MEDIUM
+	drawsound = 'sound/stalker/weapons/draw/ak74_draw.ogg'
+	loadsound = 'sound/stalker/weapons/gauss_reload.ogg'

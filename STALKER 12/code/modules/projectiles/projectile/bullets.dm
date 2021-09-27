@@ -93,6 +93,11 @@
 	name = "dragonsbreath round"
 	damage = 5
 
+/obj/item/projectile/bullet/tungsten_slug
+	name = "2mm tungsten slug"
+	icon_state = "tungstenbolt"
+	hitsound = 'sound/effects/fleshhit.ogg'
+	speed = 0.05
 
 /obj/item/projectile/bullet/meteorshot
 	name = "meteor"

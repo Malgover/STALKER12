@@ -222,3 +222,12 @@
 	caliber = "shotgun"
 	max_ammo = 10
 	multiple_sprites = 2
+
+/obj/item/ammo_box/magazine/stalker/gaussbattery
+	name = "gauss rifle Battery"
+	icon = 'icons/stalker/ammo.dmi'
+	icon_state = "gaussbattery"
+	ammo_type = /obj/item/ammo_casing/tungsten_slug
+	caliber = "2mm ferromagnetic tungsten slug"
+	max_ammo = 10
+	multiple_sprites = 1
