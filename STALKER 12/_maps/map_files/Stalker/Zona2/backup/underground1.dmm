@@ -667,7 +667,7 @@
 "mQ" = (/obj/machinery/light/small,/obj/effect/spawner/lootdrop/stalker/mobspawner/controller_spawner,/turf/stalker/floor/agroprom/beton,/area/stalker/buildings/backwater/ranger)
 "mR" = (/obj/effect/spawner/lootdrop/stalker/mobspawner/bloodsucker_spawner/monolith,/turf/stalker/floor/agroprom/beton,/area/stalker/buildings/backwater/ranger)
 "mS" = (/obj/effect/landmark/latejoin/monolith,/turf/stalker/floor/plasteel/plitka,/area/stalker/buildings/backwater/ranger)
-"mT" = (/obj/effect/landmark/latejoin/monolith_preacher,/turf/stalker/floor/plasteel/plitka,/area/stalker/buildings/backwater/ranger)
+"mT" = (/obj/effect/landmark/latejoin/monolith_hegumen,/turf/stalker/floor/plasteel/plitka,/area/stalker/buildings/backwater/ranger)
 "mU" = (/obj/machinery/light{tag = "icon-tube1 (WEST)"; icon_state = "tube1"; dir = 8},/turf/stalker/floor/plasteel/plitka,/area/stalker/buildings/backwater/ranger)
 "mV" = (/obj/structure/table/reinforced,/obj/item/weapon/storage/box/matches,/turf/stalker/floor/plasteel/plitka,/area/stalker/buildings/backwater/ranger)
 "mW" = (/obj/machinery/button/door{id = "monolith_enterance_door"; pixel_x = -28},/turf/stalker/floor/agroprom/beton,/area/stalker/buildings/backwater/ranger)
