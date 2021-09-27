@@ -10,7 +10,7 @@
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 1
 	activated = 1
-	limit_per_player = 1
+	limit_per_player = 2
 	outfit = /datum/outfit/job/monolith_soldier// /datum/outfit/job/duty
 
 /datum/outfit/job/monolith_soldier
@@ -21,16 +21,18 @@
 	..()
 	head = null
 	uniform = UNIFORMPICK
-	suit = /obj/item/clothing/suit/hooded/kozhanka/white/monolith
+	suit = /obj/item/clothing/suit/hooded/kombez/monolith
 	ears = null
-	belt = /obj/item/weapon/kitchen/knife/tourist
+	belt = /obj/item/weapon/kitchen/knife/m9
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/device/stalker_pda
 	suit_store = /obj/item/weapon/gun/projectile/automatic/sigsg550
 	shoes = /obj/item/clothing/shoes/jackboots/warm
-	mask = pick(/obj/item/clothing/mask/balaclava, /obj/item/clothing/mask/gas/stalker/respirator)
+	mask = pick(/obj/item/clothing/mask/gas/stalker/gp5, /obj/item/clothing/mask/gas/stalker/gp4)
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/m556x45 = 3,
-							/obj/item/device/flashlight/seclite = 1)
+							/obj/item/device/flashlight/seclite = 1
+							/obj/item/weapon/attachment/scope/rifle = 1
+							/obj/item/weapon/storage/box/MRE = 1)
 	l_pocket = pick(/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,/obj/item/weapon/reagent_containers/food/snacks/stalker/baton)
 
 /datum/outfit/monolith_soldier  // For select_equipment
@@ -38,7 +40,7 @@
 	head = null
 	suit = /obj/item/clothing/suit/hooded/kombez/monolith
 	ears = null
-	belt = /obj/item/weapon/kitchen/knife/tourist
+	belt = /obj/item/weapon/kitchen/knife/m9
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/device/stalker_pda
 	back = /obj/item/weapon/storage/backpack/stalker/civilian
@@ -49,7 +51,7 @@
 	faction_s = "Monolith"
 
 /datum/job/monolith_sniper
-	title = "Monolith Sniper"
+	title = "Monolith Specialist"
 	faction_s = "Monolith"
 	faction = "Station"
 	total_positions = 2
@@ -58,13 +60,13 @@
 	supervisors = "Monolith Preacher"
 	selection_color = "#601919"
 	whitelist_only = 1
-	limit_per_player = 2
+	limit_per_player = 1
 	activated = 1
 	outfit = /datum/outfit/job/monolith_sniper
 	real_rank = "Corporal"
 
 /datum/outfit/job/monolith_sniper
-	name = "Monolith Sniper"
+	name = "Monolith Specialist"
 	faction_s = "Monolith"
 
 /datum/outfit/job/monolith_sniper/pre_equip(mob/living/carbon/human/H)
@@ -72,15 +74,15 @@
 	head = /obj/item/clothing/head/steel
 	uniform = UNIFORMPICK
 	suit = /obj/item/clothing/suit/hooded/kombez/monolith
-	belt = /obj/item/weapon/kitchen/knife/tourist
+	belt = /obj/item/weapon/kitchen/knife/m9
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/device/stalker_pda
-	suit_store = /obj/item/weapon/gun/projectile/shotgun/boltaction/mosin/enfield
-	backpack_contents = list(/obj/item/ammo_box/stalker/cl762x51 = 2,
-							/obj/item/device/flashlight/seclite = 1,
-							/obj/item/weapon/attachment/scope/rifle = 1)
+	suit_store = /obj/item/weapon/gun/projectile/automatic/saiga
+	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/saiga = 4,
+							/obj/item/device/flashlight/seclite = 1
+							/obj/item/weapon/storage/box/MRE = 1)
 	shoes = /obj/item/clothing/shoes/jackboots/warm
-	mask = /obj/item/clothing/mask/balaclava
+	mask = /obj/item/clothing/mask/gas/stalker
 	l_pocket = pick(/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,/obj/item/weapon/reagent_containers/food/snacks/stalker/baton)
 
 /datum/job/monolith_preacher
@@ -106,11 +108,12 @@
 	..()
 	uniform = UNIFORMPICK
 	suit = /obj/item/clothing/suit/hooded/sealed/monolith
-	belt = /obj/item/weapon/kitchen/knife/tourist
+	belt = /obj/item/weapon/kitchen/knife/m9
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/device/stalker_pda
-	suit_store = /obj/item/weapon/gun/projectile/automatic/gp37
-	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/m556x45 = 2,
-							/obj/item/device/flashlight/seclite = 1)
+	suit_store = /obj/item/weapon/gun/projectile/automatic/gaussrifle
+	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/gaussbattery = 4,
+							/obj/item/device/flashlight/seclite = 1
+							/obj/item/weapon/storage/box/MRE = 1)
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	l_pocket = pick(/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,/obj/item/weapon/reagent_containers/food/snacks/stalker/baton)
