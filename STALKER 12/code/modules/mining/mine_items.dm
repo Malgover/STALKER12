@@ -150,10 +150,10 @@
 	for(var/atom/A in loc)
 		if(istype(A, /obj/structure/closet/grave))
 			return
-	user.visible_message("<span class='notice'>[user] начал копать могилу...</span>", "<span class='notice'>¬ы начали копать могилу...</span>")
+	user.visible_message("<span class='notice'>[user] </span>", "<span class='notice'></span>")
 	if(!do_after(user, 50, 1, get_turf(loc)))	return
 	new /obj/structure/closet/grave(get_turf(loc))
-	user.visible_message("<span class='notice'>[user] выкопал могилу.</span>", "<span class='notice'>¬ы выкопали могилу.</span>")
+	user.visible_message("<span class='notice'>[user] </span>", "<span class='notice'></span>")
 */
 /obj/item/weapon/shovel/spade
 	name = "spade"

@@ -31,7 +31,7 @@
 					    <td colspan="2">[html_encode(H.real_name)]</td>
 					    <td colspan="2">[html_encode(H.ckey)]</td>
 					    <td colspan="2">[html_encode(H.karma)]</td>
-					    <td><a href="?src=\ref[mob];teleport=\ref[H]" class="col-xs-3 btn btn-danger">явитьс&#1103;</a></td>
+					    <td><a href="?src=\ref[mob];teleport=\ref[H]" class="col-xs-3 btn btn-danger"></a></td>
 					  </tr>
 					</div>
 			"}

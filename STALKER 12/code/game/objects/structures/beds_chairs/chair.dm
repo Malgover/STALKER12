@@ -151,26 +151,26 @@
 /*
 /obj/structure/bed/chair/bed/metal
 	name = "bed"
-	desc = "Обычна&#255; металлическа&#255; кровать без матраса, не слишком удобна&#255; дл&#255; сна."
+	desc = "A bed, it doesn't look very comfortable."
 	icon = 'icons/stalker/decor.dmi'
 	icon_state = "krovat_e"
 
 /obj/structure/bed/chair/bed/metal/matras
 	name = "bed"
-	desc = "Обычна&#255; металлическа&#255; кровать с матрасом, комфорт во врем&#255; сна обеспечен."
+	desc = "A matress, it doesn't look too comfortable"
 	icon = 'icons/stalker/decor.dmi'
 	icon_state = "krovat"
 
 /obj/structure/bed/chair/matras
 	name = "matras"
-	desc = "Обычный пружинный матрас средней комфортабельности."
+	desc = "A matress, it doesn't look too comfortable."
 	icon = 'icons/stalker/decor.dmi'
 	icon_state = "matras"
 */
 
 /obj/structure/bed/chair/brevno
 	name = "log"
-	desc = "Обычное бревно, на котором можно сидеть."
+	desc = "A simple log."
 	eng_desc = "A simple log."
 	icon = 'icons/stalker/decor.dmi'
 	icon_state = "log1"

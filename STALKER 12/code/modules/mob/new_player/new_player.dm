@@ -149,7 +149,7 @@
 			if(client && (client.prefs.chat_toggles & CHAT_LANGUAGE))
 				usr << "<span class='danger'>The blowout is ongoing in the Zone!</span>"
 			else
-				usr << "<span class='danger'>В зоне идёт выброс!</span>"
+				usr << "<span class='danger'>The blowout is ongoing in the Zone!</span>"
 			return
 
 		if(!client.holder)
@@ -158,7 +158,7 @@
 					if(client && (client.prefs.chat_toggles & CHAT_LANGUAGE))
 						usr << "<span class='warning'>Change your name!</span>"
 					else
-						usr << "<span class='warning'>Смените им&#255;!</span>"
+						usr << "<span class='warning'>Change your name!</span>"
 					return
 
 		if(href_list["late_join"] == "override")
@@ -305,7 +305,7 @@
 					if(job.limit_per_player > jobnamelatejoincount[usr.client.ckey + rank])
 						jobnamelatejoincount[usr.client.ckey + rank]++
 					else
-						usr << "Лимит ваших возрождений дл&#255; роли [rank] исчерпан."
+						usr << "[rank]"
 						return
 
 

@@ -342,7 +342,7 @@
 				if(usr.client && (usr.client.prefs.chat_toggles & CHAT_LANGUAGE))
 					usr << "<span class='warning'>You can't unequip people in the safezone!</span>"
 				else
-					usr << "<span class='warning'>�� �� ������ ��������� ����� � ���� ����!</span>"
+					usr << "<span class='warning'>You can't unequip people in the safezone!</span>"
 				return
 
 			var/pocket_side = href_list["pockets"]
@@ -618,20 +618,20 @@
 										ending = ""
 										switch (lefttime % 10)
 											if(1)
-												ending = "�"
+												ending = ""
 											if(2)
-												ending = "�"
+												ending = ""
 											if(3)
-												ending = "�"
+												ending = ""
 											if(4)
-												ending = "�"
-										H << "<span class='warning'>�� ������� �������� ��������� ����� [round((3000 + last_vote - world.time)/10)] ������[ending].</span>"
+												ending = ""
+										H << "<span class='warning'> [round((3000 + last_vote - world.time)/10)] [ending].</span>"
 
 
 						if(href_list["addition_rep"])
 							if(R)
 								if(src.stat == "dead")
-									H << "<span class='warning'>[src] ����.</span>"
+									H << "<span class='warning'>[src]</span>"
 								else
 									if(!(last_vote && world.time < last_vote + 3000))
 										last_vote = world.time
@@ -642,17 +642,17 @@
 										ending = ""
 										switch (lefttime % 10)
 											if(1)
-												ending = "�"
+												ending = ""
 											if(2)
-												ending = "�"
+												ending = ""
 											if(3)
-												ending = "�"
+												ending = ""
 											if(4)
-												ending = "�"
-										H << "<span class='warning'>�� ������� �������� ��������� ����� [round((3000 + last_vote - world.time)/10)] ������[ending].</span>"
+												ending = ""
+										H << "<span class='warning'>[round((3000 + last_vote - world.time)/10)] [ending].</span>"
 
 					else
-						H << "<span class='warning'>� ������� � ������� S.T.A.L.K.E.R. ��������!</span>"
+						H << "<span class='warning'></span>"
 
 
 /mob/living/carbon/human/proc/canUseHUD()

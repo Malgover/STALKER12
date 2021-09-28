@@ -37,7 +37,7 @@ obj/item/weapon/reagent_containers/pill/stalker/canconsume(mob/eater, mob/user)
 	if(user.client && (user.client.prefs.chat_toggles & CHAT_LANGUAGE))
 		user << "<span class='notice'>You open the package.</span>"
 	else
-		user << "<span class='notice'>Вы снимаете крышку.</span>"
+		user << "<span class='notice'>You open the package.</span>"
 	wrapped = 0
 
 obj/item/weapon/reagent_containers/pill/stalker/injector/canconsume(mob/eater, mob/user)

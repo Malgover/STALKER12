@@ -6,14 +6,14 @@ var/global/currentDncStage = 1
 var/dncColor = "#DEDF64"
 
 var/dncTime = 3000
-											//#FFFFFF - светлый день
-var/dncIterationInterval = 0.001			//#999999 - облачный день
-											//#777777 - очень облачный день
-var/dncStartup = 1							//#DEDF64 - утро 1
-											//#FFC966 - утро 2 пооранжевее
-var/dncIncrementing = 1						//#521C07 - вечер 1
-											//#2E0F04 - вечер 2 темнее
-var/list/dncTurfs = list()					//#050505 - ночь
+
+var/dncIterationInterval = 0.001
+
+var/dncStartup = 1
+
+var/dncIncrementing = 1
+
+var/list/dncTurfs = list()
 
 /proc/SetDncInterval(interval)
 	dncIterationInterval = interval

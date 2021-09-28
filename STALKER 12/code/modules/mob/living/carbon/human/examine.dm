@@ -350,7 +350,7 @@
 							msg += "\nFaction: [faction_s]\n"
 							msg += "Reputation: <font color=\"[font_color]\">[rep]</font><a href='?src=\ref[src];KPK=1;addition_rep=1'><font color=\"green\">\[+\]</font></a><a href='?src=\ref[src];KPK=1;subtraction_rep=1'><font color=\"red\">\[-\]</font></a>\n"
 							msg += "Rating: [rus_rank_name_s]\n\n"
-							msg += "<a href='?src=\ref[src];KPK=1;money_transfer=1'>Совершить денежный перевод</a>\n"
+							msg += "<a href='?src=\ref[src];KPK=1;money_transfer=1'>Commit money transfer</a>\n"
 				else
 					msg += "\n<span class='warning'>NO ACCESS!</span>\n"
 

@@ -36,7 +36,7 @@
 
 	handle_fire()
 
-	//Ёмбиенты
+
 	handle_sounds()
 
 	//stuff in the stomach

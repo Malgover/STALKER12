@@ -17,7 +17,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 ///////////
 /obj/item/weapon/match
 	name = "match"
-	desc = "������&#255; ������."
+	desc = "An unlit match."
 	icon = 'icons/obj/cigarettes.dmi'
 	icon_state = "match_unlit"
 	var/lit = 0
@@ -53,7 +53,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 		hitsound = 'sound/items/welder.ogg'
 		item_state = "cigon"
 		name = "lit match"
-		desc = "���&#255;��&#255; ������."
+		desc = "A lit match."
 		attack_verb = list("burnt","singed")
 		SSobj.processing |= src
 		update_icon()
@@ -69,7 +69,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 		icon_state = "match_burnt"
 		item_state = "cigoff"
 		name = "burnt match"
-		desc = "��������&#255; ������."
+		desc = "A burnt match, worthless junk."
 		attack_verb = null
 		SSobj.processing.Remove(src)
 
@@ -83,7 +83,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 		icon_state = "match_burnt"
 		item_state = "cigoff"
 		name = "burnt match"
-		desc = "��������&#255; ������."
+		desc = "A burnt match, worthless junk."
 		attack_verb = null
 		SSobj.processing.Remove(src)
 	return ..()

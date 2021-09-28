@@ -247,7 +247,7 @@
 		if(src.client && (src.client.prefs.chat_toggles & CHAT_LANGUAGE))
 			src << "<span class='warning'>You can't throw things in the safezone!</span>"
 		else
-			src << "<span class='warning'>Вы не можете кидатьc&#255; в этой зоне!</span>"
+			src << "<span class='warning'>You can't throw things in the safezone!</span>"
 		return
 
 	if(!target || !isturf(loc))

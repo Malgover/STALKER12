@@ -29,14 +29,14 @@
 
 /obj/structure/barricade/stalker/wood
 	name = "wooden barricade"
-	desc = "������������������ ������� ������."
-	eng_desc = "Planks."
+	desc = "Planks assembled to barricade this space."
+	eng_desc = "Planks assembled to barricade this space."
 	icon_state = "zabitiy_proxod"
 	debriss_type = /obj/structure/stalker/doski
 
 /obj/structure/barricade/stalker/box
 	name = "wooden box"
-	desc = "������������ �����&#255;���� &#255;���. ��� �����, ��� ����� ���� ������."
+	desc = "A wooden box"
 	icon = 'icons/stalker/decor.dmi'
 	icon_state = "yashik"
 	debriss_type = /obj/structure/stalker/doski/doski2
@@ -155,8 +155,8 @@
 
 /obj/structure/stalker/blocks/vanish/pipe
 	name = "Pipe"
-	desc = "��������&#255; �������������&#255; �����."
-	eng_desc = "Big pipe."
+	desc = "A big pipe"
+	eng_desc = "A big pipe."
 	icon = 'icons/stalker/decor2.dmi'
 	icon_state = "truba1"
 
@@ -177,7 +177,7 @@
 
 /obj/structure/stalker/blocks/vanish/sandbags
 	name = "sandbags"
-	desc = "������&#255; ������ �� ������ � ������"
+	desc = "Sangbags. Good for stopping bullets from making your trip a short one!"
 	eng_desc = "Sangbags. Good for stopping bullets from making your trip a short one!"
 	icon = 'icons/stalker/structure/sandbags.dmi'
 	icon_state = "solo"

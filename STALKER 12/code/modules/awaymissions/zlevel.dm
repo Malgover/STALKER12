@@ -4,8 +4,6 @@
 #define RANDOM_LOWER_X 30
 #define RANDOM_LOWER_Y 30
 
-
-//Нахуй всё это
 var/global/list/potentialRandomZlevels = null
 var/global/list/potentialLavaRuins = null
 var/global/list/potentialSpaceRuins = null

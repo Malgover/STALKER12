@@ -43,7 +43,7 @@
 /obj/item/weapon/gun/projectile/revolver/attack_self(mob/living/user)
 	if(jam)
 		jam = 0
-		user << "<span class='notice'>Оружие снова в норме.</span>"
+		user << "<span class='notice'></span>"
 	var/num_unloaded = 0
 	chambered = null
 	while (get_ammo() > 0)

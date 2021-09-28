@@ -65,11 +65,11 @@
 	instrumentId = "guitar"
 
 /obj/item/device/instrument/guitar/coi
-	desc = "�� ��� ������&#255; �����&#255;���&#255; ������, �� �� �� ���� ����� �������� �������� ������������ ����� - ������� ��&#255;."
+	desc = "A classic acoustic guitar with worn fretboards and rusted brass strings."
 	icon_state = "guitar2"
 
 /obj/item/device/instrument/player
 	name = "digital player"
-	desc = "������� �������� �����"
+	desc = "A digital music player."
 	icon_state = "plaer"
 	item_state = "plaer"

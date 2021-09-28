@@ -14,7 +14,7 @@ var/blowout_count = 0
 			if(C.client && (C.client.prefs.chat_toggles & CHAT_LANGUAGE))
 				C << "<big><span class='warning'>You leave the shelter.</span></big>"
 			else
-				C << "<big><span class='warning'>Вы покидаете укрытие.</span></big>"
+				C << "<big><span class='warning'>You leave the shelter.</span></big>"
 		C.inshelter = 0
 
 /area/stalker/Entered(var/atom/movable/A)
@@ -25,7 +25,7 @@ var/blowout_count = 0
 			if(C.client && (C.client.prefs.chat_toggles & CHAT_LANGUAGE))
 				C << "<big><span class='notice'>You enter the shelter.</span></big>"
 			else
-				C << "<big><span class='notice'>Вы заходите в укрытие.</span></big>"
+				C << "<big><span class='notice'>You enter the shelter.</span></big>"
 		C.inshelter = 1
 
 /area/proc/CheckControl(var/mob/living/carbon/C)
@@ -33,7 +33,7 @@ var/blowout_count = 0
 		if(C.client && (C.client.prefs.chat_toggles & CHAT_LANGUAGE))
 			C << "<big><span class='warning'>You enter the zone controlled by [controlled_by]. [controlled_by] can kill you on sight if you are not allied.</warning></big>"
 		else
-			C << "<big><span class='warning'>Вы входите в зону, наход&#255;щуюс&#255; под контролем группировки [get_rus_faction(controlled_by)]. Вы можете быть убиты, если не находитесь в дружеских отношени&#255;х с группировкой.</warning></big>"
+			C << "<big><span class='warning'>You enter the zone controlled by [get_rus_faction(controlled_by)]. can kill you on sight if you are not allied.</warning></big>"
 
 	if(controlled_by)
 		C.inprivatezone = 1
@@ -210,7 +210,6 @@ var/blowout_count = 0
 	//		data_core.stalkers -= sk
 	/////////////////////////////////////
 
-	//Очистка ленты
 	global_lentahtml = ""
 	for(var/obj/item/device/stalker_pda/KPK in KPKs)
 		KPK.lentahtml = ""

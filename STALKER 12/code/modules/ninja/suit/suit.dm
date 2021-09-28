@@ -118,7 +118,7 @@ Contents:
 		H.gloves.item_state = "s-ninjan"
 	else
 		if(H.mind.special_role!="Space Ninja")
-			H << "\red <B>fÄTaL ÈÈRRoR</B>: 382200-*#00CÖDE <B>RED</B>\nUNAUHORIZED USÈ DETÈCeD\nCoMMÈNCING SUB-R0UIN3 13...\nTÈRMInATING U-U-USÈR..."
+			H << "\red <B>FATAL ERROR/B>: 382200-*#00CODE <B>RED</B>\nUNAUHORIZED USE DETECeD\nCoMMENCING SUB-R0UIN3 13...\nTERMInATING U-U-USER..."
 			H.gib()
 			return 0
 		if(!istype(H.head, /obj/item/clothing/head/helmet/space/space_ninja))

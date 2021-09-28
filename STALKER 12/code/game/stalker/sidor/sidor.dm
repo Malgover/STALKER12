@@ -3,36 +3,19 @@
 	icon = 'icons/stalker/sidorovich.dmi'
 	icon_state = "sidor"
 
-	var/successText = list("�������! ������� �����!",
-					"�������, &#255; �������!")
+	var/successText = list("Success!",
+					"Success!")
 
-	var/failText = list("�� �� ��� ���������� ����� ���������.",
-					"�� ��� ��&#255;���?",
-					"������� �� �&#255;����� ��� �����?")
+	var/failText = list("Failure.",
+					"Failure.",
+					"Failure")
 
-	var/buyText = list("����",
-					"�������",
-					"������",
-					"�������",
-					"��������",
-					"��������")
+	var/buyText = list("Buy",
+					)
 
-	var/badLanguage = list("���",
-							"���",
-							"����",
-							"������",
-							"�����",
-							"�����",
-							"�������",
-							"�����",
-							"�����",
-							"������",
-							"����",
-							"�����")
+	var/badLanguage = list()
 
-	var/howMany = list("�����",
-						"�������",
-						"�����")
+	var/howMany = list()
 
 	var/itemloc = null
 	var/itemloc2 = null
@@ -57,7 +40,7 @@
 
 /obj/sidor/proc/RecognizeSpeach(msg)
 	var/message = msg
-	if(!findtext(message, "�����"))
+	if(!findtext(message, ""))
 		return
 
 	for(var/T in buyText)
@@ -67,7 +50,7 @@
 
 	for(var/T in badLanguage)
 		if(findtext(message, lowertext(T)))
-			say("�� ������ �� �������, �������? ��� �� [T]!")
+			say("")
 			return
 
 	var/list/weights = list()
@@ -89,7 +72,7 @@
 	if(bestWeight)
 		for(var/T in howMany)
 			if(findtext(message, lowertext(T)))
-				say("[GetCost(bestItem.itemtype)] ������.")
+				say("[GetCost(bestItem.itemtype)]")
 				return
 		BuyItem(bestItem)
 
@@ -220,7 +203,7 @@
 
 
 /obj/sidor/proc/NotEnoghMoney(have, need)
-	say("[pick(failText)] ��� ����� ������ ��� �� [need - have] ������, ��� ������ ��������, ��� ����������!")
+	say("[pick(failText)] [need - have] You do not have enough money.")
 
 
 

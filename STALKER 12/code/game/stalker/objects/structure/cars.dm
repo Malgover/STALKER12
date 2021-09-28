@@ -3,7 +3,7 @@
 
 /obj/structure/stalker/car/gryzovik
 	name = "Gruzovik"
-	desc = "Старый советский груховик со спущенными шинами."
+	desc = "Old soviet truck. A reminder that human life once flourished here."
 	eng_desc = "Old soviet truck. A reminder that human life once flourished here."
 
 /obj/structure/stalker/car/gryzovik/south
@@ -24,7 +24,7 @@
 
 /obj/structure/stalker/car/gryzovik2
 	name = "Gruzovik"
-	desc = "Старый советский груховик со спущенными шинами."
+	desc = "Old soviet truck. A reminder that human life once flourished here."
 
 /obj/structure/stalker/car/gryzovik2/south
 	icon = 'icons/stalker/cars/gruzovik2_south.dmi'
@@ -41,7 +41,7 @@
 /obj/structure/stalker/car/uaz
 	name = "UAZ"
 	icon = 'icons/stalker/cars/uaz-469_south.dmi'
-	desc = "Ржавый, но все еще работает. Только бензин закончилс&#255;."
+	desc = "Old UAZ. A reminder of a military past."
 	eng_desc = "Old UAZ. A reminder of a military past."
 
 /obj/structure/stalker/car/mi24
@@ -50,7 +50,7 @@
 
 /obj/structure/stalker/car/gryzovik_army
 	name = "Gruzovik"
-	desc = "Старый советский армейские груховик со спущенными шинами."
+	desc = "Old soviet truck. A reminder that people used to live here normally."
 	eng_desc = "Old soviet truck. A reminder that people used to live here normally."
 
 /obj/structure/stalker/car/gryzovik_army/south

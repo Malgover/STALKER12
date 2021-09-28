@@ -975,24 +975,24 @@ mob/living/proc/let_justice_be_done(var/mob/killed_one)
 
 	var/mob/killer = get_killer()
 
-	/*Íå ñàìàÿ ëó÷øàÿ ğåàëèçàöèÿ
+
 	if(istype(killed_one, /mob/living/carbon/human))
 		var/mob/living/carbon/human/H1 = killed_one
 		var/datum/data/record/sk = find_record("sid", H1.sid, data_core.stalkers)
 		if(sk)
 			data_core.stalkers -= sk
-	*/
+
 
 	if(istype(killer, /mob/living/carbon/human))
 
-		////////////////////////ÏĞÎÔÈËÜ ÓÁÈÉÖÛ///////////////////////////////////////
+		///////////////////////////////////////////////////////////////
 		var/mob/living/carbon/human/killer_h = killer
 		var/datum/data/record/sk = find_record("sid", killer_h.sid, data_core.stalkers)
 		/////////////////////////////////////////////////////////////////////////////
 
 		if(istype(killed_one, /mob/living/carbon/human))
 
-			////////////////////ÏĞÎÔÈËÜ ÓÁÈÒÎÃÎ//////////////////////////////////////
+			//////////////////////////////////////////////////////////
 			var/mob/living/carbon/human/H = killed_one
 			var/datum/data/record/sk_H = find_record("sid", H.sid, data_core.stalkers)
 			/////////////////////////////////////////////////////////////////////////

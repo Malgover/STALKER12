@@ -1,4 +1,4 @@
-// range: 1 тайл = 4
+// range: 1 = 4
 /obj/item/projectile/bullet
 	impact_effect_type = /obj/effect/overlay/temp/impact_effect
 

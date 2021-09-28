@@ -71,7 +71,7 @@
 
 	internal_slot.attack_hand(user)
 
-/////////////////////////////////////////////////////////////////////����� ������� �������, ���������� ��������� � �.�./////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /obj/item/clothing
 	var/obj/item/nightvision/nvg = null
@@ -181,7 +181,7 @@
 
 /obj/item/clothing/suit/hooded/kozhanka
 	name = "leather jacket"
-	desc = "������&#255; ������&#255; ������&#255; ������, ����� �����. ������ ��������� �������������� � ���������� ������. ������������ ������ ���������� � ������ �����������."
+	desc = "Common attire of the novice stalker. It wont save you from bullets or anomalies, but its still better than nothing."
 	eng_desc = "Common attire of the novice stalker. It wont save you from bullets or anomalies, but its still better than nothing."
 	icon_state = "kozhanka"
 	item_state = "det_suit"
@@ -196,7 +196,6 @@
 	unacidable = 1
 	hoodtype = /obj/item/clothing/head/winterhood/stalker/kozhanka
 	durability = 75
-	//�����������//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/head/winterhood/stalker
@@ -237,21 +236,21 @@
 
 /obj/item/clothing/suit/hooded/kozhanka/banditka/unique
 	name = "chain-mail jacket"
-	desc = "������� ���������� ���������� ����������, �� � ��������� ����� ���������� �������. ������� ����� ��� ���� ����� �������, �� �������&#255; ������ ������ �� ����."
+	desc = "A unique hooded bandit jacket which appears to be laced with chainmail and kevlar."
 	//icon_state = "banditka_unique"
 	armor = list(melee = 15, bullet = 28, laser = 15,burn = 5, bomb = 15, bio = 5, rad = 5, electro = 5, psy = 0)
 	unique = 1
 
 /obj/item/clothing/suit/hooded/kozhanka/unique
 	name = "anomaly jacket"
-	desc = "��� ������ ��&#255;�� � ����� ������ �� ���������, ������� � �������� '������'. �������� ������ ����&#255; � ��������, ������ ������ �������� �����&#255;�� ����������."
+	desc = "A unique hooded suit which is fit for resisting the effects of anomalies."
 	//icon_state = "kozhanka_unique"
 	armor = list(melee = 10, bullet = 10, laser = 10,burn = 10, bomb = 20, bio = 20, rad = 10, electro = 10, psy = 0)
 	unique = 0
 
 /obj/item/clothing/suit/kozhanka
 	name = "jacket subtype made for the tourist clothings."
-	desc = "������&#255; ������&#255; ������&#255; ������, ����� �����. ������ ��������� �������������� � ���������� ������. ������������ ������ ���������� � ������ �����������."
+	desc = "Common attire of the novice stalker. It wont save you from bullets or anomalies, but its still better than nothing."
 	eng_desc = "Common attire of the novice stalker. It wont save you from bullets or anomalies, but its still better than nothing."
 	icon_state = "kozhanka"
 	item_state = "det_suit"
@@ -263,7 +262,6 @@
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	unacidable = 1
 	durability = 75
-	//�����������//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/kozhanka/tourist/jacket
@@ -286,7 +284,7 @@
 
 /obj/item/clothing/suit/hooded/kombez
 	name = "sunrise"
-	desc = "������������ '��������� ���������' ���������� �������� ���������&#255;�� ����� ����������� ��������� ������ ���������� ����������� � ����������� �� ������������ �����. ������ �� ���� ���������� ���������� �������. ������� �������� �� ������� ����������� �����&#255;. � ����� ������ ������������ ��&#255; �������� ������ � ��������� �������� � ����� ����."
+	desc = "This DIY stalker bodysuit is a combination of a bodysuit of twin-layered rubberized cloth with plexiglass lining and built-in body armor. Despite the fact that the body armor is incapable of protecting the wearer from even pistol bullets, the suit enjoys great popularity due to its low cost and modification potential. Comes with built-in artifact containers."
 	eng_desc = "This DIY stalker bodysuit is a combination of a bodysuit of twin-layered rubberized cloth with plexiglass lining and built-in body armor. Despite the fact that the body armor is incapable of protecting the wearer from even pistol bullets, the suit enjoys great popularity due to its low cost and modification potential. Comes with built-in artifact containers."
 	icon_state = "kombez"
 	item_state = "syndicate-green"
@@ -304,7 +302,6 @@
 	armor = list(melee = 35, bullet = 40, laser = 50,burn = 50, bomb = 30, bio = 50, rad = 50, electro = 50, psy = 0)
 	hoodtype = /obj/item/clothing/head/winterhood/stalker/kombez
 	durability = 200
-	//�����������//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/head/winterhood/stalker/kombez
@@ -347,7 +344,7 @@
 
 /obj/item/clothing/suit/hooded/kozhanka/banditka/coat
 	name = "trenchcoat"
-	desc = "������� ���� �� ������ ����. ��������� ������ �������� �� ������������, ����� ��� �� ���� ��������� ����� � ��&#255;���� ���� ������ ������. ���������� ��������, ��, ��� �� �����, ����� �����������&#255; ��������� - ��������, ������������� ��-�� �������� ����."
+	desc = "A regular black leather trench coat. Has no special purpose other than to keep the wearer warm at night or protect from a blind dog bite. Although the trench coat is not particularly comfortable, it is often used by Bandits in the Zone - either because it allows them to hide in the dark or simply due to its \"cool\" appearance."
 	eng_desc = "A regular black leather trench coat. Has no special purpose other than to keep the wearer warm at night or protect from a blind dog bite. Although the trench coat is not particularly comfortable, it is often used by Bandits in the Zone - either because it allows them to hide in the dark or simply due to its \"cool\" appearance."
 	icon_state = "banditcoat"
 	blood_overlay_type = "armor"
@@ -363,7 +360,7 @@
 
 /obj/item/clothing/suit/hooded/kozhanka/banditka/coat/brown
 	icon_state = "banditcoatbrown"
-	desc = "������� ���� �� ���������� ����. ��������� ������ �������� �� ������������, ����� ��� �� ���� ��������� ����� � ��&#255;���� ���� ������ ������. ���������� ��������, ��, ��� �� �����, ����� �����������&#255; ��������� - ��������, ������������� ��-�� �������� ����."
+	desc = "A regular brown leather trench coat. Has no special purpose other than to keep the wearer warm at night or protect from a blind dog bite. Although the trench coat is not particularly comfortable, it is often used by Bandits in the Zone - either because it allows them to hide in the dark or simply due to its \"cool\" appearance."
 	eng_desc = "A regular brown leather trench coat. Has no special purpose other than to keep the wearer warm at night or protect from a blind dog bite. Although the trench coat is not particularly comfortable, it is often used by Bandits in the Zone - either because it allows them to hide in the dark or simply due to its \"cool\" appearance."
 	hoodtype = /obj/item/clothing/head/winterhood/stalker/banditbrown
 
@@ -373,7 +370,7 @@
 
 /obj/item/clothing/suit/hooded/sealed
 	name = "test"
-	desc = "������ � ������� ���������� ������&#255;."
+	desc = "Sealed suit."
 	eng_desc = "Sealed suit."
 	icon_state = "kombez"
 	item_state = "syndicate-green"
@@ -391,7 +388,7 @@
 	armor = list(melee = 90, bullet = 25, laser = 50,burn = 50, bomb = 30, bio = 50, rad = 50, electro = 50, psy = 0)
 	hoodtype = /obj/item/clothing/head/winterhood/stalker/sealed
 	durability = 200
-	//�����������//
+
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 /*
 /obj/item/clothing/head/winterhood/stalker/sealed
@@ -428,7 +425,7 @@
 
 /obj/item/clothing/suit/hooded/sealed/ecolog
 	name = "SSP-99"
-	desc = "��������� ��&#255; ������ � ������&#255;� ���� ������ ������ ���-99. �����������&#255; ���������&#255;�� ������ � �������������� � ���� ���������-��������. ���������&#255; ������� ���������� ������� � ����������������&#255;. �� ��������� �� ������� ������ ��������."
+	desc = "A SSP-99 chemical protection suit specially designed for the Zone conditions. It is used by scientific expeditions and the eco-stalkers who cooperate with them. It has an integrated air-filtering and air-conditioning system. It is heat and electricity resistant, provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments. It is not designed for combat, so it provides neither bullet, nor splinter protection."
 	eng_desc = "A SSP-99 chemical protection suit specially designed for the Zone conditions. It is used by scientific expeditions and the eco-stalkers who cooperate with them. It has an integrated air-filtering and air-conditioning system. It is heat and electricity resistant, provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments. It is not designed for combat, so it provides neither bullet, nor splinter protection."
 	icon_state = "ecolog"
 	item_state = "syndicate-orange"
@@ -459,7 +456,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/sealed/ecologm
 	name = "SSP-99M"
-	desc = "������������������ ���������������� ���������� ���-99. ��������� ������ ����� �� �������� � ����������� ����������&#255;. ������������ ��&#255; ���������� ������ ������� ����������. ����������&#255; ������ �� �������� � ������������� ��������. ������� � ���������-����������� ������ � ������ ������� ��&#255; ��������� ����������&#255;�."
+	desc = "High quality modified SSP-99 suit. It provides increased body protection from bullet and splinter damage. It is designed for the guards working with scientific expeditions. It provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments and other effects dangerous to the body."
 	eng_desc = "High quality modified SSP-99 suit. It provides increased body protection from bullet and splinter damage. It is designed for the guards working with scientific expeditions. It provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments and other effects dangerous to the body."
 	icon_state = "ecologg"
 	item_state = "syndicate-green"
@@ -491,7 +488,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/sealed/seva
 	name = "SEVA"
-	desc = "������������ ����� �� ��������� �������� ��� ������ ���������� ����������&#255;�� �������� ������������ ������ ������������� ������������, ������������� � ��������� ������&#255;�. ���������&#255;�� �� ���&#255; �������� ��������� �������������� �����������, ������� ������&#255; � ��������� ������, � ����� ���������� �������� ���������&#255; �������&#255; ���������� �����. �� ���� �������� ������� ���������� &#255;��&#255;���&#255; ������� �������. ������������ ���������� - ��� ����."
+	desc = "This bodysuit, intended for conducting research in the Zone, combines a closed-cycle respiratory module and an external isolation coating, resulting in excellent protection from anomalies. Due to poor protection from physical impact, the suit is not a good defense against bullet and fragmentation damage. It comes with a built-in artifact transportation container."
 	eng_desc = "This bodysuit, intended for conducting research in the Zone, combines a closed-cycle respiratory module and an external isolation coating, resulting in excellent protection from anomalies. Due to poor protection from physical impact, the suit is not a good defense against bullet and fragmentation damage. It comes with a built-in artifact transportation container."
 	icon_state = "seva"
 	item_state = "syndicate-black"
@@ -531,7 +528,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/sealed/psz9md
 	name = "PSZ-9MD"
-	desc = "�������� �������� ������ ��&#255; ����. �������� ���&#255;� ��� �� ��������� �������� ����������������� ������� � �������������� ������. � �������: ���������� ���-9�, ������� ������&#255; � ��������� ������, ���������&#255; ������� ���������&#255; �������&#255; ���������� �����. ����������&#255;�� ������������ ������ �� �������� � ����������� ��������&#255;."
+	desc = "A wonderful protective suit for the Zone. Stalkers appreciate it because it combines excellent anomaly-proof and bullet-proof qualities. It includes the PSZ-9d suit, a closed cycle breathing system and an integrated system of anomalous field suppression. It provides quality bullet and splinter protection."
 	eng_desc = "A wonderful protective suit for the Zone. Stalkers appreciate it because it combines excellent anomaly-proof and bullet-proof qualities. It includes the PSZ-9d suit, a closed cycle breathing system and an integrated system of anomalous field suppression. It provides quality bullet and splinter protection."
 	icon_state = "psz9md"
 	item_state = "syndicate-black-red"
@@ -565,7 +562,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/sealed/exoskelet
 	name = "exoskelet"
-	desc = "����������������� ������� �������� �����������. � �������� ������������ ��� � �� �����, � ���� ������������ ����������� � ��������� ������ � ��������������. �� �����&#255; �� ���, ����������&#255; ������ �����&#255;�� �� ���������� �������&#255;��&#255;� �� ��������� �������. ������ ���������� ��������&#255; � �������� ���������. � ��� ��������� �������������� ����������, ����������� ��������� �����������, � ����� ������� ����&#255;. ����������&#255;�� ������������ ������ �� �������� � ����������� ��������&#255;, �� �� ����������� ��������� � �������&#255;�."
+	desc = "An experimental sample of a military exoskeleton. Was never mass-produced due to extraordinary cost and some design flaws. Despite this, it is in demand due to its ability to take on the weight of all carried equipment, and therefore small batches are made in underground facilities outside Ukraine. Comes with a built-in artifact container."
 	eng_desc = "An experimental sample of a military exoskeleton. Was never mass-produced due to extraordinary cost and some design flaws. Despite this, it is in demand due to its ability to take on the weight of all carried equipment, and therefore small batches are made in underground facilities outside Ukraine. Comes with a built-in artifact container."
 	icon_state = "exoskelet"
 	item_state = "syndicate-black"
@@ -603,7 +600,6 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 30, bullet = 40, laser = 10,burn = 25, bomb = 10, bio = 0, rad = 15, electro = 25, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 125
-	//�����������//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /*
@@ -628,12 +624,11 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 40, bullet = 60, laser = 30,burn = 30, bomb = 40, bio = 30, rad = 30, electro = 30, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 150
-	//�����������//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/hooded/kombez/monolith
 	name = "monolith armor"
-	desc = "���������� �������� ����������� '�������'. ������������� ����������. �� �������� ��������������� ������� �������� ���������� ����������� ����� ��3-9�. �� ��������� ���������� ������ ���������������� ����� ����������� ��������� �����������, � ������� ���������� ������&#255;���&#255; � �������� ������������������� ������. ������� �������� �� ������� ����������� �����&#255;. ������� ������ �� ���������� ���������� ������&#255;�� ������ ������� ��-�� ���������&#255; ������� ���������� �������."
+	desc = "Stalker suit from the Monolith faction. The producer is unknown. Its protective properties are slightly worse then those of the PSZ-9a military bulletproof vest. Its structure is similar to the suit popular with neutral stalkers which combines a bulletproof vest and a radiation protection suit. It provides good protection from gunfire. Its level of anomaly protection is low due to the absence of an air filtering system."
 	eng_desc = "Stalker suit from the Monolith faction. The producer is unknown. Its protective properties are slightly worse then those of the PSZ-9a military bulletproof vest. Its structure is similar to the suit popular with neutral stalkers which combines a bulletproof vest and a radiation protection suit. It provides good protection from gunfire. Its level of anomaly protection is low due to the absence of an air filtering system."
 	icon_state = "monolit"
 	item_state = "syndicate-green"
@@ -655,7 +650,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/sealed/monolith
 	name = "monolith scientific suit"
-	desc = "������������ ����� �� ��������� �������� ��� ������ ���������� ����������&#255;�� �������� ������������ ������ ������������� ������������, ������������� � ��������� ������&#255;�. ���������&#255;�� �� ���&#255; �������� ��������� �������������� �����������, ������� ������&#255; � ��������� ������, � ����� ���������� �������� ���������&#255; �������&#255; ���������� �����. �� ���� �������� ������� ���������� &#255;��&#255;���&#255; ������� �������. ������������ ���������� - ��� ����."
+	desc = "This bodysuit, intended for conducting research in the Zone, combines a closed-cycle respiratory module and an external isolation coating, resulting in excellent protection from anomalies. Due to poor protection from physical impact, the suit is not a good defense against bullet and fragmentation damage. It comes with a built-in artifact transportation container."
 	eng_desc = "This bodysuit, intended for conducting research in the Zone, combines a closed-cycle respiratory module and an external isolation coating, resulting in excellent protection from anomalies. Due to poor protection from physical impact, the suit is not a good defense against bullet and fragmentation damage. It comes with a built-in artifact transportation container."
 	icon_state = "monolith_scientific"
 	item_state = "syndicate-green"
@@ -683,7 +678,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/skat
 	name = "SKAT-M9"
-	desc = "��������� ����������� ����-9� ������ ��&#255; ���������&#255; ��������� �������� � ����� ���������� ��������. � �������: �&#255;���� ��������� ����������� ����� ��3-12�, ���������� ��������������� ������. ����������&#255;�� ������������ ������ �� �������� � ����������� ��������&#255;, ��� ���� �� �����&#255; ����������� �������. � ������� ���������������&#255; ������� ������ �� ����������� ����������&#255;."
+	desc = "This Skat-9M bulletproof military suit is designed for assault operations in areas of anomalous activity. It includes a PSZ-12p heavy military bulletproof suit, an integrated compensation suit and a Sphere-12M helmet. It provides perfect protection from bullets and splinters and it doesn't decrease the soldier's mobility. It has a balanced system of anomaly protection."
 	eng_desc = "This Skat-9M bulletproof military suit is designed for assault operations in areas of anomalous activity. It includes a PSZ-12p heavy military bulletproof suit, an integrated compensation suit and a Sphere-12M helmet. It provides perfect protection from bullets and splinters and it doesn't decrease the soldier's mobility. It has a balanced system of anomaly protection."
 	icon_state = "skat"
 	item_state = "syndicate-black"
@@ -697,12 +692,11 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	unacidable = 1
 	armor = list(melee = 60, bullet = 70, laser = 60,burn = 50, bomb = 70, bio = 35, rad = 35, electro = 50, psy = 0)
 	durability = 200
-	//�����������//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/hooded/kombez/ps5m
 	name = "PS5-M"
-	desc = "����������&#255; ������ ����������� �����. ������ �������� ����������� �� ���������, ������� �������� � ������������ ������ ��������. � ������� �� ���, ������������ ������� ������ �� ����������� ����������&#255; � ��� ���� �������� ���������� ����������� ���� � ��������� ���������� ����."
+	desc = "This modern version of the Duty bodysuit is better suited for stalker recruits who are used to lightweight suits. Unlike the PSZ series, this suit provides good protection against anomalies while also being capable of stopping a pistol bullet. The suit cannot be modified with an artifact container, but may be upgraded with a combat support system instead."
 	eng_desc = "This modern version of the Duty bodysuit is better suited for stalker recruits who are used to lightweight suits. Unlike the PSZ series, this suit provides good protection against anomalies while also being capable of stopping a pistol bullet. The suit cannot be modified with an artifact container, but may be upgraded with a combat support system instead."
 	icon_state = "ps5m"
 	item_state = "syndicate-black-red"
@@ -725,7 +719,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/psz9d
 	name = "PSZ-9D"
-	desc = "����������&#255; ������ ������ ����� �����. ������� �������� ��� ����� ���������� � ����������� ������ �����������. � ������� �� ��5, ����� �������������� ����������� �������� �������� � ����������, ��������� ���������� ���������� ���� �� ������."
+	desc = "Produced by one of Kiev's defence research institutes and commissioned by the Duty faction. It is as simple and reliable as the standard PSZ-9 model, but due to the new materials, it provides good protection from various harmful impacts, including firearm damage. The vest still needs some work because it has no breathing protection system."
 	eng_desc = "Produced by one of Kiev's defence research institutes and commissioned by the Duty faction. It is as simple and reliable as the standard PSZ-9 model, but due to the new materials, it provides good protection from various harmful impacts, including firearm damage. The vest still needs some work because it has no breathing protection system."
 	icon_state = "psz9d"
 	item_state = "syndicate-black"
@@ -739,12 +733,11 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	unacidable = 1
 	armor = list(melee = 75, bullet = 65, laser = 50,burn = 40, bomb = 80, bio = 35, rad = 45, electro = 40, psy = 0)
 	durability = 200
-	//�����������//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/hooded/kombez/mercenary
 	name = "mercenary armor"
-	desc = "���������� �������� �� ����������� '�������'. �� ������ ��&#255;�� ������� ���������� �������� �������� �����. �� ���� ����������� ��������� ����� ������� ������������ ����� ��� ���������� �������� �������. �� �������� ��������������� ������� ����������� ��������� ����������� ����� ��3-7."
+	desc = "Stalker suit from the Merc faction. Its design is based on the suit used by the special forces of the Western armies. Due to a special treatment of the fabric, the armor has a strengthened stability during the physical movement of its plates. Its protective properties are slightly better then those of the PSZ-7 military bulletproof suits."
 	eng_desc = "Stalker suit from the Merc faction. Its design is based on the suit used by the special forces of the Western armies. Due to a special treatment of the fabric, the armor has a strengthened stability during the physical movement of its plates. Its protective properties are slightly better then those of the PSZ-7 military bulletproof suits."
 	icon_state = "mercenary"
 	item_state = "syndicate-black"
@@ -767,7 +760,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/kombez/veter
 	name = "wind of freedom"
-	desc = "������������ �������������� ����������� �������� ����������� ���������� ��������. ������ ��������� ���������� ���� ��������� ����������� ���������� ��������. �������� �������� �� ������� ����������� ������. ����� ������� ���������� ����������� ��������, ���������� ������������� ���������� ����������."
+	desc = "This lightweight stalker bodysuit is made by Freedom craftsmen. The suit's fabric is treated with Horizon, a special solution developed by the faction by trial and error to increase resistance to anomalies. Like the Sunrise suit, the Wind of Freedom comes with built-in body armor and artifact containers."
 	eng_desc = "This lightweight stalker bodysuit is made by Freedom craftsmen. The suit's fabric is treated with Horizon, a special solution developed by the faction by trial and error to increase resistance to anomalies. Like the Sunrise suit, the Wind of Freedom comes with built-in body armor and artifact containers."
 	icon_state = "veter"
 	item_state = "syndicate-green"
@@ -790,7 +783,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/strazh
 	name = "guardian of freedom"
-	desc = "���������������&#255; ��&#255; ������ � ������&#255;� ����, ���������� ���������� ��������. ����������&#255; � &#255;���� �������� ������� � ����������&#255; ��&#255; ��������&#255; �����������, ��� �����&#255; ������� ���� ���������� ������������ ����������, ������&#255;����� ���� �� ���������� �����."
+	desc = "This stalker bodysuit with reinforced body armor made by Freedom craftsmen represents a good compromise between combat and anomaly protection. The built-in body armor comprises armor plating and ten Kevlar layers, capable of stopping a pistol bullet. The suit uses the relatively expensive Sovereign compound for anomaly protection. Comes with an artifact container."
 	eng_desc = "This stalker bodysuit with reinforced body armor made by Freedom craftsmen represents a good compromise between combat and anomaly protection. The built-in body armor comprises armor plating and ten Kevlar layers, capable of stopping a pistol bullet. The suit uses the relatively expensive Sovereign compound for anomaly protection. Comes with an artifact container."
 	icon_state = "strazh"
 	item_state = "syndicate-green"
@@ -803,12 +796,11 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 50, bullet = 50, laser = 30,burn = 50, bomb = 40, bio = 50, rad = 40, electro = 50, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 150
-	//�����������//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/assaultmerc
 	name = "mercenary heavy armor"
-	desc = "������&#255; ��������������&#255; ����&#255;, ���������&#255; � ���� ������������ �������������� ����� � ���������� � ������� ����������, � ����� �� ���� ����������-����������� ������� � ������������ ��� ������ �� ������ ������� ��������. �� �� �������, ��� ����� ������ ������ ������� �� ��������, �� ��&#255; ������� ���� ������ ����� ������ ����� �������."
+	desc = "Heavy mercenary armour layered with kelvar and ceramic plates."
 	icon_state = "assaultmerc"
 	item_state = "syndicate-black"
 	blood_overlay_type = "armor"
@@ -820,12 +812,11 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 50, bullet = 65, laser = 40,burn = 20, bomb = 80, bio = 20, rad = 25, electro = 20, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 250
-	//�����������//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/hooded/kombez/kombez_bandit
 	name = "bandit armor"
-	desc = "���������� �������� �� ����������� '�������'. �� ������ ��&#255;�� ������� ���������� �������� �������� �����. �� ���� ����������� ��������� ����� ������� ������������ ����� ��� ���������� �������� �������. �� �������� ��������������� ������� ����������� ��������� ����������� ����� ��3-7."
+	desc = "Stalker suit from the Bandits faction. Its design is based on the suit used by the special forces of the Western armies. Due to a special treatment of the fabric, the armor has a strengthened stability during the physical movement of its plates. Its protective properties are slightly better then those of the PSZ-7 military bulletproof suits."
 	eng_desc = "Stalker suit from the Bandits faction. Its design is based on the suit used by the special forces of the Western armies. Due to a special treatment of the fabric, the armor has a strengthened stability during the physical movement of its plates. Its protective properties are slightly better then those of the PSZ-7 military bulletproof suits."
 	icon_state = "combez_bandit"
 	item_state = "syndicate-orange"
@@ -849,7 +840,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/kombez/mercenary/leader
 	name = "mercenary leader armor"
-	desc = "������� ����� �������� � ����������� ������ ������ � ������ ����������� ���������. �� �������������, ������ ����� ������ �� ��������� ����� ������ ���� ������ ������ �����... ������� ����� ���-�� ������?"
+	desc = "Armor worn by the leader of the mercenaries."
 	icon_state = "mercenary_t"
 	item_state = "syndicate-black"
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
@@ -934,7 +925,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/kozhanka/clear_sky
 	name = "clear sky jacket"
-	desc = "Common grab of a novice stalker. It won�t save you from bullets or anomalies, but it�s still better than nothing. This one belongs to the Clear Sky faction."
+	desc = "Common grab of a novice stalker. It wont save you from bullets or anomalies, but its still better than nothing. This one belongs to the Clear Sky faction."
 	icon_state = "cs_hood"
 	item_state = "cs_hood_t"
 	blood_overlay_type = "armor"

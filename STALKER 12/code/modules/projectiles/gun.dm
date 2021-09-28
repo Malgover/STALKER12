@@ -65,8 +65,8 @@
 	///////////////////////STALKER////////////////////////////////
 
 	var/drawsound = 'sound/stalker/weapons/draw/ak74_draw.ogg'
-	var/damagelose = 0		 //1 урона за 1 тайл = 0.33 ед
-	var/distro = 0			 //Зазор между дробью для дробовиков
+	var/damagelose = 0
+	var/distro = 0
 	var/durability = 100     //durability of a gun
 	var/jam = 0              //is weapon jammed or not
 	var/list/obj/item/weapon/attachment/addons = list()
@@ -233,7 +233,7 @@
 		if(user.client && (user.client.prefs.chat_toggles & CHAT_LANGUAGE))
 			user << "<span class='warning'>You can't shoot in the safezone!</span>"
 		else
-			user << "<span class='warning'>Вы не можете стрел&#255;ть в этой зоне!</span>"
+			user << "<span class='warning'>You can't shoot in the safezone!</span>"
 		return 0
 	if(!handle_pins(user))
 		return 0
@@ -310,11 +310,11 @@ obj/item/weapon/gun/proc/newshot()
 						if(!chambered.fire(target, user, params, distro, suppressed, zone_override, sprd, damagelose))
 							shoot_with_empty_chamber(user)
 							playsound(user, fire_sound, 50, 1)
-							user << "<span class='warning'>Оружие заклинило. Его необходимо перезар&#255;дить.</span>"
+							user << "<span class='warning'></span>"
 							firing_burst = 0
 							return
 						else
-							user << "<span class='warning'>Оружие заклинило. Его необходимо перезар&#255;дить.</span>"
+							user << "<span class='warning'></span>"
 			else
 				shoot_with_empty_chamber(user)
 				break
@@ -339,10 +339,10 @@ obj/item/weapon/gun/proc/newshot()
 					if(!chambered.fire(target, user, params, distro, suppressed, zone_override, sprd, damagelose))
 						shoot_with_empty_chamber(user)
 						playsound(user, fire_sound, 50, 1)
-						user << "<span class='warning'>Оружие заклинило. Его необходимо перезар&#255;дить.</span>"
+						user << "<span class='warning'></span>"
 						return
 					else
-						user << "<span class='warning'>Оружие заклинило. Его необходимо перезар&#255;дить.</span>"
+						user << "<span class='warning'></span>"
 		else
 			shoot_with_empty_chamber(user)
 			return
@@ -366,7 +366,7 @@ obj/item/weapon/gun/proc/newshot()
 		explosion(src.loc,-2,-2,2,flame_range = 0)
 		qdel(src)
 		src = null
-		user << "<span class='userdanger'>Оружие разорвалось пр&#255;мо у вас в руках!</span>"
+		user << "<span class='userdanger'></span>"
 	else
 */
 	if(durability && !jam)
@@ -378,7 +378,7 @@ obj/item/weapon/gun/proc/newshot()
 					explosion(src.loc,-2,-2,2,flame_range = 0)
 					qdel(src)
 					src = null
-					user << "<span class='userdanger'>Оружие разорвалось пр&#255;мо у вас в руках!</span>"
+					user << "<span class='userdanger'></span>"
 					return
 				else
 					if(prob(40))
@@ -388,7 +388,7 @@ obj/item/weapon/gun/proc/newshot()
 				if(prob(10))
 					user.drop_item()
 					shake_camera(user, 4, 2)
-					user << "<span class='userdanger'>Кажетс&#255; самое врем&#255; починить этот хлам или выбросить, пока он не выстрелил тебе в лицо.</span>"
+					user << "<span class='userdanger'></span>"
 					jam = 1
 				else
 					if(prob(20))

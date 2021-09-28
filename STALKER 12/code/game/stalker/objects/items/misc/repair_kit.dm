@@ -6,7 +6,7 @@
 
 /obj/item/device/repair_kit/clothing
 	name = "repair kit (for suits)"
-	desc = "Ремонтный набор дл&#255; бронекостюмов и шлемов. Предназначен дл&#255; некритического ремонта (состо&#255;ние от 25% до 100%)."
+	desc = "A repair kit used in the repair of suits via a compliment of sutures, threading and even some plates!"
 	eng_desc = "A repair kit used in the repair of suits via a compliment of sutures, threading and even some plates!"
 	icon = 'icons/stalker/device_new.dmi'
 	icon_state = "repair_kit_clothing_25"
@@ -85,7 +85,7 @@
 
 /obj/item/device/repair_kit/gun
 	name = "repair kit (for guns)"
-	desc = "Ремонтный набор дл&#255; огнестрельного оружия. Предназначен дл&#255; некритического ремонта (состо&#255;ние от 25% до 100%)."
+	desc = "A repair kit with all the bits and bobs needed to upkeep a firearm!"
 	eng_desc = "A repair kit with all the bits and bobs needed to upkeep a firearm!"
 	icon = 'icons/stalker/device_new.dmi'
 	icon_state = "repair_kit_gun_25"

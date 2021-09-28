@@ -11,9 +11,9 @@
 
 /obj/anomaly
 	name = "Anomaly"
-	var/damage_amount = 0 				//������� �������
-	var/damage_type = DMG_TYPE_ENERGY	//��� ������
-	var/activated_icon_state = null 	//������ ��� ���������
+	var/damage_amount = 0
+	var/damage_type = DMG_TYPE_ENERGY
+	var/activated_icon_state = null
 	var/cooldown = 5
 	var/lasttime = 0
 	var/list/mob/living/trapped = new/list()
@@ -634,14 +634,14 @@
 	if(inactive_icon_state == "puh2")
 		active_icon_state = "puh2"
 
-/obj/rad 	//�� ������� �����
+/obj/rad
 	name = "Anomaly"
 	icon = 'icons/stalker/anomalies.dmi'
 	icon_state = "rad_low"
-	var/damage_amount = 0 				//������� �������
-	var/damage_type = DMG_TYPE_RADIATION	//��� ������
-	var/activated_icon_state = null 	//������ ��� ���������
-	var/cooldown = 2.5					//�������
+	var/damage_amount = 0
+	var/damage_type = DMG_TYPE_RADIATION
+	var/activated_icon_state = null
+	var/cooldown = 2.5
 	var/lasttime = 0
 	var/list/mob/living/carbon/human/trapped = new/list()
 	var/idle_luminosity = 0

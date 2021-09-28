@@ -86,8 +86,8 @@
 					M.visible_message("<span class='danger'>[user] attempts to feed [M] [src].</span>", \
 										"<span class='userdanger'>[user] attempts to feed [M] [src].</span>")
 				else
-					M.visible_message("<span class='warning'>[user] больше не может впихнуть ни кусочка [src] в рот [M]!</span>", \
-										"<span class='warning'>[user] больше не может впихнуть ни кусочка [src] в рот [M]!</span>")
+					M.visible_message("<span class='warning'>[user] attempts to feed [src] [M]!</span>", \
+										"<span class='warning'>[user] attempts to feed [src] [M]!</span>")
 					return 0
 
 				if(!do_mob(user, M))

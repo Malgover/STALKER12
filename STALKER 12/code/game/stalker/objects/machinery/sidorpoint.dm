@@ -14,7 +14,7 @@ var/list/obj/machinery/stalker/sidorpoint/controllable_areas = list()
 /obj/machinery/stalker/sidorpoint
 	name = "SIDORPOINT"
 
-	desc 		= "Радиоаппарат, позволяющий обозначить контроль над определённой местностью и установить торговлю с контроллирующей фракцией при помощи Сидормата."
+	desc 		= "Radio machine allowing to establish control over a particular area and maintain trading with the controlling faction using a Sidormat."
 	eng_desc 	= "Radio machine allowing to establish control over a particular area and maintain trading with the controlling faction using a Sidormat."
 
 	icon 		= 'icons/stalker/device_new.dmi'
@@ -58,13 +58,13 @@ var/list/obj/machinery/stalker/sidorpoint/controllable_areas = list()
 **/
 /obj/machinery/stalker/sidorpoint/proc/update_description()
 	if (controlled_by != null)
-		desc = "Эта местность под контролем фракции [get_rus_faction(controlled_by)] íà [control_percent]%"
+		desc = "This area is under [get_rus_faction(controlled_by)] control by [control_percent]%"
 		eng_desc = "This area is under [controlled_by] control by [control_percent]%"
 	else if (control_percent != null)
-		desc = "Эта местность переходит под контроль фракции [get_rus_faction(capturing_faction)] на [control_percent]%"
+		desc = "This area is being captured by [get_rus_faction(capturing_faction)]  [control_percent]%"
 		eng_desc = "This area is being captured by [capturing_faction]; control by [control_percent]%"
 	else
-		desc = "Эта местность может быть захвачена."
+		desc = "This area can be captured."
 		eng_desc = "This area can be captured."
 
 /**
@@ -197,7 +197,7 @@ var/list/obj/machinery/stalker/sidorpoint/controllable_areas = list()
 /** Sidormat. Belongs in Sidormat.dm. **/
 
 /obj/machinery/stalker/sidormat/special
-	desc     = "Точка дистанционной торговли \"Сидормат\", оснащённая каналом связи с инструментом контроля местностей \"Сидорпоинт\"."
+	desc     = "\"Sidormat\" remote vendor, outfitted with a communication channel to an area control \"Sidorpoint\" machine."
 	eng_desc = "\"Sidormat\" remote vendor, outfitted with a communication channel to an area control \"Sidorpoint\" machine."
 
 	icon_state = "radio"

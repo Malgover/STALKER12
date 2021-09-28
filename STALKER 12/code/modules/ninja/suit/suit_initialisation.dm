@@ -35,7 +35,7 @@
 					U << "<span class='notice'>Extending neural-net interface...\nNow monitoring brain wave pattern...</span>"
 				if(3)
 					if(U.stat==2||U.health<=0)
-						U << "<span class='danger'><B>FÄAL ï¿½Rrï¿½R</B>: 344--93#ï¿½&&21 BRï¿½ï¿½N |/|/aVï¿½ PATT$RN <B>RED</B>\nA-A-aBï¿½rTï¿½NG...</span>"
+						U << "<span class='danger'><B></span>"
 						unlock_suit()
 						break
 					lock_suit(U,1)//Check for icons.

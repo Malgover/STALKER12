@@ -84,7 +84,6 @@
 	else
 		M.heal_organ_damage((src.heal_brute/2), (src.heal_burn/2))
 /*
-	//Карма
 	if(M != user)
 		StalkerKarma.SetKarma(user.ckey, GetKarma(user.ckey) + 5)
 		M.hostiles[user.ckey] -= 5

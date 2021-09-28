@@ -1,6 +1,6 @@
 /obj/item/clothing/suit/hooded/kozhanka/strazh/atelerd
 	name = "letniy kombinezon"
-	desc = "Производимый ремесленниками группировки «Свобода» усиленный комбинезон сталкера. Средний армейский бронежилет плюс накладные усиливающие циркониевые элементы дают неплохую защиту от автоматных пуль и осколков на различных дистанци&#255;х. Материал костюма состоит из двух слоёв: специально обработанной кожи и ткани с асбестовой нитью. Даёт некоторую защиту от различных аномальных воздействий и радиации."
+	desc = "Common attire of the novice stalker. It wont save you from bullets or anomalies, but its still better than nothing."
 	armor = list(melee = 30, bullet = 30, laser = 30,burn = 30, bomb = 15, bio = 30, rad = 30, electro = 30)
 	hoodtype = /obj/item/clothing/head/winterhood/stalker/strazh/atelerd
 
@@ -9,7 +9,7 @@
 
 /obj/item/clothing/suit/hooded/kozhanka/white/monolith
 	name = "strange jacket"
-	desc = "Плотна&#255; кожана&#255; куртка довольно интересной раскраски. Ткань усилена очень легкими кевларовыми пластинами, что обеспечивает слегка повышенную защиту, но не замедл&#255;ет носител&#255;. Неэффективна против аномальных и других воздействий."
+	desc = "Common attire of the novice stalker. It wont save you from bullets or anomalies, but its still better than nothing. This one is white."
 	icon_state = "kozhanka_mono_wh"
 	item_state = "labcoat"
 	hoodtype = /obj/item/clothing/head/winterhood/stalker/kozhanka_wh/monolith

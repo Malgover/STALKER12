@@ -49,7 +49,7 @@
 
 /obj/item/clothing/head/tacticalhelmet
 	name = "Tactical helmet"
-	desc = "������������� ������� ������������ �����, �������� �����-���� ����������. ������������ ��&#255; ����������&#255; ��������� ������������&#255; ������� ����������� ����������� ���������� ��� ��������� ��������������� ����������� �������. ���������&#255; ������� ������������, ����� ������� ������������ ���������� �������, ������������ � �������� ������� ������&#255; ������� ��������&#255;."
+	desc = "A Western-designed kevlar reinforced helmet complimenting the legendary exosuits of The Zone. It's entirely unknown how such an advanced piece of equipment made it's way into The Zone; All that one needs to know is that there is simply no better alternative for protection!"
 	eng_desc = "A Western-designed kevlar reinforced helmet complimenting the legendary exosuits of The Zone. It's entirely unknown how such an advanced piece of equipment made it's way into The Zone; All that one needs to know is that there is simply no better alternative for protection!"
 	icon_state = "hardhat0_tactical"
 	item_state = "hardhat0_tactical"
@@ -60,7 +60,6 @@
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
 	unacidable = 1
 	durability = 300
-	//�����������//
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 1)
 
 /obj/item/clothing/head/tacticalhelmet/New()
@@ -69,7 +68,7 @@
 
 /obj/item/clothing/head/hardhat/tactical/light
 	name = "Light tactical helmet"
-	desc = "������������� ������� ������������ �����, �������� �����-���� ����������. ������������ ��&#255; ����������&#255; ������ �������� �������� ������� ������. ���������&#255; ������� ������������, ����� ������� ������������ ���������� �������, �� ���������� � ��� �����������."
+	desc = "A Western-designed kevlar helmet that has somehow found it's way into the zone. It provides incredible protection with a light-frame alongside a complimentry suite originally designed to give better situational-awarness to the soldier!"
 	eng_desc = "A Western-designed kevlar helmet that has somehow found it's way into the zone. It provides incredible protection with a light-frame alongside a complimentry suite originally designed to give better situational-awarness to the soldier!"
 	icon_state = "hardhat0_lighttactical"
 	item_state = "hardhat0_lighttactical"
@@ -82,7 +81,6 @@
 	flags_cover = HEADCOVERSEYES
 	unacidable = 1
 	durability = 200
-	//�����������//
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
 /obj/item/clothing/head/hardhat/tactical/light/New()
@@ -100,7 +98,6 @@
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
 	unacidable = 1
 	durability = 250
-	//�����������//
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
 /obj/item/clothing/head/gopcap
@@ -112,7 +109,6 @@
 	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 10, psy = 0)
 	unacidable = 1
 	durability = 250
-	//�����������//
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
 /obj/item/clothing/head/soft/jacknoircap
@@ -123,7 +119,7 @@
 
 /obj/item/clothing/head/spheram
 	name = "Sphera M12"
-	desc = "���������� ������ ����������-��������� ���� � ��������� ��&#255; �������� �������������� � �����������. ������ �������&#255;���&#255; � ��������� � ������������� ������ ��3 ��&#255; ��������. ���������� �����&#255;��� � ���� ��������&#255; ����������� � ����������� ������� ������� ������&#255;, � ����� ������� ������ ������. ������������� ����������� ��������� �����������."
+	desc = "An aluminum/titanium helmet with a cloth exterior that comes with pockets for additional steel armor pieces and an armor face mask. Sphere M12 is normally used as part of a combination that includes PSZ series Spetsnaz body armor. Quite popular in the Zone thanks to its respirator and built-in first generation night vision device, as well as providing the maximum head protection possible. Comes with electronics slots."
 	eng_desc = "An aluminum/titanium helmet with a cloth exterior that comes with pockets for additional steel armor pieces and an armor face mask. Sphere M12 is normally used as part of a combination that includes PSZ series Spetsnaz body armor. Quite popular in the Zone thanks to its respirator and built-in first generation night vision device, as well as providing the maximum head protection possible. Comes with electronics slots."
 	icon_state = "sphera"
 	flags = BLOCKHAIR|BLOCKFACIALHAIR
@@ -132,7 +128,6 @@
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
 	unacidable = 1
 	durability = 400
-	//�����������//
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
 /obj/item/clothing/head/spheram/New()
@@ -157,7 +152,7 @@
 
 /obj/item/clothing/head/petrovichhelmet
 	name = "SKOT-M777"
-	desc = "���������� �������� ����������-��������� ���� � ��������� ��&#255; ������ � ����������. ������ �������&#255;���&#255; � ��������� � ������. ������������ �����&#255;��� � ���� ��������&#255; ����������� ���������."
+	desc = "This is the SKOT-M777 Helmet."
 	icon_state = "helmet_skot"
 	flags = BLOCKHAIR|BLOCKFACIALHAIR
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE
@@ -205,7 +200,6 @@
 	burn_state = FIRE_PROOF
 	unacidable = 1
 	durability = 400
-	//�����������//
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
 /obj/item/clothing/mask/gas/stalker/gp4
@@ -222,7 +216,6 @@
 	burn_state = FIRE_PROOF
 	unacidable = 1
 	durability = 400
-	//�����������//
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
 /obj/item/clothing/mask/gas/stalker/gp5
@@ -239,12 +232,11 @@
 	burn_state = FIRE_PROOF
 	unacidable = 1
 	durability = 400
-	//�����������//
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
 /obj/item/clothing/mask/gas/stalker/mercenary
 	name = "gas mask"
-	desc = "����������� ����������, ��������������� ��&#255; ���������� �� ������� ������������� ���� � ������&#255;���� �������. ������ �����������&#255; ������� ����������� '��������'. �� ������� ������� �� ����, �������� � ������������ �����������."
+	desc = "A regular plastic and rubber gas mask, used for filtering air for radioactive particles and poisonous substances. Widely used by mercenaries. Does not provide any physical protection."
 	eng_desc = "A regular plastic and rubber gas mask, used for filtering air for radioactive particles and poisonous substances. Widely used by mercenaries. Does not provide any physical protection."
 	icon_state = "mercenary_gasmask"
 	item_state = "mercenary_gasmask"
@@ -256,7 +248,7 @@
 	burn_state = FIRE_PROOF
 	unacidable = 1
 	durability = 400
-	//�����������//
+
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
 
 /obj/item/clothing/mask/gas/stalker/respirator
@@ -274,5 +266,5 @@
 	burn_state = FIRE_PROOF
 	unacidable = 1
 	durability = 400
-	//�����������//
+
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)

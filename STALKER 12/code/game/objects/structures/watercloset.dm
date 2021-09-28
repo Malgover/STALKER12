@@ -465,7 +465,7 @@
 
 /obj/structure/sink/puddle	//splishy splashy ^_^
 	name = "puddle"
-	desc = "Пруд выгл&#255;дит чистым и не слишком &#255;довитым, чтобы помыть в нём что-то."
+	desc = "A splishy splashy puddle."
 	icon_state = "puddle"
 
 /obj/structure/sink/puddle/attack_hand(mob/M)

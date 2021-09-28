@@ -101,7 +101,7 @@
 				H.slip(0, 4, null, (SLIDE|NO_SLIP_WHEN_WALKING))
 				return
 	//..()
-/*Чтобы не потерять
+
 /turf
 
 	var/list/l_sounds_bar = list('sound/stalker/megafon/bar_start_megafon_1.ogg','sound/stalker/megafon/bar_start_megafon_2.ogg',
@@ -110,7 +110,6 @@
 								'sound/stalker/megafon/mega_duty_propaganda_3.ogg','sound/stalker/megafon/mega_duty_propaganda_4.ogg',
 								'sound/stalker/megafon/mega_duty_propaganda_5.ogg','sound/stalker/megafon/mega_duty_propaganda_6.ogg',
 								'sound/stalker/megafon/mega_duty_propaganda_7.ogg')
-*/
 
 /turf/stalker/Entered(atom/A, atom/OL)
 	//..()

@@ -38,7 +38,7 @@
 
 /obj/item/clothing/under/color/switer/tracksuit
 	name = "tracksuit"
-	desc = "����� ���������� ������ ������ ����� ������� �� ������� � ������."
+	desc = "Usually you see this tracksuit being worn by gopniks."
 	eng_desc = "Usually you see this tracksuit being worn by gopniks."
 	icon_state = "tracksuit"
 	item_state = "tracksuit"
