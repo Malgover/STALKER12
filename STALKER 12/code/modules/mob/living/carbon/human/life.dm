@@ -121,7 +121,7 @@
 		S.durability = ((S.durability/initial(S.durability))*100 - 50) / 100 * initial(S.durability)
 
 	if(S.durability <= 0)
-		visible_message("<span class='danger'>[S] ���������� ��&#255;�� �� [src]</span>", "<span class='warning'>[S] ���������&#255; ��&#255;�� �� ���!</span>")
+		visible_message("<span class='danger'>[S]  [src]</span>", "<span class='warning'>[S] </span>")
 		qdel(S)
 
 	update_icons()

@@ -13,7 +13,7 @@
 	whitelist_only = 0
 	total_positions = 6
 	spawn_positions = 6
-	supervisors = "Chief Anarchist" // Кто здесь?
+	supervisors = "Chief Anarchist"
 	selection_color = "#3C8C3C"
 	access = list()
 	minimal_access = list()

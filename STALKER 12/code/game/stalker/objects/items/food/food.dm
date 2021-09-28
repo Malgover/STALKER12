@@ -3,7 +3,7 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva
 	name = "Tourist delight"
-	desc = "Консервы \"Радость туриста\" с растащенного сталкерами армейского продовольстенного склада. Срок годности вроде бы не истёк."
+	desc = "Tourist's delight, also known as tourist breakfast: is a staple food of The Zone. Legend says these cans of conserva are from a raid against an army warehouse!"
 	eng_desc = "Tourist's delight, also known as tourist breakfast: is a staple food of The Zone. Legend says these cans of conserva are from a raid against an army warehouse!"
 	icon_state = "konserva"
 	w_class = 2
@@ -12,7 +12,7 @@
 	trash = /obj/item/trash/konserva
 	list_reagents = list("nutriment" = 13, "vitamin" = 2, "omnizine" = 0.5)
 	var/icon_state_opened = "konserva_open"
-	var/desc_opened = "Выгл&#255;дит не очень аппетитно, но пахнет вроде бы нормально."
+	var/desc_opened = "Tourist's delight, also known as tourist breakfast: is a staple food of The Zone. Legend says these cans of conserva are from a raid against an army warehouse! This ones open."
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/attack_self(mob/user)
 	if(wrapped)
@@ -26,12 +26,12 @@
 	if(user.client && (user.client.prefs.chat_toggles & CHAT_LANGUAGE))
 		user << "<span class='notice'>You open the package.</span>"
 	else
-		user << "<span class='notice'>Вы вскрываете упаковку.</span>"
+		user << "<span class='notice'>You open the package.</span>"
 	wrapped = 0
 
 /obj/item/trash/konserva
 	name = "empty can"
-	desc = "Обычный мусор."
+	desc = "Empty konserva. Trash!"
 	eng_desc = "Trash."
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "konserva_empty"
@@ -40,25 +40,25 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/shproti
 	name = "Shproti"
-	desc = "Рижские шпроты."
+	desc = "European sprats originating from the Latvian portcity of Riga. They've been preserved in a thick sunflower oil."
 	eng_desc = "European sprats originating from the Latvian portcity of Riga. They've been preserved in a thick sunflower oil."
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "shproti0"
 	icon_state_opened = "shproti1"
 	list_reagents = list("nutriment" = 17, "vitamin" = 3, "omnizine" = 0.75)
 	trash = /obj/item/trash/konserva/shproti
-	desc_opened = "Открыта&#255; банка со шпротами. Выгл&#255;дит аппетитно."
+	desc_opened = "European sprats originating from the Latvian portcity of Riga. They've been preserved in a thick sunflower oil. This one is opened!"
 
 /obj/item/trash/konserva/shproti
 	name = "empty can"
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "shproti2"
-	desc = "Пуста&#255; банка из под шпрот."
+	desc = "Empty can of Sprats, trash."
 	eng_desc = "Empty can of Sprats."
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/soup
 	name = "Soup"
-	desc = "Готовый законсервированный суп по-домашнему."
+	desc = "Condensed soup that usually would be thinned with water. A staple of tourists within the zone."
 	eng_desc = "Condensed soup that usually would be thinned with water. A staple of tourists within the zone."
 	//weight = 0.7
 	icon = 'icons/stalker/food.dmi'
@@ -66,7 +66,7 @@
 	icon_state_opened = "soup1"
 	list_reagents = list("nutriment" = 20, "vitamin" = 4, "omnizine" = 1)
 	trash = /obj/item/trash/konserva/soup
-	desc_opened = "выгл&#255;дит аппетитно."
+	desc_opened = "Condensed soup that usually would be thinned with water. A staple of tourists within the zone. This ones opened."
 
 /obj/item/trash/konserva/soup
 	name = "empty can"
@@ -75,14 +75,14 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/bobi
 	name = "bobi"
-	desc = "Консервы \"Бобовый Сюрприз\", сносно."
+	desc = "A can of 'Bean Surprise'. A melody of cheap flavourless nibbles of meat and watery beans."
 	eng_desc = "A can of 'Bean Surprise'. A melody of cheap flavourless nibbles of meat and watery beans."
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "bobi0"
 	icon_state_opened = "bobi1"
 	list_reagents = list("nutriment" = 17, "vitamin" = 3, "omnizine" = 0.75)
 	trash = /obj/item/trash/konserva/bobi
-	desc_opened = "Выгл&#255;дит аппетитно."
+	desc_opened = "A can of 'Bean Surprise'. A melody of cheap flavourless nibbles of meat and watery beans. This one is opened."
 
 /obj/item/trash/konserva/bobi
 	name = "empty can"
@@ -91,7 +91,7 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/govyadina2
 	name = "tushenka"
-	desc = "Банка законсервированной гов&#255;дины."
+	desc = "A can of beef-stew! An avidly loved staple of those who scour around old ruins in search for loot!"
 	eng_desc = "A can of beef-stew! An avidly loved staple of those who scour around old ruins in search for loot!"
 	//weight = 0.7
 	icon = 'icons/stalker/food.dmi'
@@ -99,7 +99,7 @@
 	icon_state_opened = "govyadina1"
 	list_reagents = list("nutriment" = 20, "vitamin" = 4, "omnizine" = 1)
 	trash = /obj/item/trash/konserva/govyadina
-	desc_opened = "Выгл&#255;дит очень аппетитно."
+	desc_opened = "A can of beef-stew! An avidly loved staple of those who scour around old ruins in search for loot! This one is opened."
 
 /obj/item/trash/konserva/govyadina
 	name = "empty can"
@@ -108,14 +108,14 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/fish
 	name = "fish"
-	desc = "Рыбные консервы 'Прип&#255;ть', видимо из местной реки"
+	desc = "Canned Fish. Simple, easy to digest and generally well-liked by most in the Zone."
 	eng_desc = "Canned Fish. Simple, easy to digest and generally well-liked by most in the Zone."
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "fish0"
 	icon_state_opened = "fish1"
 	list_reagents = list("nutriment" = 17, "vitamin" = 3, "omnizine" = 0.75)
 	trash = /obj/item/trash/konserva/fish
-	desc_opened = "Выгл&#255;дит очень аппетитно."
+	desc_opened = "Canned Fish. Simple, easy to digest and generally well-liked by most in the Zone. This one is opened."
 
 /obj/item/trash/konserva/fish
 	name = "empty can"
@@ -124,7 +124,7 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/snack/sirok
 	name = "cheese"
-	desc = "Пачка свежего плавленого сыра."
+	desc = "A can of creamed cheese commonly seen in UAF mountaineer rations."
 	eng_desc = "A can of creamed cheese commonly seen in UAF mountaineer rations."
 	//weight = 0.1
 	icon = 'icons/stalker/food.dmi'
@@ -132,7 +132,7 @@
 	icon_state_opened = "sirok1"
 	list_reagents = list("nutriment" = 11, "vitamin" = 1, "omnizine" = 0.3)
 	trash = /obj/item/trash/konserva/sirok
-	desc_opened = "Выгл&#255;дит очень аппетитно."
+	desc_opened = "A can of creamed cheese commonly seen in UAF mountaineer rations. This is opened."
 
 /obj/item/trash/konserva/sirok
 	name = "trash"
@@ -142,7 +142,7 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/snack/snikers
 	name = "snikers"
-	desc = "Попул&#255;рный шоколадный батончик."
+	desc = "Snickers. A reminder of home for western-tourists, a oddly sweet snack for locals."
 	eng_desc = "Snickers. A reminder of home for western-tourists, a oddly sweet snack for locals."
 	//weight = 0.1
 	icon = 'icons/stalker/food.dmi'
@@ -150,7 +150,7 @@
 	icon_state_opened = "snikers1"
 	list_reagents = list("nutriment" = 8, "sugar" = 6, "omnizine" = 0.2)
 	trash = /obj/item/trash/konserva/snikers
-	desc_opened = "Выгл&#255;дит очень аппетитно."
+	desc_opened = "Snickers. A reminder of home for western-tourists, a oddly sweet snack for locals. This ones opened."
 
 /obj/item/trash/konserva/snikers
 	name = "trash"
@@ -160,7 +160,7 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/snack/chocolate
 	name = "Chocolate"
-	desc = "Небольша&#255; плитка горького шоколада."
+	desc = "A bar of chocolate. A reminder of home in this harsh place."
 	eng_desc = "A bar of chocolate. A reminder of home in this harsh place."
 	//weight = 0.1
 	icon = 'icons/stalker/food.dmi'
@@ -168,7 +168,7 @@
 	icon_state_opened = "Choco2"
 	list_reagents = list("nutriment" = 9, "sugar" = 1, "omnizine" = 0.1, "energetic" = 5)
 	trash = /obj/item/trash/konserva/chocolate
-	desc_opened = "Выгл&#255;дит очень аппетитно."
+	desc_opened = "A bar of chocolate. A reminder of home in this harsh place. This one is opened."
 
 /obj/item/trash/konserva/chocolate
 	name = "trash"
@@ -178,9 +178,9 @@
 
 /obj/item/weapon/storage/box/MRE
 	name = "MRE"
-	desc = "Армейский ИРП рассчитанный на сутки."
+	desc = "Ukrainian standard issue twenty-four hour ration pack. Filled with everything a Stalker will need in a day!"
 	eng_desc = "Ukrainian standard issue twenty-four hour ration pack. Filled with everything a Stalker will need in a day!"
-	var/desc_opened = "Открытый Армейский ИРП рассчитанный на сутки."
+	var/desc_opened = "Ukrainian standard issue twenty-four hour ration pack. Filled with everything a Stalker will need in a day! This one is opened."
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "box1"
 	var/icon_state_opened = "box3"
@@ -211,14 +211,14 @@
 	if(user.client && (user.client.prefs.chat_toggles & CHAT_LANGUAGE))
 		user << "<span class='notice'>You unwrap the package</span>"
 	else
-		user << "<span class='notice'>Вы вскрываете упаковку</span>"
+		user << "<span class='notice'>You unwrap the package</span>"
 	wrapped = 0
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/galets
 	name = "Galets"
-	desc = "Галеты армейские, вкусные и питательные."
-	eng_desc = "Dry crackers that'd chip the tooth of anyone thinking this was a buttery biscut!"
-	desc_opened = "Выгл&#255;дит очень аппетитно."
+	desc = "Dry crackers that'd chip the tooth of anyone thinking this was a buttery biscuit!"
+	eng_desc = "Dry crackers that'd chip the tooth of anyone thinking this was a buttery biscuit!"
+	desc_opened = "Dry crackers that'd chip the tooth of anyone thinking this was a buttery biscuit! This ones opened."
 	icon_state = "GAL1"
 	icon_state_opened = "GAL2"
 	list_reagents = list("nutriment" = 10, "omnizine" = 0.1)
@@ -230,9 +230,9 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/kasha
 	name = "Kasha"
-	desc = "Готова&#255; овс&#255;на&#255; каша в вакуумной упаковке."
+	desc = "Vacuum-sealed can of boiled buckwheat porridge. Isn't this traditionally baked?"
 	eng_desc = "Vacuum-sealed can of boiled buckwheat porridge. Isn't this traditionally baked?"
-	desc_opened = "Выгл&#255;дит так себе, но на запах вроде ничего."
+	desc_opened = "Vacuum-sealed can of boiled buckwheat porridge. Isn't this traditionally baked? This one is opened.."
 	icon_state = "Kasha1"
 	icon_state_opened = "Kasha2"
 	list_reagents = list("nutriment" = 15, "omnizine" = 0.2)
@@ -244,9 +244,9 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/MREkonserva1
 	name = "Konserva"
-	desc = "Суд&#255; по этикетке, банка законсервированного м&#255;са, но какого - не написано."
+	desc = "Canned pork, salt n' spices. Doesn't get much simpler or wholesome in the zone!"
 	eng_desc = "Canned pork, salt n' spices. Doesn't get much simpler or wholesome in the zone!"
-	desc_opened = "Выгл&#255;дит не очень, но по запаху очень похоже на тушенку."
+	desc_opened = "Canned pork, salt n' spices. Doesn't get much simpler or wholesome in the zone! This one is opened."
 	icon_state = "TushenkaRed1"
 	icon_state_opened = "TushenkaRed2"
 	list_reagents = list("nutriment" = 17, "omnizine" = 0.2)
@@ -258,9 +258,9 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/MREkonserva2
 	name = "Konserva"
-	desc = "Суд&#255; по этикетке, банка законсервированного м&#255;са c овощами, но какое м&#255;со и какие овощи - не написано."
+	desc = "Canned chicken with an assortment of vegetables. A hearty meal in The Zone."
 	eng_desc = "Canned chicken with an assortment of vegetables. A hearty meal in The Zone."
-	desc_opened = "Выгл&#255;дит не очень, но по запаху очень похоже на тушенку с чем-то еще."
+	desc_opened = "Canned chicken with an assortment of vegetables. A hearty meal in The Zone. This one is opened."
 	icon_state = "TushenkaGreen1"
 	icon_state_opened = "TushenkaGreen2"
 	list_reagents = list("nutriment" = 17, "omnizine" = 0.2)
@@ -272,9 +272,9 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/MREkonserva3
 	name = "Konserva"
-	desc = "Суд&#255; по этикетке, банка законсервированного м&#255;са c зеленью, но какое м&#255;со и кака&#255; зелень - не написано."
+	desc = "Canned meat with an assortment of vegetables. A healthy and substantial meal within The Zone!"
 	eng_desc = "Canned meat with an assortment of vegetables. A healthy and substantial meal within The Zone!"
-	desc_opened = "Выгл&#255;дит не очень, но по запаху сильно отдает тушенкой, приправленной луком и чесноком"
+	desc_opened = "Canned meat with an assortment of vegetables. A healthy and substantial meal within The Zone! This one is opened."
 	icon_state = "TushenkaBlue1"
 	icon_state_opened = "TushenkaBlue2"
 	list_reagents = list("nutriment" = 17, "omnizine" = 0.2, "vitamin" = 10)
@@ -286,7 +286,7 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa
 	name = "kolbasa"
-	desc = "Часто за неимением лучшего эта колбаса - смесь кур&#255;тины и соевого заменител&#255; - завтрак, обед и ужин сталкера."
+	desc = "Made from a mixture of chicken and soya, the \"diet\" sausage is often, for lack of other options, a Stalker's breakfast, lunch and dinner in one."
 	eng_desc = "Made from a mixture of chicken and soya, the \"diet\" sausage is often, for lack of other options, a Stalker's breakfast, lunch and dinner in one."
 	//weight = 0.4
 	icon_state = "kolbasa"
@@ -295,7 +295,7 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/baton
 	name = "baton"
-	desc = "Неизвестно, кто умудр&#255;етс&#255; печь батоны на территории Зоны, однако этот хлеб не заражен и вполне съедобен. Во вс&#255;ком случае, никто из сталкеров пока не жаловалс&#255;."
+	desc = "A loaf of bread of completely questionable origin. Nobody has complained of off-flavours or issues with it in all the years it has been apart of a Stalkers diet!"
 	eng_desc = "A loaf of bread of completely questionable origin. Nobody has complained of off-flavours or issues with it in all the years it has been apart of a Stalkers diet!"
 	//weight = 0.2
 	icon_state = "baton_stalker"

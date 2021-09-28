@@ -2,7 +2,7 @@ var/list/obj/machinery/stalker/sidorpoint/cps = list()
 
 /obj/machinery/stalker/sidorpoint
 	name = "SIDORPOINT - null"
-	desc = "Контрольна&#255; точка."
+	desc = "Control point."
 	eng_desc = "Control point."
 	icon = 'icons/stalker/device_new.dmi'
 	icon_state = "radio_free"
@@ -14,7 +14,7 @@ var/list/obj/machinery/stalker/sidorpoint/cps = list()
 	var/control_percent		= 0
 
 	var/unlocked_weapons	= null
-//	var/respawn_income		= 0 //каждые 30 минут
+//	var/respawn_income		= 0
 //	var/last_respawn_income	= 0
 
 	var/path_ending = null
@@ -45,17 +45,17 @@ var/list/obj/machinery/stalker/sidorpoint/cps = list()
 /obj/machinery/stalker/sidorpoint/proc/update_desc()
 	if(controlled_by)
 
-		desc = "Точка находитс&#255; под контролем группировки [get_rus_faction(controlled_by)] на [control_percent]%"
+		desc = "Point is under  [get_rus_faction(controlled_by)] control by [control_percent]%"
 		eng_desc = "Point is under [controlled_by] control by [control_percent]%"
 
 	else if(control_percent)
 
-		desc = "Точка находитс&#255; под контролем группировки [get_rus_faction(capturing_faction)] на [control_percent]%"
+		desc = "Point is under [get_rus_faction(capturing_faction)] control by [control_percent]%"
 		eng_desc = "Point is under [capturing_faction] control by [control_percent]%"
 
 	else
 
-		desc = "Точка свободна дл&#255; захвата"
+		desc = "This point can be captured."
 		eng_desc = "This point can be captured."
 
 /obj/machinery/stalker/sidorpoint/proc/update_icon_percent()

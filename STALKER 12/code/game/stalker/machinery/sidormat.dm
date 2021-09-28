@@ -230,7 +230,7 @@ var/list/global_sidormat_list = list(
 
 	"Unbuyable" = list(
 		new /datum/data/stalker_equipment("Canned soup",					"Canned soup",					/obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/soup,				900,	ROOKIE),
-		new /datum/data/stalker_equipment("Canèed beans",					"Canèed beans",					/obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/bobi,				750,	ROOKIE),
+		new /datum/data/stalker_equipment("Canned beans",					"Canned beans",					/obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/bobi,				750,	ROOKIE),
 		new /datum/data/stalker_equipment("Canned stew",					"Canned stew",					/obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/govyadina2,		900,	ROOKIE),
 		new /datum/data/stalker_equipment("Canned fish",					"Canned fish",					/obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/fish,				750,	ROOKIE),
 		new /datum/data/stalker_equipment("Cream cheese",					"Cream cheese",					/obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/snack/sirok,		400,	ROOKIE),
@@ -249,7 +249,7 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Bloodsucker claw",				"Bloodsucker claw",		/obj/item/weapon/stalker/loot/bloodsucker,		12000,		ROOKIE, sale_price = 8000),
 		new /datum/data/stalker_equipment("Pseudo-dog tail",				"Pseudo-dog tail",		/obj/item/weapon/stalker/loot/pseudo_tail,		2000,		ROOKIE, sale_price = 4000),
 		new /datum/data/stalker_equipment("Controller brain",				"Controller brain",		/obj/item/weapon/stalker/loot/controller_brain,	40000,		ROOKIE, sale_price = 20000),
-		/////////////////////////////////	Àðòåôàêòû	///////////////////////////////////////////
+		///////////////////////////////// 	///////////////////////////////////////////
 		new /datum/data/stalker_equipment("Meduza",				"Meduza",					/obj/item/weapon/artifact/meduza,					5000,	ROOKIE,	sale_price = 2500),
 		new /datum/data/stalker_equipment("Stoneflower",	"Stoneflower",					/obj/item/weapon/artifact/stoneflower,				10000,	ROOKIE,	sale_price = 5000),
 		new /datum/data/stalker_equipment("Nightstar",		"Nightstar",					/obj/item/weapon/artifact/nightstar,				30000,	ROOKIE,	sale_price = 15000),
@@ -483,11 +483,11 @@ var/list/global_sidormat_list = list(
 	var/dat
 	if(H.client.prefs.chat_toggles & CHAT_LANGUAGE)
 
-	///////////////////////////////////////////////////////////ÀÍÃËÈÉÑÊÈÉ ÑÈÄÎÐÎÌÀÒ///////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		dat +="<div class='statusDisplay'>"
 		dat += "Balance: [num2text(balance, 8)] RU<br>"
-		dat += "<br><br>INSTRUCTION: Put habar for sale on the <b>left</b> table.<br>" // Çàáèðàòü äåíüãè è êóïëåííûå âåùè - íà <b>ïðàâîì</b>.
+		dat += "<br><br>INSTRUCTION: Put habar for sale on the <b>left</b> table.<br>"
 		if(switches & BUY_STUFF)
 			dat +="<A href='?src=\ref[src];choice=take'><b>Sell habar</b></A><br>"
 		if(door_device && sk.fields["degree"])
@@ -510,18 +510,18 @@ var/list/global_sidormat_list = list(
 
 	else
 
-		///////////////////////////////////////////////////////////ÐÓÑÑÊÈÉ ÑÈÄÎÐÎÌÀÒ///////////////////////////////////////////////////////////////////////
+		//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		dat +="<div class='statusDisplay'>"
-		dat += "Íà ñ÷åòó: [num2text(balance, 8)] RU<br>"
-		dat += "<br><br>ÈÍÑÒÐÓÊÖÈß: Õàáàð ñêëàäûâàòü - íà <b>ëåâîì</b> ñòîëå.<br>" //Çàáèðàòü äåíüãè è êóïëåííûå âåùè - íà <b>ïðàâîì</b>.
+		dat += "[num2text(balance, 8)] RU<br>"
+		dat += "<br><br><b></b><br>"
 		if(switches & BUY_STUFF)
-			dat +="<A href='?src=\ref[src];choice=take'><b>Ñáûòü õàáàð</b></A><br>"
+			dat +="<A href='?src=\ref[src];choice=take'><b></b></A><br>"
 		if(door_device && sk.fields["degree"])
-			dat +="<A href='?src=\ref[src];basement_toggle=1'><b>Îòêðûòü/Çàêðûòü õðàíèëèùå</b></A><br>"
+			dat +="<A href='?src=\ref[src];basement_toggle=1'><b></b></A><br>"
 		dat += "</div>"
 		dat += "<div class='lenta_scroll'>"
-		dat += "<BR><table border='0' width='400'>" //<b>Ñïèñîê ïðåäìåòîâ:</b>
+		dat += "<BR><table border='0' width='400'>" //<b></b>
 		for(var/L in global_sidormat_list)
 			if(L == "Unbuyable" && !(switches & SELL_UNBUYABLE))
 				continue
@@ -530,7 +530,7 @@ var/list/global_sidormat_list = list(
 				if((sk.fields["faction_s"] == prize.faction && ((sk.fields["faction_s"] in special_factions) || (switches & SHOW_FACTION_EQUIPMENT))) || prize.faction == "Everyone")
 					//if(rating >= prize.rating)
 					if(get_assortment_level(H) >= prize.assortment_level)
-						dat += "<tr><td>[prize.name_ru]</td><td>[prize.cost]</td><td><A href='?src=\ref[src];purchase=\ref[prize]'>Êóïèòü</A></td></tr>"
+						dat += "<tr><td>[prize.name_ru]</td><td>[prize.cost]</td><td><A href='?src=\ref[src];purchase=\ref[prize]'></A></td></tr>"
 		dat += "</table>"
 		dat += "</div>"
 

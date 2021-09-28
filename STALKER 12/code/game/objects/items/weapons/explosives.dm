@@ -29,18 +29,18 @@
 
 /obj/item/weapon/c4/suicide_act(mob/user)
 	user.visible_message("<span class='suicide'>[user] activates the [src.name] and holds it above \his head! It looks like \he's going out with a bang!</span>")
-	var/message_say = "Аллах Акбар!"
+	var/message_say = ""
 	if(user.mind)
 		if(user.mind.special_role)
 			var/role = lowertext(user.mind.special_role)
 			if(role == "traitor" || role == "syndicate")
-				message_say = "За Синдикат!"
+				message_say = ""
 			else if(role == "changeling")
-				message_say = "За Улей!"
+				message_say = ""
 			else if(role == "cultist")
-				message_say = "За Нар-Си!"
+				message_say = ""
 			else if(role == "revolutionary" || role == "head revolutionary")
-				message_say = "Да здравствует революци&#255;!"
+				message_say = ""
 			else if(user.mind.gang_datum)
 				message_say = "[uppertext(user.mind.gang_datum.name)] RULES!"
 	user.say(message_say)
@@ -77,7 +77,7 @@
 		return
 	if(ismob(AM))
 		add_logs(user, AM, "tried to plant explosives on", object="[name]")
-		user.visible_message("<span class='warning'>[user.name] пытаетс&#255; прикрепить взрывчатку на [AM.name]!</span>")
+		user.visible_message("<span class='warning'>[user.name] [AM.name]!</span>")
 
 	user << "<span class='notice'>You start planting the bomb...</span>"
 

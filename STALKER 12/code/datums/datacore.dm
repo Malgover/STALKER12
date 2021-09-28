@@ -277,8 +277,6 @@ var/record_id_num = 1001
 		L.fields["image"]		= image
 		locked += L
 
-
-		//Разработка сталкера
 		var/datum/data/record/sk = new()
 
 		sk.fields["reputation"]		= NEUTRAL

@@ -26,15 +26,14 @@
 				deattach_attachment(selection)
 
 			if(1)
-				//ƒќƒ≈Ћј“№
+
 				for (var/obj/item/weapon/attachment/A in addons)
 					deattach_attachment(A)
 			if(0)
-				//нужно что-то написать здесь
 				usr << "<span class='notice'>There are no attachments.</span>"
 				return
 	else
-		usr << "<span class='notice'>ќсвободите руку.</span>"
+		usr << "<span class='notice'>There are no attachments.</span>"
 	update_icon()
 	return
 
@@ -220,7 +219,7 @@ var/global/list/obj/item/ammo_casing/ACs = list()
 		user << "<span class='notice'>You unload the round from \the [src]'s chamber.</span>"
 		if(jam)
 			jam = 0
-			user << "<span class='notice'>ќружие снова в норме.</span>"
+			user << "<span class='notice'></span>"
 	else
 		user << "<span class='notice'>There's no magazine in \the [src].</span>"
 	update_icon()

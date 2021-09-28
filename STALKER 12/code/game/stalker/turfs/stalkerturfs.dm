@@ -5,7 +5,7 @@
 
 /turf/simulated/floor/plating/asteroid/snow/lite
 	name = "snow"
-	desc = "����&#255;��� ��������."
+	desc = "This is snow."
 	icon = 'icons/turf/snow.dmi'
 	baseturf = /turf/simulated/floor/plating/asteroid/snow
 	icon_state = "snow"

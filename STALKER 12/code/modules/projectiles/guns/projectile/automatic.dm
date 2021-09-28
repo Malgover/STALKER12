@@ -41,13 +41,13 @@
 		if(istype(AM, mag_type))
 			if(magazine)
 				user << "<span class='notice'>You perform a tactical reload on \the [src], replacing the magazine.</span>"
-				user.say(pick("ПЕРЕЗАРЯЖАЮСЬ!!!", "Я ПУСТ, МЕНЯЮ МАГАЗИН!!!", "МЕНЯЮ МАГАЗИН!!!", "ПРИКРОЙ! ПЕРЕЗАРЯЖАЮСЬ!!!", "НОВЫЙ МАГАЗИН!!!"))
+				user.say(pick(""))
 				magazine.loc = get_turf(src.loc)
 				magazine.update_icon()
 				magazine = null
 				if(prob(5) && !jam)
 					jam = 1
-					user << "<span class='warning'>Оружие заклинило. Его необходимо перезар&#255;дить. Нормально перезар&#255;дить.</span>"
+					user << "<span class='warning'></span>"
 			else
 				user << "<span class='notice'>You insert the magazine into \the [src].</span>"
 			user.remove_from_mob(AM)

@@ -87,5 +87,5 @@
 	loot = list(/obj/effect/landmark/mobcorpse/gopnik)
 	faction = list("Zombies")
 	status_flags = CANPUSH
-	speak = list("ты...мертвое...мясо...", "ты...мертв... СТАЛКЕР...", "иди...сюда... мальчик...не бойся...", "дерьмо...")
+	speak = list("")
 	search_objects = 1

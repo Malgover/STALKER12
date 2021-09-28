@@ -33,7 +33,7 @@
 
 /obj/item/weapon/attachment/scope/SUSAT
 	name = "SUSAT"
-	desc = "���������� ������ ������������� ��������� (4 ��������). ���� ����� �����������&#255; ��&#255; ������&#255; ����������� ���&#255; �� ������ ����������� �����&#255; �� ������� � ������� ���������. ��������������&#255; �� ������ ���������."
+	desc = "A 4x fixed zoom scope produced primarily in Western countries. Attached to weapons by means of the NATO-standard Picatinny rail. Often used for accurate fire from small arms at medium to long range."
 	eng_desc = "A 4x fixed zoom scope produced primarily in Western countries. Attached to weapons by means of the NATO-standard Picatinny rail. Often used for accurate fire from small arms at medium to long range."
 	icon = 'icons/stalker/weapon_mods.dmi'
 	icon_state = "susat"
@@ -84,17 +84,17 @@
 
 /obj/item/weapon/attachment/scope/fnf2000
 	name = "FN-F2000 scope"
-	desc = "������ ��&#255; �������� FN-F2000."
+	desc = "fnf2000-scope"
 	icon_state = "fnf2000-scope"
 	types = list(/obj/item/weapon/gun/projectile/automatic/fnf2000)
 
 /obj/item/weapon/attachment/grenadelauncher
 	name = "grenade launcher"
-	desc = "������������ ���������."
+	desc = "A grenade launcher"
 	icon_state = ""
 	types = list()
 
 /obj/item/weapon/attachment/grenadelauncher/fnf2000
 	name = "fn-f2000 grenade launcher"
-	desc = "������������ ��������� ��� fn-f2000"
+	desc = "An fn-f2000"
 	icon_state = "fnf2000-gl"

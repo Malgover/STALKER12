@@ -19,7 +19,7 @@ var/onelive = 1
 
 	let_justice_be_done(src)
 	if(stat == DEAD)
-		//world << "УМЕР"
+		//world
 		return
 	if(healths)
 		healths.icon_state = "health5"
@@ -51,7 +51,6 @@ var/onelive = 1
 
 	dna.species.spec_death(gibbed,src)
 
-//Загробная жизнь
 //	var/mob/living/carbon/human/dead_character = new(loc)
 //	client.prefs.copy_to(dead_character)
 //	dead_character.dna.update_dna_identity()

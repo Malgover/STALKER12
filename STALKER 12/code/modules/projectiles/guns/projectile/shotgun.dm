@@ -42,7 +42,7 @@
 	pump(user)
 	if(jam)
 		jam = 0
-		user << "<span class='notice'>Оружие снова в норме.</span>"
+		user << "<span class='notice'></span>"
 	recentpump = 1
 	spawn(10)
 		recentpump = 0

@@ -58,7 +58,6 @@
 /obj/machinery/space_heater/examine(mob/user)
 	..()
 
-	//Нам это не нужно
 	/*
 	user << "\The [src] is [on ? "on" : "off"], and the hatch is [panel_open ? "open" : "closed"]."
 	if(cell)

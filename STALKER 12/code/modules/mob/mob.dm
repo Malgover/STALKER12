@@ -512,7 +512,7 @@ var/next_mob_id = 0
 		if(usr.client.prefs.chat_toggles & CHAT_LANGUAGE)
 			usr << "<span class='boldnotice'>You will be able join the game in around [max(1, round((timeofdeath + config.respawn_timer - world.time)/600))] min.</span>"
 		else
-			usr << "<span class='boldnotice'>¬ы сможете зайти в игру примерно через [max(1, round((timeofdeath + config.respawn_timer - world.time)/600))] мин.</span>"
+			usr << "<span class='boldnotice'>You will be able join the game in around [max(1, round((timeofdeath + config.respawn_timer - world.time)/600))] min.</span>"
 		return
 
 	log_game("[usr.name]/[usr.key] used abandon mob.")

@@ -7,7 +7,7 @@
 	if (radiation)
 		if (radiation > 100)
 			if(!container)//If it's not in an MMI
-				src << "<span class='danger'>Опасный уровень радиации.</span>"
+				src << "<span class='danger'>STATUS: CRITICAL AMOUNTS OF RADIATION DETECTED.</span>"
 			else//Fluff-wise, since the brain can't detect anything itself, the MMI handles thing like that
 				src << "<span class='danger'>STATUS: CRITICAL AMOUNTS OF RADIATION DETECTED.</span>"
 
@@ -16,7 +16,7 @@
 			if(50 to 75)
 				if(prob(5))
 					if(!container)
-						src << "<span class='danger'>Опасный уровень радиации.</span>"
+						src << "<span class='danger'>STATUS: DANGEROUS LEVELS OF RADIATION DETECTED.</span>"
 					else
 						src << "<span class='danger'>STATUS: DANGEROUS LEVELS OF RADIATION DETECTED.</span>"
 		..()

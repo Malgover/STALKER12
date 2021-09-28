@@ -222,7 +222,7 @@
 	return 0
 
 /datum/martial_art/plasma_fist/proc/Tornado(mob/living/carbon/human/A, mob/living/carbon/human/D)
-	A.say("«¿ —¡”!!!")
+	A.say("")
 	spawn(0)
 		for(var/i in list(NORTH,SOUTH,EAST,WEST,EAST,SOUTH,NORTH,SOUTH,EAST,WEST,EAST,SOUTH))
 			A.dir = i
@@ -241,13 +241,13 @@
 	playsound(D.loc, 'sound/weapons/punch1.ogg', 50, 1, -1)
 	var/atom/throw_target = get_edge_target_turf(D, get_dir(D, get_step_away(D, A)))
 	D.throw_at(throw_target, 200, 4,A)
-	A.say("«¿ —¡”!!!")
+	A.say("")
 	return
 
 /datum/martial_art/plasma_fist/proc/Plasma(mob/living/carbon/human/A, mob/living/carbon/human/D)
 	A.do_attack_animation(D)
 	playsound(D.loc, 'sound/weapons/punch1.ogg', 50, 1, -1)
-	A.say("«¿ —¡”!!!")
+	A.say("")
 	D.visible_message("<span class='danger'>[A] has hit [D] with THE PLASMA FIST TECHNIQUE!</span>", \
 								"<span class='userdanger'>[A] has hit [D] with THE PLASMA FIST TECHNIQUE!</span>")
 	var/obj/item/organ/internal/brain/B = D.getorgan(/obj/item/organ/internal/brain)

@@ -1,6 +1,6 @@
 /obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki
 	name = "Vodka Kazaki"
-	desc = "����� ������������ �������� GSC. ������ �����&#255;, ����� ������� �������� �� ���������, ������ �����������&#255;�� �� �� �����."
+	desc = "Vodka by ukrainian company GSC. Smooth in flavour and burn. Some Stalkers swear by it's ability to purify the body of radiation"
 	eng_desc = "Vodka by ukrainian company GSC. Smooth in flavour and burn. Some Stalkers swear by it's ability to purify the body of radiation."
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "gsc_vodka"
@@ -17,7 +17,7 @@
 
 /obj/item/weapon/reagent_containers/food/drinks/soda_cans/voda
 	name = "Bottle"
-	desc = "�����������&#255; ���� \"������ ���\""
+	desc = "Tasty mineral-water sourced from springs! If it hasn't been refilled with radioactive shitwater by some tourist.."
 	eng_desc = "Tasty mineral-water sourced from springs! If it hasn't been refilled with radioactive shitwater by some tourist.."
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "voda"

@@ -361,7 +361,7 @@ var/list/admin_verbs_hideable = list(
 		usr << "<span class='warning'>Stalker profile not found.</span>"
 		return
 
-	var/newrank = input(usr, "¬ведите новый ранг сталкера от 0 до бесконечности.", "Rating System") as num|null
+	var/newrank = input(usr, "", "Rating System") as num|null
 
 	if(!newrank)
 		return
@@ -749,7 +749,7 @@ var/list/admin_verbs_hideable = list(
 /client/proc/MakeController(mob/user in mob_list)
 	set category = "Fun"
 	set name = "Make Controller"
-	set desc = "—оздаЄт контроллЄра."
+	set desc = "Make Controller."
 	if(user.stat || !user)
 		return
 	var/mob/living/carbon/human/H = user

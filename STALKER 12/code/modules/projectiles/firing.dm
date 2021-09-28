@@ -122,7 +122,7 @@
 			var/oy = round(screenview/2) //"origin" y
 
 			var/o_x = user.client.pixel_x
-			var/o_y = user.client.pixel_y		//Прицелы
+			var/o_y = user.client.pixel_y
 			//world << "Pixel position: [x] [y]"
 			var/angle = Atan2(y - oy + o_y, x - ox + o_x)
 			//world << "Angle: [angle]"

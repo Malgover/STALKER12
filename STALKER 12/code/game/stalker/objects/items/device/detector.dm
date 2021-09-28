@@ -1,6 +1,6 @@
 /obj/item/device/detector
 	name = "Detector"
-	desc = "Самый дешевый и малоэффективный детектор."
+	desc = "The ECHO-type detector is an incredibly old variant of the Detector-class systems most commonly used by start-up Stalkers. It's functionality is incredibly limited due to not originally being constructed for anomaly-research, and can only classify and detect common artifacts."
 	icon = 'icons/stalker/device_new.dmi'
 	icon_state = "echo_off"
 	var/icon_state_inactive = "echo_off"
@@ -21,7 +21,7 @@
 
 /obj/item/device/detector/blink
 	name = "Echo"
-	desc = "Устаревша&#255; модель детектора аномальной активности. Реагирует звуковым сигналом на попадание аномальных частичек в специальную камеру при приближении к аномали&#255;м. Кроме того, может регистрировать присутствие артефактов и измер&#255;ть рассто&#255;ние до ближайшего из них — рассто&#255;ние до артефакта определ&#255;етс&#255; периодичностью подаваемого звукового сигнала. Режим поиска артефактов включаетс&#255; подн&#255;тием крышки-антенны на лицевой панели прибора. Ввиду простоты конструкции способен находить только самые распространённые артефакты."
+	desc = "The ECHO-type detector is an incredibly old variant of the Detector-class systems most commonly used by start-up Stalkers. It's functionality is incredibly limited due to not originally being constructed for anomaly-research, and can only classify and detect common artifacts."
 	eng_desc = "The ECHO-type detector is an incredibly old variant of the Detector-class systems most commonly used by start-up Stalkers. It's functionality is incredibly limited due to not originally being constructed for anomaly-research, and can only classify and detect common artifacts."
 	icon_state_inactive = "echo_off"
 	icon_state_active = "echo_on"
@@ -31,18 +31,18 @@
 
 /obj/item/device/detector/bear
 	name = "Bear"
-	desc = "Детектор аномальной активности прошлого поколени&#255;. Снабжён локатором аномальных образований и светодиодным табло дл&#255; отображени&#255; направлени&#255; на артефакт, причём способен не только обнаруживать артефакты, но и определ&#255;ть рассто&#255;ни&#255; до них. Режим поиска артефактов включаетс&#255; подн&#255;тием крышки-антенны на лицевой стороне прибора. К сожалению, уже несколько устаревший список обнаруживаемых артефактов вшит в прибор намертво – на аппаратном уровне."
+	desc = "The BEAR-type detector is the second generation of Detector-class systems used by Stalkers who can afford the system! Built with The Zone in mind, it's durable and robust design has made it a mainstay amongst veteran stalkers. It'll detect almost every sort of Artifact!"
 	eng_desc = "The BEAR-type detector is the second generation of Detector-class systems used by Stalkers who can afford the system! Built with The Zone in mind, it's durable and robust design has made it a mainstay amongst veteran stalkers. It'll detect almost every sort of Artifact!"
 	icon_state = "bear_off"
 	icon_state_inactive = "bear_off"
 	icon_state_active = "bear_on"
 	icon_state_null = "bear_null"
 	//level_s = 2
-	level_s = 3 //Пока нет велеса, медведь будет обнаруживать все артефакты
+	level_s = 3
 
 /obj/item/device/detector/veles
 	name = "Veles"
-	desc = "Детектор-сканер нового поколени&#255;, используемый учёными. Благодар&#255; трём усовершенствованным регистрационным камерам расположение артефакта относительно детектора отображаетс&#255; на специальном экране. Способен фиксировать излучение и присутствие аномалий. Режим поиска артефактов включаетс&#255; подн&#255;тием индикатора-табло на лицевой стороне прибора; в данном режиме способен обнаруживать все известные науке артефакты."
+	desc = "The VELES-type detector is the latest and most powerful form of Detector within the Zone. Rarely seen even in the hands of Legendary stalkers, this device provides an accurate real-time HUD of the artifacts location and even some important data on it!"
 	eng_desc = "The VELES-type detector is the latest and most powerful form of Detector within the Zone. Rarely seen even in the hands of Legendary stalkers, this device provides an accurate real-time HUD of the artifacts location and even some important data on it!"
 	icon_state = "veles_off"
 	icon_state_inactive = "veles_off"

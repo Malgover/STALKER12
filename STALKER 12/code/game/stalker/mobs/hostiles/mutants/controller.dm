@@ -7,7 +7,7 @@
 // Mob description
 /mob/living/simple_animal/hostile/mutant/controller
 	name = "Controller"
-	desc = "��������� ������ ������� � ��������������� �������."
+	desc = "A rare type of mutant with the appearance of a deformed human with ridiculous physical properties. He has barely any clothes besides torn rags displayed randomly on the chest.Looking at him sends chills down your spine."
 	eng_desc = "A rare type of mutant with the appearance of a deformed human with ridiculous physical properties. He has barely any clothes besides torn rags displayed randomly on the chest.Looking at him sends chills down your spine."
 	turns_per_move = 2
 	speed = 1

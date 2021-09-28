@@ -3,18 +3,18 @@
 
 /obj/structure/bed/stalker/metal
 	name = "bed"
-	desc = "Обычна&#255; металлическа&#255; кровать без матраса, не слишком удобна&#255; дл&#255; сна."
+	desc = "Metal frame of a bed. Not very convenient but it's better than the dirt."
 	eng_desc = "Metal frame of a bed. Not very convenient but it's better than the dirt."
 	icon_state = "krovat_e"
 
 /obj/structure/bed/stalker/metal/matras
-	desc = "Обычна&#255; металлическа&#255; кровать с матрасом, комфорт во врем&#255; сна обеспечен."
+	desc = "Metal frame of a bed with a mattress upon it. The bed of choice for any tired stalker."
 	eng_desc = "Metal frame of a bed with a mattress upon it. The bed of choice for any tired stalker."
 	icon_state = "krovat"
 
 /obj/structure/bed/stalker/matras
 	name = "matras"
-	desc = "Обычный пружинный матрас средней комфортабельности."
+	desc = "Simple mattress."
 	eng_desc = "Simple mattress."
 	icon_state = "matras"
 
@@ -36,7 +36,7 @@
 
 /obj/structure/stalker/brokenbed
 	name = "broken bed"
-	desc = "Сломанна&#255; металлическа&#255; кровать. На ней уже не поспишь."
+	desc = "A broken bed."
 	eng_desc = "A broken bed."
 	icon_state = "krovat_s"
 

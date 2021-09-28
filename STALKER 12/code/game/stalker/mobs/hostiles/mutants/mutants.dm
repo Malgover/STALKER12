@@ -2,7 +2,7 @@
 	stat_attack = 2
 	stat_exclusive = 0
 	fearless = 0
-	var/gib_targets = 0 //������
+	var/gib_targets = 0
 	icon = 'icons/stalker/stalker.dmi'
 	var/deletable = 1 //Self-deletable dead bodies
 	speak_chance = 1.5
@@ -21,7 +21,7 @@
 		if(src.client && (src.client.prefs.chat_toggles & CHAT_LANGUAGE))
 			src << "<span class='warning'>You can't be here!</span>"
 		else
-			src << "<span class='warning'>�� �� ������ ��������c&#255; � ���� ����!</span>"
+			src << "<span class='warning'>You can't be here!</span>"
 		return 0
 	return ..()
 */
@@ -47,13 +47,13 @@
 				H.unEquip(H.back)
 				H.unEquip(H.wear_id)
 			L.gib()
-			visible_message("<span class='danger'>[src] ��������� [L] �� �������!</span>")
-			src << "<span class='userdanger'>�� ��������� [L] � ��������������� ���� ��������!</span>"
+			visible_message("<span class='danger'>[src] You're in danger!</span>")
+			src << "<span class='userdanger'>You're in danger!</span>"
 			src.revive()
 
 /mob/living/simple_animal/hostile/mutant/mrspooky
 	name = "Mr.Spooky"
-	desc = "���&#255;��&#255; ����� ������, 3spooky5u"
+	desc = "3spooky5u"
 	icon = 'icons/mob/human.dmi'
 	icon_state = "skeleton_s"
 	icon_living = "skeleton_s"
@@ -231,7 +231,7 @@
 
 /mob/living/simple_animal/hostile/mutant/flesh
 	name = "flesh"
-	desc = "�����������&#255; �����&#255;."
+	desc = "This abomination is a horribly mutated pig affected by radiation. Its three eyes have lost all the vigor of life and its eyes are empty. Despite its large, heavy legs, it seems to be able to move at a decent speed, and is apparently able to catch up with a running human."
 	eng_desc = "This abomination is a horribly mutated pig affected by radiation. Its three eyes have lost all the vigor of life and its eyes are empty. Despite its large, heavy legs, it seems to be able to move at a decent speed, and is apparently able to catch up with a running human."
 	turns_per_move = 2
 	a_intent = "harm"
@@ -272,7 +272,7 @@
 
 /mob/living/simple_animal/hostile/mutant/kaban
 	name = "boar"
-	desc = "�������� ���������."
+	desc = "While less touched by mutation physically, as compared to other mutants, the Boars of the Zone remain ugly and loathsome. Its posture shows that it is able to go at full speed towards an enemy, so staying away would be the best option to kill it. Its meat is sold at a good price to Skadovsk merchants."
 	eng_desc = "While less touched by mutation physically, as compared to other mutants, the Boars of the Zone remain ugly and loathsome. Its posture shows that it is able to go at full speed towards an enemy, so staying away would be the best option to kill it. Its meat is sold at a good price to Skadovsk merchants."
 	turns_per_move = 2
 	a_intent = "harm"
@@ -312,8 +312,7 @@
 	vision_range = 7
 	aggro_vision_range = 7
 
-	/*��� ������� � �������� �������
-	����������� ����� � ������ � �������
+	/*
 	for(var/o=0, o<10, o++)
 		target = get_turf(get_step(target,cur_dir))
 	L.throw_at(target, 200, 100)
@@ -321,7 +320,7 @@
 
 /mob/living/simple_animal/hostile/mutant/bloodsucker
 	name = "bloodsucker"
-	desc = "���� ������ ������ ������."
+	desc = "A rather disgusting-looking type of mutant with the same physical properties as a human besides the absence of genital organs,thus making the difference between male or female more difficult to do.Tentacles covered with blood seem to have replaced the lower part of the jaw, and sharp claws have replaced the end of the fingers.The guttural breathing of the mutant freezes your blood."
 	eng_desc = "A rather disgusting-looking type of mutant with the same physical properties as a human besides the absence of genital organs,thus making the difference between male or female more difficult to do.Tentacles covered with blood seem to have replaced the lower part of the jaw, and sharp claws have replaced the end of the fingers.The guttural breathing of the mutant freezes your blood."
 	turns_per_move = 2
 	a_intent = "harm"
@@ -398,7 +397,7 @@
 
 /mob/living/simple_animal/hostile/mutant/pseudog
 	name = "psy-dog"
-	desc = "�������� ��."
+	desc = "Shaggy dog."
 	eng_desc = "Shaggy dog."
 	turns_per_move = 2
 	a_intent = "harm"

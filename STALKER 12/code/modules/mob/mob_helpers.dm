@@ -112,21 +112,21 @@
 				letter = copytext(phrase, i, findtext(phrase, ";", i) + 1)
 				i = findtext(phrase, ";", i)
 		if(prob(33))
-			if(lowerrustext(letter)=="о")	letter="у"
-			if(lowerrustext(letter)=="ы")	letter="i"
-			if(lowerrustext(letter)=="р")	letter="r"
-			if(lowerrustext(letter)=="л")	letter="ль"
-			if(lowerrustext(letter)=="з")	letter="с"
-			if(lowerrustext(letter)=="в")	letter="ф"
-			if(lowerrustext(letter)=="б")	letter="п"
-			if(lowerrustext(letter)=="г")	letter="х"
-			if(lowerrustext(letter)=="д")	letter="т"
+			if(lowerrustext(letter)=="")	letter=""
+			if(lowerrustext(letter)=="")	letter=""
+			if(lowerrustext(letter)=="")	letter=""
+			if(lowerrustext(letter)=="")	letter=""
+			if(lowerrustext(letter)=="")	letter=""
+			if(lowerrustext(letter)=="")	letter=""
+			if(lowerrustext(letter)=="")	letter=""
+			if(lowerrustext(letter)=="")	letter=""
+			if(lowerrustext(letter)=="")	letter=""
 			//eng
-			if(lowerrustext(letter)=="o")	letter="u"
-			if(lowerrustext(letter)=="s")	letter="ch"
-			if(lowerrustext(letter)=="a")	letter="ah"
-			if(lowerrustext(letter)=="u")	letter="oo"
-			if(lowerrustext(letter)=="c")	letter="k"
+			if(lowerrustext(letter)=="")	letter=""
+			if(lowerrustext(letter)=="")	letter=""
+			if(lowerrustext(letter)=="")	letter=""
+			if(lowerrustext(letter)=="")	letter=""
+			if(lowerrustext(letter)=="")	letter=""
 
 		switch(rand(1,15))
 			if(1,3,5,8)		letter = "[lowerrustext(letter)]"
@@ -150,7 +150,7 @@
 			if(findtext(te, ";", p))
 				n_letter = copytext(te, p, findtext(te, ";", p) + 1)
 				p = findtext(te, ";", p)
-		if (prob(80) && (lowertext(n_letter) in list("б","в","г","д","ж","з","к","л","м","н","п","р","с","т","ф","ч","х","ц","ш","щ","b","c","d","f","g","h","j","k","l","m","n","p","q","r","s","t","v","w","x","y","z")))
+		if (prob(80) && (lowertext(n_letter) in list("")))
 			if (prob(10))
 				n_letter = text("[n_letter]-[n_letter]-[n_letter]-[n_letter]")//replaces the current letter with this instead.
 			else

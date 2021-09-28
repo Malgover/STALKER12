@@ -291,7 +291,7 @@
 	if(staminaloss)
 		var/total_health = staminaloss
 		if(total_health >= 100 && !stat)
-			src << "<span class='notice'>�� ������� ������...</span>"
+			src << "<span class='notice'></span>"
 			Weaken(5)
 			setStaminaLoss(staminaloss - 2)
 			return

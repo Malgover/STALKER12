@@ -1,9 +1,9 @@
 /mob
-	var/sound/ambient_music			= null		//Музыка
-	var/sound/ambient_environment	= null		//Случайные короткие звуки длительностью не более 12 секунд
-	var/sound/ambient_background	= null		//Залупленный звук
-	var/sound/ambient_psy			= null		//Пси-звук
-	var/sound/ambient_campfire		= null		//Звук от костра - campfire.dm
+	var/sound/ambient_music			= null
+	var/sound/ambient_environment	= null
+	var/sound/ambient_background	= null
+	var/sound/ambient_psy			= null
+	var/sound/ambient_campfire		= null
 
 /sound
 	var/last_time = 0

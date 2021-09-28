@@ -145,7 +145,7 @@
 	var/dat
 	dat +="<div class='statusDisplay'>"
 	dat += "Now playing: <b>[track.f_name] - [track.name]</b>"
-	//dat += "Balance: [balance] �.<br>"
+	//dat += "Balance: [balance] .<br>"
 	dat += "<br>"
 	if(KPK.profile.fields["faction_s"] == "Traders")
 		dat += "<br><A href='?src=\ref[src];collect_money=\ref[src]'>Collect Money</A>"

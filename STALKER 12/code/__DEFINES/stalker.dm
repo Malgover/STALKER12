@@ -5,14 +5,14 @@
 #define UNIFORMPICK (pick(/obj/item/clothing/under/color/switer, /obj/item/clothing/under/color/switer/dark, /obj/item/clothing/under/color/switer/lolg, /obj/item/clothing/under/color/switer/tracksuit))
 #define UNIFORMPICK_TOURIST (pick(/obj/item/clothing/under/color/switer/tourist/sweater, /obj/item/clothing/under/color/switer/tourist/jacket_green, /obj/item/clothing/under/color/switer/tourist/jacket_brown, /obj/item/clothing/under/color/switer/tourist/suspenders, /obj/item/clothing/under/color/switer/tourist/mall_cop, /obj/item/clothing/under/color/switer/tourist/gorka))
 #define SUITPICK_TOURIST (pick(/obj/item/clothing/suit/kozhanka/tourist/jacket, /obj/item/clothing/suit/kozhanka/tourist/coat, /obj/item/clothing/suit/kozhanka/tourist/gorka))
-///////////////�������
+///////////////
 #define ZONE_LEGEND							10000
 #define EXPERT								7000
 #define VETERAN								4000
 #define EXPERIENCED							2500
 #define ROOKIE								0
 
-///////////////���������
+///////////////
 #define AMAZING								3000
 #define VERYGOOD							2500
 #define GOOD								1750

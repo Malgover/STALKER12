@@ -6,7 +6,7 @@
 	anchored = 1
 	var/firecolor = "#FF6A00"
 	var/sound_playing = 0
-	var/cooldown = 5 					//������� � ��������
+	var/cooldown = 5
 	var/incooldown = 0
 	var/on = 0
 	var/list/mob/living/carbon/campers = list()
@@ -136,7 +136,7 @@ obj/machinery/campfire/process()
 				on = !on
 				usr.visible_message("[usr] lit a fire.", "<span class='notice'>You lit a fire.</span>")
 				update_icon()
-				desc = "�� ������ ������� ���� � �&#255;���� ����."
+				desc = "Campfire brings warmth and calmness. You can heal by sitting in its range."
 				eng_desc = "Campfire brings warmth and calmness. You can heal by sitting in its range."
 				set_light(4, 1, firecolor)
 				spawn(10)
@@ -154,7 +154,7 @@ obj/machinery/campfire/process()
 				on = !on
 				usr.visible_message("[usr] lit a fire.", "<span class='notice'>You lit a fire.</span>")
 				update_icon()
-				desc = "�� ������ ������� ���� � �&#255;���� ����."
+				desc = "Campfire brings warmth and calmness. You can heal by sitting in its range."
 				eng_desc = "Campfire brings warmth and calmness. You can heal by sitting in its range."
 				set_light(4, 1, firecolor)
 				spawn(10)

@@ -843,7 +843,7 @@
 	if(!(RADIMMUNE in specflags))
 		//if(H.radiation)
 			//if (H.radiation > 100)
-		//		H << "<span class='danger'>Îïàñíûé óðîâåíü ðàäèàöèè. Íåîáõîäèìà çàùèòà, ÷òîáû ïðîéòè.</span>"
+		//		H << "<span class='danger'></span>"
 		//		H.Weaken(10)
 		//		H.emote("collapse")
 
@@ -967,7 +967,7 @@
 				if(M.client && (M.client.prefs.chat_toggles & CHAT_LANGUAGE))
 					M << "<span class='warning'>You can't fight in the safezone!</span>"
 				else
-					M << "<span class='warning'>Ты захватом-то не свети, дзюдоист.</span>"
+					M << "<span class='warning'></span>"
 				return 0
 			if(attacker_style && attacker_style.grab_act(M,H))
 				return 1
@@ -981,7 +981,7 @@
 				if(M.client && (M.client.prefs.chat_toggles & CHAT_LANGUAGE))
 					M << "<span class='warning'>You can't fight in the safezone!</span>"
 				else
-					M << "<span class='warning'>Кулаками иди выйди помаши за дверь.</span>"
+					M << "<span class='warning'></span>"
 				return 0
 
 			if(attacker_style && attacker_style.harm_act(M,H))
@@ -1026,7 +1026,7 @@
 				if(M.client && (M.client.prefs.chat_toggles & CHAT_LANGUAGE))
 					M << "<span class='warning'>You can't fight in the safezone!</span>"
 				else
-					M << "<span class='warning'>Толкать говно из жопы будешь, и то, не здесь.</span>"
+					M << "<span class='warning'></span>"
 				return 0
 			if(attacker_style && attacker_style.disarm_act(M,H))
 				return 1

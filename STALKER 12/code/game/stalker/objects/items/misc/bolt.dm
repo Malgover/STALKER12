@@ -1,6 +1,6 @@
 /obj/item/weapon/stalker/bolts
 	name = "bolts"
-	desc = "Куча болтов."
+	desc = "A pile of bolts used as an improvised method of detecting anomalies."
 	eng_desc = "A pile of bolts used as an improvised method of detecting anomalies."
 	icon = 'icons/stalker/bolt.dmi'
 	icon_state = "kucha"
@@ -11,13 +11,13 @@
 		if(user.client && (user.client.prefs.chat_toggles & CHAT_LANGUAGE))
 			user << "<span class='notice'>You place a bolt in the pile.</span>"
 		else
-			user << "<span class='notice'>Вы кладёте болт в кучу.</span>"
+			user << "<span class='notice'>You place a bolt in the pile.</span>"
 		PlaceInPool(W)
 
 /obj/item/weapon/stalker/bolt
 	name = "bolt"
-	desc = "Старый советский болт, пораженный коррозией,"
-	eng_desc = "Old sovit bolt affected by corrosion."
+	desc = "Old soviet bolt affected by corrosion."
+	eng_desc = "Old soviet bolt affected by corrosion."
 	icon = 'icons/stalker/bolt.dmi'
 	icon_state = "bolt"
 	w_class = 1
@@ -78,7 +78,7 @@
 	if(user.client && (user.client.prefs.chat_toggles & CHAT_LANGUAGE))
 		user << "<span class='notice'>You take a bolt out of the pile.</span>"
 	else
-		user << "<span class='notice'>Вы достаете болт из кучи.</span>"
+		user << "<span class='notice'>You take a bolt out of the pile.</span>"
 
 	add_fingerprint(user)
 
