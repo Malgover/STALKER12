@@ -12,7 +12,8 @@
 	trash = /obj/item/trash/konserva
 	list_reagents = list("nutriment" = 13, "vitamin" = 2, "omnizine" = 0.5)
 	var/icon_state_opened = "konserva_open"
-	var/desc_opened = "Tourist's delight, also known as tourist breakfast: is a staple food of The Zone. Legend says these cans of conserva are from a raid against an army warehouse! This ones open."
+	var/desc_opened = "Tourist's delight, also known as tourist breakfast is a staple food of The Zone. Legend says these cans of konserva are from a raid against an army warehouse! This one is opened."
+	taste_description = "almost unedibly salty meat"
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/attack_self(mob/user)
 	if(wrapped)
@@ -47,7 +48,9 @@
 	icon_state_opened = "shproti1"
 	list_reagents = list("nutriment" = 17, "vitamin" = 3, "omnizine" = 0.75)
 	trash = /obj/item/trash/konserva/shproti
-	desc_opened = "European sprats originating from the Latvian portcity of Riga. They've been preserved in a thick sunflower oil. This one is opened!"
+	desc_opened = "European sprats originating from the Latvian port-city of Riga. They've been preserved in a thick sunflower oil. This one is opened."
+	taste_description = "oily, salted fish"
+
 
 /obj/item/trash/konserva/shproti
 	name = "empty can"
@@ -66,7 +69,8 @@
 	icon_state_opened = "soup1"
 	list_reagents = list("nutriment" = 20, "vitamin" = 4, "omnizine" = 1)
 	trash = /obj/item/trash/konserva/soup
-	desc_opened = "Condensed soup that usually would be thinned with water. A staple of tourists within the zone. This ones opened."
+	desc_opened = "Condensed soup that usually would be thinned with water. A staple of tourists within the zone. This one is opened."
+	taste_description = "dry beets and sausage"
 
 /obj/item/trash/konserva/soup
 	name = "empty can"
@@ -82,7 +86,7 @@
 	icon_state_opened = "bobi1"
 	list_reagents = list("nutriment" = 17, "vitamin" = 3, "omnizine" = 0.75)
 	trash = /obj/item/trash/konserva/bobi
-	desc_opened = "A can of 'Bean Surprise'. A melody of cheap flavourless nibbles of meat and watery beans. This one is opened."
+	taste_description = "a vague earthy flavor with tasteless meat"
 
 /obj/item/trash/konserva/bobi
 	name = "empty can"
@@ -100,6 +104,7 @@
 	list_reagents = list("nutriment" = 20, "vitamin" = 4, "omnizine" = 1)
 	trash = /obj/item/trash/konserva/govyadina
 	desc_opened = "A can of beef-stew! An avidly loved staple of those who scour around old ruins in search for loot! This one is opened."
+	taste_description = "flavorful gravy over meat and potatoes"
 
 /obj/item/trash/konserva/govyadina
 	name = "empty can"
@@ -108,14 +113,15 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva/fish
 	name = "fish"
-	desc = "Canned Fish. Simple, easy to digest and generally well-liked by most in the Zone."
-	eng_desc = "Canned Fish. Simple, easy to digest and generally well-liked by most in the Zone."
+	desc = "Canned fish. Simple, easy to digest and generally well-liked by most in the Zone."
+	eng_desc = "Canned fish. Simple, easy to digest and generally well-liked by most in the Zone."
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "fish0"
 	icon_state_opened = "fish1"
 	list_reagents = list("nutriment" = 17, "vitamin" = 3, "omnizine" = 0.75)
 	trash = /obj/item/trash/konserva/fish
-	desc_opened = "Canned Fish. Simple, easy to digest and generally well-liked by most in the Zone. This one is opened."
+	desc_opened = "Canned fish. Simple, easy to digest and generally well-liked by most in the Zone. This one is opened."
+	taste_description = "fish. Old fish"
 
 /obj/item/trash/konserva/fish
 	name = "empty can"
@@ -132,7 +138,9 @@
 	icon_state_opened = "sirok1"
 	list_reagents = list("nutriment" = 11, "vitamin" = 1, "omnizine" = 0.3)
 	trash = /obj/item/trash/konserva/sirok
-	desc_opened = "A can of creamed cheese commonly seen in UAF mountaineer rations. This is opened."
+	desc_opened = "A can of creamed cheese commonly seen in UAF mountaineer rations. This one is opened."
+	taste_description = "sweetened curd with a vanilla kick"
+
 
 /obj/item/trash/konserva/sirok
 	name = "trash"
@@ -150,7 +158,8 @@
 	icon_state_opened = "snikers1"
 	list_reagents = list("nutriment" = 8, "sugar" = 6, "omnizine" = 0.2)
 	trash = /obj/item/trash/konserva/snikers
-	desc_opened = "Snickers. A reminder of home for western-tourists, a oddly sweet snack for locals. This ones opened."
+	desc_opened = "Snickers. A reminder of home for western-tourists, a oddly sweet snack for locals. This one is opened."
+	taste_description = "rich chocolate and peanut-butter with nuts"
 
 /obj/item/trash/konserva/snikers
 	name = "trash"
@@ -169,6 +178,7 @@
 	list_reagents = list("nutriment" = 9, "sugar" = 1, "omnizine" = 0.1, "energetic" = 5)
 	trash = /obj/item/trash/konserva/chocolate
 	desc_opened = "A bar of chocolate. A reminder of home in this harsh place. This one is opened."
+	taste_description = "artisinal chocolate. It isn't as sweet as processed chocolate, but still very good"
 
 /obj/item/trash/konserva/chocolate
 	name = "trash"
@@ -223,6 +233,7 @@
 	icon_state_opened = "GAL2"
 	list_reagents = list("nutriment" = 10, "omnizine" = 0.1)
 	trash = /obj/item/trash/konserva/galets
+	taste_description = "dry, stale crackers. Better than starving"
 
 /obj/item/trash/konserva/galets
 	name = "trash"
@@ -232,11 +243,12 @@
 	name = "Kasha"
 	desc = "Vacuum-sealed can of boiled buckwheat porridge. Isn't this traditionally baked?"
 	eng_desc = "Vacuum-sealed can of boiled buckwheat porridge. Isn't this traditionally baked?"
-	desc_opened = "Vacuum-sealed can of boiled buckwheat porridge. Isn't this traditionally baked? This one is opened.."
+	desc_opened = "Vacuum-sealed can of boiled buckwheat porridge. Isn't this traditionally baked? This one is opened."
 	icon_state = "Kasha1"
 	icon_state_opened = "Kasha2"
 	list_reagents = list("nutriment" = 15, "omnizine" = 0.2)
 	trash = /obj/item/trash/konserva/kasha
+	taste_description = "a strong, nutty flavor of buckwheat"
 
 /obj/item/trash/konserva/kasha
 	name = "trash"
@@ -251,6 +263,7 @@
 	icon_state_opened = "TushenkaRed2"
 	list_reagents = list("nutriment" = 17, "omnizine" = 0.2)
 	trash = /obj/item/trash/konserva/MREkonserva1
+	taste_description = "spiced meat and salt"
 
 /obj/item/trash/konserva/MREkonserva1
 	name = "trash"
@@ -265,6 +278,7 @@
 	icon_state_opened = "TushenkaGreen2"
 	list_reagents = list("nutriment" = 17, "omnizine" = 0.2)
 	trash = /obj/item/trash/konserva/MREkonserva2
+	taste_description = "poultry and various vegatables"
 
 /obj/item/trash/konserva/MREkonserva2
 	name = "trash"
@@ -279,6 +293,7 @@
 	icon_state_opened = "TushenkaBlue2"
 	list_reagents = list("nutriment" = 17, "omnizine" = 0.2, "vitamin" = 10)
 	trash = /obj/item/trash/konserva/MREkonserva3
+	taste_description = "a wide variety of vegatables"
 
 /obj/item/trash/konserva/MREkonserva3
 	name = "trash"
@@ -292,6 +307,7 @@
 	icon_state = "kolbasa"
 	w_class = 2
 	list_reagents = list("nutriment" = 11, "vitamin" = 1, "omnizine" = 0.3)
+	taste_description = "a distinct cardamom kick over a classic ukrainian sausage"
 
 /obj/item/weapon/reagent_containers/food/snacks/stalker/baton
 	name = "baton"
@@ -301,3 +317,4 @@
 	icon_state = "baton_stalker"
 	w_class = 2
 	list_reagents = list("nutriment" = 8, "omnizine" = 0.2)
+	taste_description = "dry but pleasant bread"

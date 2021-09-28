@@ -11,6 +11,7 @@
 	possible_transfer_amounts = list(5,10,15,20,25,30,50)
 	volume = 50
 	burn_state = FIRE_PROOF
+	var/taste_description
 
 /obj/item/weapon/reagent_containers/food/drinks/New()
 	..()
@@ -32,7 +33,8 @@
 
 	if(M == user)
 		M << "<span class='notice'>You swallow a gulp of [src].</span>"
-
+		if(taste_description && reagents.total_volume)
+			M << "<span class='notice'>You can taste [taste_description].</span>"
 	else
 		M.visible_message("<span class='danger'>[user] attempts to feed the contents of [src] to [M].</span>", "<span class='userdanger'>[user] attempts to feed the contents of [src] to [M].</span>")
 		if(!do_mob(user, M))
